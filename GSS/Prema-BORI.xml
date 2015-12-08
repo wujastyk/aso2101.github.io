@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>Premarāja's Commentary</title>
+      </titleStmt>
+    </fileDesc>
+  </teiHeader>
+  <group>
+    <text xml:id="Prema-BORI-1" n="1" type="verse">
+      <div type="edition">
+      <pb n="1v"/>
+      <lb n="1"/>
+      <p> om namaḥ śrībhāratīgaṇeśābhyāṃ namaḥ || </p>
+      <lg>
+	<l>kāṃtyā sunakhacaṃdrāṇāṃ bhāsamāne padāmbuje |</l>
+	<l>natvāmbikāyā gāthānāṃ prem<lb n="2"/>ṇā vyākhyā vidhīyate || 1 ||</l>
+	<!-- 
+    % Having bowed the the lotus-feet of Ambikā, which shine with the beauty of her moon-like nails, Prema composes this commentary on the gāthās. !-->
+      </lg>
+      <lg>
+	<l>hālasyāsya kṛtā yadi dvijavaraiṣ ṭīkā paṭūṣmachidaḥ <caesura type="pada"/>
+	   kṣobhaṃ no vidadhāti pemṛ?pati <lb n="3"/>bhinnā matir dhīmatāṃ |</l>
+	<l>tāḥ saṃdūṣya guṇair vibhūṣya kurute sāhityabhūmiḥ savaiḥ <caesura type="pada"/>
+	   kāṃtāsaṃmataśāsanaṃ giriguraṃ matvā <lb n="4"/>ca natvā varaṃ || 2 ||</l>
+      </lg>
+      <!-- 
+% If the best of the twice-born have already composed a commentary... it makes us agitated, and opinion among the wise is divided. Once those faults are removed, and it is adorned with virtues, it grows in the field of literature through the sun's rays... !-->
+      <lg>
+	<l>ta eva śabdāḥ sphuṭarītayas tās <caesura type="pada"/>
+	   tās ćoktayas te samayāḥ kavīnāṃ |</l>
+	<l>dhammī sa eva prasaro guṇānām <caesura type="pada"/>
+	   alaṃ<lb n="5"/>kṛtīnāṃ ca mamaiṣa guṃphaḥ || 3 </l>
+      </lg>
+      <p>śiṣṭācāraparipālanāyābhimatadaivatāṃ graṃthakṛn namaskaroti |</p>
+      <quote type="base-text">
+	<lg n="1">
+	  <l>paśuvayaṇorosāruru<lb n="6"/>ṇapatimāsaṃsaṃtagorimuhayaṃdaṃ |</l>
+	  <l>gahiagghapaṃkayaṃ miva | saṃjhāsalilaṃjaliṃ ṇamaha |</l>
+	</lg>
+      </quote>
+      <p>paśupate roṣāruṇapratimā<pb n="2r"/><lb n="1"/>saṃkrāṃtagaurimukhacaṃdaṃ |   gṛhītārghapaṃkajam iva saṃdhyāsalilāṃjaliṃ ṇamata || iti āryā |</p>
+      <p>he rasikāḥ paśupateḥ sali<lb n="2"/>lāṃjaliṃ nạmata | kiṃbbhūtaṃ? roṣāruṇapratimāsaṃkrāṃtagaurimukhacaṃdraṃ | roṣāruṇapratibiṃbanasaṃkrāṃto <del rend="erasure">gaurīmukha</del>gau<lb n="3"/>rīmukhacaṃdro yatra | sa | taṃ | utprekṣate | gṛhītārghapaṃkajam iva | iti gāthārthaḥ |</p>
+      <p>anayā prathamayā gāthayā graṃthakṛtā graṃ<lb n="4"/>the 'smin trividhaṃ dhvanipratipādanaṃ kṛtaṃ | kathaṃ | tad āha | namaskārākhya<del rend="erasure">ṃ</del>vastudhvaniḥ | utprekṣālaṃkāradhvaniḥ | rasadhvani <lb n="5"/>ratyākhyo bhāvaḥ | 
+      <!--   % Through this verse the author presents the three kinds of DHVANI that are present in the text, namely VASTUDHVANI (of the salutation), ALAṂKĀRADHVANI (of the utprekṣa), and the RASADHVANI is the bhāva called rati. !-->
+      roṣāruṇaviśeṣaṇena śṛṅgāraprāyo 'yaṃ granthaḥ | saṃbhogavipralaṃbhayor abhedaś ca saṃsūcita eva | saṃ<lb n="6"/>bhogasukhāsvādalobhena viśeṣeṇa pralabhyate <del rend="erasure">|</del> ātmātreti vipralaṃbhe saṃbhogaḥ | saṃbhoge 'pi na ced virahāśaṃkā | tadā <pb n="2v"/><lb n="1"/>
+      <!--   % With the adjective roṣāruṇa it is suggested that this text is centered around the erotic, and that there is actually an identity between love-in-union and love-in-separation. For there is love-in-union in love-in-separation because here the self is overtaken by a special desire to obtain the joy of union. And in love-in-union, too,  !-->
+      svādhīne anukūle cānādaraṇa eva syāt | saṃbhoge vipralaṃbhaḥ | nanu śṛṅgārasyemau bhedau saṃbhogavipralaṃbhātmān tv ātmānau <lb n="2"/>yasya | sa śṛṅgāraḥ | athavā anayā dūtyā asahamānapraṇayamāno nāyako<choose><sic>r</sic><corr></corr></choose> nirbhakṣyate | tvam anabhijñaḥ | kila snehakarma<lb n="3"/>ṇi na paśya syumeśvarayoḥ |</p>
+      </div>
+    </text>
+    <text xml:id="Prema-BORI-2" n="2" type="verse">
+      <div type="edition">
+	<p>snehaṃ pr<del rend="erasure">ar</del>ākṛtam api śāstram syād iti rucanāya vā | yad āhuḥ || </p>
+	<quote type="base-text">
+	  <lg n="2">
+	    <l>amaya pāuakavvaṃ | paṭh<lb n="4"/>iu sou ṇa jenayāṇaṃti |</l>
+	    <l>kāmassa tattauttiṃ | kuṇaṃti te taha na lajjaṃti || 2 ||</l>
+	  </lg>
+	</quote>
+	<p>anye 'py āhuḥ | </p>
+	<quote>
+	  <lg>
+	    <l>bālastrīmūḍhamū<lb n="5"/><choice><sic>rṣā</sic><corr>rkhā</corr></choice>ṇāṃ nṝṇāṃ cāritrakāṃkṣiṇāṃ |</l>
+	    <l>anugrahārthaṃ tatvajñaiḥ siddhāṃtaḥ prākṛtaḥ kṛtaḥ |</l>
+	  </lg>
+	</quote>
+	<quote>
+	  <lg>
+	    <l>kam ādevādevīnarārarīṃ śābara<lb n="6"/>ś cāpiśābarīṃ |</l>
+	    <l>tiryaṃś cāpihitair iścīmenire bhagavadgiraṃ |</l>
+	  </lg>
+	</quote>
+	<p>kāminījanānuraṃjanaṃ | kāmaśāstra phalaṃ nāma | yatrā<pb n="3r" break="no"/><lb n="1" break="no"/>nukūlye daṃpatyos trivargas tatra varddhata iti | prākṛtam api śāstraṃ syāt | kāṃtāsaṃmatopadeśenī na prabhusaṃmatena | na su<lb n="2" break="no"/>hṛtsammatena |</p>
+      </div>
+    </text>
+    <text xml:id="Prema-BORI-3" n="3" type="verse">
+      <div type="edition">
+	<p>graṃthotpattim āha | </p>
+	<quote type="base-text">
+	  <l>sa<subst><add place="overstrike">tta</add><del>sva</del></subst>sayāiṃ ka<subst><add place="overstrike">i</add><del>ya</del></subst>va<del rend="overstrike">ka</del>chaleṇa | koḍīe majjayāraṃmi | </l>
+	  <l>hāleṇa viraiyāṇaṃ | sālaṃ<lb n="3" break="no"/>kārāṇa gāhāṇa || 3 </l>
+	</quote>
+	<p>sapta<del rend="overstrike">pūrvāṇi</del>śatāni kavi<add place="above">va</add>chalena koṭyā madhyāt śātavāhanaena viracitāni sālaṃ<lb n="4" break="no"/>kārāṇāṃ gāthānāṃ | ity āryā ||</p>
+	<p>sālaṃkārāṇāṃ gāthānaṃ koṭer madhyāt <subst><add place="overstrike">hā</add><del>kā</del></subst>lena śātavāhananṛpeṇa śatāni racitāni hā<lb n="5" break="no"/>la ity abhidhānasiddhaṃ | hālāsurāyāṃ nṛpate ca | hālo gāthārthaḥ | sālaṃkārāṇām iti viśeṣaṇam baddham āma<lb n="6" break="no"/>naṃti | yataḥ | kāvyaṃ kavikarma | sālaṃkāram eva tadāhur ācāryāḥ | adoṣau saguṇau sālaṃkārau śabdārthau | kāvyaṃ tat<pb n="3v" break="no"/><lb n="1" break="no"/><subst><add place="overstrike">a</add><del>deve</del></subst>sagataṃ | sālaṃkārāṇām ity asphuṭālaṃkārarahitānāṃ gāthānāṃ saṃgrahaḥ | sālaṃkārāṇām iti viśeṣeṇena ra<lb n="2" break="no"/>sasya sataḥ kvacid upakāriṇaḥ kvaic anupakāriṇaḥ kvacin naṭasthā rasābhāve tu vācyavācakavaicitryam eva paryava<lb n="3" break="no"/>saṃtīty uktaṃ syād alaṃkāraḥ | kathaṃ tad āha | śakuṃtale |</p>
+	<quote>
+	  <lg>
+	    <l>calāpāṃgāṃ dṛṣṭiṃ spṛśasi bahuśo vepathumatīṃ <caesura type="pada"/>
+	       rahasyākhyāyī<lb n="4" break="no"/>va svanasi mṛdukarṇāṃtikagataḥ |</l>
+	    <l>karau vyādhu<choice><sic>tvaṃ</sic><corr>nva</corr></choice><subst><add place="overstrike">tyāḥ piba</add><del>bhyespṛśa</del></subst>si ratisarvasvam a<choice><sic>dhu</sic><corr>dha</corr></choice>raṃ <caesura type="pada"/>
+	       vayaṃ tatvānveṣate <choice><sic></sic><corr>devair maugdhyān</corr></choice> madhukarā<choice><sic>hu</sic><corr>ha</corr></choice>tās tvaṃ ca <lb n="5"/>sukṛtī <choice><sic></sic><corr>khalu kṛtī</corr></choice> || 1 </l>
+	  </lg>
+	</quote>
+	<p>ratnāvalyāṃ </p>
+	<quote>
+	  <lg>
+	    <l>srastaḥ sragdāma śobhāṃ tyajati viracitām ākulaḥ keśapāśaḥ <caesura type="pada"/>
+	       kṣīvāyā nūpurau <del rend="overstrike">ta</del> <choice><sic>ta</sic><corr>ca</corr></choice>dvi<lb n="6" break="no"/>guṇataram imau kraṃdataḥ pādalagnau </l>
+	    <l>vyastaḥ kaṃpānubaṃdhād anavaratam uro haṃti hāro 'yam asyā <caesura type="pada"/>
+	       kṛīḍaṃty<choice><sic>ā</sic><corr>āḥ</corr></choice> pīḍayeva stana<pb n="4r" break="no"/><lb n="1" break="no"/><supplied reason="lost">bharavi</supplied>naman madhyabha<add place="above">ṅgāna</add>pekṣaṃ |</l>
+	  </lg>
+	</quote>
+	<p>tathā ca ratnāvalyāṃ | </p>
+	<quote>
+	  <lg>
+	    <l>līlāvadhūtapadmā kathayaṃtī pakṣapātam adhikaṃ naḥ |</l>
+	    <l>mānasam u<lb n="2" break="no"/><supplied reason="lost">paiti keyaṃ citragatā</supplied> rājahaṃsīva || 3 ||</l>
+	  </lg>
+	</quote>
+<!--  Who is this woman, who moves wondrously, like a Royal Goose?
+  % Narrating the falling of her feathers to us, planting her steps gracefully,
+  % she goes the the lake of our mind (Mānasa lake). !-->
+       <p>amarake || </p>
+       <quote>
+	 <lg>
+	   <l>śūnyaṃ vāsagṛhaṃ vilokya śayanād utthāya kiṃcicchanaiḥ <caesura type="pada"/>
+	      nidrāvyā<lb n="3" break="no"/>jam upāgatasya suciraṃ nirvarṇya patyur mukhaṃ | </l>
+	   <l>viśrabdhaṃ paricuṃbya jātapulakām ālokya gaṃḍasthalīṃ <caesura type="pada"/>
+	      lajjānamramu<lb n="4" break="no"/>khī priyeṇa ha<choice><sic>si</sic><corr>sa</corr></choice>tā bālā ci<choice><sic>vaṃ</sic><corr>varaṃ</corr></choice> cuṃbitā || 4 || </l>
+	 </lg>
+<!-- 
+  % 82 in Kāvyamālā ed. 
+  % Kissing her husband's face and seeing the hair rise on his cheeks, 
+  % seeing the house empty, she slowly rose from the bed, looked for a long time at the face of her husband who had come in the guise of sleep, kissing him boldly, 
+  % the girl was kissed, her face bent with shame, for a long time by her laughing lover, 
+    % seeing the horripilation on her cheeks !-->
+       </quote>
+       <p>ityādinā pratipāditam upakāritvānupakāritvataṣṭachatvavā<lb n="5" break="no"/>cyavācakavaicitryamātraṃ paryavasitatvaṃ syāt | kaviva<subst><add place="overstrike">cha</add><del>stha</del></subst>leneti sābhiprāyaṃ svātaṃtryaṃ svagāthākaraṇaśaktijñānaṃ ca paragāthāsaṃgrahaṇena tatkīrtisaṃsthāpyate | teṣv api snehatvaṃ rucitaṃ || tha ||</p>
+      </div>
+    </text>
+    <text xml:id="Prema-BORI-4" n="4" type="verse">
+      <div type="edition">
+	<p>pūrvasaṃbhogas tadanu vipralaṃbha <pb n="4v" break="no"/>iti jñāpanāya paṭhati | </p>
+	<quote type="base-text">
+	  <lg n="4">
+	    <l>ua ṇiccalaṇiṣpaṃdā | bhisiṇipattaṃ miṃvehai balāyāṃ |</l>
+	    <l>nimmalamaragayabhāaṇapariṭṭhiyasaṃ<lb n="2" break="no"/>khasutti vva || 4 ||</l>
+	  </lg>
+	</quote>
+	<p>paśya niścalanispaṃdāṃ padminīdaleṃ rājate balākā | nirmalamalakatabhājanaparisthitā saṃskhaśkuti<lb n="3" break="no"/>r iva | ity āryā |</p>
+	<p>ua paśya | viśinīpatre balāyā <subst><add place="overstrike">śa</add><del>ba</del></subst>sayor bavayo ralayor na bhedaḥ | balākā rājate | kiṃbhūtā niścala<lb n="4" break="no"/>nisyaṃdā | aṃtaraṃgabahiraṃgatvena | athavāpa<space quantity="5" unit="character"/>tābhāvāntiścalānisyaṃdā niḥkriyatvena | nirmalamaraka<lb n="5" break="no"/>tabhājane prasthāpitā śaṃkhaśuktir iva ka<del rend="overstrike">nipraya</del>pamā | janasamūhe vaktum akṣamā | nirddeśena jāraṃ brūte | kilāvayo<lb n="6" break="no"/>r<gap reason="lost" quantity="3" unit="character"/>śir<gap reason="lost" quantity="1" unit="character"/>samīpe saṃketakaraṇīyaḥ | iti śūkṣmaś cālaṃkāraḥ | patyur drutaratiṃ śaṃkamānāṃ tasyāṃtarmo<pb n="5r" break="no"/><lb n="1"/>hāya | athavā mā bhaiṣīḥ svechayaiva ratiṃ kuru | iti jñāpayāya vā | athavā saṃketocito 'yaṃ deśa iti jñaptyai viparītara<lb n="2" break="no"/>tisūcanāya vā | kācit kaścit <add place="above">vā</add>āpatati | gāthārthaḥ |</p>
+      </div>
+    </text>
+    <text xml:id="Prema-BORI-5" n="5" type="verse">
+      <div type="edition">
+	<p>mitraṃ mitram āha || athavā rativyāpārasya paramakāṣṭāmāho<lb n="3" break="no"/>cha ||</p>
+	<quote type="base-text">
+	  <lg n="5">
+	    <l>tāva cciya <subst><add place="overstrike">ra</add><del>ï</del></subst>samae mahi<subst><add place="overstrike">lā</add><del>kā</del></subst>ṇaṃ vi<subst><add place="overstrike">bhbha</add><del>ṣla</del></subst>mā virāyaṃti |</l>
+	    <l>jā<subst><add place="overstrike">ya</add><del>dva</del></subst> <subst><add place="overstrike">na</add><del>ma</del></subst> kuval<subst><add place="overstrike">a</add><del>ā</del></subst>dalasachahāiṃ <add place="above">ṇaṃ</add> maülaṃti nayaṇāiṃ || <lb n="4"/>4<note resp="#AO">This is actually the fifth verse in Premarāja's commentary.</note> ||</l>
+	  </lg>
+	</quote>
+	<p>tāvad eva ratisamaye mahilānāṃ vibhramā virājaṃti | <add place="margin">yāvat kuvalayadalasadṛśāni na makulībbhavaṃti | <del rend="overstrike">bhavaṃti</del> nayanāni ity āryā | svasitaṃ maṇita<choice><sic>sā</sic><corr>sī</corr></choice>tkṛtādayo vi</add>bhramā mahilānāṃ tāvad eva ratisamaye virājaṃte | yāva<subst><add place="overstrike">nna</add><del>tva</del></subst><lb n="5" break="no"/>kuvalayadalasadṛśāni nayanāni mukulāyaṃte | suratasukhāvasthā<del rend="overstrike">ṃ</del>yāṃ nayananimīlanād anyavibhramāprā<lb n="5" break="no"/>lyā eva | athavā suratāṃte yāvan na mukulāyante nayanāni strīṇāṃ puṃsāṃ vā | tāvad eṣā vibhramā | paścān na tad evaṃ | <pb n="5v"/><lb n="1"/>athavā vigato bhramaḥ vibhramaḥ etāvatā matayor virājaṃte cyutau jātāyāṃ na kim api | ayam āśayaḥ | yan nā<subst><add place="overstrike">gari</add><del>saṃri</del></subst>ke<lb n="2"/>ṇa suratasiddhayeyatitavyaṃ iti gāthārthaḥ |</p>
+      </div>
+    </text>
+    <text xml:id="Prema-BORI-6" n="6" type="verse">
+      <div type="edition">
+	<p>kaścit saṃketasthānāt kurubakapuṣpāṇy ādāya samīpaṃ gataḥ sa<lb n="3" break="no"/>khyāprabodhyate | athavā svasaskhyā prathamarajodarśanaṃ jñāpayati |</p>
+	<quote type="base-text">
+	  <lg n="6">
+	    <l>ṇohaliyam appaṇo kiṃ na ma<subst><add place="overstrike">gga</add><del>mā</del></subst>se ma<lb n="4" break="no"/>ggase kurubayass<del rend="overstrike">e</del>e |</l>
+	    <l>evaṃ khu hasaï tua suhaya valiyamuhapaṃkajaṃ jāyā || 5<note resp="#AO">This is actually the sixth verse in Premarāja's commentary.</note> ||</l>
+	  </lg>
+	</quote>
+	<p>navaphalikām ātmanaḥ kiṃ nna prā<lb n="5" break="no"/>rthayase | prārthayasi kurubakasya | etat khalu hasati tvāṃ | subhava valitamukhapaṃkajaṃ jāyā | kurubakataror nava<lb n="6" break="no"/>phalikāṃ kiṃ yācase | etāvatā tvam evāsmākaṃ navaphalikā prāyo netrayoḥ | yato valitamukhapaṃkajaṃ yathā bhavati <pb n="6r"/><lb n="1"/>tathā hasati | asyāḥ śirasi nyastā ku<del rend="overstrike">na</del>rubakapuṣpāṇi paśya | pūrvam iyaṃ gatā | tadanu tvaṃ | valitamukhapaṃkajaṃ padaṃ sā<lb n="2" break="no"/>rthakam eva hasati ko hetuḥ | svātmany upakarṣamānatayā param upahasati | nāyaṃ dhanyo 'haṃ dhanyo || pūrvaṃ nāgataḥ | athavā <lb n="3" break="no"/>vidaghdo navasa.mgam ekasya ceto na savalati | nāgato 'smadbhītyā tvām iti hasati | nūtanaphalaṃ navaphalikety ucyate<lb n="4"/> 'bhidhāne | dvitīyapakṣe | kuruvakanavaphalikāṃ kiṃ na yācase | ātmano navaphalaṃ kiṃ na yācase | yeyaṃ mama sakhī tava <lb n="5"/>phalaṃ dhāvayiṣyatīty tava purastāt valitamukhapaṃkajaṃ lajjayādya hasati | paśya dvitīyapakṣe jāyāśabdo | nauci<lb n="6" break="no"/>tyāt tajjāyā jāyā bhavati | tad asyāṃ jāyate punaḥ | jāyāśabd<subst><add place="overstrike">aḥ</add><del>o</del></subst> prasūtāyām eva tvayā tu prathamaṃ aucityam uktaṃ satyam eva syā<pb n="6v" break="no"/><lb n="1" break="no"/>t | cedbhagavatā kālidāsenottaraṃgitaṃ na syāt | gauryā kucavarṇṇā bhaviṣyadvarttamānavat kavayor varṇṇayaṃti | su<lb n="2" break="no"/>karam eva gāthārthaḥ | leśo laṃkāraḥ uttaraṃ vā |</p>
+      </div>
+    </text>
+    <text xml:id="Prema-BORI-7" n="7" type="verse">
+      <div type="edition">
+	<p>priyatamāyāḥ kāntayojanāya sakhī paṭhati | athavā svayam eva likha<lb n="3" break="no"/>ti | he nistriṃśa bhavatāṃ deśād asmākaṃ deśe maha/?/sakho vasaṃto /?/vaḥ prabala <subst><add place="overstrike">i</add><del>ya</del></subst>ti sūcanāya vā | athavā aśoko jñā<lb n="4" break="no"/>taduḥkhaṃ paraduḥkhaṃ na jānāti kāmodīpanavibhāvānāṃ ku<subst><add place="overstrike">ta</add><del>ha</del></subst> iti | jñaptyai | kaścin mitraṃ brūte |</p>
+	<quote type="base-text">
+	  <lg n="7">
+	    <l>tāvijjaṃti aso<add place="margin">ke</add>hi la<lb n="5" break="no"/><subst><add place="overstrike">ḍa</add><del>tha</del></subst>havilayāu daïyavirahammi |</l>
+	    <l>kiṃ sahaï ko vi kassa vi pāyapahāraṃ pahuppaṃto || 6<note resp="#AO">This is actually the seventh verse in Premarāja's commentary.</note></l>
+	  </lg>
+	</quote>
+	<p>tāpyaṃte aśokaiś caturavani<lb n="6" break="no"/>tā dayitavirahe kiṃ | sahati ko pi kasyāpi pādaprahāraṃ prabhutvamitaḥ || ity āryā ||</p>
+	<p>laḍahā ramyā vilayā vinatā a<pb n="7r" break="no"/><lb n="1" break="no"/>śokair dayitā virahe tāpyaṃte | na virūpā | viṭaprāptyā tāsāṃ virahābhāvāt idam evārthaṃtaranyāsena dṛḍhayati | ko pi sa<lb n="2" break="no"/>martho bhavatpādaprahāraṃ kasyāpi sahate | naiva ayam āśayaḥ | ābhir bhavantaṃ balaṃ prāpya vāmapād<del rend="overstrike">ā</del>atāḍito 'bhūt | adhunā <lb n="3"/>tadabhāve tāsām udvejayaty aśokaḥ | prāptabalaḥ paramatti nītiḥ ||</p>
+      </div>
+    </text>
+    <text xml:id="Prema-BORI-8" n="8" type="verse">
+      <div type="edition">
+	<p>pā/?/śvaśrūpurastād āścaryakathananirdeśena śrāvaya<lb n="4" break="no"/>ti kācit upapattiṃ | kilāvayo sthānaṃ biśinīsamūham eva na pūrvvaṃ | sarvve jñātaṃ saṃketasthānaṃ | athavā attikā bhaginī jye<lb n="5" break="no"/>ṣṭā jyeṣṭhāṃ pṛchati |</p>
+	<quote type="base=text">
+	  <lg>
+	  </lg>
+	</quote>
+      </div>
+    </text>
+    <text xml:id="Prema-BORI-9" n="9" type="verse">
+      <div type="edition">
+      </div>
+    </text>
+    <text xml:id="Prema-BORI-10" n="10" type="verse">
+      <div type="edition">
+      </div>
+    </text>
+  </group>
+</TEI>

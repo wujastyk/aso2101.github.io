@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="TextInventory.rng" type="xml"?>
+<TextInventory tiversion="3.0.rc1" xmlns="http://chs.harvard.edu/xmlns/cts3/ti"
+	       xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dc="http://purl.org/dc/elements/1.1">
+  <collection id="SARIT-test" isdefault="yes">
+    <title xml:lang="eng" xmlns="http://purl.org/dc/elements/1.1">SARIT Testing Inventory</title>
+    <creator xmlns="http://purl.org/dc/elements/1.1">Andrew Ollett</creator>
+    <coverage xml:lang="eng" xmlns="http://purl.org/dc/elements/1.1">Selected Sanskrit texts for testing CTS requests.</coverage>
+    <description xml:lang="eng" xmlns="http://purl.org/dc/elements/1.1">Texts chosen to test the CTS protocol as applied to SARIT (Sanskrit and Prakrit) texts.</description>
+    <rights xml:lang="eng" xmlns="http://purl.org/dc/elements/1.1">This TextInventory and all on-line texts it documents are licensed under the Creative Commons Attribution-Share Alike 3.0 Unported License. For more information, see: http://creativecommons.org/licenses/by-sa/3.0/ </rights>
+  </collection>
+  <textgroup urn="urn:cts:indic:Hāla:">
+    <groupname xml:lang="en">Hāla</groupname>
+    <work urn="urn:cts:indic:Hāla.SaSa:" xml:lang="sa-Deva">
+      <title xml:lang="sa-Latn">Gāthāsaptaśatī</title>
+      <edition urn="urn:cts:indic:Hāla.SaSa.Weber1881:">
+        <label xml:lang="en">Weber 1881</label>
+        <description xml:lang="eng">Weber's 1881 edition</description>
+        <online docname="Weber1881.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+	    <citation
+		label="verse"
+		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+        </online>
+      </edition>
+      <edition urn="urn:cts:indic:Hāla.SaSa.Patwardhan1980:">
+        <label xml:lang="en">Patwardhan 1980</label>
+        <description xml:lang="eng">Patwardhan's edition</description>
+        <online docname="MVP-bhuvanapala.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation
+		label="verse"
+		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+        </online>
+      </edition>
+      <edition urn="urn:cts:indic:Hāla.SaSa.Tieken1981:">
+        <label xml:lang="en">Tieken 1981</label>
+        <description xml:lang="eng">Tieken's 1981 edition</description>
+        <online docname="Tieken1981.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation
+		label="verse"
+		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+        </online>
+      </edition>
+      <edition urn="urn:cts:indic:Hāla.SaSa.GOML3378:">
+	<label xml:lang="en">Mādhavayajvamiśra (Chennai MS)</label>
+	<description xml:lang="en">Mādhavayajvamiśra (Chennai MS)</description>
+	<online docname="GOMLA3378.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation
+		label="verse"
+		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+	</online>
+      </edition>
+      <edition urn="urn:cts:indic:Hāla.SaSa.LDI909:">
+	<label xml:lang="en">Bhuvanapāla (Ahmedabad MS)</label>
+	<description xml:lang="en">Bhuvanapāla (Ahmedabad MS)</description>
+	<online docname="LDI909.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation
+		label="verse"
+		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+	</online>
+      </edition>
+      <edition urn="urn:cts:indic:Hāla.SaSa.Prema-BORI:">
+	<label xml:lang="en">Premarāja (BORI MS)</label>
+	<description xml:lang="en">Premarāja (BORI MS)</description>
+	<online docname="Prema-BORI.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation
+		label="verse"
+		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+	</online>
+      </edition>
+      <edition urn="urn:cts:indic:Hāla.SaSa.BORI585:">
+	<label xml:lang="en">Vrajarājadīkṣita (BORI MS)</label>
+	<description xml:lang="en">Vrajarājadīkṣita (BORI MS)</description>
+	<online docname="BORI585.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation
+		label="verse"
+		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+	</online>
+      </edition>
+    </work>
+  </textgroup>
+</TextInventory>

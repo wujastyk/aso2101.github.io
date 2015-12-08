@@ -1,0 +1,118 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>Patwardhan's Edition of Bhuvanapāla</title>
+      </titleStmt>
+    </fileDesc>
+    <sourceDesc>
+    </sourceDesc>
+  </teiHeader>
+  <group>
+    <text xml:id="Bhuvanapala-ed-1" n="1" type="verse">
+      <pb n="1"/>
+      <head>1.</head>
+      <ref resp="#MVP" target="#Weber1881-1">W1</ref>
+      <div type="edition">
+	<p>oṃ namo jināya | ............</p>
+	<p>iha khalu śrīsātavāhanakṛte gāthākośe nānākavikalpitāsu bhinnaviṣayāsu anekacchekoktiṣu sakalakalākauśalakuśalo 'pi na gūḍhaprabhāvam udbhāvayitum alaṃ, kiṃ punar vayam | tathāpi sakalasūriśāstrārthaprārthanoparodhena asmābhir asmin yathābuddhi vivaraṇaṃ vidhāsyata iti | tatrādau sakalavighnapratibandhasiddhim avaguṃte bhukāmaḥ (adhigantukāmaḥ?) kavir ayaṃ namaskāram akārṣīt |</p>
+	<p>hālasya |</p>
+	<quote type="base-text">
+	  <lg n="1">
+	    <l>pasuvaïṇo rosāruṇapaḍimāsaṃkaṃtagorimuhayaṃdaṃ |</l>
+	    <l>gahiyāgghapaṃkayaṃ piva saṃjhāsalilaṃjaliṃ namaha || 1 ||</l>
+	  </lg>
+	</quote>
+	<p>pasuvaïṇo paśupater maheśvarasya saṃjhāsalilaṃjaliṃ namaha sandhyāsalilāñjaliṃ namata | kathaṃbhūtam | rosāruṇa paḍimāsaṃkaṃtagorimuhayaṃdaṃ kopapāṭalapratibimbitāmbikāvadanendum | ataśca kīdṛśam | gahiyagghapaṅkayaṃ piva gṛhītārghapaṅkajam iva | sandhyāvandanen roṣāruṇatvaṃ gaurīmukhacandrasya jñeyam | anenaiva vastūpakṣeparūpeṇa īrṣyāvipralambhaśṛṅgāraprāyaḥ prabandho 'yaṃ vidhāsyata iti sūcitaṃ bhavati | utprekṣā nāma alaṅkāraḥ | tasya lakṣaṇam --- yatra viśiṣte vastuni satyasadāropyate samaṃ tasya | (vastvantaramupapattyā utprekṣā) sā (tu) vijñeyā || 1 ||</p>
+      </div>
+    </text>
+    <text xml:id="Bhuvanapala-ed-2" n="2" type="verse">
+      <head>2.</head>
+      <ref resp="#MVP" target="#Weber1881-3">W3</ref>
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="2">
+	    <l>satta sayāiṃ kaïvacchaleṇa koḍīe <app><lem>majjhayārāo</lem><rdg wit="#W">majjhaārammi</rdg></app> |</l>
+	    <l>hāleṇa viraïyāiṃ sālaṃkārāṇa gāhāṇaṃ || 2 ||</l>
+	  </lg>
+	</quote>
+	<p>sapta śatāni kavivatsalena koṭyāḥ <pb n="2"/>madhyāt sātavāhanena viracitāni sālaṃkārāṇāṃ gāthānām | hāla iti sātavāhanasya kuntalādhipasya nāma | kavivatsalatvāt satyām api śaktau tadīyā eva gāthāḥ prakhyāpitāḥ || 2 ||</p>
+      </div>
+    </text>
+    <text xml:id="Bhuvanapala-ed-3" n="3" type="verse">
+      <head>3.</head>
+      <ref resp="#MVP" target="#Weber1881-4">W4</ref>
+      <div type="edition">
+	<p>poṭṭisassa |</p>
+	<quote type="base-text">
+	  <lg n="3">
+	    <l>uya niccalaṇipphaṃdā bhisinīpattammi rehaï balāyā |</l>
+	    <l>nimmalamaragayabhāyaṇapariṭṭhiyā saṃkhasutti vva || 3 ||</l>
+	  </lg>
+	</quote>
+	<p>paśay niścalaniḥṣpandā bisinīpatre śobhate balākā nirmalamarakatabhājanapratiṣṭhitā śaṅkhaśuktir iva | niścalā pavanādipātābhāvāt | niḥṣpandā svayaṃ niṣkriyatvāt | kalpitopamālaṅkāraḥ | kācij janākīrṇe vaktum akṣamasya saṃketaṃ kathayati | atra padminīkhaṇḍanikaṭe śūnyaṃ vartate, tathā ca niścalā niḥṣpandā ca balākīti iṅgitākāralakṣitatvād arthāntarasya sūkṣmo 'py atrālaṃkāraḥ || 3 ||</p>
+      </div>
+    </text>
+    <text xml:id="Bhuvanapala-ed-4" n="4" type="verse">
+      <head>4.</head>
+      <ref resp="#MVP" target="#Weber1881-5">W5</ref>
+      <div type="edition">
+	<p>sālāhaṇassa |</p>
+	<quote type="base-text">
+	  <lg n="4">
+	    <l>tāva cciya raïsamae mahilāṇa vibbhamā virāyaṃti |</l>
+	    <l>jāva na kuvalayadalasacchahāiṁ maülaṃti nayaṇāiṃ || 4 ||</l>
+	  </lg>
+	</quote>
+        <p>tāvad eva ratisamaye mahilānāṃ vibhramā virājanti, yāvanna kuvalayadalasadṛśāni mukulībhavanti nayanāni | vibhramā maṇitasītkṛtādayaḥ | vibhramāṇāṃ madhye nayananimīlitāni niśeṣyante iti bhāvaḥ | athavā nayananimīlitebhyo arvāk sarve vibhramā labhyante ity arthaḥ | athavā nayananimīliteṣu jāteṣu anye vibhramā na bhavanti suratasukhaniśceṣṭatvād abalānām | kṣaṇam raṭantī rudatī nṛtantī cātivihvalā | niḥsahatvaṃ tadā yāti mukulīkṛtalocanā || 4 ||</p>
+      </div>
+    </text>
+    <text xml:id="Bhuvanapala-ed-5" n="5" type="verse">
+      <pb n="3"/>
+      <head>5.</head>
+      <ref resp="#MVP" target="#Weber1881-6">W6</ref>
+      <div type="edition">
+	<p>culloḍayassa |</p>
+	<quote type="base-text">
+	  <lg n="5">
+	    <l>nohaliyam appaṇo kiṃ na maggase maggase kuruvayassa |</l>
+	    <l>eyaṃ tu hasaï tuha suhaya valiyamuhapaṃkayaṃ jāyā ||</l>
+	  </lg>
+	</quote>
+	<p>navaphalikām ātmanaḥ kiṃ na mārgayasi mārgayase tvaṃ kurubakasya, evaṃ tu hasati tvāṃ he subhaya valitamukhapaṅkajaṃ jāyā | ೋapūrvopāyanaphalaṃ navaphaliyā | saṃketasthānāt kurubakaṃ gṛhītvā āyātaḥ san kulaṭāyāḥ kurubakaṃ daŕsayan navaphalikāṃ yācate | na tvaṃ tatra gateti sūcanārtham | sā 'pi tava prathamam ahaṃ gateti valitagrīvaṃ keśanyastakurubakaṃ darśitavatī | atas tatsakhī viditābhiprāyā gāthām imām āha | leśo 'laṅkāraḥ, uttaraṃ vā | navajātakusumaṃ lalanā latāyā nehaliyaṃ (navaphalikām) icchanti | navaphalikā syān navye (?) navajātarajaḥ striyām || 5 ||</p>
+      </div>
+    </text>
+    <text xml:id="Bhuvanapala-ed-6" n="6" type="verse">
+      <head>6.</head>
+      <ref resp="#MVP" target="#Weber1881-7">W7</ref>
+      <div type="edition">
+      </div>
+    </text>
+    <text xml:id="Bhuvanapala-ed-7" n="7" type="verse">
+      <head>7.</head>
+      <ref resp="#MVP" target="#Weber1881-8">W8</ref>
+      <div type="edition">
+      </div>
+    </text>
+    <text xml:id="Bhuvanapala-ed-8" n="8" type="verse">
+      <head>8.</head>
+      <ref resp="#MVP" target="#Weber1881-9">W9</ref>
+      <div type="edition">
+      </div>
+    </text>
+    <text xml:id="Bhuvanapala-ed-9" n="9" type="verse">
+      <head>9.</head>
+      <ref resp="#MVP" target="#Weber1881-10">W10</ref>
+      <div type="edition">
+	<p>mahendrapālasya |</p>
+	<quote type="base-text">
+	  <lg>
+	    <l>sahi erisi cciya gaī mā ruvvaü taṃtavaliyamuhayaṃdaṃ |</l>
+	    <l>eyāṇa bālavāluṃkitaṃtukuḍilāṇa pimmāṇaṃ || 9</l>
+	  </lg>
+	</quote>
+	<p>sahi sakhi mā rudyatām | katham | taṃsavaliyamuhayaṃdaṃ trasravalitamukhacandram | eyāṇa bālavāluṃkitaṃtukuḍilāṇa pimmāṇaṃ erisi cciya gaī eteṣāṃ bālavāluṅkītantukuṭilānāṃ premṇām īdṛśy eva gatiḥ duḥkhadāyinīty arthaḥ | trasraśabdasya vakrāditvāt <note type="inline" resp="#MVP"><ref target="PrāPra:4.15">vararuci 4.15</ref></note> anusvāre kṛte rūpaṃ || 9 ||</p>
+      </div>
+    </text>
+  </group>
+</TEI>

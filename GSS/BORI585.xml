@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>Vrajarājadīkṣita Commentary (BORI Ms)</title>
+	<!-- this vrajarājadīkṣita was also the author of the ṣaḍṛtuvarṇanakāvya,
+	     published in kāvyamālā gucchaka 14, as well as (probably)
+	     the āryātriśatīmuktaka or rasikarañjana, published in bombay 
+	     according to srinivasachariar p. 347. !-->
+      </titleStmt>
+    </fileDesc>
+  </teiHeader>
+  <group>
+    <text xml:id="BORI585-1" n="1" type="verse">
+      <div type="edition">
+	<pb n="1v"/><lb n="1"/>
+	<p>śrī gaṇeśāya namaḥ |</p>
+	<lg n="1">
+	  <l>svarge tribiṃdurājer utkṛṣṭo bhavati yasya se<lb n="2" break="no"/>nanayā |</l>
+	  <l>mūḍhopī tannijāṃtarbhaje ham aruṇāruṇaṃ tejaḥ | 1 ||</l>
+	</lg>
+	<lg n="2">
+	  <l>biṃduṃ <lb n="3"/>nutabralā<del rend="overstrike">sya</del>dikadevāsya śrīmahimakaraṇaṃ |</l>
+	  <l>daityeṃdrasārthahala<lb n="4" break="no"/>naṃ bhajāmi ki cinmahaḥ kṛṣṇaṃ | 2||</l>
+	</lg>
+	<lg n="3">
+	  <l>danujādhināthanāśanapi<lb n="5" break="no"/>śunaṃ prahlādanaṃ nṛhareḥ |</l>
+	  <l>bhavyāya bhāvayataḥ prāhur bhāvaprabhāva<lb n="6" break="no"/>m ahaṃ | 3 ||</l>
+	</lg>
+	<lg n="4">
+	  <l>vibudhagaṇasevyamānaṃ vidyāśrīśobhitasvarūpaṃ <lb n="7"/>ca |</l>
+	  <l>śrīnāthasāmarājaṃ <add place="margin">vaṃde</add> śrīsāmarājam iva | 4 ||</l>
+	</lg>
+	<lg n="5">
+	  <l>jaivātṛke <lb n="8"/>saṃsevyaṃ vibhūtibharaśobhitaṃ caiva |</l>
+	  <l>śrītātakāmarājaṃ vaṃde śrī <lb n="9"/>kāmarājam iva | 5 ||</l>
+	</lg>
+	<lg n="6">
+	  <l>śrīmadguruprasādāt tasyānugrahāddvi<pb n="2r" break="no"/><lb n="1" break="no"/>śadāḥ |</l>
+	  <l>śrīśālivāhanāryās tanute vrajarājadīkṣitaḥ suka<lb n="2" break="no"/>viḥ | 6 ||</l>
+	</lg>
+	<p>śrīḥ | rasikajanamanovinodāya prārīpsitasya graṃthasya <lb n="3"/>niṣpratyūhaparisamāptyarthaṃ śrīśālivāhanaḥ sadāśivasaṃdhyāṃja<lb n="4" break="no"/>lipraṇatyupadeśarūpaṃ maṃgalam āracayati |</p>
+	<quote type="base-text">
+	  <lg n="1">
+	    <l>pasuvaïṇo . rosāruṇaṃ <lb n="5" break="no"/>paḍimāsaṃkaṃtagorimuhaaṃdaṃ . ||</l>
+	    <l>gahiaghghapaṃkaammia . saṃjhās<lb n="6" break="no"/>alilaṃjaliṃ . ṇamaha . | 1 ||</l>
+	  </lg>
+	</quote>
+	<p>paśupateḥ roṣāruṇasaṃkrāntapratima<lb n="7" break="no"/>gaurīmukhacandraṃ . | gṛhītārghapaṃkajam iva . saṃdhyāsalilāṃjaliṃ <lb n="8"/>namata . | 1 || iti prākṛtārthaḥ | prākṛte pūrvanipātāniyamāt saṃkrāṃ<lb n="9" break="no"/>tapratimeti | roṣeṇa na tu krodhena | aruṇonatvāraktaḥ | cidi ā<lb n="10" break="no"/>hlāde ity asmāddhātor niṣpannasya caṃdraśabdasya āhlādakāritvam a<pb n="2v" break="no"/><lb n="1" break="no"/>rthaḥ | tathā ca nāyam īṛsyājanyo mānaḥ | kiṃ tu premṇaḥ kuṭilagāmitvā<lb n="2" break="no"/>t kopo yaḥ kāraṇaṃ vinā . samāna ity uktalakṣaṇaḥ  premamāna eva | a<lb n="3" break="no"/>nyathā caṃdrapadaṃ noktaṃ syāt | anyad evoktaṃ syāt | īrṣyājanyamā<lb n="4" break="no"/>narūpaṃ vipralaṃbhe udvegaḥ saṃcārī premamānarūpavipralaṃbhe harṣaḥ saṃcārī autsukyādeyas tūbhayatra samāḥ | ata eva roṣāruṇasyā<lb n="5" break="no"/>pi mukhasyāhlādakāritvam upapanīpadyate || tathā ca gaurīm ālaṃ<lb n="6" break="no"/>bya prādurbhūtasadāśivaniṣṭharatipra/?/tikavipralaṃbha<lb n="7" break="no"/>śṛṅgāro vyajyateti rasadhvaniḥ | arddhanārīnaṭasvarūpaka<lb n="8" break="no"/>raṇākṣamānyadevāpekṣayā sadāśivae sarasatvenotkarṣaviśeṣā<lb n="9" break="no"/>t | vyatirekālaṃkāro vya<add place="margin">jya</add>yye iti alaṃkāradhvaniḥ | graṃthakṛnni<pb n="3r" break="no"/><lb n="1" break="no"/>ṣṭhabhavānīśaṃkaraviṣayakaratirūpo bhāvo vyajyata iti bhāvadhvaniḥ | <lb n="2"/>dhaner atiśāyita camatkārakāritvena uttamaṃ  kāvyaṃ | āruṇyena ni<lb n="3" break="no"/>mittettena gaurīmukhacaṃdrasya gṛhītārghapakajā tādātmyasaṃbhāvana<lb n="4" break="no"/>yā uktaviṣayā vastūtprekṣā 'laṃkāraḥ | mukhacandram ity atra abhedarūpa<lb n="5" break="no"/>kam alaṃkāraḥ | etābhyāṃ saṃdehasaṃkaraḥ śca mādhuryaṃ guṇaḥ | pāṃcālīrī<lb n="6" break="no"/>tiḥ | drākṣāpākạh | gāhāchaṃdaḥ || <note place="margin">tathā ca piṃgale | jatakavvagāhadohāsuṇahu ṇagaṇa ho paḍhamarakharahiṃ | tasusaddhibuddhisaddaïṃ phuraï raṇarāulahuttara taraï | ity uktatvāt | mittabhiccathirakajjajujhjhaṇibbhbhaajaadijjaï | sesā sudiṇī hoi ity uttkāt | ity uktatvāc ca | iyaṃ ca ṇahā prathamanagaṇatvenga | </note> mitrabhṛttyayor nigaṇayorś casatvena śu<lb n="7" break="no"/>bhaphaladātrayor viṃśatir laghu<del rend="overstrike">trayorviṃśati</del> sattvena śūddhā | nāyaka<lb n="8" break="no"/>dvayasaṃbaṃdhāt saṃgrahiṇī ceti dik<note place="margin">tatraiva veṇā akeṇa hoi saṃgahiṇī ityu |</note> | 1 ||</p>
+      </div>
+    </text>
+    <text xml:id="BORI585-2" n="2" type="verse">
+      <div type="edition">
+	<p>prākṛtānabhijñāḥ kevala<lb n="9" break="no"/>saṃskṛtarasikāḥ kāmatatvavicāvicāraṃ kurvataḥ | kathaṃ na lajjaṃta ity abhiprāyeṇāha |</p>
+	<quote type="base-text">
+	  <lg n="2">
+	    <l>amiaṃ . pāuakavvaṃ . paḍhiuṃ . souṃ . a . je . ṇa . ā<pb n="3v" break="no"/><lb n="1" break="no"/>ṇaṃti ||</l>
+	    <l>kāmassa . tattatattiṃ . kuṇaṃti . te . kaha . ṇa . lajjaṃtiṃ | 2 ||</l>
+	  </lg>
+	</quote>
+	<p>amṛ<lb n="2" break="no"/>taṃ . prākṛtavākyaṃ . paṭhituṃ . śrotuṃ . ca . ye . na . jānaṃti . | kāmyasya . tatva <lb n="3"/>ciṃtāṃ . kurvaṃti . te . kathaṃ na. lajjaṃte . | 2|| ity prākṛtārthaḥ | amṛta<lb n="4" break="no"/>m ity anenāvibudhānāṃ arasajñānāṃ duṣprāpyatva vyajyate | ye na <lb n="5" break="no"/>jānaṃtīti bahuvacananirddeśena na /?/ . cāsyaṃ kāvyasya pa<lb n="6" break="no"/>ṭhanaṃ śravaṇaṃ ca dvitrā eva jānaṃtīty arthaḥ | kāmyasyeti ārā<lb n="7" break="no"/>dhyārādhakabhāvasaṃbaṃdhe ṣaṣṭhī tena ca tadārādhanaprādurbhūtasvā<lb n="8" break="no"/>bhinnarasāsvādaniṣpannaṃ vigalitavedyāṃtaram anaṃdaṃ ta eva prā<lb n="9" break="no"/>pnuvaṃtīty arthaḥ yadvārāhoḥ śira iti vad abhede ṣaṣṭhī tadā kāmābhi<lb n="10" break="no"/>nnarasānaṃdaṃ ta eva prāprnuvaṃtīty arthaḥ | tathā ca gāhāchaṃdaḥ | 2 ||</p>
+      </div>
+    </text>
+    <text xml:id="BORI585-3" n="3" type="verse">
+      <div type="edition">
+	<p>śrīśā<pb n="4r" break="no"/><lb n="1" break="no"/>livāhanaḥ svakṛtisūcakakathānakanibaṃdhanapūrvakaṃ svakatṛkagraṃ<lb n="2" break="no"/>thasaṃkhyāṃ viśinaṣṭi |</p>
+	<quote type="base-text">
+	  <lg n="3">
+	    <l>sattasaāi . kaïvaleṇa . koḍīabhajjaā<lb n="3" break="no"/>r<del rend="overstrike">ā</del>aṃmi |</l>
+	    <l>hāleṇa . viraïoiṃ . sāl<del rend="overstrike">ā</del>aṃkāraṇa . gāhāṇaṃ | 3 ||</l>
+	  </lg>
+	</quote>
+	<p>saptaśatā<lb n="4" break="no"/>ni . kavivatsalena . koṭe . rmadhye . | śālivāhanena . viracitāni . sā<lb n="5" break="no"/>laṃkārāṇāṃ . gāthānāṃ | 3 || ity prākṛtārthaḥ | koḍīe ity atra ek<del rend="overstrike">o</del>āro laghuḥ | tena ca akāraḥ paṭhanīyaḥ | gāhācchandaḥ | 3 ||</p>
+      </div>
+    </text>
+    <text xml:id="BORI585-4" n="4" type="verse">
+      <div type="edition">
+	<p>kācit saṃketayaṃtī <lb n="6"/>nāyakaṃ praty āha | yad vā kācit saṃkete tvām adṛṣṭā tataḥ parāvṛtya samā<lb n="7" break="no"/>gato ham iti vadaṃtaṃ nāyakaṃ praty āha |</p>
+	<quote type="base-text">
+	  <lg n="4">
+	    <l>ua . ṇiccalaṇipphaṃḍā . bhisa<lb n="8" break="no"/>ṇīpattrammi . rehaï . balāā |</l>
+	    <l>ṇimmalamaragaabhāaṇapari<lb n="9" break="no"/>ṭṭhiā . saṃkhasutti vva . | 4 ||</l>
+	  </lg>
+	</quote>
+	<p>paśya . niścalaniṣpaṃdā . bisanī<pb n="4v" break="no"/><lb n="1" break="no"/>patre . rājate . balākā . | nirmalamarakatabhājanaparisthitā . śaṃkhaśu<lb n="2" break="no"/>ktir iva | 4 || ity prākṛtārthaḥ | prākṛte ātmanepadābhāvena rehaï <lb n="3"/>iti | niścalo acalaḥ tacca niṣpaṃdety arthaḥ | yadvā | niścaletisaṃ<lb n="4" break="no"/>
+buddhiḥ tathā ca ābhāsadvaye pi na paunaruktyaṃ | śaṃkhayuktiḥ svākṛ<lb n="5"/>tiḥ śuktiviśeṣa ity arthaḥ | ādye acalavaniṣpaṃdatvena āśva<lb n="6" break="no"/>statvaṃ tena ca nirjanatvam atas tv idam evocitam āvayoḥ saṃketasthā<lb n="7" break="no"/>nam iti vyajyate | dvitīye niścaleti saṃbuddhyā nirudyamitvaṃ te<lb n="8" break="no"/>na ca yadi tvayā tatra gataṃ syāt | tadā valākikayojjinam eva syā<lb n="9" break="no"/>t atadabhāvena tvaṃ mithyā vadasīti vyajyate | iyaṃ ca vyaṃjita<pb n="5r" break="no"/><lb n="1" break="no"/>vyaṃjanā | krameṇa saṃbhogavipralaṃbhaśṛṅgārau | dhvaner atiśayitaca<lb n="2" break="no"/>matkārikāritvena uttamaṃ kāvyaṃ | uttamottamam iti ke cit | <lb n="3"/>visinīpatragatanailyabalākāgataśvaityarūpanimittena bi<lb n="4" break="no"/>sinīpatrasaṃbadhdhabalāyāyāḥ marakatabhājanasthitaśaṃkhaśu<lb n="5" break="no"/>ktitādātmyasaṃbhāvanayā uktaviṣayā va<choice><sic>sta</sic><corr>stū</corr></choice>tprekṣā 'laṃkāraḥ |<lb n="6"/>paroḍhaparakīyā nāyikā | mādhuryaṃ guṇaḥ | pāṃcālī rītiḥ | drā<lb n="7" break="no"/>kṣā pākaḥ | gāhāchamdaḥ | 4 ||</p>
+      </div>
+    </text>
+    <text xml:id="BORI585-5" n="5" type="verse">
+      <div type="edition">
+<lb n="8" break="no"/>
+<lb n="9" break="no"/>
+      </div>
+    </text>
+  </group>
+</TEI>

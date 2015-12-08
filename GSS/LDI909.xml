@@ -1,0 +1,132 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>Bhuvanapāla (Ahmedabad MS)</title>
+      </titleStmt>
+    </fileDesc>
+  </teiHeader>
+  <group>
+    <pb n="1r"/>
+    <lb n="1"/>
+    <head>|| oṃ || oṃ namaḥ śrī sarasvatyai || namo makaradhvajāya ||</head>
+    <text xml:id="LDI909-1" n="1" type="verse">
+      <div type="edition">
+      <note type="interlinear">= hālasya =</note>
+      <quote type="base-text">
+	<lg n="1">
+	  <l>pasuvaiṇo rosāruṇapaḍimāsaṃkaṃtagorimuhaiṃduṃ |</l>
+	  <l>gahiyagghapaṃkaaṃ piva saṃkāsalilaṃjaliṃ ṇamaha || 1 ||</l>
+	</lg>
+      </quote>
+      <lb n="2"/>
+      <p>vyākhyā || paśupater maheśvarasya saṃdhyāsalilāṃjaliṃ namata | kathaṃbhūtaṃ || kopapāṭavaṃpratibiṃbitāṃ vikāvadānaṃduṃ | punaḥ kīdṛśaṃ | utprekṣate gṛhītārghapaṃkajam iva | saṃdhyā<lb n="3" break="no"/>vaṃdanena roṣāruṇatvaṃ gaurīmukhacandrasya jñeyaṃ | aneneva vastūpakṣeprūpeṇerṣỵā vipralaṃbhaśṛṁgāraramaprāyaḥ prabaṃdho 'yaṃ vidhāsyate | iti sūcitaṃ bhavati | utprekṣā nāmālaṃ<lb n="4" break="no"/>ḳāraḥ prathamagāthārthaḥ || 1 </p>
+      </div>
+    </text>
+    <text xml:id="LDI909-2" n="2" type="verse">
+      <div type="edition">
+      <quote type="base-text">
+	<lg n="2">
+	  <l>sattasayāiṃ kaivatsaleṇa koḍīe majhayārāu |</l>
+	  <l>hāleṇa viraiāṇaṃ sālaṃkārāṇa gāhāṇa || 2 </l>
+	</lg>
+      </quote>
+      <p>saptaśatāṇi kavivatsalena koṭyā madhya<lb n="5" break="no"/>tra śātavāhanena viracitāni | sālaṃkārāṇāṃ gāthānāṃ | <note type="margin">= hālāsurāyāṃ nṛpatau ca hālaḥ =</note>hāla iti śātavāhanasya kuṃtalādhipasya nāma | kavivatsalatvāt satyām api śaktau tadīyā eva gāthāprakhyāpi <lb n="6"/>tāḥ || 2 </p>
+      </div>
+    </text>
+    <text xml:id="LDI909-3" n="3" type="verse">
+      <div type="edition">
+      <note type="margin">= poṭṭisassa = hālamaṃtrī poṭṭisaḥ =</note>
+      <quote type="base-text">
+	<lg n="3">
+	  <l>ua ṇiccalaṇipphaṃdā bhisiṇīpattaṃ mi rehai balāyā |</l>
+	  <l>ṇimmalamaragayabhāyaṇapariṭṭhiyā saṃkhasutti vva || 3</l>
+	</lg>
+      </quote>
+      <note type="margin"> = kācin nāyikā madavegaṃ priyam dṛḍhayati =</note>
+      <lg><l>paśya niścalā niṣpaṃdā padminīpatre śobhate <lb n="7"/>balākā |</l>
+      <l>nirmalamarakatabhājanapratiṣṭhitā śaṃkhaśuktir iva | </l></lg>
+      <p>niścalā pavanādipātāabhāvāt | niṣpaṃdā svayaṃniḥkriyatvāt | kalpitopamālaṃkāraḥ | kāci<lb n="8" break="no"/>j janākīrṇe vaktum akṣam asya saṃketaṃ kathayati | <note type="margin">yathāpaśyetyādi =</note>atra padminīṣaṇṇanikaṭe śūnyaṃ varttate tathā ca niścalāniṣpaṃdā ca balākīti iṃgitā kāralakṣitvā<lb n="9" break="no"/>t | arthāṃtarasya sūkṣmopy atrālaṃkāraḥ || 3 </p>
+      </div>
+    </text>
+    <text xml:id="LDI909-4" n="4" type="verse">
+      <div type="edition">
+      <note type="interlinear">sālāhaṇassa</note>
+      <quote type="base-text">
+	<lg n="4">
+	  <l>tāva cciya raisamae mahilāṇaṃ vijhamā virāyaṃti |</l>
+	  <l>jāva ṇa kuvalayadalasacchahāiṃ maulaṃti ṇayaṇāiṃ || <lb n="10"/> 4</l>
+	</lg>
+      </quote>
+      <p>tāvad eva ratisamaye mahilānāṃ visramā virājaṃti |
+      yāvanta<choice><sic></sic><corr>ṃ</corr></choice> kuvalayadalasadṛśāni mukulībhavaṃti nayanāni | vibhramā maṇitasīkṛtādayaḥ | vibhra<lb n="11" break="no"/>māṇāṃ madhye nayananimīlitāni viśeṣyaṃte | iti bhāvaḥ | atha vā nayananimīlitebhyo 'rvāg sarve vibhramālabhyaṃta ity arthaḥ | atha vā nyananimīlaneṣu jāteṣu <lb n="12"/>anye vibhramā na bhavaṃti | suratasukhaniśceṣṭatvād abalānāṃ<note type="marginal">uktaṃ ca ||
+      <lg><l>kallolinīkānanakadarādau duḥkhāśraye cārppitacittavṛttiḥ |</l> <l>mṛdukramāraṃbham abhinnadhair ya ślitho 'pi dīrghaṃ ramate rateṣu ||</l></lg> ua ticcaletasoparibhāvāntaraṃ</note> || 4</p>
+      </div>
+    </text>
+    <text xml:id="LDI909-5" n="5" type="verse">
+      <div type="edition">
+      <note type="interlinear">cullotayassa</note>
+      <quote type="base-text">
+	<lg n="5">
+	  <l>ṇohaliyam appaṇo kiṃ ṇa maggase maggase kuruvayassa |</l>
+	  <l>payaṃhasai tuha suhaya valiyamuhapaṃkaaṃ jāyā <lb n="13"/>|| 5</l>
+	</lg>
+      </quote>
+      <p>navaphalikāṃ ātmanaḥ kiṃ na mārgayasi | mārgayase tvaṃ kurubakasya | etat tu tvāṃ hasati | he subhaga valitamukhapaṃkajaṃ jāyā | apūrvopāyanaphalaṃ nohaliyā saṃ<lb n="14" break="no"/>ketasthānāt kurubakaṃ gṛhītvā āyātaḥ san kulaṭāyāḥ kurubakaṃ darsayan navaphalikāṃ yāvate | na tvaṃ tatra gateti | tatra sūcanārthaṃ sāpi tava prathamaṃ ahaṃ gate<lb n="15" break="no"/>ti valitagrīvaṃ keśanyastaṃ kurubakaṃ darśitavatī | atas tatsakhī viditābhiprāyāgāthām imām āha | leśo 'laṃkāraḥ | uttaraṃ vā | navajātakusumalalanālatayor nohali<lb n="16" break="no"/>yam icchaṃti | navaphalikā s??ntavye navajātarajaḥ striyāṃ || 5</p>
+      </div>
+    </text>
+    <text xml:id="LDI909-6" n="6" type="verse">
+      <div type="edition">
+      <note type="marginal">= mayaraṃdaseharassa =</note>
+      <quote type="base-text">
+	<lg n="6">
+	  <l>tāvijjaṃti asoehiṃ laḍahavilayāu daïyavirahammi |</l>
+	  <l>kiṃ sahaï kovi kassavi pāyapahāraṃ pahupphaṃ<lb n="16" break="no"/>to || 6</l>
+	</lg>
+      </quote>
+      <p>tāpyaṃte aśokair laṭabhavaniyā dayitavirahe uddīpanavibhāvatvād aśokasya | kiṃ sahate kopi kasyāpi pādaprahāraṃ prapuṣpan dohadadānārghamābhir aśo<pb n="1v" break="no"/><lb n="1" break="no"/>kaḥ pādair hatā āsīt | iti arthaṃtaranyāso 'laṃkāraḥ || 6</p>
+      </div>
+    </text>
+    <text xml:id="LDI909-7" n="7" type="verse">
+      <div type="edition">
+      <note type="interlinear">= tasseya =</note>
+      <quote type="base-text">
+	<lg n="7">
+	</lg>
+      </quote>
+      </div>
+    </text>
+    <text xml:id="LDI909-8" n="8" type="verse">
+      <div type="edition">
+      <quote type="base-text">
+	<lg n="9">
+	</lg>
+      </quote>
+      <p><lb n="6"/></p>
+      </div>
+    </text>
+    <text xml:id="LDI909-9" n="9" type="verse">
+      <div type="edition">
+      <note type="interlinear">maheṃdrapālasya</note>
+      <quote type="base-text">
+	<lg n="10">
+	  <l>sahi erisa cciya gaī mā ruccaü taṃsavaliyamuhayaṃdaṃ |</l>
+	  <l>eyāṇa vālavāluṃkitaṃtukuḍilāṇa pimmāṇa<note type="margin">bālavāluṃkītaṃtugṛhītaḥ saralamuktakuṭila eva</note><lb n="7"/> || 9</l>
+	</lg>
+      </quote>
+      <p>he sakhi mā rudyatāṃ | kathaṃ aśruvalitamukhacaṃdraṃ | eteṣāṃ bālavāluṃkī cirbhaṭītaṃtukuṭilānāṃ premṇām īdṛśy eva gatir duḥkhadāyinī ity arthaḥ | tryaśra<subst><del>ra</del></subst>śabda<lb n="8" break="no"/>sya vakrāditvād anusvāre kṛte rūpaṃ | 9</p>
+      </div>
+    </text>
+  </group>
+</TEI>
+<!--
+
+The MS from the LD Institute claims to be Bhuvanapāladeva's commentary.
+
+Colophon to śakata 1 (p. 20 of the PDF)
+101 || iti śrīśātavāhananṛpaviracite saptaśatake prathamaśatakaṃ samāptam || 1
+and glosses above and below: bhuvanapāladevaviracitaṭīkā... vṛttau ...cate... [cheko]ktivicāralīlāyāṃ
+śātavāhana: hāla
+* kadācid ātmanaḥ priyatame premasvasaubhāgyaṃ
+
+!-->

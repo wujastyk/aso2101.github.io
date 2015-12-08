@@ -1,0 +1,81 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>Hāla's Sattasaī, Stemma and Edition</title>
+      </titleStmt>
+    </fileDesc>
+    <sourceDesc>
+      <listWit>
+	<witness xml:id="Ma">Madras, Government Oriental manuscripts Library, no. 3378. Ma is a Devanāgarī transcript of an original palmleaf MS written in the Malayāḷaṃ script. It consists of two parts of which the pages have been numbered separately: 1-11 and 1-225. The main, second, part contains the Gāthās from 11 up to and including 474 of the Third South-Indian recension. The text is accompanied by the Sanskrit commentary of Mādhavayajvamiśra.  ... In Roman characters the following particulars have been added: Transcribed in 1920-21 from a MS of Narayanan Namburipad of Kutalur Mana, Nareri, Tritala, Malabar Dt. Compared with the original MS. M. A. J., 19-4-1921.</witness>
+	<witness xml:id="Ti">Trivandrum, University Manuscripts Library, no. 4763.</witness>
+	<witness xml:id="Tp">Trivandrum, University Manuscripts Library, no. 4758.</witness>
+      </listWit>
+    </sourceDesc>
+  </teiHeader>
+  <group>
+    <text xml:id="Tieken-ed-6" n="6" type="verse">
+      <head>6 (6 Ma, 7 Tp; 5 Bh, 6 R; K, ψ, B, γ, P, G, ξ; 233 S)</head>
+      <head>Missing in T and W.</head>
+      <div type="edition">
+	<lg n="6">
+	  <l><app><lem>ṇohaliam</lem><rdg
+               wit="#Bh">ṇohaliyaṃ</rdg><rdg
+	       wit="#B">dohaliaṃ</rdg><rdg 
+	       wit="#S2">ṇoaliaṃ</rdg></app> <app><lem>appaṇo</lem><rdg
+	       wit="#K">ayyaṇo</rdg></app> kiṃ ṇa maggase maggase <app><lem>kuravaassa</lem><rdg
+	       wit="#S">kuruvaassa</rdg></app></l>
+	  <l>e<app><rdg wit="#Ma"><lacunaEnd/></rdg></app><app><lem>aṃ</lem><rdg
+	       wit="#K">ā</rdg></app> <app><lem>khu</lem><rdg
+	       wit="#Ma">kha</rdg><rdg
+	       wit="#Bh">tu</rdg><rdg
+	       wit="#K">vu</rdg><rdg
+	       wit="#γ">kkhu</rdg><rdg
+	       wit="#S">vvia kkhu</rdg></app> <app><lem>tuha hasaï suhaa</lem><rdg
+	       wit="#Bh #R">hasaï tuha sahaa</rdg><rdg 
+	       wit="#K #γ">tuha suhaa hasaï</rdg><rdg
+	       wit="#ψ #B">suhaa hasaï tuha</rdg></app> <app><lem>valiamuha</lem><rdg
+	       wit="#Ma">viliyamuha</rdg><rdg
+	       wit="#ψ #B">valiāṇaṇa</rdg><rdg
+	       wit="#γ">valiāṇa</rdg></app><app><lem>paṃkaaṃ</lem><rdg
+	       wit="#Ma">paṃkaja</rdg></app> <app><rdg wit="#Ma"><lacunaStart/></rdg></app>jāā.</l>
+	</lg>
+      </div>
+    </text>
+    <text xml:id="Tieken-ed-10" n="10" type="verse">
+      <head>10 (11 Ma, 12 Tp; 9 Bh, 10 R; K, ψ, B, γ, P, G, ξ; 292 T; 276 S)</head>
+      <head>Missing in W.</head>
+      <div type="edition">
+	<lg n="10">
+	  <l>sahi <app><lem
+          wit="#P">erisa</lem><rdg
+	  wit="#Tp #R #K #ψ #B #γ #S">erisi</rdg><rdg
+	  wit="#T">sārisi</rdg></app> <app><lem>ccia</lem><rdg
+	  wit="#Bh">vviya</rdg><rdg
+	  wit="#S">vvia</rdg></app> <app><lem>gaī</lem><rdg
+	  wit="#K #P">gaïṃ</rdg></app> mā <app><lem
+	  source="#HT">ruvvaü</lem><rdg
+	  wit="#γ">rua</rdg><rdg
+	  wit="#P">ruvasu</rdg><rdg
+	  wit="#T">ruvvasu</rdg><rdg
+	  wit="#S2">ruccasu</rdg><rdg
+	  wit="#S1">ruchasva</rdg></app> <app><lem>taṃsavalia</lem><rdg
+	  wit="#B">taṃkhalia</rdg></app>muhaaṃdaṃ</l>
+	  <l><app><lem>eāṇa</lem><rdg
+          wit="#K">eāṇaṃ</rdg></app> <app><lem>vāla</lem><rdg
+	  wit="#Ma #Tp #R #B #γ #T">bāla</rdg><rdg
+	  wit="#K #P">cāla</rdg></app><app><lem>vāluṃki</lem><rdg
+	  wit="#Tp">bālukki</rdg><rdg
+	  wit="#K">vālukvi</rdg><rdg
+	  wit="#ψ">vālukki</rdg><rdg
+	  wit="#B">valukki</rdg><rdg
+	  wit="#P">vāluki</rdg><rdg
+	  wit="#T">vālukki</rdg></app><app><lem>taṃtu</lem><rdg
+	  wit="#Bh">bhuṃtu</rdg></app><app><lem>kuḍilāṇa</lem><rdg
+	  wit="#K">kuḍilāṇaṃ</rdg></app> <app><lem>pemmāṇa</lem><rdg
+	  wit="#K #B #P #T #S #R #ψ #γ">pemmāṇaṃ</rdg></app>.</l>
+	</lg>
+      </div>
+    </text>
+  </group>
+</TEI>

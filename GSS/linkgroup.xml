@@ -1,0 +1,26 @@
+<linkGrp>
+  <!-- this uses CTS URNs rather than XML:IDs. !-->
+  <link target="urn:cts:indic:Hāla.SaSa.Weber1881:1
+		urn:cts:indic:Hāla.SaSa.Patwardhan1980:1
+	        urn:cts:indic:Hāla.SaSa.Prema-BORI:1
+	        urn:cts:indic:Hāla.SaSa.BORI585:1"/>
+  <link target="urn:cts:indic:Hāla.SaSa.Weber1881:2
+                urn:cts:indic:Hāla.SaSa.Prema-BORI:2
+	        urn:cts:indic:Hāla.SaSa.BORI585:2"/>
+  <link target="urn:cts:indic:Hāla.SaSa.Weber1881:3
+		urn:cts:indic:Hāla.SaSa.Patwardhan1980:2
+	        urn:cts:indic:Hāla.SaSa.Prema-BORI:3
+	        urn:cts:indic:Hāla.SaSa.BORI585:3"/>
+  <link target="urn:cts:indic:Hāla.SaSa.Weber1881:4
+		urn:cts:indic:Hāla.SaSa.Patwardhan1980:3
+	        urn:cts:indic:Hāla.SaSa.Prema-BORI:4
+	        urn:cts:indic:Hāla.SaSa.BORI585:4"/>
+  <link target="urn:cts:indic:Hāla.SaSa.Weber1881:5
+		urn:cts:indic:Hāla.SaSa.Patwardhan1980:4"/>
+  <link target="urn:cts:indic:Hāla.SaSa.Weber1881:10
+		urn:cts:indic:Hāla.SaSa.Tieken1981:10
+		urn:cts:indic:Hāla.SaSa.Patwardhan1980:9
+		urn:cts:indic:Hāla.SaSa.GOML3378:10
+		urn:cts:indic:Hāla.SaSa.LDI909:9"/>
+</linkGrp>
+ 

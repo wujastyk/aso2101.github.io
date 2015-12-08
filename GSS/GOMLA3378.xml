@@ -1,0 +1,36 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>Mādhavayajvamiśra (Chennai MS)</title>
+      </titleStmt>
+    </fileDesc>
+  </teiHeader>
+  <group>
+    <text xml:id="GOML3378-9" n="9" type="verse">
+      <div type="edition">
+	<pb n="7"/>
+      </div>
+    </text>
+    <text xml:id="GOML3378-10" n="10" type="verse">
+      <div type="edition">
+      <p>pra<subst><del>ā</del></subst>sādato bhartuḥ parāṅmukhīṃ rudatīm māninīm aparadhābhyanujñā<lb n="8" break="no"/>nena kṛtapremṇāṃ svabhāvabhaṅguravarṇanayā māninivṛttiṃ sakhī prārthayate |</p><lb n="9"/>
+      <quote type="base-text">
+	<lg n="10">
+	  <l>ehi erisa ccia gaī mā ruvvasu tassavaliamuhaandam |</l><lb n="10"/>
+	  <l>eāṇa bālavāluṃkutantukuḍilāṇa pemmāṇa ||</l><lb n="11"/>
+	</lg>
+      </quote>
+      <lg type="chaya">
+	<l>sakhī īdṛśy eva gatir mā rodīḥ tryaśravalitamukhacandram |</l><lb n="12"/>
+	<l>teṣāṃ balavālukītantukuṭilānāṃ premṇām iti ||</l><lb n="13"/>
+      </lg>
+      <p>erisa ccia īdṛśy eva mā ruvvasu mā rodīḥ | tassa tryaśra vālukkī vālukī<lb n="14"/> kukkuṭī mānopaśamopāyeṣu sāmādiṣu bhedo 'yam | yathoktaṃ | bhedas tattvapārjanam i<lb n="15" break="no"/>ti svakīyāsu madhyam ādhīrodheyam ubhayālaṅkāra upamā | yatra kvacit upalabdhahra<lb n="16" break="no"/>syarasopavarṇanacchalena bhartari priyasakhī rahasyavṛttasya lajjayātmano nāveditasya<lb n="17"/> prakārāntareṇa parijñānaja .... prakāśayantī sakhyāha |</p>
+      </div>
+    </text>
+    <text xml:id="GOML3378-11" n="11" type="verse">
+      <div type="edition">
+      </div>
+    </text>
+  </group>
+</TEI>
