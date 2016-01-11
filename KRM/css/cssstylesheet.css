@@ -1,0 +1,165 @@
+body {
+      font: 110% Sans-Serif;
+      text-align: center;
+      background-image:url('../images/Seamles-Blue-31.jpg');
+}
+#container {
+      width: 90%;
+      background-color: #FAFAFF;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #000000;
+      -moz-border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -khtml-border-radius: 15px;
+      border-radius: 15px;
+      text-align: left;
+}
+#titleStmt { text-align:center; }
+#titleStmt h2.title { margin-after:0.5in;}
+#titleStmt h2.title span.title { font-size:120%;display:block; }
+#titleStmt h2.title span.ofmarker { font-size:50%;font-style:italic;}
+#titleStmt h2.title span.author { font-size:100%;display:block; }
+.linebefore:before {
+      display: block;
+      content: " ";
+      height: 2px;
+      width: 70%;
+      background-color: black;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+}
+.alignmentContainer,.toc { 
+      vertical-align:text-top;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      background-color: #FFFFFF;
+      margin: 10px;
+	    padding: 1em;
+	    outline-style:solid;
+	    outline-width:1px;
+	    outline-color:#CCCCCC;
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      hyphens: auto;
+}
+tr { vertical-align:text-top; }
+tr td { padding-bottom: 3ex; padding-left: 1ex; }
+td.kn { width:45%; font-size:110%;}
+td.en { width:45%; }
+}
+div.citations {
+      margin: 10px;
+      font-size: small;
+}
+/* some other stuff: popup footnotes */
+a > .footnoteinline {
+      display: none;
+}
+a.app {
+      color: #0000AA;
+}
+a:link {
+      color: #0000FF;
+}
+a:visited {
+      color: #0000AA;
+}
+a {
+      text-decoration: none;
+}
+ul {
+      font: 90%;
+      list-style-position: inside;
+	    padding-left: 2em;
+	    text-indent: -1em;
+}
+ul.labelled {
+      list-style: none;
+      list-style-position: inside;
+	    padding-left: 1em;
+	    text-indent: -1em;
+}
+sup {
+	    vertical-align: super;
+	    font-size: 70%;
+      text-height: 0em;
+}
+.navigator {
+  display:block;
+  font-size: 80%;
+  float:right;
+}
+/* for murty docs */
+.line:first-child {
+  display:block;
+  padding-top: 10px;
+}
+.line {
+  display:inline;
+}
+.lg {
+  display:block;
+}
+p {
+  text-indent: 10px;
+  display:block;
+}
+div.para {
+  text-indent: 20px;
+  display:block;
+}
+div.quote {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* metrical formatting */
+span.b, span.d {
+  display:block;
+  text-indent: 20px;
+}
+span.mentioned {
+  font-weight: bold;
+}
+span.pageinfo {
+  font-size: 80%;
+  display: inline;
+  color: #1270A0; 
+}
+/* TOC stuff */
+p.div2head {
+  margin-left: 10px;
+}
+p.div3head {
+  margin-left: 10px;
+}
+.appnum {
+  font-size: 90%;
+}
+div.appdiv {
+  display:none;
+  font-weight: 400;
+}
+a div {
+  display:none;
+  font-weight: 400;
+}
+.tooltip {
+	display:none;
+	position:absolute;
+  background-image:url('../images/Seamles-Blue-31.jpg');
+	color: #000;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	border-radius: 2px;
+	padding:10px;
+  z-index:100;
+}
+.foreign {
+  font-style:italic;
+}
