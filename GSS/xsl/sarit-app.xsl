@@ -12,7 +12,7 @@
     <xsl:variable name="appno">
       <xsl:number count="tei:app" level="any" from="//tei:group"/>
     </xsl:variable>
-    <a href="#{$appno}" rel="modal:open">
+    <a href="#{generate-id()}" rel="modal:open">
       <xsl:choose>
 	<!-- IF THERE IS A LEMMA, PRINT IT. !-->
         <xsl:when test="tei:lem">
@@ -30,15 +30,17 @@
     <xsl:variable name="noteno">
       <xsl:number count="tei:note" level="any" from="//tei:group"/>
     </xsl:variable>
-    <a href="#{$noteno}" rel="modal:open"><xsl:text>*</xsl:text></a>
+    <a href="#{generate-id()}" rel="modal:open"><xsl:text>*</xsl:text></a>
   </xsl:template>
 
-  <xsl:template name="note-modal">
+  <!-- during the modal mode, disregard anything that is not 
+       either an apparatus entry or a note. !-->
+  <xsl:template match="text()" mode="modal"/>
+  <xsl:template match="tei:app//tei:note" mode="modal"/>
+
+  <xsl:template match="tei:note" mode="modal">
     <!-- modal for non-apparatus notes !-->
-    <xsl:variable name="noteno">
-      <xsl:number count="tei:note" level="any" from="//tei:group"/>
-    </xsl:variable>
-    <div id="{$noteno}" style="display:none;">
+    <div id="{generate-id()}" class="modal" style="display:none;">
       <xsl:choose>
 	<xsl:when test="@type='marginal'">
 	  <h3>Marginal note</h3>
@@ -62,13 +64,8 @@
     </div>
   </xsl:template>
 
-  <xsl:template name="app-modal">
-    <!-- This puts the content of the apparatus in
-	 a modal, with class "app." !-->
-    <xsl:variable name="appno">
-      <xsl:number count="tei:app" level="any" from="//tei:group"/>
-    </xsl:variable>
-    <div id="{$appno}" style="display:none;">
+  <xsl:template match="tei:app" mode="modal">
+    <div id="{generate-id()}" class="modal" style="display:none;">
       <h3>Apparatus</h3>
       <xsl:if test="tei:lem/@wit"><!-- if the LEM element has a WIT value,
 				       put it in the pop-up apparatus !-->
@@ -82,14 +79,25 @@
       </xsl:if>
       <xsl:for-each select="tei:rdg"><!-- ONE FOR RDG, ONE FOR NOTE !-->
         <span class="appentry">
+	  <!-- if there is witness information, add it !-->
           <xsl:if test="@wit">
             <xsl:call-template name="sigla-string">
               <xsl:with-param name="siglum" select="@wit"/>
             </xsl:call-template>
-            <xsl:if test="./text()">
-              <xsl:text>: </xsl:text>
-            </xsl:if>
+	    <xsl:if test="@type='chaya'">
+	      <xsl:text> (Sanskrit gloss)</xsl:text>
+	    </xsl:if>
+            <xsl:choose>
+	      <xsl:when test="./text()">
+		<xsl:text>: </xsl:text>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<xsl:text>omits</xsl:text>
+	      </xsl:otherwise>
+            </xsl:choose>
           </xsl:if>
+	  <!-- if the reading is attested in a sanskrit chāyā, make a 
+	       note of it !-->
           <xsl:apply-templates select="."/>
         </span>
       </xsl:for-each>

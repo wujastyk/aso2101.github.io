@@ -13,12 +13,8 @@
       <div class="text">
         <xsl:apply-templates/>
       </div>
-      <xsl:for-each select=".//tei:app">
-        <xsl:call-template name="app-modal"/>
-      </xsl:for-each>
-      <xsl:for-each select=".//tei:note">
-	<xsl:call-template name="note-modal"/>
-      </xsl:for-each>
+      <!-- this generates the modal stuff !-->
+      <xsl:apply-templates mode="modal"/>
       <!-- Now, if there is a related text in linkgroup, add the 
 	   possibility to show it/load it !-->
     </xsl:template>
@@ -26,7 +22,24 @@
 <!-- edition division !-->
     <xsl:template match="tei:div[@type='edition']">
       <div class="edition">
+	<h2>edition</h2>
 	<xsl:apply-templates/>
+      </div>
+    </xsl:template>
+
+<!-- translation division !-->
+    <xsl:template match="tei:div[@type='translation']">
+      <div class="translation">
+        <h2>translation</h2>
+        <xsl:apply-templates/>
+      </div>
+    </xsl:template>
+
+<!-- commentary division !-->
+    <xsl:template match="tei:div[@type='commentary']">
+      <div class="notes">
+        <h2>notes</h2>
+        <xsl:apply-templates/>
       </div>
     </xsl:template>
 
