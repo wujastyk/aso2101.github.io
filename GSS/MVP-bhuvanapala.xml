@@ -218,10 +218,10 @@
       <text xml:id="Bhuvanapala-ed-555" n="555">
 	<div type="edition">
 	  <pb n="241"/>
-	  <head>550.</head>
+	  <head>555.</head>
 	  <ref resp="#MVP" target="#Weber1881-522">W522</ref>
 	<p>sarasvatyāḥ |</p>
-	<quote type="base=text">
+	<quote type="base-text">
 	  <lg n="55">
 	    <l>saccaṃ kalahe kalahe surayāraṃbhā puṇo navā huṃti |</l>
 	    <l>māṇo uṇa māṇaṃsiṇi <app><lem>garuyaṃ pimmaṃ</lem><rdg
@@ -230,6 +230,10 @@
 	</quote>
 	<p>kācit prayatamānāṃ sakhīṃ śikṣayitum idam āha | satyaṃ kalahe kalahe suratāraṃbhāḥ punar navā bhavanti, mānaḥ punar manasvini gurukaṃ prema praṇāśayati | tasmāt kelikalahe kāmacāraḥ, mānaṃ tu mā kārṣīr iti | māṇaṃsiṇī iti samṛddhyāditvāt dīrghatvaṃ<note type="inline" resp="#MVP"><ref target="PraPrā:1.2">vararuci 1.2</ref></note> | pimma iti premaśabdasya sevāditvād dvitvaṃ<note type="inline" resp="#MVP"><ref target="PraPrā:3.58">vararuci 3.58</ref></note> | ākṣepaparyāyoktibhyāṃ saṃsṛṣṭir alaṃkāraḥ | sakhīkarma śikṣā || 555 ||</p>
 	</div><!-- edition !-->
+	<div type="translation">
+	  <head>Self-defeating sulkiness</head>
+	  <p>It is quite true that after every quarrel the delights of carnal enjoyment are ever new (i.e., are indulged in afresh). But oh sulking damsel, (prolonged and frequent) sulkiness destroys even intense love.</p>
+        </div>
       </text>
     </group>
   </group>
