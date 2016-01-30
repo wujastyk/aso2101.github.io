@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>Vemabhūpāla's Commentary</title>
+      </titleStmt>
+    </fileDesc>
+  </teiHeader>
+  <group>
+    <text xml:id="Vema-1" n="1" type="verse">
+      <div type="edition">
+	<lb n="3"/>
+	<quote type="base-text">
+	  <lg n="1">
+	    <l>pasuvaïṇo rosāruṇa-paḍimā-saṃkaṃta-gorimuhaaṃdaṃ |</l>
+	    <l>gahiaggha-paṃkaaṃ via saṃjhā-salilaṃjaliṃ ṇamaha || 1 ||</l>
+	  </lg>
+	</quote>
+	<lg>
+	  <l>hālaḥ prāk saptaśatīṃ gāthākoṭer vyadhatta saṃprati tu |</l>
+	  <l>so 'yaṃ vema-nṛpālas tasyā api śatakam āharat sāram ||</l>
+	</lg>
+	<p>atha śālivāhananarendro nirvighnagranthaparisamāptyartham iṣṭadevatānamaskāram ādau nibandhnāti | <quote type="pratīka">pasuvaïṇo</quote>—‘paśupate roṣāruṇapratimāsaṃkrāntagaurīmukhacandram | gṛhītārghyapaṅkajam iva saṃdhyāsalilāñjaliṃ namata’ | <quote type="pratīka">gorimuhaaṃdaṃ</quote> ity atra “gabhīraga it” iti <app><lem>itvam</lem><rdg wit="#T">satvam</rdg></app> | paśupateḥ saṃdhyāsalilāñjaliṃ namata | katham iva sthitam | roṣāruṇapratimāsaṃkrāntagaurīmukhacandraṃ <app><lem>sad gṛhī</lem><rdg wit="#T">saṃgṛhī</rdg></app>tārghyapaṅkajam iva sthitam | atra gauryā <app><lem>roṣasya kāraṇaṃ</lem><rdg wit="#T">roṣakāraṇaṃ</rdg></app> saṃdhyāvanitāvandanam | yataḥ strīṇāṃ <app><lem>anyāsaṃ</lem><rdg wit="#T">anyasaṃ</rdg></app>gamavaśād īryṣāmāno bhavati | arghyāñjalau puṣpaṃ vā phalaṃ vā nikṣeptavyam iti vidhānād gṛhītārghyapaṅkajam ivety uktam | atrotprekṣālaṃkāraḥ | “anyathāvasthitā vṛttiś cetanasyetarasya vā | anyathotprekṣyate yatra tām utprekṣāṃ vidur budhāḥ ||” || 1 ||</p>
+      </div>
+    </text>
+    <text xml:id="Vema-2" n="2" type="verse">
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="2">
+	    <l>amiaṃ pāaḍa-kavvaṃ paḍiuṃ soḍuṃ va je ṇa jāṇaṃti |</l>
+	    <l>kāmassa tatta-<app><lem>tattiṃ</lem><rdg
+	       wit="#M #T">tattataṃkaṃti</rdg></app> kuṇaṃti kaha <app><lem>te</lem><rdg
+	       wit="#M #T">de</rdg></app> ṇa lajjaṃti || 2 ||</l>
+	  </lg>
+	</quote>
+	<p>idānīṃ sa kaviḥ kraśaṃsāpūrvaṃ kāvyasyopādeya <supplied reason="omitted">tā</supplied>m āha | <quote type="pratīka">amiaṃ</quote>—“amṛtaṃ prākṛtakāvyaṃ paṭhituṃ śrotuṃ ca ye na jānanti | kāmasya tantratātparyaṃ kurvanti kathaṃ te na <lb n="4"/> lajjante ||” <quote type="pratīka">pāaḍakavvaṃ</quote> ity atra “pratige 'pratīpage” ity ḍatvaṃ | tattī-śabdas tātparyavācī | varaïttādiṣu pāṭhāt siddhaḥ | atra prākṛtakāvyasyāmṛtavad āhlādakatvād amṛtatvāropaḥ | sarvatra kāmasiddhāntasya nirūpaṇārthād etat paṭhitum anyena paṭhyamāne śrotuṃ vā ye na prathante teṣāṃ kāmatantratātparyakaraṇaṃ lajjāvahaṃ kathaṃ bhavatīty abhiprāyaḥ | tasmād avaśyaṃ jñātavyam ity asyopādeyatā | amṛtatvarūpaṇāt praśaṃsāhetur alaṃkāraḥ | śravaṇapaṭhanābhāvasya lajjāvahatvāt || 2 ||</p> 
+      </div>
+    </text>
+    <text xml:id="Vema-3" n="3" type="verse">
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="3">
+	    <l>gāhāṇa a geāṇa a taṃtī-saddāṇa <app><lem>poḍha</lem><rdg wit="#M">kottha</rdg><rdg wit="#M">voṃtha</rdg></app>-mahilāṇaṃ |</l>
+	    <l>tāṇaṃ sa ccia daṃḍo je tāṇa rasaṃ ṇa jāṇaṃti || 3 ||</l>
+	  </lg>
+	</quote>
+	<p>api ca | <quote type="pratīka">gāhāṇa</quote>—“gāthānāṃ geyānāṃ tantrīśabdānāṃ prauḍhamahilānām | teṣāṃ sa eva daṇḍo ye teṣāṃ rasaṃ na jānanti ||” atra <quote type="pratīka">tāṇa</quote> etacchabdaḥ prasiddho gāthābhiḥ pratyekaṃ saṃbadhyate | atra gāthānām upādeyageyādisāhacaryād upādeyatā | avaśyaṃ jñātavyānāṃ rasāvahānāṃ gāyanādīnām ajñānāt tathāvidhasukhenātmānaṃ vañcayatām ātmadrohiṇāṃ daṇḍaḥ ka ity apekṣāyāṃ sa eva daṇḍaḥ, <app><lem>tajjñānā</lem><rdg wit="#M">tadajñānā</rdg></app>bhāva eva daṇḍa ity uktaṃ | tasmād viśiṣṭo daṇḍo nāstīti bhāvaḥ | atiśayoktir alaṃkāraḥ | “vivakṣā yā viśeṣasya lokasīmātivartinī | asāv atiśayotiḥ syād alaṃkāraḥ satāṃ matā ||” ity uktatvāt | <app><lem>gāthārasajñena</lem><rdg wit="#M">gāthārasajñānāṃ</rdg></app> daṇḍakathanena etad utkarṣo <app><lem>dyotyate</lem><rdg wit="#T">dyotate</rdg></app> | yadvā tulyatogitālaṃkāraḥ | “vivakṣitaguṇotkarṣair yaḥ samīkṛtya kasyacit | kīrtanaṃ stutinindārthaṃ sā matā tulyayogitā ||” ity uktatvāt || 3 ||</p>
+      </div>
+    </text>
+    <text xml:id="Vema-4" n="4" type="verse">
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="4">
+	    <l>paṇamaha māṇassa halā calaṇe kiṃ devaehi aṇṇehiṃ |</l>
+	    <l>jassa pasādeṇa pio gholaï pāaṃta-pāsesu || 4 ||</l>
+	  </lg>
+	</quote>
+	<p>priyaṃ vaśīkartuṃ udyatāḥ sakhīḥ sakhyāha <quote type="pratīka">paṇamaha</quote>—“praṇamata mānasya he sakhyaś caraṇau kiṃ daivatai<app><lem>r anyaiḥ</lem><rdg wit="#T">r anyonyaiḥ</rdg></app> | yasya prasādena priyo ghūrnati pādāntapāŕsveṣu ||” <quote type="pratīka">ghola</quote> ity atra “ghūrṇer ghummapahallagholaghulāḥ” iti gholādeśaḥ | priyaṃ vaśīkartum anyā devatā na sevyā | asya phalasya durlabhatvāt | kiṃtu māna ekaḥ sevyaḥ | tasmin sevite sati tatprasāde priyaḥ <lb n="5"/> pādayor luṭhan vaśyo bhavati | <app><lem>tasmānmāna</lem><rdg wit="#M #T">tasyātmana</rdg></app> eva sevya ity āśayaḥ | atra hetur alaṃkāraḥ | mānapraṇāmasya priyāvarjanahetutvāt | lakṣaṇāmūlapadagatātyantatiraskṛto 'vivakṣitavācyo dhvaniḥ | ghola ity anena prṇaāme lakṣite priyavaśaṃvadatvarūpasya phalasya gamyamānatvāt | <app><lem>dhvanir nāma</lem><rdg wit="#T">dhvanirnarma</rdg></app> vācyād atiśāyitaṃ kāvyam | tathā coktam | “idam uttamam atiśāyini vyaṅgye vācyād dhvaniḥ” || ity ādi || 4 ||</p>
+      </div>
+    </text>
+    <text xml:id="Vema-5" n="5" type="verse">
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="5">
+	    <l>saccaṃ kalahe kalahe suraāraṃbho ṇavo ṇavo hoi |</l>
+	    <l><app><lem>māṇo</lem><rdg 
+	         wit="#M #T">māṇa</rdg></app> uṇa māṇaṃsiṇi garuo pemmaṃ viṇāsei || 5 ||</l>
+	  </lg>
+	</quote>
+	<p>kācit upāyena mānāt sakhīṃ nivārayati | <quote type="pratīka">saccaṃ kalahe</quote>—“satyaṃ kalahe kalahe suratārambho navo navo bhavati | mānaḥ punar manasvini guruḥ prema vināśayati ||” <quote type="pratīka">māṇaṃsiṇi</quote> ity atra “tu samṛddhyādau” iti bindul | atra mānaḥ kartavya ity anunīya viphalāsu sakhīṣu kācidvidagdhā sakhī nāyakena bhedaṃ gamitā nāyikām upetya, manasvini māno na kartavya iti vṛthā tvām ākṣipanti mugdhāḥ sakhyāḥ etāḥ | mānaḥ kartavyaḥ | māne hi phalaṃ mahad astīti navanavasuratārambharūpaṃ phalaṃ darśayitvā tadāptībhūya sa punar māno guruś cet prema vināśayati | ato dīrgho na kārya ity upadiśya tāṃ mānān nivārayatīti bhāvaḥ | atra svataḥsiddhārthaśaktimūlo 'laṃkāreṇālaṃkāradhvaniḥ, hetunā gurur na kartavya ity ākṣepasya gamyamānatvāt | yathoktam—“pratiṣedhoktir ākṣepaḥ |” || 5 ||</p>
+      </div>
+    </text>
+    <text xml:id="Vema-6" n="6" type="verse">
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="6">
+	    <l>saccaṃ jāṇaï daṭṭhuṃ sarisammi jaṇammi jujjae rāo |</l>
+	    <l>maraü ṇa tumaṃ bhaṇissaṃ maraṇaṃ pi silāhaṇijjaṃ se || 6 ||</l>
+	  </lg>
+	</quote>
+	<p>dūtīvyākyam | <quote type="pratīka">saccaṃ jāṇaï</quote>—“satyaṃ jānāti draṣṭuṃ sadṛśe jane yujyate rāgaḥ | mriyatāṃ na tvāṃ bhaṇiṣyāmi maraṇam api ślāghanīyam asyāḥ ||” atra draṣṭuṃ jānāti satyam ity anena kulaśīlasaundaryādibhir guṇair lokottare nāyake abhilāṣāṃ kṛtavatīti gamyate | sadṛśe jane yujyate rāga ity anena lokottarasya nāyakasya nāyikayā sādṛśyakathanāt nāyikāyā api lokottaratvaṃ gamyate | <app><lem>mriyatām i</lem><rdg wit="#M #T">mṛgayāmi</rdg></app>ty anena nāyikā navamīṃ daśāṃ prāpteti gamyate | tvāṃ na hi bhaṇiṣyāmīty anena bhavān sarvopālambhānāṃ bhājanam iti gamyate | asyāḥ maraṇam api ślāghyam ity anena etādṛśi puruṣe 'nurāgaṃ kṛtvā mṛtā<lb n="6"/>yām api tasyāṃ kīrtir eva nopālambha iti gamyate | athavāniṣṭam api maraṇam idānīṃ <app><lem>saṃtāpahāri</lem><rdg wit="#T">saṃtāpakāri</rdg></app>tayā tasyāḥ ślāghyam iti gamyate | atra kācid vidagdhā dūtī nāyakaṃ gatvā nāyikām āha | arha eva nāyake 'bhilāṣaṃ cakre sadṛśe | kutaḥ soyam anurāgo yujyate janair anumodyata eveti praśaṃsāyām | virahavyathātiśayena mriyatām | yato 'syā maraṇam api ślāghyam | tato na tvāṃ bhaṇiṣyāmīti vakroktyā bhavān upālambhabhājanaṃ bhaviṣyatīty upālambhapradarśanena nāyakaṃ protsāhayatīty abhiprāyaḥ | atra dūtī nisṛṣṭārthā | tathā cokyam “buddhaitasya samīhitam ātmadhiyaivārabheta yā kāryam | sā hi nisṛṣṭārtheti |” atra lakṣaṇāmūlavākyagatātyantatiraskṛtāvivakṣitavācyasaṃkīrṇo dhvaniḥ | satyaṃ jānāti draṣṭum ityādibhir gamyamānair anugrāhakair na tvāṃ bhaṇiṣyāmīty anena gamyamānasyānugrāhyatvāt || 6 ||</p>
+      </div>
+    </text>
+    <text xml:id="Vema-7" n="7" type="verse">
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="8">
+	    <l>kassa va ṇa hoi roso daṭṭhūṇa piāe savvaṇaṃ aharaṃ |</l>
+	    <l>sa-bhamara-pommagghāiṇi vāria-vāme sahasu eṇhiṃ || 7 ||</l>
+	  </lg>
+	</quote>
+	<p>kasyāścit sakhyā vacanam | <quote type="pratīka">kassa</quote>—“kasya vā na bhavati roṣo dṛṣṭvā priyāyāḥ savraṇam adharam | sabhramapadmāghrāyiṇi vāritavāme sahasvedānīm ||” <quote type="pratīka">pommaṃ</quote> ity atra “padme mi” ity atroktam | (tvaṃ) <quote type="pratīka">eṇhiṃ</quote>  ity atra “eṇhiṃ attahe idānīmaḥ” ity idānīṃ-śabdasya <quote type="pratīka">eṇhiṃ</quote> ādeśaḥ | atra kācid vidagdhā sakhyupapatinā daṣṭādharaāṃ sakhīṃ patir ālokya kiṃ vā prativaktīti tasmin samāgacchati sati tadāgamanam ajānatīva tāṃ prati, he vāritavāmāsye madvacanānaṅgīkāriṇi priyāyāḥ savraṇam adharaṃ dṛṣṭvā kasya roṣo na bhavati, īrṣyābhararahitasyāpi roṣo bhavatīty arthaḥ | sabhramarapadmāghrāṇaṃ na kartavyam ity uktam | kimarthaṃ kṛtam | idānīṃ na kevalaṃ vedanām eva, taddṛṣṭvā tena yat kriyate tad api sahasveti sakhīṃ bhartsayantīva tasyā adharakṣatir bhramarakṛtā akṛteti taṃ prati <app><lem>śrāvayatīty a</lem><rdg wit="#M #T">śrāvayantya</rdg></app>bhiprāyaḥ | atra svataḥsiddhārthaśaktimūlo vastunānyaviṣayo vastudhvaniḥ || 7 ||</p>
+      </div>
+    </text>
+    <text xml:id="Vema-8" n="8" type="verse">
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="8">
+	    <l>taṃ tuha kajjaṃ taṃ cai kajjaṃ majjha tti jaṃ sadā bhaṇasi |</l>
+	    <l>o dūi sacca-vaaṇe ajja khu pāraṃ gaā tassa || 8 ||</l>
+	  </lg>
+	</quote>
+	<p>nāyikā dūtīm upālabhate | <quote type="pratīka">jaṃ tuha</quote>—<lb n="7"/>“yat tava kāryaṃ tad eva kāryaṃ mameti yat sadā bhaṇasi | o dūti satyavacane adya khalu pāraṃ gatā tasya” | “o (iti) paścātāpasūcane” | atra nāyikā dūtīṃ prati, yat kṛtyaṃ (tava) tad eva mat kāryam iti yat sadā bhaṇasi | he satyavacane adya tasya kāryasya pāraṃ gatāsīty anenāsatyapralāpini me priyasaṃgamarūpaṃ yat kāryaṃ tvayā ca preritaṃ mayā jñātam iti tām upālabhata ity abhiprāyaḥ | atra lakṣaṇāmūlavākyagatātyantatiraskṛtāvivakṣitavācyasaṃkīrṇo dhvaniḥ, satyapadavacanavyaṅgyasyā<app><lem>nugrāhyatvāt</lem><rdg wit="#T">nugrāhakatvāt</rdg></app> || 8 ||</p>
+      </div>
+    </text>
+    <text xml:id="Vema-9" n="9" type="verse">
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="9">
+	    <l>phuriaṃ vāmacchi tue jaï ehii <app><lem>mama</lem><rdg wit="#M #T">marū</rdg></app> pio jja tā suiraṃ |</l>
+	    <l>saṃmīlia dāhiṇaaṃ tuha <app><lem>viaṇhaṃ</lem><rdg wit="#M #T">vitiṇhaṃ</rdg></app> puloissaṃ || 9 ||</l>
+	  </lg>
+	</quote>
+	<p>nāyikoktiḥ | <quote type="pratīka">phuriaṃ</quote>—“sphuritaṃ vāmakṣi tvayā yady eṣyati me priyo 'dya tasmāt suciram | saṃmīlya dakṣiṇaṃ tvayā vitṛṣṇaṃ drakṣyāmi ||” <quote type="pratīka">dāhiṇaaṃ</quote> ity atra “he dakṣiṇe(sya)” ity dīrghaḥ | “na vā tīrthaduḥkhadakṣiṇadīrghe” ity hādeśaḥ | atra kācit priyadarśanotsukā proṣitabhartṛkā sphuraṇair akṣṇi priyāgamanaṃ śaṃsati sati hṛṣṭā, he vāmākṣi vāmanetra, adya me priyo <app><lem>yady eṣyati</lem><rdg wit="#T">yad eṣyati</rdg></app> tadā dakṣiṇaṃ saṃmīlya tvayaivāvitṛṣṇam avalokayiṣyāmīti pāritoṣikaṃ pratiśṛṇotīty abhiprāyaḥ | jñāpakahetur alaṃkāraḥ, akṣisphuraṇasya priyadarśanajñāpakatvāt | atra vākyagato vivakṣitānyaparavācyo 'saṃlakṣyakramo bhāvadhvaniḥ, tasya gamyamānatvāt || 9 ||</p>
+      </div>
+    </text>
+    <text xml:id="Vema-10" n="10" type="verse">
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="10">
+	    <l>āṇā-saāi <app><lem>deṃtī</lem><rdg wit="#M #T">daṃtī</rdg></app> taha surae harisa-viasia-kavolā |</l>
+	    <l>gose vi oṇaa-muhī aha se tti piaṃ ṇa saddahimo || 10 ||</l>
+	  </lg>
+	</quote>
+	<p>nāyikoktiḥ | <quote type="pratīka">āṇāsaāi</quote>—“ājñāśatāni dadatī tathā surate harṣavikasitakapolā | gosarge vyapanatamukhī asau seti priyāṃ na śraddadhmaḥ ||” gosarga(iti) prabhātavācī, goṇādiṣu pāṭhāt siddhaḥ | ājñāśatāni—muñca, pīḍaya, gṛhāṇa, jīvaya, trāyasvetyādi | <quote type="pratīka">aha</quote> etad adasaḥ prathamikavacanam, “ahadvā sunā” iti sūtrāt siddham | atra nāyako niśāyāṃ surate harṣavikasitakapolāṃ rasāveśād ājñāśatāni dadatīm atidhṛṣṭāṃ svakīyāṃ nāyikām upalabhya prabhāte kim apy ajānatīm iva lajjayāvanatamukhīṃ seyam ity aśraddheyāṃ ca dṛṣṭvā <app><lem>strīṇāṃ</lem><rdg wit="#T">sakhīnāṃ</rdg></app> ślāghyaṃ surate dhārṣṭyam | anyadā lajjeti guṇadvayam asyām eva pratiṣṭhitam iti tāṃ praśaṃsatīti bhāvaḥ | atra saṃlakṣyakramavivakṣitānyaparavācyasaṃsṛṣṭo bhāvadhvaniḥ, dhārṣṭyavrīḍayoḥ <lb n="8"/>pratīyamānatvāt || 10 ||</p>
+      </div><!-- edition !-->
+    </text>
+    <text xml:id="Vema-11" n="11" type="verse">
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="11">
+	    <l>paccūsāgaa ṇava-rāa-ratta kia-loa-loaṇāṇaṃda |</l>
+	    <l><app><lem>aṇṇattha</lem><rdg
+	         wit="#M #T">aṇatta</rdg></app>-gamia-<app><lem>savvari</lem><rdg
+		 wit="#M #T">savvaria</rdg></app>ṇaha-bhūsaṇa deva diṇavaï ṇamo de || 11 ||</l>
+	  </lg>
+	</quote>
+	<p>kācit priyam anyāpadeśenopālabhate | <quote type="pratīka">paccūsāgaa</quote>—“pratyūṣāgata nava-rāga-rakta kṛta-loka-locanānanda | anyatra gamitaśārvarīka nabhobhūṣaṇa (nakhabhūṣaṇeti ca) dinapate namas te ||” atra vācyārthaḥ spaṣṭaḥ | vyaṅgyārthas tu pratyūṣāgata, navarāgarakta, priyāliṅganavaśāt kucataṭasaktakuṅkumādirāgarakta, kṛtalokalocanānanda, abhilaṣitakāminīsaṃgamavaśād atiprasannamukharāgatayā janitajananayanotsava, anyatra gamitaśārvarīketi śarvarīviraho lakṣyate | nakhapadabhūṣaṇa, dinapate, na rātrau, namas ta itītaḥparaṃ tvayā saṃbhāṣaṇaṃ na kariṣyāmi | atra kācit khaṇḍitā sūryapraṇāmam ācarantī tatsamaye paścād āgataṃ kṛtāgasaṃ kṛtāparādhaṃ nāyakam ajānatīva sūryastutiṃ vyājīkṛtya pratyūṣāgateti padabandhena tatkṛtāparādhān gaṇayantī namas ta iti vakroktyā tam upālabhata iti bhāvaḥ | lakṣaṇāmūlo 'tyantatiraskṛtāvivakṣitavācyasaṃkīrṇo dhvaniḥ | ubhayaśaktimūlopamālaṃkāreṇa namas ta ity anena gamyamānasyānugrāhyatvāt || 11 ||</p> 
+      </div><!-- edition !-->
+    </text>
+    <text xml:id="Vema-96" n="96" type="verse">
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="96">
+	    <l>māe gharovaaraṇaṃ ajja khu ṇatthi tti sāhiaṃ tumae |</l>
+	    <l>tā bhaṇa kiṃ karaṇijjaṃ emea ṇa vāsaro ṭhāi || 96 ||</l>
+	  </lg>
+	</quote>
+	<p>kasyāścit svairiṇyā vacanaṃ | <quote type="pratīka">māe</quote>—“mātar gṛhopakaraṇaṃ adya khalu nāstīti kathitaṃ tvayā | tasmād bhaṇa kiṃ karaṇīyaṃ evam eva na vāsaras tiṣṭhati ||” “<quote type="pratīka">emea</quote>”—ity atra “evameva kevakulaprāvārakayāvajjīvitāvaṭāvartamāna-tāvati vaḥ” [ity ādinā] antarvartino vakārasya [acā sahitasa] lopaḥ<note resp="#AO">This is a quotation of Trivikrama <ref target="urn:cts:indic:Trivikrama.PraVyā:1.3.94">1.3.94</ref>, which reads in Vaidya's edition <foreign xml:lang="sa-Latn">evameva-devakula-prāvāraka-yāvaj-jīvitāvaṭā-vārtamāna-tāvati vaḥ</foreign>. See Vararuci <ref target="urn:cts:indic:Vararuci.PraPrā:4.5">4.5</ref> and Hemacandra <ref target="urn:cts:indic:Hemacandra.ŚaAnu:8.1.271">1.271</ref> for similar rules.</note> | atra kācid asatī mātaram adya gṛhopakaraṇaṃ nāstītyevamādinā vākyena svairavihārārthinīyaṃ kaṃcanābhisartukāmā gṛhopakaraṇavyājena mātaraṃ prchatīty abhiprāyaḥ | atra <pb n="38"/>svataḥ siddhārthaśaktimūlo vastunā vastudhvaniḥ, svairavihārasya gamyamānatvāt || 96 ||</p>
+      </div><!-- edition !-->
+    </text>
+    <text xml:id="Vema-104" n="104" type="verse">
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="104">
+	    <l>ghariṇi-pavesia-jāre ghare gharattheṇa chiṃchaī ṭhaviā |</l>
+	    <l>miliā chiṃchai-jārā pacchā ghariṇī-gharattho a || 104 ||</l>
+	  </lg>
+	</quote>
+	<p>kaver vākyam | <quote type="pratīka">ghariṇi</quote>—“gṛhiṇīpraveśitajāre gṛhe gṛhasthena asatī sthāpitā | militāv asatījārau paścād gṛhiṇī gṛhasthaś ca ||” atra vākyārthaḥ spaṣṭạḥ | abhiprāyo vyakta eva || 104 ||</p>
+	<trailer>
+	  iti vedakomaṭhivemabhūpālena kṛtā
+	  saptaśatīsāraṭīkā bhāvadīpikā saṃpūrṇā
+	</trailer>
+      </div><!-- edition !-->
+    </text>
+  </group>
+</TEI>

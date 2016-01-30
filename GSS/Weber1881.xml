@@ -7,6 +7,13 @@
       </titleStmt>
     </fileDesc>
     <sourceDesc>
+      <bibl>
+	<title>Das Saptaçatakam des Hâla</title>
+	<editor>Albrecht Weber</editor>
+	<publisher>Brockhaus</publisher>
+	<pubPlace>Leipzig</pubPlace>
+	<date>1881</date>
+      </bibl>
       <listWit>
 	<listWit>
 	  <head>Handschriften mit blossem Text.</head>
@@ -3699,11 +3706,41 @@
     </text><!-- verse !-->
     <text xml:id="Weber-ed-455" n="455" type="verse">
       <div type="edition">
+	<head>455. (466 γψ, 467 π<note resp="#AW">In γ bereits auch schon, ebenso wie in ξ als 197, s. oben p. 71 bei v. 195; daher hier bloss: ratikelī 'ti vyākhyātā gāthā. S. im Uebrigen A 48 Abh. p. 219.</note>, 490 χ, 462 R; 2 TS.)</head>
 	<lg n="455">
-	  <l>raïkelihiaṇiaṃsaṇakarakisalaaruddhaṇaaṇajualassa</l>
-	  <l>ruddassa taïaṇaaṇaṃ pavvaïpariuṃviaṃ jaaï</l>
+	  <l>raïkeli<app><lem>hia</lem><rdg
+	       wit="#R">hiya</rdg></app><app><lem>ṇiaṃsaṇa</lem><rdg
+	       wit="#γ #S #Ta">ṇiasaṇa</rdg><rdg
+	       wit="#Ts">ṇivasaṇa</rdg><rdg
+	       wit="#ψ">ṇiaṃsaṇa</rdg><rdg
+	       wit="#R">ṇiyaṃsaṇa</rdg><rdg 
+	       wit="#π #χ" type="chaya">nitaṃvasya</rdg><rdg
+	       wit="#χ #G #S #T">nivasana</rdg></app>kara<app><lem>kisalaaruddha</lem><rdg
+	       wit="#R #S">kisalayaruddha</rdg><rdg
+	       wit="#T">jualaṇiruddho</rdg></app><app><lem>ṇaaṇa</lem><rdg
+	       wit="#R #S">ṇayaṇa</rdg></app>jualassa</l>
+	  <l>ruddassa <app><lem>taïa</lem><rdg
+	       wit="#R">taïya</rdg></app><app><lem>ṇaaṇaṃ</lem><rdg
+	       wit="#R">ṇayaṇaṃ</rdg><rdg
+	       wit="#T">ṇaaṇi</rdg></app> <app><lem>pavvaï</lem><rdg
+	       wit="#ψ">pabbaï</rdg><rdg
+	       wit="#γ #S #T">pavvaï</rdg><rdg
+	       wit="#R">gorī</rdg><rdg
+	       wit="#π #ξ #χ #G #S #T" type="chaya">pārvatī</rdg></app>pari<app><lem>uṃviaṃ</lem><rdg
+	       wit="#ψ">uṃviyaṃ</rdg><rdg
+	       wit="#γ #S">cuṃviaṃ</rdg><rdg
+	       wit="#T">cuṃbiaṃ</rdg><rdg
+	       wit="#R">cuṃbiyaṃ</rdg></app> <app><lem>jaaï</lem><rdg
+	       wit="#R">jayaï</rdg></app></l>
 	</lg>
       </div><!-- edition !-->
+      <div type="translation">
+        <head>Verschämtheit und Geistesgegenwart [s. v. 351. 459].</head>
+        <p>Glückauf dem von Pārvatī geküssten dritten Auge des Rudra, dessen anderes Augenpaar sie mit ihren Sprosshänden zudeckte, als sie im Liebesspiel ihres Gewandes beraubt ward.</p>
+      </div><!-- translation !-->
+      <div type="commentary">
+	<p>samāne 'pi sthaganavyāpāre lokottareṇaitat sthaganam iti jayati ity abhivyajyate πξ, — kāpi (kācit χ) sakhyāḥ śikṣārthaṃ pārvatyā lajjāyām api snehābhivyaktivaidagdhyaṃ varṇayati (āha χ) χG, — jayati jayam utpādayati tiṣṭhatīty arthaḥ χ, — dvābhyāṃ netrābhyāṃ karasparśa eva labdhaḥ tṛtīyanayanena tu samaṃtāc cuṃvanena gauryā adhararaso labdha iti tṛtīyanayanasyotkṛṣṭatayā jaya iti (tīti Cod.); yadvā gauryā cuṃvanavyājāt tṛtīyanayanasyāpi sthaganād ,,utpannamatayo na kṛchreṣv avasīdaṃtīti'' ti sūcitaṃ; ... yadvā, nagnastrīdarśanaṃ trinayanasyāpi niṣiddhaṃ, tad āha: saṃpattiṃ icchadbhir nagnastrīdarśanaṃ pariharaṇīyam iti; tathācoktaṃ: araṃ (annaṃ?) bhu(ṃ)kte ciraṃ snāti datta puṣpaṃ na jighrati | na paśyati striyaṃ nagnām aśriyas te na mānavā iti lakṣmīvacanaṃ S; — zu ṇiaṃsaṇa für nivasana s. 125. 351.</p>
+      </div><!-- commentary !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-456" n="456" type="verse">
       <div type="edition">
@@ -3731,11 +3768,46 @@
     </text><!-- verse !-->
     <text xml:id="Weber-ed-459" n="459" type="verse">
       <div type="edition">
+	<head>459. (470 γψ, 471 π, 494 χ, 466 R; 614 S, 386 T.)</head>
 	<lg n="459">
-	  <l>raïviramalajjiāo appattaṇiaṃsaṇāu sahasa tti</l>
-	  <l>ḍhakkaṃti piaamāliṃgaṇeṇa jahaṇaṃ kulavahūo</l>
+	  <l>raïvirama<app><lem>lajjiāo</lem><rdg 
+	       wit="#R">lajjiyāo</rdg></app> 
+	     appatta<app><lem>ṇiaṃsaṇāu</lem><rdg
+	       wit="#γ">ṇiaṃsaṇāu</rdg><rdg
+	       wit="#S">ṇiasaṇāu</rdg><rdg 
+	       wit="#R">ṇiyaṃsaṇāo</rdg><rdg
+	       wit="#ψ">ṇiaṃsaṇāo</rdg><rdg
+	       wit="#T">ṇiaṃsaṇāho</rdg></app> <app><lem>sahasa tti</lem><rdg
+	       wit="#S">sahasa tti</rdg><rdg
+	       wit="#ψ">sahā tti</rdg><rdg
+	       wit="#T">sahase tti</rdg><rdg
+	       wit="#γ">sahasaṃ ti</rdg><rdg
+	       wit="#R">pahasaṃ ti</rdg><rdg
+	       wit="#T" type="chaya">sahase 'ti</rdg><rdg
+	       wit="#S" type="chaya">sahasā iti</rdg><rdg
+	       wit="#χ #G" type="chaya">sahasaiva</rdg></app></l>
+	  <l><app><lem>ḍhakkaṃti</lem><rdg
+	       wit="#ψ">ṭakkaṃti</rdg><rdg
+	       wit="#γ #R">ḍhakvaṃti</rdg><rdg
+	       wit="#S">ḍhakkeṃti</rdg><rdg
+	       wit="#T #χ">ḍhakkaṃti</rdg><rdg
+	       wit="#T" type="chaya">sthagayaṃti</rdg><rdg
+	       wit="#π #χ #G" type="chaya">āchādayaṃti</rdg><rdg
+	       wit="#S" type="chaya">saṃvṛṇvaṃti</rdg></app> 
+	     <app><lem>piaamā</lem><rdg
+	       wit="#R">piyayamā</rdg></app>liṃgaṇeṇa jahaṇaṃ kulavahūo</l>
 	</lg>
       </div><!-- edition !-->
+      <div type="translation">
+        <head>Rasche Auskunft [s. 351. 455]</head>
+        <p>Sittige Frauen bedecken schämig beim Ende der Lust, 
+           wenn sie ihr Gewand nicht erreichen können, ihr Hüfte
+	   rasch durch eine Umarmung des Liebsten.</p>
+      </div><!-- translation !-->
+      <div type="commentary">
+	<p>ḍhakkaṃti āchādayaṃtī 'ty arthe deśī χ; s. v. 314; —
+	   kā 'pi kulavadhūvṛttaṃ śikṣayituṃ sakhīm āha G.</p>
+      </div><!-- commentary !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-460" n="460" type="verse">
       <div type="edition">
@@ -4003,11 +4075,52 @@
     </text><!-- verse !-->
     <text xml:id="Weber-ed-493" n="493" type="verse">
       <div type="edition">
+	<head>493. (505 γ, 504 ψπ, 548 χ), 534 R; 375 S; 249 T.</head>
+	<!-- π 502. 503 = G 481. 482 !-->
+	<!-- χ 546. 547 = G 481. 445 !-->
 	<lg n="493">
-	  <l>aïkovaṇā vi sāsū ruāviā gaavaīa soṇhāe</l>
-	  <l>pāapaḍanoṇaāe dosu vi galiesu valaesu</l>
+	  <l><app><lem>aïkovaṇā</lem><rdg
+	       wit="#T">saïkovaṇā<note xml:lang="sa-Latn"> (sadākopanā)</note></rdg></app> 
+	     vi <app><lem>sāsū</lem><rdg
+	       wit="#ψ">sāsu</rdg></app>
+	     <app><lem>ruāviā</lem><rdg
+	       wit="#γ">rūāviā</rdg></app>
+	     <app><lem>gaavaīa</lem><rdg
+	       wit="#S">gaavaïa</rdg><rdg
+	       wit="#T">gapaīe</rdg><rdg
+	       wit="#R">gayavaīe</rdg><rdg
+	       wit="#Alle" type="chaya">gatapatikayā</rdg></app>
+	     <app><lem>soṇhāe</lem><rdg
+	       wit="#R">suṇhāe</rdg><rdg
+	       wit="#γ">sohṇāe</rdg></app></l>
+	  <l><app><lem>pāapa</lem><rdg
+	       wit="#R">pāyava</rdg></app>ḍa<app><lem>ṇoṇaāe</lem><rdg
+	       wit="#ed">noṇaāe<note xml:lang="en"> (typo?)</note></rdg><rdg
+	       wit="#S">ṇoṇaāe</rdg><rdg
+	       wit="#γ #ψ">ṇoṇṇaāe</rdg><rdg
+	       wit="#R">noṇṇayāe</rdg><rdg
+	       wit="#π #G #S">pādapatanāvanatayā</rdg><rdg
+	       wit="#T">pāḍapaḍaṇeṇa pāesu<note xml:lang="sa-Latn"> (pādapadanena pādayor!)</note></rdg><rdg
+	       wit="#χ">pādapatanena mānamrayor<note xml:lang="sa-Latn"> (!)</note></rdg></app> 
+	     dosu <app><lem>vi</lem><rdg 
+	       wit="#T"></rdg></app> galiesu valaesu</l>
 	</lg>
       </div><!-- edition !-->
+      <div type="translation">
+	<head>Só abgehärmt!</head>
+	<p>Sogar die sehr harte (zum Zorne geneigte) Schwiegermutter
+	musste über ihre Schwiegertochter, deren Gatte in der Ferne,
+	weinen, als ihr alle beide Armbänder entglitten, während sie
+	sich neigte, ihr zu Füssen zu fallen.</p>
+      </div><!-- translation !-->
+      <div type="commentary">
+        <p>.. valayayor iti sati saptamī πGS, — proṣitapatikāyā
+	virahāvasthāṃ sakhī tatkāṃtasamīpagāminaṃ pathikam āha; evam
+	iyaṃ matputrakṛte kṛśā jātā yenā 'nayā matpādavaṃdanāvanatayā
+	valayapāto 'pi na jñāta ity ālokya niṣṭhurā 'pi śvaśrū ruroda G (von
+	evam an ählich π); sakhyā lekhagāthā T (ein Brief, den die Freundin
+	an den Abwesenden schreibt, um ihn zur Rückkehr anzutreiben).</p>
+      </div><!-- commentary !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-494" n="494" type="verse">
       <div type="edition">
@@ -4067,19 +4180,122 @@
     </text><!-- verse !-->
     <text xml:id="Weber-ed-501" n="501" type="verse">
       <div type="edition">
+	<head>501. (511 γψ, 510 π, 553 χ, 535 R; 407 S, 203 T.)</head>
 	<lg n="501">
-	  <l>āucchaṇavicchāaṃ jāāi muhaṃ ṇiacchamāṇeṇa</l>
-	  <l>pahieṇa soaṇialāvieṇa gaṃtuṃ cia ṇa iṭṭhaṃ</l>
+	  <l><app><lem>āucchaṇa</lem><rdg
+	       wit="#γ #ψ #S">āuchaṇa</rdg><rdg
+	       wit="#R">āuṃchaṇa</rdg><rdg
+	       wit="#T">āpuchaṇa</rdg><rdg
+	       wit="#G" type="chaya">āpṛchaṇa</rdg><rdg
+	       wit="#T #χ" type="chaya">āpraśna</rdg><rdg
+	       wit="#S" type="chaya">anukṣaṇa<note> (! ānu prima m.)</note></rdg><rdg
+	       wit="#π" type="chaya">gaṃtum anujānīhi 'ti praśna-</rdg></app><app><lem>vicchāaṃ</lem><rdg
+	       wit="#γ #ψ #S">vichāaṃ</rdg><rdg
+	       wit="#T">ṇichāaṃ</rdg><rdg
+	       wit="#R">ṇichāmaṃ</rdg><rdg
+	       wit="#χ #G #S" type="chaya">vichāyaṃ</rdg><rdg
+	       wit="#π" type="chaya">vikṣāyaṃ</rdg><rdg
+	       wit="#T" type="chaya">niśchāyaṃ</rdg></app>
+	     <app><lem>jāāi</lem><rdg
+	       wit="#R">jāyāi</rdg><rdg
+	       wit="#T">jāāe</rdg></app> muhaṃ 
+	     <app><lem>ṇiacchamāṇeṇa</lem><rdg
+	       wit="#ψ #S #T">niachamāṇeṇa</rdg><rdg
+	       wit="#R">niyachamāṇeṇa</rdg><rdg
+	       wit="#γ">ṇibhālaaṃteṇa</rdg><rdg
+	       wit="#π #χ #G #S" type="chaya">nirīkṣamāṇeṇa</rdg><rdg
+	       wit="#T" type="chaya">paśyatā</rdg></app></l>
+	  <l>pahieṇa <app><lem>soa</lem><rdg
+	       wit="#γ #ψ">soa</rdg><rdg
+	       wit="#R">soya</rdg><rdg
+	       wit="#S #T">ṇeha</rdg><rdg
+	       wit="#χ #G" type="chaya">śoka</rdg><rdg
+	       wit="#S #T" type="chaya">sneha</rdg></app>
+	     <app><lem>ṇialāvieṇa</lem><rdg
+	       wit="#ψ">ṇialāvieṇa</rdg><rdg
+	       wit="#γ">ṇiaḍāvieṇa</rdg><rdg
+	       wit="#T">ṇialāieṇa</rdg><rdg
+	       wit="#S">ṇigaḍāieṇa</rdg><rdg
+	       wit="#R">niyalālieṇa</rdg><rdg
+	       wit="#χ #S #T" type="chaya">nigaḍāyitena</rdg><rdg
+	       wit="#G" type="chaya">nigaḍitena</rdg><rdg
+	       wit="#π" type="chaya">nigaḍaïtena</rdg></app>
+	     gaṃtuṃ <app><lem>cia</lem><rdg 
+	       wit="#γ">via</rdg><rdg
+	       wit="#S">vvia</rdg><rdg
+	       wit="#R">cciya</rdg></app> ṇa 
+	     <app><lem>iṭṭhaṃ</lem><rdg
+	       wit="#γ #ψ">īṭhṭhaṃ</rdg><rdg
+	       wit="#R #S">tiṇṇaṃ</rdg><rdg
+	       wit="#T">iṇaṃ</rdg><rdg
+	       wit="#π #χ #G" type="chaya">neṣṭaṃ</rdg><rdg
+	       wit="#S #T" type="chaya">na tīrṇaṃ</rdg><rdg
+	       wit="#T" type="chaya">na śaktam ity arthaḥ</rdg></app></l>
 	</lg>
       </div><!-- edition !-->
+      <div type="translation">
+	<head>Vom Gefühl übermannt.</head>
+	<p>Als der Wandrer beim Abschied des Antlitz seiner Gattin
+	erblassen sah, brachte er, von Kummer<note type="footnote">Zärtlichkeit πST.</note> gefesselt, es nicht 
+	fertig, zu gehen.</p>
+      </div><!-- translation !-->
+      <div type="commentary">
+	<p>āpṛchanaṃ gaṃtum anujānīhīti praśnaḥ G, — āuchaṇaṃ
+	āgaṃtuṃ anujānīhi 'ti praśne deśī χ, — na tiṇṇam (oder ṇa 
+	iṇṇaṃ) scheint mir entschieden besser als na iṭṭham; — zu
+	ṇiach s. <ref target="#Weber-ed-238">238</ref>; — ṇibhālaaṃta γ ist im Uebrigen auch eine 
+	gute Lesart, cf. Mālav. 5, 9 (Tullberg); Bollensen (5, 11) hat 
+	nijjhāaṃtī vorgezogen; wenn er dabei p. 123 bhālay als eine
+	unregelmässige Bildung des Causativs, wie pālay für pāyay, also
+	offenbar aus bhā erklärt, und ferner als ,,im Sanskrit unbekannt'' 
+	bezeichnet, so ist theils jene Erklärung schwerlich richtig (auch
+	pālay gehört nicht zu pā, sondern steht für pāray aus par),
+	theils bezeugt das Pet. W. die Existenz der ja auch im Dhātupāṭha
+	in der Bedeutung nirūpane anerkannten Wurzel bhal auch
+	für das Danskrit (Chāndogyop. etc.); und zwar erscheint sie
+	daselbst nicht blos mit ni, sondern auch mit sam verbunden.</p>
+      </div><!-- commentary !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-502" n="502" type="verse">
       <div type="edition">
+	<head>502. (512 γψ, 511 π, 554 χ, 536 R; 376 S, 587 T.)</head>
 	<lg n="502">
-	  <l>sūīvehe musalaṃ vicchuhamāṇeṇa ḍaḍḍhaloeṇa</l>
-	  <l>ekkaggāme vi pio samehi acchīhi vi ṇa diṭṭho</l>
+	  <l><app><lem>sūī</lem><rdg
+	       wit="#R">sūcī</rdg></app>vehe 
+	     musalaṃ 
+	     <app><lem>vicchuha</lem><rdg
+	       wit="#ψ #R">vichuha</rdg><rdg
+	       wit="#T">vichubha</rdg><rdg
+	       wit="#γ #S">vichava</rdg><rdg
+	       wit="#χ #G" type="chaya">vikṣipatā</rdg><rdg
+	       wit="#π #S" type="chaya">praveśayatā</rdg><rdg
+	       wit="#T" type="chaya">prakṣivatā<note> (!)</note></rdg><note>s. v. 110. 424</note></app>māṇeṇa 
+	     <app><lem>ḍaḍḍha</lem><rdg
+	       wit="#γ">daṭhṭha</rdg><rdg
+	       wit="#R #S">daḍḍha</rdg><rdg
+	       wit="#ψ">ḍaḍḍha</rdg><rdg
+	       wit="#T">ḍhaḍḍa</rdg><rdg 
+	       wit="#π #χ #G #S #T" type="chaya">dagdha</rdg></app>loeṇa</l>
+	  <l>ekkaggāme vi pio 
+	     <app><lem>samehi</lem><rdg
+	       wit="#γ #R #S">samehiṃ</rdg><rdg
+	       wit="#ψ">samaaṃ</rdg><rdg
+	       wit="#T">ehiṃ</rdg><rdg
+	       wit="#π #χ #G #S" type="chaya">samābhyāṃ</rdg><rdg
+	       wit="#T" type="chaya">ābhyāṃ</rdg></app> 
+	     acchīhi vi ṇa <app><lem>diṭṭho</lem><rdg
+	       wit="#γ #R #T">diṭṭho</rdg><rdg
+	       wit="#ψ #S">iṭṭho</rdg><rdg
+	       wit="#π #χ #G #S #T">dṛṣṭaḥ</rdg></app></l>
 	</lg>
       </div><!-- edition !-->
+      <div type="translation">
+	<head>Da wird Alles gleich an die grosse Glocke gehängt!</head>
+	<p>Um der verwünschten Leute willen, die auf (jeden) Nadelstich
+	eine Mörserkeule werfen, habe ich den Liebsten, obschon
+	er im selben Dorfe wohnt, nicht einmal mit ganz gewöhnlichen
+	(geschweige denn: mit verliebten) Augen (an-)gesehen.</p>
+      </div><!-- translation !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-503" n="503" type="verse">
       <div type="edition">
@@ -4235,11 +4451,41 @@
     </text><!-- verse !-->
     <text xml:id="Weber-ed-522" n="522" type="verse">
       <div type="edition">
+	<head>522. (532 γψ, 533 π, 575 χ, 561 R; 303 S, 560 T, 5 V.)</head>
 	<lg n="522">
-	  <l>saccaṃ kalahe kalahe suraāraṃbhā puṇo ṇavā hoṃti</l>
-	  <l>māṇo uṇa māṇaṃsiṇi garuo pemmaṃ viṇāsei</l>
+	  <l>saccaṃ kalahe kalahe <app><lem>suraāraṃbhā</lem><rdg
+	       wit="#γ #ψ #T">suraāraṃbhā</rdg><rdg
+	       wit="#R">surayāraṃbhā</rdg><rdg
+	       wit="#S">suraāraṃbho</rdg><rdg
+	       wit="#π #χ #G #T" type="chaya">suratārambhaḥ</rdg><rdg
+	       wit="#V #S" type="chaya">suratāraṃbho</rdg></app> <app><lem>puṇo ṇavā</lem><rdg
+	       wit="#γ #ψ">puṇo ṇavā</rdg><rdg
+	       wit="#R">puṇaṇṇavā</rdg><rdg
+	       wit="#T">ṇavā ṇavā</rdg><rdg
+	       wit="#S">puṇaṇṇavo</rdg><rdg
+	       wit="#G" type="chaya">punar navā</rdg><rdg
+	       wit="#T" type="chaya">navā navā</rdg><rdg
+	       wit="#V #S" type="chaya">navo navo</rdg></app> <app><lem>hoṃti</lem><rdg
+	       wit="#S">hoi</rdg><rdg
+	       wit="#V #S" type="chaya">bhavati</rdg></app></l>
+	  <l>māṇo uṇa <app><lem>māṇaṃsiṇi</lem><rdg
+	       wit="#γ #ψ #R #S">māṇaṃsiṇi</rdg><rdg
+	       wit="#T">māṇavaï</rdg><rdg
+	       wit="#χ #G #S #V" type="chaya">manasvini</rdg><rdg
+	       wit="#π"><note>Lücke</note></rdg><rdg
+	       wit="#T" type="chaya">mānavatī</rdg></app> <app><lem>garuo</lem><rdg
+	       wit="#R">garuaṃ</rdg><rdg
+	       wit="#π" type="chaya">gurukaṃ</rdg><rdg
+	       wit="#χ #C #S #T" type="chaya">gurukaḥ</rdg><rdg
+	       wit="#A #E" type="chaya">guruka</rdg></app> pemmaṃ viṇāsei</l>
 	</lg>
       </div><!-- edition !-->
+      <div type="translation">
+        <head>Allzu scharf macht schartig!</head>
+        <p>Ganz wahr, nach jedem Zank sind die Freuden der Lust
+           immer wieder neu! Langes Schmollen aber, o Schmollende!
+           vernichtet die Liebe.</p>
+      </div><!-- translation !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-523" n="523" type="verse">
       <div type="edition">
@@ -6569,13 +6815,33 @@
 	</lg>
       </div><!-- edition !-->
     </text><!-- verse !-->
+    <!-- verses 815-953 belong to the "first telinga recension" !-->
     <text xml:id="Weber-ed-815" n="815" type="verse">
       <div type="edition">
+      <head>6. (3 V.)</head>
 	<lg n="815">
-	  <l>gāhāṇa a geāṇa a tantīsaddāṇa poḍhamahilāṇa</l>
-	  <l>tāṇaṃ so ccia daṇḍo je tāṇa rasaṃ ṇa āṇaṃti</l>
+	  <l>gāhāṇa a geāṇa a <app><lem>tantī</lem><rdg
+	       wit="#T">tatti</rdg><rdg
+	       wit="#Tc #V" type="chaya">tantrī</rdg></app>saddāṇa poḍhamahilāṇa</l>
+	  <l><app><lem>tāṇaṃ so ccia</lem><rdg
+	       wit="#T">tāṇi so bbia</rdg><rdg
+	       wit="#Ts">tāṇi sa bbia</rdg><rdg
+	       wit="#T #V" type="chaya">teṣāṃ sa eva</rdg></app> daṇḍo 
+	     <app><lem>je tāṇa</lem><rdg
+	       wit="#Ts">je tāṇaṃ</rdg><rdg
+	       wit="#Tc" type="chaya">ya teṣāṃ</rdg><rdg
+	       wit="#V">te eṣāṃ</rdg></app> rasaṃ ṇa <app><lem>āṇaṃti</lem><rdg
+	       wit="#Ta">jāṇaṃti</rdg></app></l>
 	</lg>
       </div><!-- edition !-->
+      <div type="translation">
+        <head>Wer nicht liebt Wein, Weib, Gesang . . .</head>
+        <p>Die Lieder und Gesänge und Lautenklänge blühender Frauen—die sind bereits gestraft, welche deren Genuss nicht kennen.</p>
+      </div><!-- translation !-->
+      <div type="commentary">
+	<p>Finales o und e werden in T mehrfach kurz gebraucht, s. die Verdopplung des Anlautes von ccia hier, und das
+	   vielfache Ausgehen der obliquen Casus des Fem. Sgl. auf ĕ (cf. KR).</p>
+      </div><!-- commentary !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-816" n="816" type="verse">
       <div type="edition">
@@ -7195,11 +7461,21 @@
     </text><!-- verse !-->
     <text xml:id="Weber-ed-893" n="893" type="verse">
       <div type="edition">
+	<head>501. (4 V.)</head>
 	<lg n="893">
 	  <l>paṇamaha māṇassa halā calaṇe kiṃ devaehi aṇṇehiṃ</l>
 	  <l>jassa pasāeṇa pio gholaï pāaṃtapāsesu</l>
 	</lg>
       </div><!-- edition !-->
+      <div type="translation">
+        <head>Eingangsgebet des Cento</head>
+        <p>Neigt euch, Freundinnen! zu den Füssen des Schmollens!
+           was ist's mit den andern Göttern! Durch seine Gunst wältz
+	   sich der Liebste zu unsern Füssen.</p>
+      </div><!-- translation !-->
+      <div type="commentary">
+	<p>pāda 1 wird Hem. 2, 195 citirt.</p>
+      </div><!-- commentary !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-894" n="894" type="verse">
       <div type="edition">

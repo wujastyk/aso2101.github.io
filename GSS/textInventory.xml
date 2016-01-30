@@ -34,9 +34,23 @@
 	  <validate schema="tei-all.rnc"/>
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
-            <citation
+	    <citation
 		label="verse"
 		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+        </online>
+      </edition>
+      <edition urn="urn:cts:indic:Hāla.SaSa.Pitambara:">
+        <label xml:lang="en">Pitambara</label>
+        <description xml:lang="eng">Pitambara (Lahore ed.)</description>
+        <online docname="pitambara.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+	    <citation
+		label="verse"
+		scope="/tei:TEI//tei:group/tei:group"
 		xpath="//tei:text[@n='?']"/>
           </citationMapping>
         </online>
@@ -101,6 +115,20 @@
 	<label xml:lang="en">Vrajarājadīkṣita (BORI MS)</label>
 	<description xml:lang="en">Vrajarājadīkṣita (BORI MS)</description>
 	<online docname="BORI585.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation
+		label="verse"
+		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+	</online>
+      </edition>
+      <edition urn="urn:cts:indic:Hāla.SaSa.Vema:">
+	<label xml:lang="en">Vemabhūpāla (Bhāvadīpikā)</label>
+	<description xml:lang="en">Vemabhūpāla's Bhāvadīpikā</description>
+	<online docname="vema.xml">
 	  <validate schema="tei-all.rnc"/>
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
