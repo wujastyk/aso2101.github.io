@@ -1,0 +1,72 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>Pītāmbara's Commentary (Lahore ed.)</title>
+      </titleStmt>
+    </fileDesc>
+    <sourceDesc>
+      <bibl>
+	<title>Hāritāmrapītāmbara’s Gāthāsaptaśatīprakāśikā, A Hitherto Unpublished Commentary on Hāla’s Gāthāsaptaśatī (IV–VII Śatakas)</title>
+	<editor>Jagdish Lal Shastri</editor>
+	<publisher>Jagdish Lal Shastri</publisher>
+	<pubPlace>Lahore</pubPlace>
+	<date>1942</date>
+	<note>Reprinted from the Oriental College Magazine, Vol. 18, No. 68, February, 1942.</note>
+      </bibl>
+    </sourceDesc>
+  </teiHeader>
+  <group>
+    <group type="śataka" n="5">
+    <text xml:id="Pitambara-461" n="461" type="verse">
+      <div type="edition">
+	<quote type="base-text">
+	  <lg n="461">
+	    <l>raïviramalajjiāo appattaṇiaṃsaṇāu sahasa tti |</l>
+	    <l>ḍhakkaṃti piaamāliṃgaṇeṇa jahaṇaṃ kulavahūo || 461 ||</l>
+	  </lg>
+	</quote>
+	<lg type="chaya">
+	  <l>rativirāmalajjitā aprāptanivasanāḥ sahaseti |</l>
+	  <l><app><lem>ācchādayanti</lem><rdg 
+	       wit="#P">āvṛṇvantī</rdg></app> priyatamāliṅganena jaghanaṃ kulavadhvaḥ ||</l>
+	</lg>
+	<p>ratisamaye apahṛtavasanāḥ kulastriyo rativirāme sati lajjāvaśāt priyāliṅganena jaghanadeśam āvṛṇvantīti tat kurvatīṃ dṛṣṭvā tattvajñaikā 'parasyāḥ kathayanti—raïvirameti | yato 'prāptavastrā itīva sahasā jaghanam āvṛṇvanti | ‘paścānnitambaḥ śtrīkaṭyāḥ klībe tu jaghanaṃ puraḥ’ ity amaraḥ<note type="reference" resp="#JLS">II. 6. 74</note> | patyur apekṣitācaraṇaṃ strīṇāṃ vratam iti dharmaḥ | nipuṇā <app><lem>upāyena</lem><rdg wit="#P">upamā yena</rdg></app> kāryasaṃvaraṇam ācarantīti nītiḥ | virāme virasā viṣayā iti nītiḥ<note resp="#AO" xml:lang="en">This must be a mistake for <foreign xml:lang="sa-Deva">yuktiḥ</foreign>.</note> | tasyaiva || 461 ||</p>
+      </div><!-- edition !-->
+    </text>
+    </group>
+    <group type="śataka" n="6">
+      <text xml:id="Pitambara-501" n="501" type="verse">
+	<div type="edition">
+	  <quote type="base-text">
+	    <lg n="501">
+	      <l>raïkelihiaṇiaṃsaṇakarakisalaruddhaṇaaṇajualassa |</l>
+	      <l>ruddassa taïaṇaaṇaṃ pavvaïpariuṃciaṃ jaaï || 501 ||</l>
+	    </lg>
+	  </quote>
+	  <lg type="chaya">
+	    <l>ratikeli<app><lem>hṛta</lem><rdg
+	         wit="#P">kṛta</rdg></app>nivasanakara<app><lem>kisalaya</lem><rdg 
+		 wit="#P">kiśalaya</rdg></app>ruddhanayanayugalasya |</l>
+	    <l>rudrasya tṛtīyanayanaṃ pārvatīparicumbitaṃ jayati ||</l>
+	  </lg>
+	  <p><pb n="55"/>bahuvighnaśaṅkayā ṣaṣṭhaśatopakrame tadvāraṇāya bhagavato maheśvarasya stutimukhena namaskāragāthām āha—raïkelīti | nivasanaṃ vastram |
+	    <quote>
+	      <lg>
+		<l>nayanayugakapolaṃ dantavāso mukhāntaḥ</l>
+		<l>stanahṛdayalalāṭaṃ cumbanasthānam āhuḥ |</l>
+	      </lg>
+	    </quote>
+	  iti | nagnastrīdarśanaṃ niṣiddhaṃ tannācaraṇīyaṃ | tad uktam—
+	    <quote>
+	      <lg>
+		<l>araṃ bhuṅkte ciraṃ snāti dattaṃ puṣpaṃ na jighrati |</l>
+		<l>na paśyati striyaṃ nagnāṃ matpriyās tena sādhavaḥ ||</l>
+	      </lg>
+	    </quote>
+	  iti dharmaḥ || utpannamatayaḥ kadāpi nāvasīdantīti nītiḥ | kvāpy avarodhaḥ kvāpi tadviraha iti saṃsārāvasthāṃ vimṛśya sadbhir udāstavyam iti yuktiḥ | śālavāhanasya || 501 ||</p>
+	</div><!-- edition !-->
+      </text>
+    </group>
+  </group>
+</TEI>

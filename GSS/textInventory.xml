@@ -50,7 +50,7 @@
           <citationMapping>
 	    <citation
 		label="verse"
-		scope="/tei:TEI//tei:group/tei:group"
+		scope="/tei:TEI//tei:group/"
 		xpath="//tei:text[@n='?']"/>
           </citationMapping>
         </online>
