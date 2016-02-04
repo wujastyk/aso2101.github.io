@@ -31,6 +31,32 @@ body {
 #topbar form {
   display:block;
 }
+#topbar ul {
+  list-style-type:none;
+  list-style-position:outside;
+  margin:0px;
+  padding:0px;
+}
+#topbar li {
+  padding:2px;
+  position:relative;
+}
+#topbar label {
+  font-weight:bold;
+  width:100px;
+  margin-top:3px;
+  display:inline-block;
+  float:left;
+  padding:3px;
+}
+#topbar select, #topbar input {
+  font-size:16px;
+  width:300px;
+  padding:2px;
+}
+#topbar input[type=button] {
+  width:100px;
+}
 /* the division that contains the text as a whole */
 .version {
   border:2px solid black;
@@ -41,17 +67,23 @@ body {
 }
 .version .prevSelect {
   float:left;
+  clear:left;
   padding-top:5px;
   padding-bottom:8px;
 }
 .version .nextSelect {
   float:right;
+  clear:right;
   padding-top:5px;
   padding-bottom:8px;
 }
 .version h2 {
   margin:0px;
+  float:left;
   clear:both;
+}
+.version .text h2 {
+  float:none;
 }
 .related h3 {
   padding:0;
@@ -91,8 +123,19 @@ body {
   font-size:90%;
 }
 .translation, .edition, .notes {
+  display:block;
+  clear:both;
   margin-bottom:20px;
   padding-left:10px;
+}
+.close { 
+  font-size:90%;
+  float:right;
+  background:#DDDDDD;
+  border-radius:12px;
+  padding:5px;
+  font-family:sans-serif;
+  font-weight:bold;
 }
 .prevSelect, .nextSelect { font-size:90%; }
 /* from sarit-base.xsl */
@@ -210,6 +253,7 @@ a.note-marker {
 /* from sarit-quotations.xsl */
 div.base-text {
   font-size:120%;
+  margin-bottom:5px;
 }
 div.quote-block {
   display:block;

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>Gaṅgādhara’s Bhāvaleśaprakāśikā</title>
+      </titleStmt>
+    </fileDesc>
+  </teiHeader>
+  <group>
+    <text xml:id="Gangadhara-1" n="1" type="verse">
+      <div type="edition">
+	<lg>
+	  <l>natvā dhuṇḍipadābjaṃ gaṅgādharabhaṭṭanirmitā ṭīkā |</l>
+	  <l>saptaśatabhāvaleśaprakāśikā śodhyatāṃ vijñaiḥ ||</l>
+	</lg>
+	<p>atha tatrabhavān prākṛtakavikumudakumudinīnāyakaḥ śālivāhanaś cikīrṣitagāthākoṣasyāvighnaparisamāptaye kṛtaṃ maṅgalaṃ śrotṛhitārtham upanibadhnāti—</p>
+	<quote type="base-text">
+	  <lg n="1">
+	    <l>pasubaïṇo rosāruṇapaḍimāsaṃkantagorimuhaandam |</l>
+	    <l>gahiaggha<app><lem>paṅkaaṃ via</lem><rdg
+	        wit="#Kha #Ga">paṅkaammia</rdg></app> saṃjhāsalilañjaliṃ ṇamaha || 1 ||</l>
+	  </lg>
+	</quote>
+	<lg type="chaya">
+	  <l>[paśupate roṣāruṇapratimāsaṃkrāntamukhacandram |</l>
+	  <l>gṛhītārghapaṅkajam iva saṃdhyāsalilāñjaliṃ namata ||]</l>
+	</lg>
+	<p>pasubaïṇa iti | mām upeṣkṣya katham ayam anyāṃ dhyāyatīti roṣeṇāruṇayā pratimayā saṃkrāntaḥ | prākṛte pūrvanipātāniyamāt saṃkrāntapratimaṃ vā yad gaurīmukhaṃ tadeva candro yatra taṃ paśupateḥ saṃdhyāsalilāñjaliṃ namatety anvayaḥ | raktamukhapratibimbacchalena gṛhītārghocitaraktapaṅkajam ivety utprekṣā | yadvā māninyāḥ praṇayaroṣam asahamānaṃ nāyakaṃ prati dūtyā uktir iyam—‘anabhijño 'si premavyavahārāṇāṃ yas tvaṃ priyāpraṇayaroṣalakṣaṇe harṣasthāne kupyasi | na paśyasi kiṃ devyāḥ saṃdhyāsalilāñjalāv api praṇayaroṣam’ iti ||</p>
+      </div>
+    </text>
+    <text xml:id="Gangadhara-2" n="2" type="verse">
+      <div type="edition">
+	<p>gāthākoṣaviracanaprayojanam āha—</p>
+	<quote type="base-text">
+	  <lg n="2">
+	    <l><app><lem>amiaṃ</lem><rdg
+	         wit="#Kha #Ga">amaa</rdg></app> pāuakavvaṃ paḍhiuṃ souṃ a je ṇa āṇanti |</l>
+	    <l>kāmassa tattatantiṃ kuṇanti te kahaṁ ṇa lajjanti || 2 ||</l>
+	  </lg>
+	</quote>
+	<lg type="chaya">
+	  <l>[amṛtaṃ prākṛtakāvyaṃ paṭhituṃ śrotuṃ ca ye na jānanti |</l>
+	  <l>kāmasya tattvacintāṃ kurvanti te kathaṃ na lajjante ||]</l>
+	</lg>
+	<p>amiam iti | śṛṅgārarasanirbharatvenāhlādakatvād amṛtam ivāmṛtaṃ prākṛtakāvyam avasare paṭhituṃ parapaṭhitaṃ ca śrotuṃ boddhuṃ ye na jānanti, atha ca kāmasya tattvacintāṃ tantravārtāṃ vā kurvanti te kathaṃ na lajjanta ity arthaḥ | kāmaśāstravyutpattividhuraṃ prati vidagdhanāyikoktir vā ||</p>
+      </div>
+    </text>
+  </group>
+</TEI>

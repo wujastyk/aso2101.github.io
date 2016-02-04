@@ -62,23 +62,47 @@
       </listWit>
     </sourceDesc>
   </teiHeader>
-
   <group>
     <text xml:id="Weber-ed-1" n="1" type="verse">
       <div type="edition">
+	<head>1. (so alle Texte, auch V; Śālivāhanasya PG)</head>
 	<lg n="1">
-	  <l>﻿pasuvaïṇo rosāruṇapaḍimāsaṃkaṃtagorimuhaaṃdam</l>
-	  <l>gahiagghapaṃkaaṃ mia saṃjhāsalilaṃjaliṃ ṇamaha</l>
+	  <l>﻿pasuvaïṇo rosāruṇapaḍimāsaṃkaṃta<note resp="#AW">die Nasale sund vor ihren Consonanten in den Mss. meist durch ṃ gegeben; nur ψ hat häufig nt (sieht fast wie tt aus). Im Anschluss an Hem. 1,30 gebe ich die Nasale stets durch ṃ, lasse resp. die Lesart der Mss. unerwähnt, wo nicht besondere Umstände vorliegen.</note>gorimuhaaṃdam</l>
+	  <l>gahiagghapaṃ<app><lem>kaaṃ mia</lem><rdg
+	       wit="#ψ">kaammia</rdg><rdg
+	       wit="#γ">kaaṃ bia</rdg>ೀ<rdg
+	       wit="#R #S">kaaṃ via</rdg><rdg
+	       wit="#T">kaa via</rdg></app>saṃjhāsalilaṃjaliṃ ṇamaha</l>
 	</lg>
       </div><!-- edition !-->
+      <div type="commentary">
+	<p>Wenn ich auch der von Herm. Jacobi, Kalpasūtra p. 100, gegebenen Erklärung des piva, viva, miva aus pi va d. i. api iva zuzustimmen geneigt bin, wonach denn auch die daraus entstandenen mia und via als mi-a, vi-a zu schreiben wären, so scheint es mir doch, bis volle Sicherheit erreicht ist, geeigneter, diese Enclitica annoch zusammen zu schreiben. — Nach Vocalen steht in den Mss. des Hāla in diesem Falle stets nur via, nach anusvāra dagegen schwanken die Mss., R zeigt fast regulär piva, ψ mehrfach miva, daneben jedoch auch mia, via; ebenso γST; s. z. B. die Verse 125. 332. 336. 363. 505. u. cf. Hem. 2,182. — Zum Inhalt des Verses s. Retr. p. 347, sowie die vv. 448 und 698. In S werden hierzu durch: tathā ca allerhand Stellen citirt, u. A. auch eine aus Kālidāsa (Kum. 1,44): candraṃ gatā padmaguṇān na bhuṃkta iti.</p>
+      </div><!-- commentary !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-2" n="2" type="verse">
       <div type="edition">
+        <pb n="2"/>
+        <head>2.<note resp="#AW">so lange die Verszahl in KPγψπχξR mit der in G stimmt, gebe ich sie nicht besonders an; sobald aber Varianten eintreten (bei ST, und soweit sie überhaupt in Frage kommen auch bei VW, ist dies ja fortab fast stets der Fall), werden diese, ebenso wie etwaige Uebereinstimmungen mit G, regulär notirt.</note> (auch V; 7 ST) ohne Autor-Namen.</head>
 	<lg n="2">
-	  <l>amiaṃ pāuakavvaṃ paḍhiuṃ souṃ ca je ṇa āṇaṃti</l>
-	  <l>kāmassa tattatattiṃ kuṇaṃti te kaha ṇa lajjaṃti</l>
+	  <l><app><lem>amiaṃ</lem><rdg 
+	       wit="#R">amiyaṃ</rdg></app> <app><lem>pāua</lem><rdg
+	       wit="#R">pāiaṃ</rdg></app>kavvaṃ <app><lem>paḍhiuṃ</lem><rdg
+	       wit="#ψ">paṭhiuṃ</rdg></app> souṃ <app><lem>ca</lem><rdg
+	       wit="#ψ">a</rdg><rdg
+	       wit="#γ #R">ca</rdg></app> je ṇa <app><lem>āṇaṃti</lem><rdg
+	       wit="#γ #R">jāṇaṃti</rdg></app></l>
+	  <l><app><lem>kāmassa</lem><rdg
+	       wit="#γ">kāmaṃsa</rdg></app> <app><lem>tattatattiṃ</lem><rdg
+	       wit="#γ">tattattatīṃ</rdg><rdg
+	       wit="#R">tattatattiṃ</rdg><rdg
+	       wit="#ψ">tantatatattiṃ</rdg><rdg
+	       wit="#ξ" type="chaya">tattvaciṃtāṃ</rdg><rdg
+	       wit="#V" type="chaya">taṃtraciṃtaṃ</rdg></app> kuṇaṃti te kaha ṇa lajjaṃti</l>
 	</lg>
       </div><!-- edition !-->
+      <div type="commentary">
+	<p>avasare paṭhitaṃ ca śrotuṃ yathārthāvagāhanenan sārthakaṃ kartum; kāminīraṃjanārthaṃ kāmaśāstrakārāś ca samayocitalalitagāthāpāṭham eva tadupāyam āmanaṃti, tathā ca vāmanaḥ gāthāḥ paṭhec ca lalitaṃ madanāgradūtīr iti; tasmāt kāmaśāstraphalopabhoktṛbhir avaśyaṃ gāthākośaḥ saṃgrāhyate S. — Zum Inhalt vgl. im Uebrigen den hübscen Parallelvers im Schol. zu Hem. 1. 187 bei Pischel 2, 44. — Die yaśruti ist R speciell zu eigen, kommt in den andern Mss. nur selten einmal vor; sie beschränkt sich im Uebrigen in R keineswegs etwa blos, wie Hem. 1,180 verschreibt, auf die Fälle, wo zweit a zusammentreffen; — kāmaṃsa γ; der anusvāra ercheint in γ mehrfach, wo man eine Verdoppelung des folgenden Consonanten erwartet; geht γ also etwa auf ein in dekhanischer Schrift geschriebenes Original zurück, wo dasselbe Zeichen sowohl als anusvāra wie als Verdoppelungs-Marke gilt? — Zu tatti (Retr. p. 347, 348) s. noch v. 51. 276. T 214, tattilla 557 Hem. 2,203. Die Handschriften sprechen für tatti (tapti), nicht für tanti, da taṃti sich nur einige Male findet (für die Telinge-Mss. gilt resp. das so eben Bemerkte). Im Mahrāṭhi findet sich allerdings tantrī, als Adjectiv indess, nich als Substantiv, nach Molesworth mit der Bedeutung: having a tantra, hence deep, designing, plotting, schemeful. Nach einer brieflichen Mittheilung Paul Goldschmidt's (vom 6. Nov. 1874) wird aber tattilla in einem Commentar zu dem Jaina-Werk uaesamālā direct durch taptimant erklärt. Pischel zu Hem. 2, 203. 204 Uebers. p. 95. 96 adoptirt dafür die von der deśīnā<pb n="3" break="no"/>mamālā gegebene Erklärung durch tatpara, tatparatā; soll damit etwa auch eine Etymologie der Art beabsichtigt sein?</p>
+      </div><!-- commentary !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-3" n="3" type="verse">
       <div type="edition">

@@ -132,6 +132,8 @@ function displayVerse(urn) {
     heading = thisElement.title;
     $("body").append('<div id="'+urn+'" class="version"></div>');
     $('div[id="'+urn+'"]').append('<h2>'+heading+'</h2>');
+    // also a button to close it
+    $('div[id="'+urn+'"]').append('<div class="close">x</div>');
     // construct the previous element navigator
     thisval = thisElement.currentElement.attr('n');
     prevval = thisElement.previousElement.attr('n');
@@ -164,6 +166,12 @@ function displayVerse(urn) {
     $('html, body').animate({
         scrollTop: $('div[id="'+urn+'"]').offset().top
     }, 2000)
+    // close the box when you click on the x
+    $(document).on('click','.close',function(){
+        $(this).parent().fadeTo(300,0,function(){
+            $(this).remove();
+        });
+    });
   }
 }
 

@@ -13,8 +13,7 @@
       <text xml:id="Bhuvanapala-ed-1" n="1" type="verse">
 	<div type="edition">
 	  <pb n="1"/>
-	  <head>1.</head>
-	  <ref resp="#MVP" target="#Weber1881-1">W1</ref>
+	  <head>1. <ref resp="#MVP" target="#Weber1881-1">W1</ref></head>
 	  <p>oṃ namo jināya | ............</p>
 	  <p>iha khalu śrīsātavāhanakṛte gāthākośe nānākavikalpitāsu bhinnaviṣayāsu anekacchekoktiṣu sakalakalākauśalakuśalo 'pi na gūḍhaprabhāvam udbhāvayitum alaṃ, kiṃ punar vayam | tathāpi sakalasūriśāstrārthaprārthanoparodhena asmābhir asmin yathābuddhi vivaraṇaṃ vidhāsyata iti | tatrādau sakalavighnapratibandhasiddhim avaguṃte bhukāmaḥ (adhigantukāmaḥ?) kavir ayaṃ namaskāram akārṣīt |</p>
 	  <p>hālasya |</p>
@@ -29,8 +28,7 @@
       </text>
       <text xml:id="Bhuvanapala-ed-2" n="2" type="verse">
 	<div type="edition">
-	  <head>2.</head>
-	  <ref resp="#MVP" target="#Weber1881-3">W3</ref>
+	  <head>2. <ref resp="#MVP" target="#Weber1881-3">W3</ref></head>
 	  <quote type="base-text">
 	    <lg n="2">
 	      <l>satta sayāiṃ kaïvacchaleṇa koḍīe <app><lem>majjhayārāo</lem><rdg wit="#W">majjhaārammi</rdg></app> |</l>
@@ -42,8 +40,7 @@
       </text>
       <text xml:id="Bhuvanapala-ed-3" n="3" type="verse">
 	<div type="edition">
-	  <head>3.</head>
-	  <ref resp="#MVP" target="#Weber1881-4">W4</ref>
+	  <head>3. <ref resp="#MVP" target="#Weber1881-4">W4</ref></head>
 	  <p>poṭṭisassa |</p>
 	  <quote type="base-text">
 	    <lg n="3">
@@ -56,8 +53,7 @@
       </text>
       <text xml:id="Bhuvanapala-ed-4" n="4" type="verse">
 	<div type="edition">
-	  <head>4.</head>
-	  <ref resp="#MVP" target="#Weber1881-5">W5</ref>
+	  <head>4. <ref resp="#MVP" target="#Weber1881-5">W5</ref></head>
 	  <p>sālāhaṇassa |</p>
 	  <quote type="base-text">
 	    <lg n="4">
@@ -71,8 +67,7 @@
       <text xml:id="Bhuvanapala-ed-5" n="5" type="verse">
 	<div type="edition">
 	  <pb n="3"/>
-	  <head>5.</head>
-	  <ref resp="#MVP" target="#Weber1881-6">W6</ref>
+	  <head>5. <ref resp="#MVP" target="#Weber1881-6">W6</ref></head>
 	  <p>culloḍayassa |</p>
 	  <quote type="base-text">
 	    <lg n="5">
@@ -197,7 +192,7 @@
 	  <p>When the (prospective) traveller saw the face of his wife, drooping and enfeebled, at the time of his bidding farewell to her, he, fettered (immobilised) by sorrow, was not at all able to depart.</p>
 	</div>
       </text>
-      <text xml:id="Bhuvanapala-ed-530" n="530" type="verse">
+      <text xml:id="Bhuvanapala-ed-530" n="530">
 	<div type="edition">
 	  <head>530.</head>
 	  <ref resp="#MVP" target="#Weber1881-503">W503</ref>

@@ -14,10 +14,85 @@
     </sourceDesc>
   </teiHeader>
   <group>
-    <text xml:id="Tieken-ed-6" n="6" type="verse">
-      <head>6 (6 Ma, 7 Tp; 5 Bh, 6 R; K, ψ, B, γ, P, G, ξ; 233 S)</head>
-      <head>Missing in T and W.</head>
+    <text xml:id="Tieken-ed-1" n="1" type="verse">
       <div type="edition">
+	<head>1 (1 Ma, 2 Tp; 1 Bh, R; K, ψ, B, γ, P, G, ξ; T; S; V)</head>
+	<head>π starts only with *21; χ only with 133. The first ten Gāthās of W were illegible.</head>
+	<lg n="1">
+	  <l><app><lem>pasuvaïṇo</lem><rdg
+	       wit="#K">pasuvaïṇoḥ</rdg><rdg
+	       wit="#P">vasuvaïṇo</rdg></app> 
+	     rosāruṇapaḍimā<app><lem>saṃkaṃta</lem><rdg
+	       wit="#K">saṃkanta</rdg></app>gori<app><lem>muhaaṃdaṃ</lem><rdg
+	       wit="#Bh">muyacaṃdaṃ</rdg></app></l>
+	  <l><app><lem>gahiaggha</lem><rdg
+	       wit="#Tp">gehiaggha</rdg><rdg
+	       wit="#K">gahiagdha</rdg></app><app><lem>paṃkaaṃ via</lem><rdg
+	       wit="#Bh">paṃkayaṃ piva</rdg><rdg
+	       wit="#ψ">paṃkaammia</rdg><rdg
+	       wit="#B">paṃkaaṃmia</rdg><rdg
+	       wit="#γ">paṃkaaṃ bia</rdg><rdg
+	       wit="#T">paṃkaa via</rdg></app>saṃjhāsalilaṃjaliṃ ṇamaha<note resp="#HT">In Ma lcuna for the text; in Tp for <foreign xml:lang="sa-Latn">pasuvaïṇo ... paḍimā(saṃkaṃta)</foreign>.</note></l>
+	</lg>
+      </div><!-- edition !-->
+      <div type="translation">
+	<p>Bow before the moon-face of Gaurī which by her anger
+	at Paśupati has become the counterpart of the morning
+	sky; it looks like the cupped hands filled with Saṃdhyā-water,
+	holding a (red) Arghya-lotus.</p>
+      </div><!-- translation !-->
+    </text>
+    <text xml:id="Tieken-ed-2" n="2" type="verse">
+      <div type="edition">
+	<head>2 (2 Ma, 3 Tp; 2 R; K, ψ, B, γ, P, G, ξ; 7 T; S; 2V)</head>
+	<head>Missing in Bh.</head>
+	<lg n="2">
+	  <l><app><lem>amaaṃ</lem><rdg
+	       wit="#R #K #ψ #B #γ #T #S">amiaṃ</rdg></app>
+	     <app><lem>pāua</lem><rdg
+	       wit="#Ma">vāyaḍa</rdg><rdg
+	       wit="#Tp">pāaḍa</rdg><rdg
+	       wit="#R">pāiaṃ</rdg><rdg
+	       wit="#T">pāaḍa</rdg><rdg
+	       wit="#S">pāia</rdg></app>kavvaṃ
+	     <app><lem>paḍhiuṃ</lem><rdg
+	       wit="#Ma">paṭhiiṃ</rdg><rdg
+	       wit="#Tp #ψ">paṭhiuṃ</rdg><rdg
+	       wit="#T">paṭhiduṃ</rdg></app>
+	     <app><lem>souṃ</lem><rdg
+	       wit="#P #T">soduṃ</rdg></app>
+	     <app><lem>ca</lem><rdg
+	       wit="#K #ψ">a</rdg><rdg
+	       wit="#P">va</rdg><rdg
+	       wit="#T">vi</rdg></app>
+	     <app><lem>je</lem><rdg
+	       wit="#Ma">ja</rdg></app>
+	     <app><lem>ṇa āṇaṃti</lem><rdg
+	       wit="#Tp #R #K #B #γ #P #T #S">ṇa jāṇaṃti</rdg></app></l>
+	   <l>kāmassa <app><lem>taṃtatattiṃ</lem><rdg
+	       wit="#R">tattatattiṃ</rdg><rdg
+	       wit="#K">taṃttataṃttiṃ</rdg><rdg
+	       wit="#ψ">tantatatattiṃ</rdg><rdg
+	       wit="#B">tattaciṃtaṃ</rdg><rdg
+	       wit="#γ">tattattattiṃ</rdg><rdg
+	       wit="#P #S1">tattatattiṃ</rdg><rdg
+	       wit="#S2">tattaüttiṃ</rdg></app> 
+	     kuṇaṃti <app><lem>kaha te</lem><rdg
+	       wit="#K #B #P">te kahaṃ</rdg><rdg
+	       wit="#S">te kaha</rdg></app>
+	     ṇa <app><lem>lajjaṃti</lem><rdg
+	       wit="#Tb">lajjiṃti</rdg></app><note resp="#HT">In Ma lacuna after <foreign xml:lang="sa-Latn">kāma(ssa)</foreign>.</note></l>
+	</lg>
+      </div><!-- edition !-->
+      <div type="translation">
+	<p>Those who do not know how to read and listen to (this) nectarlike
+	Kāvya in Prākrit, but are solely concerned with scholarly works (in Sanskrit) on love, how can they not feel ashamed?</p>
+      </div><!-- translation !-->
+    </text>
+    <text xml:id="Tieken-ed-6" n="6" type="verse">
+      <div type="edition">
+	<head>6 (6 Ma, 7 Tp; 5 Bh, 6 R; K, ψ, B, γ, P, G, ξ; 233 S)</head>
+	<head>Missing in T and W.</head>
 	<lg n="6">
 	  <l><app><lem>ṇohaliam</lem><rdg
                wit="#Bh">ṇohaliyaṃ</rdg><rdg
@@ -40,12 +115,15 @@
 	       wit="#γ">valiāṇa</rdg></app><app><lem>paṃkaaṃ</lem><rdg
 	       wit="#Ma">paṃkaja</rdg></app> <app><rdg wit="#Ma"><lacunaStart/></rdg></app>jāā.</l>
 	</lg>
-      </div>
+      </div><!-- edition !-->
+      <div type="translation">
+	<p>Why don’t you look for a ‘yield of new fruits’ for yourself instead of looking for a ‘young woman’ for the <emph>kurabaka</emph>-tree? Thus, you know, handsome man, your wife is laughing, her lotus-face turned aside.</p>
+      </div><!-- translation !-->
     </text>
     <text xml:id="Tieken-ed-10" n="10" type="verse">
-      <head>10 (11 Ma, 12 Tp; 9 Bh, 10 R; K, ψ, B, γ, P, G, ξ; 292 T; 276 S)</head>
-      <head>Missing in W.</head>
       <div type="edition">
+	<head>10 (11 Ma, 12 Tp; 9 Bh, 10 R; K, ψ, B, γ, P, G, ξ; 292 T; 276 S)</head>
+	<head>Missing in W.</head>
 	<lg n="10">
 	  <l>sahi <app><lem
           wit="#P">erisa</lem><rdg
@@ -73,8 +151,14 @@
 	  wit="#T">vālukki</rdg></app><app><lem>taṃtu</lem><rdg
 	  wit="#Bh">bhuṃtu</rdg></app><app><lem>kuḍilāṇa</lem><rdg
 	  wit="#K">kuḍilāṇaṃ</rdg></app> <app><lem>pemmāṇa</lem><rdg
-	  wit="#K #B #P #T #S #R #ψ #γ">pemmāṇaṃ</rdg></app>.</l>
+	  wit="#K #B #P #T #S #R #ψ #γ">pemmāṇaṃ</rdg></app><note>Pāda a is quoted in Hem.2.195 (<emph>erisi</emph>, v.l. <emph>erise</emph>, <emph>ccia</emph>).</note>.</l>
 	</lg>
+      </div><!-- edition !-->
+      <div type="translation">
+	<p>Friend, stop crying with your moon-face turned aside:
+	this is the course of these affectionate feelings which ‘curl’
+	(indiscriminately around everyone who is available) like the
+	tendrils of the young cucumber-plant.</p>
       </div>
     </text>
   </group>
