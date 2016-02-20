@@ -195,5 +195,43 @@
       <div type="edition">
       </div>
     </text>
+    <text xml:id="Prema-BORI-10" n="11" type="verse">
+      <!-- this is on the top of p. 11 of my pdf, which is the recto of folio 9 !-->
+      <div type="edition">
+	<p>visṛṣṭārthā dūtī kam api yuvānam āha |</p>
+	<quote type="base-text">
+	  <lg n="11">
+	    <l>saccaṃ . jāṇaï . <lb n="5"/>daṭṭhuṃ | sarisammi . jaṇammi . jujjae . rāu . |</l>
+	    <l>maraü . na . tumaṃ . bhaṇissaṃ . maraṇaṃ . pi . salāhaṇijjaṃ . se | </l>
+	  </lg>
+	</quote>
+	<lg type="chaya">
+	  <l>satyaṃ jānāti dṛṣṭuṃ | sa<lb n="6"/>dṛśe jane yujyate rāgaḥ |</l>
+	  <l>mṛyatām na tvāṃ bhaṇiṣyāmi | maraṇam api ślāghyaṃ tasyāḥ | ity āryā ||</l>
+	</lg>
+	<p>satyaṃ dṛṣṭuṃ jānāti mama sa<pb n="9V"/>khī | yayā sa caturaḥ priyaḥ kṛtaḥ | sadṛśe yujyate rāgo jane caturayā caḍha(?)reṇa maitrī karaṇīyaiva | sā mriyatāṃ | tavāprāpta<lb n="2"/>tvāt na tvāṃ bhaṇiṣyāmi | yatas tava kṛte maraṇam api ślāghyaṃ tasyāḥ | ayam āśayaḥ | tvadgatacittayāḥ maraṇe janmāntare 'pi <lb n="3"/>tvatprāptisaṃbhavāt | athavā kākuvyākhyāne nāyakanirbhartsanāṃ karoti | kathaṃ tad āha | mama sakhī dṛṣṭuṃ jānāti | sā naiva <lb n="4"/>rāgaḥ svasadṛśe jane yujyate | nādhame mriyatāṃ | nadhahāmadhamaṃ bhaṇiṣyāmi | tasyāḥ maraṇaṃ ślāghyaṃ | na melāpakaḥ | adhamarakta<lb n="5"/>tvāt gāthārthaḥ | paryāyoktir alaṃkṛtir atra || 11 </p>
+      </div>
+    </text>
+    <text xml:id="Prema-BORI-10" n="12" type="verse">
+      <div type="edition">
+      </div>
+    </text>
+    <text xml:id="Prema-BORI-221" n="221" type="verse">
+      <!-- this is bottom of p. 111 of the pdf, on the verso side of folio 115 !-->
+      <div type="edition">
+	<p>durjanasvajanayor mmaitrīṃ varṇṇayati | kaścit |</p>
+	<quote type="base-text">
+	  <lg n="21">
+	    <l>kīraṃta . cciya . ṇāsaï . u<del rend="strikeabove">a</del>e reha . vva . khalayaṇe . mittī |</l>
+	    <l><note resp="#AO">The rest of the text is added in the margin; the scribe filled in the verse with the Sanskrit chāyā.</note>sā aṇa . suyaṇammi . kayā . aṇahā . pāhāṇareha . vva . |</l>
+	  </lg>
+	</quote>
+	<lg type="chaya">
+	  <l>kriyamānaiva vanaśyati udakarekheva khalajane maitrī |</l>
+	  <l>sā <lb n="2"/>punaḥ svajane kṛtā anyathā pāṣāṇaleheva | ity āryā ||</l>
+	</lg>
+	<p>he mitra khale durjane maitrī kṛtā satī na nirvahati | kasmin keva<lb n="3"/> udakalekheva yathā udakalekhā kṛtā satī śīghraṃ vinaśyati | tathā khalamaitrī | sā maitrī |punaḥ sujane kṛtā satī anya<lb n="4" break="no"/>thā bhavati kasmin keva pāṣāṇalekheva yathā pāṣāṇalekhā kṛtā satī cirasthāyinī bhavati | kasyāṃ te pi pāti | evaṃ sajjanamaitrī | atra ca (?) vaiśiṣṭyāt maitrī karttavyaiva | svajanena samaṃ na durjanena samaṃ | tatra yatitavyaṃ upamālaṃkāraḥ || 21 ||</p>
+      </div>
+    </text>
   </group>
 </TEI>

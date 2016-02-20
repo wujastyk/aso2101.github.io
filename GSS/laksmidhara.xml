@@ -1,0 +1,15 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>Lakṣmīdhara (Nepali MS)</title>
+      </titleStmt>
+    </fileDesc>
+  </teiHeader>
+  <group>
+    <text xml:id="LaU2" n="2" type="verse">
+      <div type="edition">
+      </div>
+    </text>
+  </group>
+</TEI>

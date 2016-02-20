@@ -68,5 +68,22 @@
 	</div><!-- edition !-->
       </text>
     </group>
+    <group type="śataka" n="7">
+      <text xml:id="Pitambara-697" n="697" type="verse">
+	<div type="edition">
+	  <quote type="base-text">
+	    <lg n="697">
+	      <l>saṃghāgahiajalaṃjalipaḍimāsaṃkaṃtagorimuhakamalaṃ |</l>
+	      <l>aliaṃ cia phurioṭṭhaṃ vialiamaṃtaṃ haraṃ ṇamaha || 697 ||</l>
+	    </lg>
+	  </quote>
+	  <lg type="chaya">
+	    <l>sandhyāgṛhītajalāñjalipratimāsaṅkrāntagaurīmukhakamalam |</l>
+	    <l>ೋalīkam eva sphuritauṣṭhaṃ vigalitamantraṃ haraṃ namata ||</l>
+	  </lg>
+	  <p>alīkaroṣodgamo devānām api bhavati kiṃ punar mānuṣasyeti praṇayaroṣam asahamānaṃ kam api yuvānaṃ kāpi sakalakāmakalābhijñā pratiṣṭhitā bahutarānunayanaprakāraṃ bodhayanty āha | granthānte namaskāragāthāṃ vā prāha—saṃjhe | hareṇaiva prakaraṇāt sandhyopāsanārthaṃ gṛhīto yo jalāñjalis tatra pratimayā saṅkrāntaṃ gaurīmukhakamalaṃ yasmāt taṃ haram | anarthakaṃ vṛthaiva yathā syād evaṃ sphurita oṣṭho yasya taṃ haraṃ namateti sambandhaḥ | pasuvaïṇo ity ādigāthāyām evārthatrayam aparam uktaṃ veditavyam || 697 ||</p>
+	</div><!-- edition !-->
+      </text>
+    </group>
   </group>
 </TEI>

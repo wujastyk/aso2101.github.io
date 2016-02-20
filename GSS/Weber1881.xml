@@ -72,7 +72,8 @@
 	       wit="#ψ">kaammia</rdg><rdg
 	       wit="#γ">kaaṃ bia</rdg>ೀ<rdg
 	       wit="#R #S">kaaṃ via</rdg><rdg
-	       wit="#T">kaa via</rdg></app>saṃjhāsalilaṃjaliṃ ṇamaha</l>
+	       wit="#T">kaa via</rdg></app>
+	    saṃjhāsalilaṃjaliṃ ṇamaha</l>
 	</lg>
       </div><!-- edition !-->
       <div type="commentary">
@@ -178,22 +179,35 @@
     </text><!-- verse !-->
     <text xml:id="Weber-ed-11" n="11" type="verse">
       <div type="edition">
+	<head>11. (322 S, 590 T) ohne Autor-Namen.</head>
 	<lg n="11">
 	  <l>pāapaḍiassa païṇo puṭṭhiṃ putte samāruhaṃtammi</l>
-	  <l>daḍhamaṇṇudūmiāi vihāso ghariṇīa ṇikkaṃto</l>
+	  <l><app><lem>daḍha</lem><rdg 
+	       wit="#ψ">daṭha</rdg></app>maṇṇu<app><lem>dūmiāi</lem><rdg
+	       wit="#ψ #R">dūmiāe</rdg><rdg
+	       wit="#γ">dūmiāi</rdg></app>vihāso <app><lem>ghariṇīa</lem><rdg
+	       wit="#ψ #R">ghariṇīe</rdg><rdg
+	       wit="#γ">ghariṇīa</rdg></app>ṇikkaṃto</l>
 	</lg>
       </div><!-- edition !-->
+      <div type="commentary">
+	<p>pṛṣṭha erscheint hier bei Hāla theils als Fem. auf i, s. Var. 4,20 Hem. 1,35, theils mit u statt ṛ, wie bei Var., wärend nach Hem. 1,129.35 dafür a, resp. i stehen sollte; Hem. lässt pu- nur für apabhraṃśa zu (4,329); vgl. zig. püśto bei Miklosich Mundarten der Zigeunder 9,13. — Ob dūma von dū herstammt, wie ṇūma aus hnu (s.v. 91), oder durmanas, wie suma (kusuma) aus sumanas, bleibt dahingestellt; s. Abh. p. 76. Retr. p. 353. S. Goldschmidt Index zum Setub.</p>
+      </div><!-- commentary !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-12" n="12" type="verse">
       <div type="edition">
+        <head>12. (13 γψ, 427 S, 313 T, 6V) Durgasvāminaḥ P.</head>
 	<lg n="12">
 	  <l>saccaṃ jāṇaï daṭṭhaṃ sarisammi jaṇammi jujjae rāo</l>
-	  <l>maraü ṇa tumaṃ bhaṇissaṃ maraṇaṃ pi salāhanijjaṃ se</l>
+	  <l>maraü ṇa tumaṃ bhaṇissaṃ maraṇaṃ pi salāhanijjaṃ <app><lem>se</lem><rdg
+	      wit="#Rm #ξ" type="chaya">asyāḥ</rdg><rdg
+	      wit="#G" type="chaya">tasyāḥ</rdg></app></l>
 	</lg>
       </div><!-- edition !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-13" n="13" type="verse">
       <div type="edition">
+	<head>13. (14 γψB; 139S, 389 T) Hālassa KG (felht in P).</head>
 	<lg n="13">
 	  <l>raṃdhaṇakammaṇiuṇie mā jūrasu rattapāḍalasuaṃdhaṃ</l>
 	  <l>muhamāruaṃ piaṃto dhūmāi sihī ṇa pajjalaï</l>
@@ -2266,11 +2280,24 @@
     </text><!-- verse !-->
     <text xml:id="Weber-ed-272" n="272" type="verse">
       <div type="edition">
+	<head>272. (275 KPψπ, 276 γ, 274 χ, 225 R; 677 S, 42 T)</head>
 	<lg n="272">
-	  <l>kīraṃti ccia ṇāsaï uae reha vva khalaaṇe mettī</l>
-	  <l>sā uṇa suaṇammi kaā aṇahā pāhāṇareha vva</l>
+	  <l>kīraṃti ccia ṇāsaï <app><lem>uae</lem><rdg
+	       wit="#γ">uaa</rdg></app> reha vva khalaaṇe <app><lem>mettī</lem><rdg
+	       wit="#R">mittī</rdg></app></l>
+	  <l>sā uṇa suaṇammi <app><lem>kaā</lem><rdg
+	       wit="#R">kayā</rdg></app> <app><lem>aṇahā</lem><rdg
+	       wit="#γ #ψ">aṇahā</rdg><rdg
+	       wit="#R">ṇa tahā</rdg><rdg
+	       wit="#χ #G" type="chaya">anaghā nirapāyā</rdg><rdg
+	       wit="#π" type="chaya">na tathā</rdg></app> <app><lem>pāhāṇa</lem><rdg
+	       wit="#γ">vāhāṇa</rdg><rdg
+	       wit="#ψ #R">pāhāṇa</rdg></app>reha vva</l>
 	</lg>
       </div><!-- edition !-->
+      <div type="commentary">
+	<p>Der Author der Lesart ṇa tahā R, na tathā in π hat aṇahā wohl aus anyathā (Abh. p. 31) gefasst und es dann durch eine klarere Kesart ersetzt. Zu den Steininschriften s. Garrez l.c. p. 401.</p>
+      </div><!-- commentary !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-273" n="273" type="verse">
       <div type="edition">
@@ -5905,19 +5932,46 @@
     </text><!-- verse !-->
     <text xml:id="Weber-ed-697" n="697" type="verse">
       <div type="edition">
+	<head>697. (706 γ, 707 ψ, 703 π, 697 χ<note resp="#AW">7,100.</note>, fehlt RST.)</head>
 	<lg n="697">
 	  <l>saṃjhāgahiajalaṃjalipaḍimāsaṃkaṃtagorimuhakamalaṃ</l>
-	  <l>aliaṃ cia phurioṭṭhaṃ vialiamaṃtaṃ haraṃ ṇamaha</l>
+	  <l><app><lem>aliaṃ cia</lem><rdg
+	       wit="#γ #ψ">aliaṃ bia</rdg><rdg
+	       wit="#π #χ #G" type="chaya">alīkam eva</rdg></app> <app><lem>phurioṭṭhaṃ</lem><rdg
+	       wit="#γ">phuoṭhṭhaṃ</rdg><rdg
+	       wit="#ψ">pphurioṭhṭhaṃ</rdg></app> vialia<app><lem>maṃtaṃ</lem><rdg
+	       wit="#ψ">mattaṃ</rdg></app> haraṃ ṇamaha</l>
 	</lg>
       </div><!-- edition !-->
+      <div type="translation">
+        <head>Auch ér duckt sich vor ihr!</head>
+        <p>Neigt euch dem Hara, dem alle seine (frommen) Sprüche entfallen, indem er nur scheinbar mit der Lippe zuckt, wenn das (vor Eifersucht geröthete) Lotus-Antlitz der Gaurī such in der (von ihm) zu Ehren der Abendröthe mit seinen beiden Händen geschöpften Wasserspende spiegelt (ihm daraus entgegenstrahlt).</p>
+      </div><!-- translation !-->
+      <div type="commentary">
+	<p>atha samāpta haranamaskārarūpaṃ maṃgalam ācarati; harasyā 'pi gaurīmukhakamalaprativiṃva(ṃ) dṛṣṭvā (? viṃvadaṣṭastha A, viṃvadṛsthā E, biṃbo ṭhaṣṭyā π) saṃdhyārūpanityakarmāṃgamaṃtralopo bhavati, kiṃ punar asmadāder lokasya priyāsāṃnidhye vyākulacittate ti sarvathā strīsaṃgaḥ pariharaṇīya iti tātparyārthaḥ πG, — atha ('na)ṃtaraṃ rājā śālavāhanaḥ samastaviśvaṃbharābhārasamudvahanakṣamapracaṇḍabhujadaṇḍaviśrāṃtakīrtir gāthākośasamāptim āracayya paramānaṃdasāṃdraḥ sveṣṭadevatānamaskārarūpaṃ maṃgalam ātanoti; -mukhakamalaṃ dṛṣṭvety arthāt, alīkam eva sphuritoṣṭham ata eva vigalitamaṃtram; ayaṃ bhāvaḥ: saṃdhyāsamaye 'rghadānāya (bricht ab) χ; — Die Ergänzung von dṛṣṭvā, wobei dann aliaṃ cia ph- auf -mukhakamalam bezogen wird, ist sehr hart, und eigentlich doch ganz unnöthig; das Compos. saṃjhā- ist, ebenso wie phuri-, ein bahuvrīhi und gehören Beide zu haraṃ. Das Antlitz der wohl eben neben Śiva stehenden Gaurī spiegelt sich, von der Abendröthe bestrahlt, in der Wasserspende roth ab und sieht daher wie von eifersüchtigem Zorn geröthet aus. — Der Bezug auf den Eingangsvers des Werkes, der dasselbe in allen Recensionen gleichmässig einleitet, liegt hier klar vor, und es eignet sich daher dieser Vers vortrefflich zum Schlussvers.</p>
+      </div><!-- commentary !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-698" n="698" type="verse">
       <div type="edition">
+	<head>698. (709 γ<note resp="#AW">In γ stehen zwei Verse zwischen 697 u. 698, von denen der zweite sich auch in ψ, aber hinter 698 vorfindet.</note>ψ, fehlt πχRST.)</head>
 	<lg n="698">
-	  <l>ia sirihālaviraïe pāuakavvammi sattasae</l>
-	  <l>sattamasaaṃ samattaṃ gāhāṇa sahāvaramaṇijjaṃ</l>
+	  <l><app><lem>ia</lem><rdg
+	       wit="#ψ">iha</rdg></app> <app><lem>sirihālaviraïe</lem><rdg
+	       wit="#γ">sirisihālarāie</rdg></app> pāuakavvammi sattasae</l>
+	  <l><app><lem>sattamasaaṃ</lem><rdg
+	       wit="#γ">sattasaaṃ</rdg><rdg
+	       wit="#ψ">sattaṃ saaṃ</rdg><rdg
+	       wit="#G" type="chaya">saptamaśataṃ</rdg></app> samattaṃ gāhāṇa sahāvaramaṇijjaṃ</l>
 	</lg>
       </div><!-- edition !-->
+      <div type="translation">
+        <head>Schlussvers des siebenten Cento.</head>
+        <p>Hiermit schliesst in dem aus 700 (Versen) bestehenden von śrī-Hāla verfassten Prākṛt-Gedicht das siebente, seinem Wesen nach reizende Strophenhundert.</p>
+      </div>
+      <div type="commentary">
+	<p>upagīti. — Hāla iti rājñaḥ śālivāhanasya saṃjñāṃtaram, gāthe 'ti chandaḥ, iti śabda graṃthaparisamāptau G.</p>
+	<p>Dieser Vers ist nicht sowohl ein Schlussvers für das Werk überhaupt, als vielmehr nur ein dgl. für das siebente Cente (s. oben p. 34. 35). Die Bezeichnung des Autors als siri, śrī, Hāla tritt resp. für den secundären Charakter des Verses unmittelbar ein.</p>
+      </div><!-- commentary !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-699" n="699" type="verse">
       <div type="edition">
@@ -6878,10 +6932,17 @@
     <text xml:id="Weber-ed-817" n="817" type="verse">
       <div type="edition">
 	<lg n="817">
-	  <l>laḍahavilaāṇa loaṇakaḍakkhavikkhevajaṇiasaṃdāvā</l>
+	  <l>laḍahavilaāṇa loaṇa<app><lem>kaḍakkha</lem><rdg wit="#Ts">kaṭakkha</rdg></app>vikkhevajaṇiasaṃdāvā</l>
 	  <l>jhijjaṃti mahāsattā cittuvveaṇasahā hoṃti</l>
 	</lg>
       </div><!-- edition !-->
+      <div type="translation">
+	<head>Selbstbeherrschung</head>
+	<p>Grossgeartete leiden zwar, gequält durch die Seitenblickwürfe aus den Augen schöner Frauen, sind aber Herren über die Anfregung des Geistes.</p>
+      </div><!-- translation !-->
+      <div type="commentary">
+        <p>alabhyalābhābhilāṣiṇīṃ kām api dūtī pratyākhyāti.</p>
+      </div><!-- commentary !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-818" n="818" type="verse">
       <div type="edition">

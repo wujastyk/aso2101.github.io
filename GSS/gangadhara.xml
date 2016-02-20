@@ -46,5 +46,25 @@
 	<p>amiam iti | śṛṅgārarasanirbharatvenāhlādakatvād amṛtam ivāmṛtaṃ prākṛtakāvyam avasare paṭhituṃ parapaṭhitaṃ ca śrotuṃ boddhuṃ ye na jānanti, atha ca kāmasya tattvacintāṃ tantravārtāṃ vā kurvanti te kathaṃ na lajjanta ity arthaḥ | kāmaśāstravyutpattividhuraṃ prati vidagdhanāyikoktir vā ||</p>
       </div>
     </text>
+    <text xml:id="Gangadhara-3" n="3" type="verse">
+      <div type="edition">
+      </div><!-- edition !-->
+    </text>
+    <text xml:id="Gangadhara-12" n="12" type="verse">
+      <div type="edition">
+	<p>priyaviśeṣopataptayā kayācit preṣitā nisṛṣṭārthā dūtī nāyakam utkarṣayantī bhaṅgyā svasakhīmaraṇaṃ sūcayantī āha—</p>
+	<quote type="base-text">
+	  <lg n="12">
+	    <l><note resp="#ed">kha-ga-pustakayor asyā agrimāyāś ca gāthāyā vyatyayo 'sti</note>saccaṃ jāṇaï daṭṭhuṃ sarisammi jaṇammi jujjae <app><lem>rāo</lem><rdg wit="#kha #ga">rāa</rdg></app> |</l>
+	    <l>maraü ṇa tumaṃ bhaṇissaṃ maraṇaṃ vi salāhaṇijjaṃ se || 12 ||</l>
+	  </lg>
+	</quote>
+	<lg type="chaya">
+	  <l>[satyaṃ jānāti draṣṭuṃ sadṛśe jane yujyate rāgaḥ |</l>
+	  <l>mriyatāṃ na tvāṃ bhaṇiṣyāmi maraṇam api ślāghanīyaṃ <app><lem>tasyāḥ</lem><rdg wit="#ga #gha">asyāḥ</rdg></app> ||]</l>
+	</lg>
+	<p>saccam iti | yato 'nanyarūpaślāghinī tvadrūpam eva bahu manyata ity āśayaḥ | sadṛśe jane yujyate rāga ity anena rūpābhijanādibhir anurūpe tvayi tasyāḥ samāgamautsukyaṃ yuktam eveti nāyikāyāḥ stutyanurāgābhyāṃ nāyakaprotsāhanam | mriyatām ity anena nāyakasyānabhyu<supplied reason="omitted" resp="#AO">pa</supplied>game strīvadhapātakam, ātmanaś ca prārthanābhaṅgabhīrutvaṃ darśitam | maraṇam apīty ādinā cānurūpānuṣṭhānāt tvadgatacittāyā maraṇe janmāntare tvatprāptisaṃbhavo vyajyate ||</p>
+      </div><!-- edition !-->
+    </text>
   </group>
 </TEI>

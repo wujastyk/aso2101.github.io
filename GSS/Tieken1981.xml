@@ -32,7 +32,8 @@
 	       wit="#ψ">paṃkaammia</rdg><rdg
 	       wit="#B">paṃkaaṃmia</rdg><rdg
 	       wit="#γ">paṃkaaṃ bia</rdg><rdg
-	       wit="#T">paṃkaa via</rdg></app>saṃjhāsalilaṃjaliṃ ṇamaha<note resp="#HT">In Ma lcuna for the text; in Tp for <foreign xml:lang="sa-Latn">pasuvaïṇo ... paḍimā(saṃkaṃta)</foreign>.</note></l>
+	       wit="#T">paṃkaa via</rdg></app> 
+	     saṃjhāsalilaṃjaliṃ ṇamaha<note resp="#HT">In Ma lcuna for the text; in Tp for <foreign xml:lang="sa-Latn">pasuvaïṇo ... paḍimā(saṃkaṃta)</foreign>.</note></l>
 	</lg>
       </div><!-- edition !-->
       <div type="translation">
@@ -160,6 +161,56 @@
 	(indiscriminately around everyone who is available) like the
 	tendrils of the young cucumber-plant.</p>
       </div>
+    </text>
+    <text xml:id="Tieken-ed-11" n="11" type="verse">
+      <div type="edition">
+	<head>11 (12 Ma, 13 Tp; 10 Bh, 11 R; K, ψ, B, γ, P, G, ξ; 590 T; 322 S). Missing in W.</head>
+	<lg n="11">
+	  <l><app><lem>pāavaḍiassa</lem><rdg
+	       wit="#Ma #Tp #R #K #ψ #B #γ #P #T #S">pāapaḍiassa</rdg></app> <app><lem>païṇo paṭṭhiṃ putte</lem><rdg
+	       wit="#Tp">paṭṭhiṃ païṇo putte</rdg><rdg
+	       wit="#R #ψ #B #γ #P #T">païṇo puṭṭhiṃ putte</rdg><rdg
+	       wit="#K">païṇo puṭhṭhiṃ putte</rdg><rdg
+	       wit="#S">païṇo putte paṭṭhiṃ</rdg></app> samā<app><lem>ruhaṃtammi</lem><rdg
+	       wit="#Ma">ruhaṃtam</rdg><rdg
+	       wit="#Tp">ruhaṃtaṃmmi</rdg></app></l>
+	  <l><app><lem>diḍha</lem><rdg
+	       wit="#Bh #R #K #γ #P #S">daḍha</rdg><rdg
+	       wit="#ψ">daṭha</rdg></app><app><lem>maṇṇu</lem><rdg
+	       wit="#Bha">maṃna</rdg><rdg
+	       wit="#Bhb">manna</rdg><rdg
+	       wit="#K">maṇu</rdg></app><app><lem>dūmiāe</lem><rdg
+	       wit="#γ">dūmiāi</rdg><rdg
+	       wit="#P">dummiāe</rdg><rdg
+	       wit="#S">dumiāi</rdg></app>vi <app><lem>hāso</lem><rdg
+	       wit="#Ma">ghāso</rdg></app> <app><lem>ghariṇīe</lem><rdg
+	       wit="#Ma">hariṇīe</rdg><rdg
+	       wit="#Bh">ghariṇīi</rdg><rdg
+	       wit="#B #γ #S">ghariṇīa</rdg></app> <app><lem>ṇikkaṃto</lem><rdg
+	       wit="#K">ṇikvaṃto</rdg></app></l>
+	</lg>
+      </div><!-- edition !-->
+      <div type="translation">
+	<p>When their son climbed on her husband's back who had fallen at her feet, the wife could not help laughing, even though she was tormented by a fierce anger.</p>
+      </div><!-- translation !-->
+    </text>
+    <text xml:id="Tieken-ed-12" n="12" type="verse">
+      <div type="edition">
+	<head>12 (14 Ma, 15 Tp; 11 Bh, 12 R; K, B, P, 13 ψ, γ, 12 G, ξ; 313 T; 472 S; 6 V)</head>
+	<lg n="12">
+	  <l>saccaṃ jāṇaï <app><lem>daṭṭhuṃ</lem><rdg
+	       wit="#Ma">du(ṭṭhuṃ)</rdg><rdg
+	       wit="#K">daḍhḍhuṃ</rdg></app><note resp="#HT">In Ma lacuna between da(ṭṭhuṃ) and (sa)risammi.</note> sarisammi jaṇammi jujjae <app><lem>rāo</lem><rdg 
+	       wit="#K">rāoṃ</rdg></app></l>
+	  <l><app><lem>maraü ṇa tumaṃ</lem><rdg
+	       wit="#Ma">maraṇe tumaṃ</rdg></app>bhaṇissaṃ maraṇaṃ pi <app><lem>silāhaṇijjaṃ</lem><rdg
+	       wit="#Ma">silānaṇijjaṃ</rdg><rdg
+	       wit="#Bh #R #K #ψ #B #γ #P #T #S">salāhaṇijjaṃ</rdg></app> se</l>
+	</lg>
+      </div><!-- edition !-->
+      <div type="translation">
+	<p>I must say, she knows what looking is! Passion for a man who is one's equal is right (but not for a man like you). Let her die! I will not tell you (what she asked me to tell you). Even such a dreadful thing as death is to be welcomed by her (in this situation).</p>
+      </div><!-- translation !-->
     </text>
   </group>
 </TEI>

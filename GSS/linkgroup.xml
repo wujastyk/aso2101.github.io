@@ -12,7 +12,7 @@
 	        urn:cts:indic:Hāla.SaSa.BORI585:2
 		urn:cts:indic:Hāla.SaSa.Vema:2
 		urn:cts:indic:Hāla.SaSa.Tieken1981:2
-		urn:cts:indic:Hāla.SaSa.Gaṅgādhara:2bv"/>
+		urn:cts:indic:Hāla.SaSa.Gaṅgādhara:2"/>
   <link target="urn:cts:indic:Hāla.SaSa.Weber1881:3
 		urn:cts:indic:Hāla.SaSa.Patwardhan1980:2
 	        urn:cts:indic:Hāla.SaSa.Prema-BORI:3
@@ -30,7 +30,13 @@
 		urn:cts:indic:Hāla.SaSa.Patwardhan1980:9
 		urn:cts:indic:Hāla.SaSa.GOML3378:10
 		urn:cts:indic:Hāla.SaSa.LDI909:9"/>
+  <link target="urn:cts:indic:Hāla.SaSa.Weber1881:11
+                urn:cts:indic:Hāla.SaSa.Patwardhan1980:10"/>
   <link target="urn:cts:indic:Hāla.SaSa.Weber1881:12
+		urn:cts:indic:Hāla.SaSa.Patwardhan1980:11
+		urn:cts:indic.Hāla.SaSa.Tieken1981:12
+		urn:cts:indic:Hāla.SaSa.Gaṅgādhara:12
+		urn:cts:indic:Hāla.SaSa.GOML3378:12
                 urn:cts:indic:Hāla.SaSa.Vema:6"/>
   <link target="urn:cts:indic:Hāla.SaSa.Weber1881:23
                 urn:cts:indic:Hāla.SaSa.Vema:10"/>
@@ -38,6 +44,9 @@
 		urn:cts:indic:Hāla.SaSa.Vema:13"/>
   <link target="urn:cts:indic:Hāla.SaSa.Weber1881:137
                 urn:cts:indic:Hāla.SaSa.Vema:9"/>
+  <link target="urn:cts:indic:Hāla.SaSa.Weber1881:272
+		urn:cts:indic:Hāla.SaSa.Prema-BORI:221
+                urn:cts:indic:Hāla.SaSa.Patwardhan1980:221"/>
   <link target="urn:cts:indic:Hāla.SaSa.Weber1881:416
 		urn:cts:indic:Hāla.SaSa.Vema:12"/>
   <link target="urn:cts:indic:Hāla.SaSa.Weber1881:455
@@ -59,6 +68,8 @@
 		urn:cts:indic:Hāla.SaSa.Vema:11"/>
   <link target="urn:cts:indic:Hāla.SaSa.Weber1881:669
 		urn:cts:indic:Hāla.SaSa.Vema:15"/>
+  <link target="urn:cts:indic:Hāla.SaSa.Weber1881:697
+	        urn:cts:indic:Hāla.SaSa.Pitambara:697"/>
   <link target="urn:cts:indic:Hāla.SaSa.Weber1881:815
 		urn:cts:indic:Hāla.SaSa.Vema:3"/>
   <link target="urn:cts:indic:Hāla.SaSa.Weber1881:821
