@@ -7290,11 +7290,19 @@
     </text><!-- verse !-->
     <text xml:id="Weber-ed-861" n="861" type="verse">
       <div type="edition">
+	<head>361. (8 V.)</head>
 	<lg n="861">
 	  <l>jaṃ tuha kajjaṃ taṃ cia kajjaṃ majjha tti jaṃ saā bhaṇasi</l>
-	  <l>o dūi saccavaaṇe ajja si pāraṃ gaā tassa</l>
+	  <l><app><lem>o dūi</lem><rdg
+	       wit="#T">oṃ dūti</rdg><rdg
+	       wit="#V" type="chaya">he dūti</rdg></app> <app><lem>saccavaaṇe</lem><rdg
+	       wit="#T #V" type="chaya">satyavacane</rdg></app> ajja si pāraṃ gaā tassa</l>
 	</lg>
       </div><!-- edition !-->
+      <div type="translation">
+        <head>Du hast heute wohl ganz meine Stelle vertreten!</head>
+        <p>Wenn du immer sagst: ,,dine Sache ist ganze meine Sache,'' so hast du heute, o Botin, sag' 'mal die Wahrheit! dies wohl auf das Aeusserste getrieben?</p>
+      </div><!-- translation !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-862" n="862" type="verse">
       <div type="edition">
@@ -7490,11 +7498,18 @@
     </text><!-- verse !-->
     <text xml:id="Weber-ed-886" n="886" type="verse">
       <div type="edition">
+        <head>465. (7 V, 19 A.)</head>
 	<lg n="886">
 	  <l>kassa va ṇa hoi roso daṭṭhūṇa piāĕ savvaṇaṃ aharaṃ</l>
-	  <l>sabhamarakamalagghāiri vāriavāme sahasu eṇhiṃ</l>
+	  <l>sabhamarakamal<app><lem>agghāiri</lem><rdg
+	       wit="#T #V" type="chaya">āghrāṇaśīle</rdg></app> <app><lem>vāriavāme</lem><rdg
+	       wit="#T #V">vāritagrāme</rdg></app> sahasu eṇhiṃ</l>
 	</lg>
       </div><!-- edition !-->
+      <div type="translation">
+	<head></head>
+	<p></p>
+      </div><!-- translation !-->
     </text><!-- verse !-->
     <text xml:id="Weber-ed-887" n="887" type="verse">
       <div type="edition">

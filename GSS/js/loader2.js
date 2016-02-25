@@ -44,8 +44,8 @@ function getQuery() {
 // which builds the forms at the top of the page.
 function loadForms() {
   $("[id=authorselector]").append("<label>Author: </label><div class='styled-select'><select name='authorName'></select></div><noscript><input type='button' value='Submit' onclick='loadWorks(authorName)'></input></noscript>");
-  $("[id=workselector]").append("<label>Work: </label><div class='styled-select'><select name='workName'><option disabled selected> -- select a work -- </option></select></div><noscript><input type='button' value='Submit' onclick='loadEditions(workName)'></input></noscript>");
-  $("[id=editionselector]").append("<label>Edition: </label><div class='styled-select'><select name='editionName'><option disabled selected> -- select an edition -- </option></select></div><noscript><input type='button' value='Submit' onclick='loadVerse(editionName)'></input></noscript>");
+  $("[id=workselector]").append("<label>Work: </label><div class='styled-select'><select name='workName'><option disabled selected> --- </option></select></div><noscript><input type='button' value='Submit' onclick='loadEditions(workName)'></input></noscript>");
+  $("[id=editionselector]").append("<label>Edition: </label><div class='styled-select'><select name='editionName'><option disabled selected> --- </option></select></div><noscript><input type='button' value='Submit' onclick='loadVerse(editionName)'></input></noscript>");
   $("[id=verseselector]").append("<label>Passage: </label><div class='styled-input'><input name='verseNo' id='verseNumber'></input></div>");
   $("[id=inputbutton]").append("<div class='styled-input-button'><input type='button' value='Submit'></input></div>");
   urn = decodeURI(getQuery()['urn']);
@@ -57,7 +57,7 @@ function loadAuthors(urn) {
   authors = $(inventory).find('textgroup');
   selector = $("[id=authorselector]").find("select");
   $(selector).find('option').remove(); 
-  $(selector).append('<option disabled selected> -- select an author -- </option>');
+  $(selector).append('<option disabled selected> --- </option>');
   for (i = 0; i < authors.length; i++) {
     author = authors[i];
     aurn = $(authors[i]).attr('urn');

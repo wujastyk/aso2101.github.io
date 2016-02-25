@@ -14,7 +14,7 @@
     <work urn="urn:cts:indic:Hāla.SaSa:" xml:lang="sa-Deva">
       <title xml:lang="sa-Latn">Gāthāsaptaśatī</title>
       <edition urn="urn:cts:indic:Hāla.SaSa.Vema:">
-	<label xml:lang="en">Vemabhūpāla’s Commentary (Kolhapur 1970)</label>
+	<label xml:lang="en">Vemabhūpāla’s Commentary</label>
 	<description xml:lang="en">Vemabhūpāla's Bhāvadīpikā</description>
 	<online docname="vema.xml">
 	  <validate schema="tei-all.rnc"/>
@@ -28,7 +28,7 @@
 	</online>
       </edition>
       <edition urn="urn:cts:indic:Hāla.SaSa.Patwardhan1980:">
-        <label xml:lang="en">Bhuvanapāla’s Commentary (Ahmedabad 1980)</label>
+        <label xml:lang="en">Bhuvanapāla’s Commentary</label>
         <description xml:lang="eng">Patwardhan's edition</description>
         <online docname="MVP-bhuvanapala.xml">
 	  <validate schema="tei-all.rnc"/>
@@ -40,76 +40,6 @@
 		xpath="//tei:text[@n='?']"/>
           </citationMapping>
         </online>
-      </edition>
-      <edition urn="urn:cts:indic:Hāla.SaSa.Pitambara:">
-        <label xml:lang="en">Pītāmbara’s Commentary (Lahore 1942)</label>
-        <description xml:lang="eng">Pitambara (Lahore ed.)</description>
-        <online docname="pitambara.xml">
-	  <validate schema="tei-all.rnc"/>
-          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-	    <citation
-		label="verse"
-		scope="/tei:TEI//tei:group"
-		xpath="//tei:text[@n='?']"/>
-          </citationMapping>
-        </online>
-      </edition>
-      <edition urn="urn:cts:indic:Hāla.SaSa.Gaṅgādhara:">
-        <label xml:lang="en">Gaṅgādhara’s Commentary (Bombay 1911)</label>
-        <description xml:lang="eng">Gaṅgādhara (Bombay 1911)</description>
-        <online docname="gangadhara.xml">
-	  <validate schema="tei-all.rnc"/>
-          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-	    <citation
-		label="verse"
-		scope="/tei:TEI//tei:group"
-		xpath="//tei:text[@n='?']"/>
-          </citationMapping>
-        </online>
-      </edition>
-      <edition urn="urn:cts:indic:Hāla.SaSa.Weber1881:">
-        <label xml:lang="en">Weber’s Edition (Leipzig 1881)</label>
-        <description xml:lang="eng">Weber's 1881 edition</description>
-        <online docname="Weber1881.xml">
-	  <validate schema="tei-all.rnc"/>
-          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-	    <citation
-		label="verse"
-		scope="/tei:TEI//tei:group"
-		xpath="//tei:text[@n='?']"/>
-          </citationMapping>
-        </online>
-      </edition>
-      <edition urn="urn:cts:indic:Hāla.SaSa.Tieken1981:">
-        <label xml:lang="en">Tieken’s edition (1981)</label>
-        <description xml:lang="eng">Tieken's 1981 edition</description>
-        <online docname="Tieken1981.xml">
-	  <validate schema="tei-all.rnc"/>
-          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-            <citation
-		label="verse"
-		scope="/tei:TEI//tei:group"
-		xpath="//tei:text[@n='?']"/>
-          </citationMapping>
-        </online>
-      </edition>
-      <edition urn="urn:cts:indic:Hāla.SaSa.GOML3378:">
-	<label xml:lang="en">Mādhavayajvamiśra (Chennai MS)</label>
-	<description xml:lang="en">Mādhavayajvamiśra (Chennai MS)</description>
-	<online docname="GOMLA3378.xml">
-	  <validate schema="tei-all.rnc"/>
-          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-            <citation
-		label="verse"
-		scope="/tei:TEI//tei:group"
-		xpath="//tei:text[@n='?']"/>
-          </citationMapping>
-	</online>
       </edition>
       <edition urn="urn:cts:indic:Hāla.SaSa.LDI909:">
 	<label xml:lang="en">Bhuvanapāla’s Commentary (Ahmedabad MS)</label>
@@ -125,8 +55,78 @@
           </citationMapping>
 	</online>
       </edition>
+      <edition urn="urn:cts:indic:Hāla.SaSa.Pitambara:">
+        <label xml:lang="en">Pītāmbara’s Commentary</label>
+        <description xml:lang="eng">Pitambara (Lahore ed.)</description>
+        <online docname="pitambara.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+	    <citation
+		label="verse"
+		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+        </online>
+      </edition>
+      <edition urn="urn:cts:indic:Hāla.SaSa.Gaṅgādhara:">
+        <label xml:lang="en">Gaṅgādhara’s Commentary</label>
+        <description xml:lang="eng">Gaṅgādhara (Bombay 1911)</description>
+        <online docname="gangadhara.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+	    <citation
+		label="verse"
+		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+        </online>
+      </edition>
+      <edition urn="urn:cts:indic:Hāla.SaSa.Weber1881:">
+        <label xml:lang="en">Weber’s Edition</label>
+        <description xml:lang="eng">Weber's 1881 edition</description>
+        <online docname="Weber1881.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+	    <citation
+		label="verse"
+		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+        </online>
+      </edition>
+      <edition urn="urn:cts:indic:Hāla.SaSa.Tieken1981:">
+        <label xml:lang="en">Tieken’s Edition</label>
+        <description xml:lang="eng">Tieken's 1981 edition</description>
+        <online docname="Tieken1981.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation
+		label="verse"
+		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+        </online>
+      </edition>
+      <edition urn="urn:cts:indic:Hāla.SaSa.GOML3378:">
+	<label xml:lang="en">Mādhavayajvamiśra’s Commentary</label>
+	<description xml:lang="en">Mādhavayajvamiśra (Chennai MS)</description>
+	<online docname="GOMLA3378.xml">
+	  <validate schema="tei-all.rnc"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation
+		label="verse"
+		scope="/tei:TEI//tei:group"
+		xpath="//tei:text[@n='?']"/>
+          </citationMapping>
+	</online>
+      </edition>
       <edition urn="urn:cts:indic:Hāla.SaSa.Prema-BORI:">
-	<label xml:lang="en">Premarāja’s Commentary (BORI MS)</label>
+	<label xml:lang="en">Premarāja’s Commentary</label>
 	<description xml:lang="en">Premarāja (BORI MS)</description>
 	<online docname="Prema-BORI.xml">
 	  <validate schema="tei-all.rnc"/>
@@ -140,7 +140,7 @@
 	</online>
       </edition>
       <edition urn="urn:cts:indic:Hāla.SaSa.BORI585:">
-	<label xml:lang="en">Vrajarājadīkṣita (BORI MS)</label>
+	<label xml:lang="en">Vrajarājadīkṣita’s Commentary</label>
 	<description xml:lang="en">Vrajarājadīkṣita (BORI MS)</description>
 	<online docname="BORI585.xml">
 	  <validate schema="tei-all.rnc"/>
