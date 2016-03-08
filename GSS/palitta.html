@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.container {
+  margin: 20px auto;
+  padding: 20px 0;
+  text-align:center;
+}
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+.link {
+  stroke:black;
+  stroke-width: 1px;
+}
+.node.active {
+  transform:translate(15.625%,0) scale(1.5,1);
+-webkit-filter: drop-shadow( 0px 2px 3px #000 );
+            filter: drop-shadow( 0px 2px 3px #000 );
+}
+.link.active {
+  stroke:steelblue;
+  stroke-width:4px;
+-webkit-filter: drop-shadow( 0px 0px 5px rgba(255,255,0,1));
+            filter: drop-shadow( 0px 0px 5px rgba(255,255,0,1));
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: left;			
+    width: 250px;
+    height: auto;					
+    padding: 4px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+</style>
+<div class="container">
+<svg class="chart"></svg>
+</div>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script>
+
+var totalHeight = 10000;
+var totalWidth = 1000;
+var columnWidth = totalWidth / 2;
+var width = totalWidth / 2;
+
+// generate chart
+var chart = d3.selectAll(".chart")
+    .attr("width",totalWidth)
+    .attr("height",totalHeight);
+
+var bhaChart = chart.append("g")
+    .attr("class","bha")
+    .attr("width",columnWidth);
+var samChart = chart.append("g")
+    .attr("class","sam")
+    .attr("width",columnWidth)
+    .attr("transform","translate("+columnWidth+",0)");
+
+// load in the tab-separated values
+// the data should have the following form:
+// bha: "q, r", sam: "s";
+// bha: "x", sam: "y, z"
+// i.e., it is an associative array,
+d3.tsv("data.csv", function(error, data) {
+   // first, we get the total number of verses in bhadresvara's version
+   var bhaMax = d3.max(data, function(d) { return +d.bha } );
+   // next, we get the total number of verses in the samkhitta version
+   var samMax = d3.max(data, function(d) { return +d.sam } );
+   // we know that samMax is greater than bhaMax, but
+   // just in case, we compare the values and get the higher one
+   var overallMax = (samMax > bhaMax) ? samMax : bhaMax;
+   // the width of the cell is the same for both series
+   var cellHeight = totalHeight / overallMax;
+   var samCellHeight = totalHeight / samMax;
+   var bhaCellHeight = totalHeight / bhaMax;
+   // these variables contains the verses in each series
+   var bhaValues = d3.range(1,bhaMax+1);
+   var samValues = d3.range(1,samMax+1);
+
+   // bind the verses to svg g elements in each chart
+   var bhaCell = bhaChart.selectAll("g")
+          .data(bhaValues)
+        .enter().append("g")
+        .attr("transform", function(d) { return "translate(0," + (d-1) * bhaCellHeight + ")"; })
+        .append("a")
+        .attr("xlink:href",function(d) { return encodeURI("index.html?urn=urn:cts:indic:Bhadreśvara.TaKa:"+d); })
+   var samCell = samChart.selectAll("g")
+          .data(samValues)
+        .enter().append("g")
+        .attr("transform", function(d) { return "translate(0," + (d-1) * samCellHeight + ")"; })
+        .append("a")
+        .attr("xlink:href",function(d) { return encodeURI("index.html?urn=urn:cts:indic:Unknown.SaṃTa:"+d); })
+
+   // put on the rectangles
+   samCell.append("rect")
+        .attr("height", samCellHeight );
+   bhaCell.append("rect")
+        .attr("height", bhaCellHeight );
+   d3.selectAll("rect")
+        .attr("transform","translate("+ ( columnWidth/2 - columnWidth/8) + ",0)")
+        .attr("width", columnWidth/4 - 1)
+        .style("fill","steelblue");
+
+   bhaChart.selectAll("g")
+        .append("text")
+        .attr("y", bhaCellHeight / 2)
+        .attr("dy","0.5em")
+        .text(function(d) { return d });
+
+   samChart.selectAll("g")
+        .append("text")
+        .attr("y", samCellHeight / 2)
+        .attr("dy","0.35em")
+        .text(function(d) { return d })
+        .style("font","6px");
+
+   chart.selectAll("g").selectAll("text")
+        .attr("x", columnWidth / 2)
+        .attr("dx", "0em")
+        .attr("pointer-events","none");
+
+   var links = chart.selectAll(".link")
+        .data(data);
+
+   var bhaLinks = links.enter()
+        .append("g")
+        .filter(function(d) { return d.sam > 0 });
+   var samLinks = links.enter()
+        .append("g")
+        .filter(function(d) { return d.sam > 0 });
+   var div = d3.select("body").append("div")	
+        .attr("class", "tooltip")				
+        .style("opacity", 0);
+
+// these are all of the highlighting functions
+function highlight(set,x) {
+  var related = "";
+  var thistext = "";
+  var othertext = "";
+  if (x == null) {
+    d3.selectAll(".node").classed("active", false);
+    d3.selectAll(".link").classed("active", false);
+    div.transition()		
+      .duration(500)		
+      .style("opacity", 0);
+  } else {
+    if (set == 'bha') {
+      // highlight the current node
+      d3.selectAll(".node.bha" + x).classed("active", true);
+      d3.selectAll(".link.bha" + x).classed("active", true);
+      thistext = "<em>Taraṃgavaīkahā</em>";
+      othertext = "<em>Saṃkhittataraṃgavaī</em>";
+      relatedNodes = samLinks.selectAll(".node.bha" + x);
+    } else {
+      d3.selectAll(".node.sam" + x).classed("active", true);
+      d3.selectAll(".link.sam" + x).classed("active", true);
+      thistext = "<em>Saṃkhittataraṃgavaī</em>";
+      othertext = "<em>Taraṃgavaīkahā</em>"; 
+      relatedNodes = bhaLinks.selectAll(".node.sam" + x);
+    }
+    relatedNodes.each(function(d) {
+      classAttribs = d3.select(this).attr("class").split(" ");
+      for (i = 0; i < classAttribs.length; i++) {
+        s = classAttribs[i]
+        if (set == 'bha') { 
+          if (s.indexOf("sam") > -1) {
+            if (related !== '') { related = related + ", " }
+            related = related + s.substring(s.indexOf("sam")+3,s.length);
+          }
+        } else {
+          if (s.indexOf("bha") > -1) {
+            if (related !== '') { related = related + ", " }
+            related = related + s.substring(s.indexOf("bha")+3,s.length);
+          }
+        }
+      }
+    });
+    div.transition()		
+      .duration(200)		
+      .style("opacity", .9);		
+    div .html(thistext + " " + x + "<br>Related to: " + othertext + " " + related)
+      .style("left", (d3.event.pageX + 28) + "px")		
+      .style("top", (d3.event.pageY - 28) + "px");	
+  }
+}
+
+   bhaLinks
+        .attr("transform", function(d) { return "translate(0," + (d.bha-1) * bhaCellHeight + ")"; })
+        .append("a")
+        .attr("xlink:href",function(d) { return encodeURI("index.html?urn=urn:cts:indic:Bhadreśvara.TaKa:"+d.bha); })
+        .append("rect")
+        .attr("class",function(d,i) { return "node bha" + d.bha + " sam" + d.sam; })
+        .attr("height", bhaCellHeight )
+        .attr("width",columnWidth/4 - 1)
+        .attr("transform","translate("+ ( columnWidth/2 - columnWidth/8) + ",0)")
+        .style("fill","lightsteelblue")
+        .on("mouseover", function(d,i) {
+           highlight("bha",d.bha);
+         })
+        .on("mouseout", function() { 
+           highlight(null);
+         });
+
+  bhaLinks
+        .append("text")
+        .attr("y", bhaCellHeight / 2)
+        .attr("dy","0.5em")
+        .attr("x", columnWidth / 2)
+        .attr("dx", "0em")
+        .attr("pointer-events","none")
+        .text(function(d) { return d.bha })
+
+   samLinks
+        .attr("transform", function(d) { return "translate("+columnWidth+"," + (d.sam-1) * samCellHeight + ")"; })
+        .append("a")
+        .attr("xlink:href",function(d) { return encodeURI("index.html?urn=urn:cts:indic:Unknown.SaṃTa:"+d.sam); })
+        .append("rect")
+        .attr("class",function(d,i) { return "node bha" + d.bha + " sam" + d.sam; })
+        .attr("height", samCellHeight )
+        .attr("width",columnWidth/4 - 1)
+        .attr("transform","translate("+ ( columnWidth/2 - columnWidth/8) + ",0)")
+        .style("fill","lightsteelblue")
+        .on("mouseover", function(d,i) {
+           highlight("sam",d.sam);
+         })
+        .on("mouseout", function() { 
+           highlight(null);
+         });
+
+   samLinks
+        .append("text")
+        .attr("y", samCellHeight / 2)
+        .attr("dy","0.5em")
+        .attr("x", columnWidth / 2)
+        .attr("dx", "0em")
+        .attr("pointer-events","none")
+        .text(function(d) { return d.sam })
+        .style("font","6px");
+
+   // draw the links
+   d3.select(".bha").selectAll(".link")
+          .data(data).enter()
+        .append("line")
+        // we don't want any links to 0!
+        .filter(function(d) { return d.sam > 0 })
+        .attr("class",function(d,i) { return "link bha" + d.bha + " sam" + d.sam + " i" + i; })
+        .attr("x1", ( ( columnWidth/2 - columnWidth/8) + columnWidth/4 ) - 2)
+        .attr("x2", ( columnWidth + ( columnWidth/2 - columnWidth/8)))
+        .attr("y1",function(d) { return +d.bha * bhaCellHeight - (bhaCellHeight / 2) } )
+        .attr("y2",function(d) { return +d.sam * samCellHeight - (samCellHeight / 2) } );
+
+   // okay, now the two charts are drawn.
+
+   // last, draw the lines that connect blocks.
+   // to do this, we go into data.csv, and we
+   // extract a source and target relation:
+   // every bha is a source, and every sam
+   // is a target. these numbers also get us
+   // the y-coordinates (bha * bhaCellHeight - (bhaCellHeight/2))
+   
+});
+</script>
