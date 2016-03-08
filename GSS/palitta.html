@@ -43,7 +43,7 @@ div.tooltip {
 <div class="container">
 <svg class="chart"></svg>
 </div>
-<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://aso2101.github.io/GSS/js/d3.v3.min.js" charset="utf-8"></script>
 <script>
 
 var totalHeight = 10000;
@@ -69,7 +69,7 @@ var samChart = chart.append("g")
 // bha: "q, r", sam: "s";
 // bha: "x", sam: "y, z"
 // i.e., it is an associative array,
-d3.tsv("data.csv", function(error, data) {
+d3.tsv("http://aso2101.github.io/GSS/data.csv", function(error, data) {
    // first, we get the total number of verses in bhadresvara's version
    var bhaMax = d3.max(data, function(d) { return +d.bha } );
    // next, we get the total number of verses in the samkhitta version
