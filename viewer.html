@@ -1,0 +1,105 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fn="http://www.w3.org/2005/xpath-functions" encodingxmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>HTML viewer for SARIT files</title>
+  <!-- loads JQuery and Bootstrap !-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <link rel="stylesheet" 
+	type="text/css" 
+	href="cssstylesheet.css"></link>
+  <link rel="stylesheet" 
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+	integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 
+	crossorigin="anonymous"></link>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+	  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+	  crossorigin="anonymous"></script>
+  <!-- loads the Cardo and Lato fonts from Google (do we need this? !-->
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cardo|Lato"/>
+  <!-- loads local css files !-->
+  <link rel="stylesheet" href="text.css" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="stylesheets/sarit-css.css"/>
+  <link rel="stylesheet" type="text/css" href="stylesheets/modal.css"/>
+</head>
+
+<body onload="loadform()">
+
+<div id="topbar">
+  <form id="selectorform"></form>
+</div> 
+
+<div id="text"></div>
+
+<script language="javascript">
+function loadXMLDoc(dname) {
+  if (window.XMLHttpRequest) {
+    xhttp = new XMLHttpRequest();
+  } else {
+    xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xhttp.open("GET", dname, false);
+  xhttp.send("");
+  return xhttp.responseXML;
+}
+
+function loadform() {
+  xml = loadXMLDoc('textInventory.xml');
+  works = xml.getElementsByTagName('work');
+  form = document.getElementById('selectorform');
+  selector = document.createElement('select');
+  selector.setAttribute('name','textname');
+  form.appendChild(selector);
+  for (i = 0; i < works.length; i++) {
+    titlenode = works[i].getElementsByTagName('title')[0];
+    filenode = works[i].getElementsByTagName('online')[0];
+    filename = filenode.getAttribute('docname');
+    title = titlenode.childNodes[0].nodeValue;
+    newoption = document.createElement('option');
+    newoption.setAttribute('value',filename);
+    newoption.innerHTML = title;
+    selector.appendChild(newoption);
+  }
+  submission = document.createElement('input');
+  submission.setAttribute('type','button');
+  submission.setAttribute('value','Submit');
+  submission.setAttribute('onclick','displayResult(this.form.textname)');
+  form.appendChild(submission);
+}
+
+function displayResult(fd) {
+  selvalue = fd.value;
+  xslfile = 'stylesheets/sarit-base-nostruct.xsl';
+  xml = loadXMLDoc(selvalue);
+  xsl = loadXMLDoc(xslfile);
+  textnode = xml.getElementsByTagName("text")[0];
+
+  // set a &nbsp to make prevent FF to append the text by double click
+  document.getElementById("text").innerHTML = '&nbsp;';
+
+  // code for IE
+  if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+    ex = textnode.transformNode(xsl);
+    document.getElementById("text").innerHTML = ex;
+  }
+
+  // code for Mozilla, Firefox, etc.
+  else if (document.implementation && document.implementation.createDocument) 
+  {
+    xsltProcessor = new XSLTProcessor();
+    xsltProcessor.importStylesheet(xsl);
+    result = xsltProcessor.transformToFragment(textnode, document);
+    document.getElementById("text").appendChild(result);
+  } 
+}
+
+function scrollTo(hash) {
+  location.hash = "#" + hash;
+}
+</script>
+
+
+</body>
+</html>

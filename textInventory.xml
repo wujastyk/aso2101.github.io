@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="TextInventory.rng" type="xml"?>
+<TextInventory tiversion="3.0.rc1" xmlns="http://chs.harvard.edu/xmlns/cts3/ti" xmlns:dc="http://purl.org/dc/elements/1.1">
+  <collection id="SARIT-test" isdefault="yes">
+    <title xml:lang="eng" xmlns="http://purl.org/dc/elements/1.1">SARIT Testing Inventory</title>
+    <creator xmlns="http://purl.org/dc/elements/1.1">Andrew Ollett</creator>
+    <coverage xml:lang="eng" xmlns="http://purl.org/dc/elements/1.1">Selected Sanskrit texts for testing CTS requests.</coverage>
+    <description xml:lang="eng" xmlns="http://purl.org/dc/elements/1.1">Texts chosen to test the CTS protocol as applied to SARIT (Sanskrit and Prakrit) texts.</description>
+    <rights xml:lang="eng" xmlns="http://purl.org/dc/elements/1.1">This TextInventory and all on-line texts it documents are licensed under the Creative Commons Attribution-Share Alike 3.0 Unported License. For more information, see: http://creativecommons.org/licenses/by-sa/3.0/ </rights>
+  </collection>
+  <textgroup projid="sa:Dhanañjaya">
+    <groupname xml:lang="en">Dhanañjaya</groupname>
+    <work projid="sa:DaRū" xml:lang="sa-Deva">
+      <title xml:lang="sa-Latn">Daśarūpaka</title>
+      <edition projid="sa:DaRū">
+	<label xml:lang="en">SARIT</label>
+	<description xml:lang="en">SARIT edition</description>
+	<online docname="DaRū.xml">
+	  <validate schema="tei-all.rnc"/>
+	  <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+	</online>
+      </edition>
+    </work>
+  </textgroup>
+</TextInventory>
