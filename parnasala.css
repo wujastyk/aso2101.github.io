@@ -1,0 +1,168 @@
+TEI {
+  margin:20px;
+}
+
+teiHeader {
+  display:none;
+}
+text {
+  font-size:11pt;
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto;
+      word-wrap: break-word;
+}
+pb::after {
+  content:attr(n);
+  text-indent:0px;
+  display:block;
+  float:right;
+  font-size:10pt;
+  font-family: sans-serif;
+  background:#eeeeee;
+  border-radius:5px;
+  padding:5px;
+  line-height:14pt;
+}
+ab[type="commentary-block"] {
+  display:block;
+  margin-bottom:20px;
+}
+ab[type="commentary-block"] > p {
+  display:block;
+  width:95%;
+  margin:0 auto 6px auto;
+}
+/* Formats line-groups (verses):
+      These are inline so that following
+      <ref> elements can be inline with the
+      last line of a verse. */
+lg {
+  display:block;
+  margin:8px 0;
+  text-indent:0;
+}
+/* Format individual lines as block elements */
+lg l {
+  display:block;
+  margin-left:20px;
+}
+caesura:after {
+  content: "\A\0000a0\0000a0\0000a0\0000a0" !important;
+  white-space:pre;
+}
+/* Generic head and trailer styling */
+head, trailer, label[type="dramaturgical"] {
+  clear:both;
+  display:block;
+  text-align:center;
+  margin-bottom:10px;
+  font-size:120%;
+}
+/* head for the entire base-text */
+body quote[type="base-text"] head  {
+  font-size:26pt;
+  line-height:30pt;
+  padding-top:5px;
+}
+/* head for the individual aṅkas */
+div ab quote[type="base-text"] head {
+  font-size:22pt;
+  line-height:26pt;
+}
+/* trailer for the entire base-text */
+quote[type="base-text"] trailer {
+  font-size:100%;
+}
+
+/* from sarit-drama.xsl */
+sp {
+  display:block;
+  text-indent:-22px;
+  padding-left:22px;
+  margin-bottom:6px;
+}
+speaker {
+  font-weight:bold;
+}
+speaker::after {
+  content:"—";
+}
+/* This is a hack to deal with unwanted whitespace. */
+speaker+*{
+  margin-left:-6px;
+}
+stage { 
+  display:block;
+  opacity:0.6;
+  display:block;
+  text-align:center;
+  margin:0 auto 10px auto;
+  width:50%;
+}
+stage {
+}
+stage::before {
+  content:"(";
+  opacity:0.6;
+}
+stage::after {
+  content:")";
+  opacity:0.6;
+}
+lb::after {
+  content:"\A" !important;
+  white-space:pre;
+}
+sp stage {
+  display:inline;
+}
+quote[type="base-text"] {
+  font-size:18pt;
+  line-height:26pt;
+}
+quote[rend="single"] lg l:first-child::before {
+  content:"‘";
+}
+
+quote[rend="single"] lg l:last-child::after {
+  content:"’";
+}
+ref[type="lemma"] {
+  font-weight:bold;
+}
+note[type="chaya"] {
+  display:none;
+}
+sic {
+  display:none;
+}
+/* Can I do hover-over notes? */
+note[type="reference"] ref {
+  visibility:hidden;
+  position:absolute;
+  z-index: 1;
+}
+note[type="reference"] ref:before {
+  visibility:visible;
+  position:static;
+  display:inline-block;
+  border-bottom: 1px dotted black;
+  margin-right:1em;
+  content: "*"; 
+}
+note[type="reference"] ref:hover:before {
+  content: "";
+}
+note[type="reference"] ref:hover {
+  visibility:visible;
+  width: 180px!important;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}

@@ -1,0 +1,2224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="parnasala.css"?>
+<TEI>
+<text>
+<body>
+
+<quote type="base-text">
+<head>|| śrī ||</head>
+<head>āścaryacūḍāmaṇir nāma<lb/>
+nāṭakam |<lb/>
+śaktibhadraviracitam |</head>
+</quote>
+
+<head>śrī</head>
+<head>|| śrīcūḍāmaṇivyākhyā ||</head>
+<lg n="1">
+  <l>prastāve karmaṇāṃ yasya praṇāmaṃ kurvate budhāḥ |</l>
+  <l>pratyūhānāṃ nivṛttarthaṃ taṃ namāmi gajānanam || 1 ||</l>
+</lg>
+<!-- I do reverence to Gajānana
+     for the purpose of removing obstructions,
+     to whom the wise do reverence
+     in the introduction of their works. !-->
+<lg n="2">
+  <l>guravo naḥ prasīdantu gurukāruṇyaśālinaḥ |</l>
+  <l>antevāsi-manaḥpadma-samunmīlana-bhāskarāḥ || 2 ||</l>
+</lg>
+<!-- May the teachers be favorable to us,
+     full of great compassion,
+     who act as suns for the opening up
+     of the lotus-minds of their students. !-->
+
+<div type="aṅka">
+
+<quote type="base-text">
+<head>prathamo 'ṅkaḥ ||</head>
+</quote>
+
+<quote type="base-text">
+<label type="dramaturgical" n="0.1">nāndyante |</label>
+</quote>
+
+<quote type="base-text">
+<stage n="0.2">tataḥ praviśati sūtradhāraḥ</stage>
+</quote>
+
+<ab type="subsection"><!-- āmukha !-->
+<ab type="commentary-block">
+<quote type="base-text"><sp>
+  <speaker>sūtradhāraḥ</speaker>
+  <lg n="1">
+    <l>vīcī-sthāne sahasraṃ marataka-parigha-spardhi bibhrad bhujānām<caesura/>
+       utpheno hāra-jālair aruṇa-rucir anantāhi-ratna-prabhābhiḥ |</l>
+    <l>bibhrāṇaḥ śaṅkham antaś caram acaram anirvāpaṇīyaṃ ca tejaḥ<caesura/>
+       pāyād vaḥ śārṅgadhanvā śayita iva samudraikadeśe samudraḥ || 1 ||</l>
+  </lg>
+  <stage n="1.1">parikramya nepathyābhimukham avalokya</stage>
+  <p n="1.2">ārye itas tāvad |</p>
+</sp>
+</quote>
+<!--
+  With a thousand arms, like emerald beams, in place of waves,
+  with rising froth because of a mass of pearl necklaces,
+  tinted red from the glow of the jewels on the hoods of the serpent Ananta,
+  holding the conch, and within, what moves and what doesn’t, 
+  and the light that can never be extinguished,
+  he is like the ocean who rests on a portion of the ocean:
+  may the bearer of the Śārṅga bow protect you.    
+!-->
+<p>atha nāṭakārambhe śiṣṭācāram anuvidadhānaḥ kavir nāṭyādau sāmājikān prati nartakena prayoktavyam āśīrvādaṃ nibadhnāti — <ref type="lem" target="Āścarya.1.1">vīcīsthāna ityādinā</ref> ||
+  <!-- Now, following the practices of cultured people at the beginning of their plays, 
+       the poet composes a benediction that is to be performed by an actor 
+       before the audience at the beginning of the production. !-->
+asya ca kavinā nartakamukhena devatā-stuti-rūpa-maṅgala-pūrvakaṃ kṛtasyāśīrvādasya nāṭakanibandhanāvighna-parisamāptiḥ phalam, 
+nartakasya ca nāṭyādau tatkīrtanāt ātmanā prayujyamānasya nāṭyaprayogasyāvigha-parisamāptiḥ | 
+  <!-- And for him, the result of the benediction, 
+       which is composed by the poet and is preceded by 
+       auspicious acts in the form of praises to the gods
+       through the mouth of the actor, 
+       is the unobstructed completion of the composition of the text (nāṭaka).
+       And for the actor, because he recites it at the beginning of the performance, 
+       [its result] is the unobstructed completion of his own  
+       performance of the play (nāṭya). !-->
+atra ca nāndyante tataḥ praviśatīty uktyā nāndyāḥ krṭatvenānūdyamānatvāt kathāsūtradhārasyaivāyam āśīrvādaḥ na nāndīsūtradhārasya | 
+  <!-- And in this play, because the nāndī is spoken of as having been done, 
+       through the expression "nāndyante tataḥ praviśati," this benediction belongs 
+       to the director of the main story (kathāsūtradhāraḥ),
+       not to the director of the preliminaries (nāndīsūtradhāraḥ). !-->
+tathā coktaṃ—<note type="reference"><ref target="DaRū.3.2">The first half is close to Nāṭyaśāstra 5.161 (quoted in Bhāvaprakāśa 8.77 and Nāṭakalakṣaṇaratnakośa 119); the second half is equivalent to Daśarūpaka 3.2. I could not find any reference for the two half-verses together.</ref></note>
+<quote rend="single">
+  <lg>
+    <l>prasādya raṅgānniṣkrāmet sūtradhāraḥ sahānugaḥ |</l>
+    <l>praviśya tadvad aparaḥ kāvyārthaṃ sthāpayen naṭaḥ ||</l>
+  </lg>
+</quote> iti | 
+  <!-- And this has been said:
+         Having propriated the gods,
+	 the director exits from the stage,
+	 together with his attendants.
+	 Having entered, another like him 
+	 should direct the main matter of the text. !-->
+nāndyante praviśatīty ukte nāndyanta eva praveśaḥ
+  <!-- If it had been said said “they perform the preliminaries, he enters,”
+       the entrance would be of the same person who has performed the preliminaries (nāndī). !-->
+na tu tataḥ pūrvam ity asyārthasyābhidheyatvān nāndyāḥ pūrvakṛtatvam eva sidhyati   
+  <!-- However, it is not be the case that the preliminaries are performed first 
+       [simply] on account of the fact that the meaning “before that” is what is denoted
+       [by the word “preliminaries”]. !-->
+na praveśasyānantaryam ity ata uktaṃ tata iti |
+  <!-- Since it would not otherwise result that the entrance happened immediately after the preliminaries, 
+       the author has said “after that.” !-->
+ānantaryoktyā cāntarā karmāntarānuṣṭhānanirāso vyajyate | 
+  <!-- And the explicit mention of immediate sequence implies 
+       the exclusion of the performance of other activities in the interim. !-->
+tena ca nāndīm ārabhyābharatavākyokteḥ prayujyamānānāṃ nāṭyakarmaṇāṃ parasparasaṃbandhaḥ sūcitaḥ | 
+  <!-- And what is suggested thereby, starting with the preliminaries 
+       and extending up to the Bharatavākya, is the sequential connection 
+       of all of the dramatic activities that are performed. !-->
+anukārya-tādātmya-buddhi-go<pb n="2" break="no"/>carasya naṭasya prekṣakaiḥ pratyakṣeṇa vartamānatayā gṛhyamāṇatvāt sarvatraiva praviśatīti vartamānanirdeśaḥ | 
+  <!-- The text uses the present tense (praviśati) because the actor is grasped by the audience (prekṣaka)
+       as present through direct perception, the actor being the object of a cognition [on the part of the audience] 
+       of identity with the character. !-->
+<quote rend="single">
+  <lg>
+    <l>alpākṣaram anekārthaṃ sāravad gūḍhanirṇayam |</l>
+    <l>astobham anavadyaṃ ca vākyaṃ sūtraṃ pracakṣate ||<note type="reference"><ref cRef="KāMī">Kāvyamīmāṃsā</ref></note></l>
+  </lg>
+</quote> ity uktalakṣaṇaṃ sūtraṃ vākyaṃ dhārayatīti sūtradhāraḥ |</p>
+  <!-- The “director” (sūtradhāra) is so called because 
+       he “makes [other people] hold up the sūtra, that is, the text,” 
+       according to the following definition: 
+       “A sūtra is defined as a text that is of small size, 
+       but various meanings, possessed of the essence,
+       whose ascertainment is hidden, without pause, and without reproach.” !-->
+<p>evaṃ praviṣṭena sūtradhāreṇa sāmājika-hṛdayāvarjanārtham āśīrvādaḥ kriyate || 
+<ref type="lemma" target="Āścarya.1.1">śārṅgadhanvā vaḥ pāyād</ref> iti || 
+  <!-- This director, who enters in such a way, performs a benediction
+       in order to propitiate the heards of the spectators. !-->
+atra <quote rend="single">adhikṛtānadhikṛtayor adhikṛte pratipattir garīyasī</quote><note type="reference"><ref cRef="ŚṛPra.p.366">Śṛṅgāraprakāśa p. 366.</ref></note> iti nyāyena rāmarūpasya nārāyaṇasyaiva nāṭake netṛtayā 'dhikṛtatvāt 
+sarvadevatātmakatvāc ca bhavagataḥ pātṛtvena nirdeśaḥ | 
+  <!-- In this benediction, because the form of Rāma, who is actually Nārāyaṇa, is thematized
+       as the main character in the play, and because he is identical to all deities,
+       it is the Lord who is referred to as a protector, according to the principle
+       that among two things, one which is thematized and one which is not, 
+       it is the reference (pratipatti) to what is thematized that has greater weight. !-->
+tatrāpi śārṅgadhavety anena jagad-rakṣaṇa-sannāhaṃ darśayati | 
+rakṣaṇe prārthyamāne rakṣaṇodyatasyaiva iti nyāyāt | 
+dhanuṣaś cety anaṅpratyayaḥ samāsāntaḥ | 
+saṃbodhanena vinā ca iti yuṣmacchabda-prayogaḥ tat-kāryasyābhimukhyasya siddhatvād iti mantavyam |
+  <!-- There, too, with the word “the bearer of the Śārṅga bow,” he shows
+       that he is ready to protect the world, according to the principle that
+       when protection is requested, he is the one who springs up to protect. 
+       And the suffix anaṅ on dhanuṣ is a compositional suffix (samāsānta). 
+       And we should consider that the word “you” is used without the vocative case
+       because the audience's attention, which is usually an effect of the vocative case,
+       is already there. !-->
+sāmājikānāṃ hi nūtanotkṛṣṭa-nāṭakārtha-rasāsvādināṃ tat-prayoga-darśana-kutūhalitvena nāṭya-karma-nipuṇa-naṭa-vara-darśana-mātra evābhimukhyaṃ saṃjātam | 
+  <!-- For because of the fact that the members of the assembly, 
+       who savor the rasa of the elements of a new and excellent play, 
+       are anxious to see its performance, their attentiveness (ābhimukhya) is produced simply
+       as soon as they see a fine actor who is skilled in the elements of theater. !-->
+vaḥ pāyād iti svaprabhāvenaiva labdhasarvārthatvāt teṣāṃ pālanam evāśāsitavyaṃ na tv alabdhasya lābha iti darśitam | 
+  <!-- Because they [i.e., the members of the assembly] have already obtained all of their goals through his power, 
+       what is requested here is only their maintenance, and not the acquisition of something that is not already obtained. 
+       This is shown with the phrase “may he protect you.”
+       * Note the non-reflexive use of "sva" here (suggesting that the commentator is a South Indian.) !-->
+atha katham anugrāhyeṇa nartakenānugrāhaka-sāmājikaviṣaya āśīrvādaḥ kriyata iti cet tad-āśrayatvād eva tad-rakṣaṇam āśāsyata iti brūmaḥ | sa hi tadāyatta-jīvikopāyaḥ tad-rakṣaṇam āśāsta iti yuktam |
+  <!-- Now someone might object as follows:
+         Why should the actor, who is the one who needs to be shown favor,
+	 perform a benediction that is directed at the members of the assembly, who are 
+	 the ones who should bestow their favor?
+       We would answer that the protection of the members of the assembly is requested because they are his means of support.
+       For it stands to reason that he, the actor who depends on them for his livelihood, should request their protection. !-->
+athavā sarvasyaiva jagato rakṣaṇasya karma-sthiti-nibandhanatvāt karma-sthiteś ca tad-adhīnatvāt tad-rakṣaṇam āśāsyate | 
+yathoktaṃ—<note type="reference"><ref target="Manu.3.17">Manusmṛti 3.17.</ref></note>
+<quote rend="single">
+  <lg>
+    <l>agnau prāstāhutiḥ samyag ādityam upatiṣṭhate |</l>
+    <l>ādityāj jāyate vṛṣṭir vṛṣṭer annaṃ tataḥ prajāḥ ||</l>
+  </lg>
+</quote> iti |
+  <!-- Alternatively, the protection of them is requested because the protection of the entire world depends on the maintenance
+       of ritual action, and the maintenance of ritual action depends on them.
+       As has been said: [Manusmṛti 3.17]
+         One who has offered oblations into the fire
+	 worships the sun. From the sun arises rain.
+	 From rain, food. And from food, children. !-->
+svato niṣkalasya bhagavatas tat-tat-sādhyānuguṇatvena parikalpiteṣu bahuṣu mūrti-bhedeṣu pradhāna-bhūta-mūrti-bhedaṃ deśāvasthā-viśeṣābhyām anusaṃdhānārthaṃ viśinaṣṭi—<ref type="lemma" target="Āścarya.1.1">samudreti</ref> || 
+  <!-- Among the many forms of the unitary lord that are imagined according to the particular goals that are to be achieved,
+       he specifies the particular form that takes prominence here by specifying the place and situation
+       in order to concentrate on him: !-->
+kṣīrasamudrasyaikadeśe śeṣe śayitaḥ samudra iveti | 
+aparaḥ śuddha-jala-mayaḥ samudra iva | 
+kṣīra-samudra-vivakṣāyāṃ marataka-parigha-spardhīty asyāsaṅgatiḥ syāt | 
+  <!-- Like the ocean who reposes on Śeṣa [who is] a portion of the milk
+       ocean. [The idea is that] he is like another ocean, made of water
+       [instead of milk]. 
+       If it were meant that he is like the milk ocean, then comparing his
+       arms to emerald beams would not make sense. !-->
+atra śrautī pūrṇopamālaṅkāraḥ | 
+tathāha—<note type="reference"><ref target="KāPra.10.87">Kāvyaprakāśa 10.87.</ref></note>
+<quote rend="single">
+  <lg>
+    <l>sādharmyam upamā bhede pūrṇā luptā ca sāgrimā |</l>
+    <l>śrautyārthī ca bhaved vākye samāse taddhite tathā ||</l>
+  </lg>
+</quote> iti | 
+  <!-- Here we have a complete simile that is “explicit” (śrautī).
+       That is defined as follows: [Kāvyaprakāśa 10.87]
+         A simile is similarity given some difference.
+	 It is full or elliptical.
+	 The first can be “explicit” or “implicit,”
+	 and it can occur in a sentence, a compound,
+	 or a derivational suffix. !-->
+yathā bhagavataḥ samudra-sādharmyaṃ sidhyati tathā viśinaṣṭi—<ref type="lemma" target="Āścarya.1">vīcīsthāna</ref> ityādibhiḥ ṣaḍbhir viśeṣaṇaiḥ | 
+  <!-- He specifies the way in which the lord's similarity with the ocean is expressed with the six qualifiers in the verse. !-->
+marataka-parigha-spardhi maratakamayaiḥ parighaiḥ spardhituṃ śīlam asya || 
+  <!-- His arms have the character of competing with beams
+       that are made of emerald. !-->
+<ref type="lemma" target="Āścarya.1.1">bhujānāṃ sahasraṃ vīcīsthāne bibhrad</ref> iti ||
+śayitasya bhagavataḥ uparibhāge vṛttyā saṅkhyābahutvāt marataka-samāna<pb n="3" break="no"/>varṇatvāc ca vīcī-sādharmyaṃ bhujānām uktam |
+  <!-- In the phrase “he bears a thousand arms...” what is said
+       is that his arms are similar to the waves (vīci), both
+       because of their plurality in rolling (vṛtti) above the
+       lord as he sleeps, and that their color is similar to emerald. !--> 
+hārajālānāṃ dhāvalyāt ūrdhvadeśavartitayā ca phena-sāmyāt bhagavata udgata-phenatvāropaḥ | 
+  <!-- There is a superimposition onto the lord of the quality
+       of having sea-foam cast up, because of the whiteness of
+       his reticulated necklaces of pearls, and also because of
+       their similarity to foam insofar as they move upwards. !-->
+anantasyāheḥ śeṣasya anantānām ahīnāṃ ca ratna-prabhābhir iti | 
+atra śabda-śleṣo 'laṅkāraḥ | yad uktaṃ—<note type="reference"><ref target="KāPra.10.84">Kāvyaprakāśa 10.84.</ref></note>
+<quote rend="single">
+  <lg>
+    <l>vācya-bhedena bhinnā yad yugapadbhāṣaṇa-spṛśaḥ |</l>
+    <l>śliṣyanti śabdāḥ śleṣo 'sāv akṣarādibhir aṣṭadhā ||</l>
+  </lg>
+</quote> iti || <ref type="lemma" target="Āścarya.1.1">śaṅkhaṃ bibhrāṇa iti</ref> || sa
+  <!-- In the phrase “through the illumination of jewels,” the jewels
+       belonging both to the serpent Śeṣa and an infinite number of 
+       serpents, we have the figure of “verbal embrace” (śabdaśleṣa).
+       That is defined as follows: [Kāvyaprakāśa 10.84]
+         When linguistic expressions that are distinct on account
+	 of their different meanings come together in an embrace
+	 by being expressed simultaneously, that is “embrace,”
+	 which has eight varieties beginning with the syllable. !-->
+mudra-viśeṣaṇatva-pakṣe graha-gataikatvavad ekatavam avivakṣitam | 
+  <!-- On the construal of the qualifier with the ocean, the singular number of
+       the conch is not intended, just like the singular number of the goblet 
+       (as in the well-known “grahaikatvanyāya” of Mīmāṃsā; see Yoshimizu's
+       article). !-->
+etac ca bhujāntaravartinām āyudhāntarāṇām upalakṣaṇārtham | 
+bhagavadbhujānāṃ sahasrāyudhabhṛttvaṃ jagadrakṣakatvaṃ ca prasiddham eva | 
+yathokaṃ—<note type="reference"><ref cRef="Viṣṇukeśādi.33">Viṣṇukeśādipādāntastotra 33.</ref></note>
+<quote rend="single">
+  <lg>
+    <l>viśvatrāṇaikadīkṣās tadanuguṇaguṇakṣatranirmāṇadakṣāḥ<caesura/>
+       kartāro durnirūpāḥ sphuṭaguruyaśasāṃ karmaṇām adbhutānām |</l>
+    <l>śārṅgaṃ bāṇaṃ kṛpāṇaṃ phalakamarigade śaṅkhapadmau sahasraṃ<caesura/>
+       bibhrāṇāḥ śastra-jālaṃ mama dadhatu harer bāhavo mohahānim ||</l>
+  </lg>
+</quote> iti | 
+  <!-- Furthermore, the purpose of this is to indirectly characterize the other weapons that are held in his other hands. 
+       For it is well known that the lord carries a thousand weapons in his hands, and that these hands
+       protect the world. As it has been said:
+         May the arms of Hari destroy my delusion:
+	 singly consecrated to protecting the world,
+	 skillful in creating the kingdom of good qualities
+	   that are consonant with them,
+	 the agents, impossible to describe, of amazing
+	   actions of clear and considerable fame,
+	 bearing the bow, the arrow, the sword, the shield, 
+	   the discus and the mace, the conch and the lotus,
+	   a thousandfold net of weapons. !-->
+antaḥ udare carācarātmakaṃ jagat bibhrāṇaḥ | 
+na ca pralayakāla eva bhagavatas tādavasthyam iti vācyam | 
+kṛṣṇena sthiti-kāle 'pi ātmodare sakala-loka-vistārasya svamātre darśitatvāt | 
+  <!-- Inside, that is to say within him, he bears the entire universe
+       that consists of what moves and what does not move.
+       Nor should it be said that the lord is in this 
+       condition only at the time of the final conflagration,
+       since Kṛṣṇa has shown that at the time of preservation, also,
+       the expansion of the entire world rests within him. !-->
+asya samudraviśeṣaṇatve sthāvarān parvatavanādīn jaṅgamān jalamānuṣādīṃś ca bibhrāṇaḥ |
+  <!-- When it is a qualifier of the ocean, it bears stable entities like
+       mountains, forests, and so on, as well as moving entities like
+       aqua-men, and so on. !-->
+atrāpy ekatvam avivakṣitam | 
+  <!-- Here, too, the singular number is not intended. !-->
+antarhṛdaye 'nirvāpaṇīyam avināśyam nityaṃ saccidānandaṃ brahmajyotiḥ bibhrāṇaḥ anyatraurvāgnim | 
+atrārthaśleṣiko 'laṅkāraḥ |
+deśataḥ kālato vastutaś cāparicchedyasyātmajyotiṣo hṛdaye bibhrāṇa iti deśaparicchedaḥ kālpanika iti jñeyam | 
+  <!-- Within him, meaning in his heart in the case of Nārāyaṇa,
+       he bears the light of Brahma, which is
+       indestructible, imperishable, permanent, truth, consciousness,
+       bliss. In the other case, he bears within him the submarine
+       fire. This is a case of “semantic embrace.” We need to understand
+       that the spatial limitation “bears in the heart,” 
+       when applied to the light of the soul, which cannot really be limited by place, time, or situation, 
+       is merely imaginary. !-->
+evaṃ viśeṣaṇair bhagavataḥ samudra-sāmye siddhe samudraikadeśe śayitaḥ samudra ivety upamāvākyasyāvṛttyā utprekṣālaṅkāro 
+'py āśrīyate | prakṛtasya bhagavataḥ samudratvena saṃbhāvyamānatvāt | yathoktaṃ—<note type="reference"><ref
+  target="KāPra.10.92">Kāvyaprakāśa 10.92.</ref></note>
+<quote rend="single">saṃbhāvanam athotprekṣā prakṛtasya samena yat</quote> iti | atra śārṅgadhanvety anena
+  <!-- When the lord's similarity to the ocean is established through 
+       these qualifications, through their repeated application to the
+       central simile, namely “he, like the ocean, lies on a part of the ocean”
+       we also end up with the ornament of “seeing-as” (utprekṣā),
+       since the principal element, namely the lord, is imagined to be
+       the ocean. And this is defined as follows: [Kāvyaprakāśa 10.92] 
+         The imagination of the principal element as something similar
+	 is “seeing-as.” !-->
+jagad-rakṣaṇotsāhavattvena śārṅga-dhanur-viśiṣṭatvena ca bhagavata upādānaṃ asmin nāṭake tad-aṃśa-bhūtasya jagad-rakṣaṇārtham avatīrṇasya rāmasya netṛtvaṃ tac-caritasya jagad-rakṣaṇa-nimittasya dhanur-vyāpāra-sādhya-rāvaṇādi-vadhasyādhikārikavṛttatvaṃ ca darśayati |</p>
+  <!-- The mention of the lord as being resolute in protecting the world,
+       and as being qualified by the Śārṅga bow, shows
+       that the lead role in this play will be Rāma, who is an incarnation 
+       of him, and who took birth in order to protect the world,
+       and that the chief plot element (adhikārikavṛtta) will be
+       his deeds, namely the slaying of Rāvaṇa and others, which 
+       is undertaken for the sake of protecting the earth 
+       and which will be accomplished by the action of his bow. !-->
+
+<p>evaṃ pratyūha-nivāraṇa-sāmājikāvarjana-phalam āśīrvādaṃ vidhāya bhāratī-vṛtty-aṅgabhūtāmukha-prastāvāya
+parikramaṇaipathya-śālāvalokana-pūrvakaṃ naṭīm ākārayati—<ref type="lemma" target="Āścarya.1.1.2">ārya
+ity</ref> ādinā ||</p>
+  <!-- Having thus performed the benediction, the results of which 
+       are the removal of obstacles and capturing the attention
+       of the audience, he now calls over the actress for the
+       presentation of the prelude (āmukha), which is a component 
+       of the bhāratī-vṛtti.  !-->
+<p>
+<quote rend="single">
+  <lg>
+    <l>bhāratī saṃskṛta-prāyo vāg-vyāpāro narāśrayaḥ |</l>
+    <l>bhedaiḥ prarocanāyuktaiḥ vīthī-prahasanāmukhaiḥ ||<note type="reference"><ref
+  target="DaRū.3.5">Daśarūpaka 3.5.</ref></note></l>
+  </lg>
+</quote> iti bhāratīlakṣaṇam | 
+āmukhaṃ caivaṃ lakṣitam—
+<quote rend="single">
+  <lg>
+    <l>sūtradhāro naṭīṃ brūte māriṣaṃ vā vidūṣakam |</l>
+    <l>svakāryaprastutākṣepi citroktyā yat tad āmukham || prastāvanā vā |<note type="reference"><ref
+  target="DaRū.3.7">Daśarūpaka 3.7.</ref></note></l>
+  </lg>
+</quote> iti |</p>
+
+<p><ref type="lemma" target="Āścarya.1">ārya</ref> iti | 
+  <!-- The definition of the bhāratī-vṛtti is as follows: 
+         Bhāratī is a style that is mostly in Sanskrit, 
+	 makes extensive use of language, and is spoken by 
+	 men (alternatively, actors), through the following
+	 divisions: promotional sections (prarocanā), 
+	 one-act plays (vīthi), satires (prahasana), and 
+	 preludes (āmukha).
+	 [This is originally from the Daśarūpaka, 3.5, but
+	  there the reading is naṭāśrayaḥ. It is also quoted
+	  in Viśvanātha's Sāhityadarpaṇa 6.29.] 
+      The definition of the prelude is as follows:
+        When the director tells the actress, the stage manager,
+	or the vidūṣaka something that indicates what he is
+	going to have presented in a striking expression, that
+	is a prelude, or alternatively an introduction.
+	[Again, this is Daśarūpaka, 3.7.] !-->
+naṭī-sūtra-bhṛtoḥ parasparāhvānam āryaśabdena kartavyam | yathokaṃ—<note type="reference"><ref
+  target="DaRū.3.67">Daśarūpaka 3.67.</ref></note>
+<quote rend="single">
+  <lg>
+    <l>bhagavanto 'dharair vācyāvidvad-devarṣi-liṅginaḥ |</l>
+    <l>viprāmātyāgrajāś cāryā naṭīsūtrabhṛtau mithaḥ ||</l>
+  </lg>
+</quote> iti |
+  <!-- The actress and the director call each other 
+       “sir” and “madam” (ārya). This has been said:
+         Holy men, scholars, sages, ascetics, Brāhmaṇas,
+	 ministers, and elder siblings are to be addressed 
+	 by their inferiors as “sir” or “madam” (ārya),
+	 as well as the actress and the director among
+	 themselves.
+	 [Daśarūpaka 3.67] !-->
+atrāryaśabdena śraiṣṭyavācinā nāṭyaprayogocitaviśiṣṭa-guṇa-saṃpannatvam api tasyā lakṣyate | 
+  <!-- Here, by the word “madam,” what is indirectly expressed is that
+       she is provided with qualities that are particularly suited for the
+       performance of a play. !-->
+<ref type="lemma" target="Āścarya.1.1.2">itas tāvat</ref> āgamyatām iti śeṣaḥ | 
+tāvacchabdena prāthamyavācinā prathamam āgamyatām anantaraṃ mahākāryāntaram apy astīti sūcitam | 
+tataś ca tacchravaṇautsukyena tasyā āgamana-saṃbhramo darśitaḥ |</p>
+  <!-- Through the word “tāvat,” which expresses priority, what is
+       suggested is “first come here, and then afterwards we will
+       have quite a lot to do.” And therefore this word shows that
+       she is hurrying up to come because of her eagerness to hear
+       it. That is why it says “the actress enters.” When a character
+       enters while laying hold of a mental transformation such as
+       hurrying, the entrance is referred to by expressing the action
+       of entrance itself with an absolutive form (lyap) and supplying
+       a final verbal form “he says” or “she says” as the remainder
+       of the sentence. !-->
+</ab><!-- commentary-block !-->
+
+<ab type="commentary-block">
+<p>ata eva praviśyety uktam | 
+yatra saṃbhramādi-citta-vikāram ālambya pātrapraveśaḥ tatra lyab-antena
+praveśakriyām uktvā 'heti uttarakriyāpadādhyāhāreṇa vacana-śeṣatayā praveśanasya nirdeśaḥ ||</p>
+<quote type="base-text">
+<stage n="1.3">praviśya naṭī</stage>
+</quote>
+</ab><!-- commentary-block !-->
+
+<ab type="commentary-block">
+<p><ref type="lemma" target="Āścarya.1.1.4">ārya iyam asmīti</ref> ||</p>
+<quote type="base-text"><sp>
+  <speaker>naṭī</speaker>
+  <p n="1.4">ajja iaṃ mhi |<note type="chaya">ārya iyam asmi |</note></p>
+</sp></quote>
+<p>āgateti sidhyati |</p>
+</ab><!-- commentary-block !-->
+
+<ab type="commentary-block">
+<p>tatra pratyakṣa-siddhasyāpy āgamanasya nivedanena tacchravaṇautsukyaṃ vyajyate | 
+evaṃ tadautsukyadarśanena prasanno bhūtvā cikīrṣitaṃ karma nivedayati—<ref type="lemma" target="Āścarya.1.1.5">ārye
+ityādinā</ref> ||</p>
+  <!-- In that sentence, athough the arrival is clear for the audience to see, 
+       what is suggested by announcing it explicitly is her eagerness to hear it. 
+       Thus, having been gratified by seeing her eagerness, 
+       he announces the action that he wants to perform: !-->
+<quote type="base-text">
+<sp>
+  <speaker>sūtradhāraḥ</speaker>
+  <p n="1.5">ārye</p>
+  <lg n="2">
+    <l>abhirañjanīṃ janānāṃ<caesura/>
+       sahāyasādhyām gurūpadeśena |</l>
+    <l>dhuram udvahāmi gurvīṃ<caesura/>
+       nṛpa iva bharatādibhir vōḍhām || 2 ||</l>
+  </lg>
+</sp></quote>
+<p>ārye nāṭyaprayogasahakāriṣu pradhānabhūte | atas tvāṃ vinā kasmā
+anyasmā etan nivedayāmi | idānīṃ kāṃciddhuram udvahāmi avaśyakartavyatvenādhyavasyāmi |</p>
+  <!-- Madam, that is, you who are most important among the collaborators
+       in the production of the play, who else apart from you could I announce
+       this to? Now I myself have a certain burden to bear. Because it certainly
+       needs to be done, I will undertake it. !-->
+<p>kiṃrūpam iti viśeṣa-jijñāsāyām āha—<ref type="lemma" target="Āścarya.1.2">bharatādibhir voḍhām 
+iti</ref> ||</p>
+  <!-- In response to the desire to know, in particular, what form it will take,
+       he says... !-->
+<p>anena nāṭyaprayogātmikāṃ dhuram ity uktaṃ bhavati | 
+bharata-munir hi viriñca-praṇītaṃ nāṭyavedam abhyasya tatprayogaṃ kṛtvā tadviṣaya-nibandhanaṃ cakāra |
+  <!-- What is said here is that the burden consists in the performance
+       of the play. For the sage Bharata, having practiced the Veda of theater
+       that was delivered by Brahma, and then having performed it, composed a
+       text on the subject. !-->
+yathoktaṃ—<note type="reference"><ref target="DaRū.1.4">Daśarūpaka 1.4.</ref></note>
+<quote rend="single">
+  <lg>
+    <l>uddhṛtyoddhṛtya sāraṃ yam akhila-nigamān nāṭyavedaṃ viriñcaś<caesura/>
+       cakre tasya prayogaṃ munir api bharatas tāṇḍavaṃ nīlakaṇṭhaḥ |</l>
+  </lg>
+</quote> iti | 
+  <!-- This has been said: [Daśarūpaka 1.4]
+         The science of theater that Brahma composed, 
+         having extracted the essence from the entire teaching,
+	 the sage Bharata had performed, Śiva danced... !-->
+bharatādibhir ity anenārvācīnānāṃ nāṭyaprayogasya tad-upajñatvaṃ darśayati | 
+bharata-muninā yathā prayogaprakāro nirvyūḍhaḥ tathā prayoktuṃ mamādhyavasāya ity api darśitam | 
+ādiśabdena saṃpradāyapravartakānām ācāryāṇāṃ grahaṇam | 
+  <!-- With the phrase “by Bharata anad others” he indicates that
+       the performance of theater of present-day performers
+       was first taught by them. Moreover, it indicates that his
+       intention is to perform it in the same way that the sage
+       Bharata carried it out. By the words “and others” we understand
+       the teachers who kept the tradition going. !-->
+voḍhām ity asyaikapadatve 'sādhutvaṃ pṛthak-padatve vā-śabdasya viśeṣaṇa-samuccayārthatvena kathañcid upayogaḥ ||</p>
+  <!-- If “voḍhāṃ” is a single word, then it is incorrect, 
+       but if it is two words, then the word “vā” must make some contribution
+       by coordinating the qualifiers. !-->
+<p><ref type="lemma" target="Āścarya.1.2">gurvīm iti</ref> || 
+bharatokta-prayoga-prakāra-saṃpādanena nāyaketivṛtta-rasādi-mahimnā cānīṣatkaraprayogām | 
+evaṃ gurutaraṃ nāṭyaprayogaṃ kartuṃ katham adhyavasyasīty ata<pb n="5"/> āha—<ref type="lemma" target="Āścarya.1.2">gurūpadeśeneti</ref> ||
+bālyāt-prabhṛti paricaraṇādhibhiḥ prasāditānāṃ mahātīrthānāṃ śikṣāpūrvakeṇopadeśena upadiṣṭasya punaḥ punar abhyāsena cety arthaḥ |
+  <!-- A performance that is not easily accomplished because of the enormity
+       of the characters, the plot, the rasas, and so on, for all of which 
+       the precise manner of performance has been stated by Bharata.
+       How does one decide to stage quite a long performance of a play?
+       In response to this question, he says, “because of my teacher's 
+       command.” The meaning is this: because of the command, which follows
+       upon training, of those great Brāhmaṇas whom I have worshipped by
+       service and so on since I was a child, and because of the repetition
+       again and again of what they have commanded. !-->
+yathoktaṃ—<note type="reference"><ref>Unidentified.</ref></note>
+<quote rend="single">
+  <lg>
+    <l>kaiśorāt-prabhṛti prasādita-mahātīrthasya śikṣā-balād<caesura/> 
+       abhyāsāc ca jitaśrameṇa viduṣā yena prayoga-śriyā |</l>
+    <l>vidyāyāṃ nijayā svato guṇavatā mādhuryam ādhīyate<caesura/>
+       gāmbhīryaṃ ca paraṃ sa eva viduṣāṃ saṃyak prasūte rasān ||</l>
+  </lg>
+</quote>
+  <!-- As has been said: 
+         A learned person who has defeated exhaustion,
+	   because of the strength of his training from a great 
+	   Brāhmaṇa whom he has served since childhood, 
+	   and because of his practice,
+	 through his innate grace of performance in knowledge,
+	 who is inherently possessed of good qualities,
+	 who focuses exclusively on sweetness
+	 and paramount depth,
+	 —he alone among the learned 
+	 brings forth the rasas correctly. !-->
+iti |</p>
+
+<p>atra madāhvānāṃ kimartham ity apekṣāyām āha—<ref type="lemma" target="Āścarya.1.2">sahāyasādhyām iti</ref> ||
+  <!-- Since he expects her to ask, “Why are you calling upon me?”
+       he says “accomplished with associates.” !-->
+anekaika-nāyaka-prayojya-bhāṇādi-vyavacchedaḥ kṛtaḥ | 
+  <!-- The divisions into Bhāṇa and so on are made on the
+       basis of whether they are performed with a single
+       lead or multiple leads. !-->
+yathoktaṃ—<note type="reference"><ref cRef="DaRū.3.49">Daśarūpaka 3.49.</ref></note>
+<quote rend="single">
+  <lg>
+    <l>bhāṇas <choice><sic>tad</sic><corr>tu</corr></choice> dhūrta-caritaṃ svānubhūtaṃ pareṇa vā |</l>
+    <l>yatropavarṇayed eko nipuṇaḥ paṇḍito viṭaḥ ||</l>
+  </lg>
+</quote> iti | 
+  <!-- As it has been said:
+         A bhāṇa is when a viṭa, who is clever and learned,
+	 describes what roguish people have done, whether 
+	 he himself has experienced it, or someone else. !-->
+  <!-- [This does not seem a very apposite citation.] !-->
+sahāyais tat-tat-pātrocita-pāṭha-gīti-gati-rasa-prayogādinipuṇaiḥ saha sādhyām | 
+yato nisargato nāṭaka-prayogasya sahāyasādhyatvam ata eva tvad-āhvānaṃ kṛtam |</p>
+  <!-- It can only be accomplished with associates,
+         that is, people who are skilled in the performance
+         of the recitation, singing, movement, and rasas
+         that are appropriate to each of the characters. 
+       I have called upon you because the performance of the
+         Nāṭaka (in particular among the other Rūpakas)
+	 can only be accomplished with associates. !-->
+<p>evam ati-prayatna-sādhyāyā dhuraḥ kiṃ prayojanam ity ata āha—<ref 
+type="lemma" target="Āścarya.1.2">abhirañjanīṃ janānām</ref> iti || 
+  <!-- What is the purpose of such a burden, which can only be accomplished with great effort? 
+       To this question he says “delighting the people.” !-->
+na hi kasyacid anyasya karmaṇaḥ evaṃ sarva-janānurāga-phalatvam asya | 
+  <!-- For there is no other activity that has as its effect the attachment of all people. !-->
+janānurāgaś ca sarvasaṃpat-kāraṇam | 
+  <!-- The attachment of people is the cause 
+       of all wealth. !-->
+yathoktaṃ—<quote rend="single">janānurāgaprabhavā hi saṃpadaḥ</quote> iti | 
+  <!-- This has been said: [Cited by many people,
+       including Mammaṭa, Udayana, Veṅkaṭanātha, Jonarāja, etc.]
+         For wealth is produced from the affection
+	 of people. !-->
+ato janmāntarārjita-sukṛta-paripākenaiveyaṃ vidyā labhyate | 
+  <!-- Therefore this knowledge is obtained
+       by the maturation of good deeds that had been
+       stored up in previous lives. !-->
+yathoktaṃ—<note type="reference"><ref target="NāLaRaKo.7">Nāṭakalakṣaṇaratnakośa 7.</ref></note>
+<quote rend="single">
+  <lg>
+    <l>api labhyeta vidvadbhir muktir abhyāsakauśalāt |</l>
+    <l>na tu nāṭaka-vidyeyaṃ sarva-lokānurañjinī ||</l>
+  </lg>
+</quote> iti |
+  <!-- This has been said: [Nāṭakalakṣaṇaratnakośa 7]
+         It may be that liberation can be obtained
+	 by scholars through practice and skill,
+	 but not this knowledge of theater, which
+	 delights all people. !-->
+ato 'smākaṃ kula-dharmatvāt para-prayojanatvāc ca asyāṃ dhuri mahān ādaraḥ kārya ity arthaḥ ||</p>
+  <!-- Therefore, because it is our family dharma,
+       and because it is for the purpose of other people,
+       great respect needs to be paid to this burden:
+       this is the meaning. !-->
+
+<p><ref type="lemma" target="Āścarya.1.2">nṛpa iveti</ref> || yathādyatano rājā
+pūrvarājanyair bharatādibhir ūḍhāṃ dhuram udvahati tathety arthaḥ | 
+  <!-- The meaning is that just as kings of today
+       bear the burden that was borne by previous kings
+       such as Bharata, in the same way we bear it. !-->
+nānāvidhānugrāhya-niyamya-janānurūpānugraha-niyamādi-vyāpārasya paramotsāha-sādhyatvād <ref type="lemma" target="Āścarya.1.2">gurvīm</ref> | 
+  <!-- An activity consisting in showing favor to and restraining
+       commensurate with the various kinds of people who need to be
+       shown favor to and restrained is “heavy” on account of the 
+       fact that it can only be accomplished with the greatest effort. !-->
+atrārthaśāstrādigocaro gurūpadeśa evodvahane hetuḥ | 
+amātyādi-sahāya-sāpekṣatvaṃ janānurāga-phalatvaṃ cātrāpi
+vidyata eva | 
+  <!-- In this case, the reason for taking it up is similarly
+       the teachings of the gurus, which is the ambit of texts like those
+       on statecraft. 
+       And the fact that it can only be accomplished with associates such as 
+       ministers, and the fact that is has the affection of the people
+       as its result, apply in this case as well. !-->
+atra arthaśleṣasyopamāṅgatvam | 
+uktaṃ cārthaśleṣasya lakṣaṇaṃ—<note type="reference"><ref
+  target="KāPa.10.96">Kāvyaprakāśa 10.96.</ref></note>
+<quote rend="single">
+  <lg>
+    <l>śleṣaḥ sa vākya ekasmin yatrānekārthatā bhavet</l>
+  </lg>
+</quote> iti | 
+  <!-- Here there is a “semantic embrace” that is a component of a simile.
+       And this “semantic embrace” has been defined as follows:
+         [Kāvyaprakāśa 10.96]
+	 Embrace is when a single expression has multiple
+	 meanings. !-->
+atra śleṣeṇa nṛpa-naṭa-dhurayos sādharmye 'vagata eva ekarūpavyāpārodvahanātmakaṃ naṭasya nṛpa-sādṛśyaṃ pratīyata iti śleṣasya tad-aṅgatvam |</p>
+  <!-- Here, as soon the similarity of the burdens of the king
+       and the actor is understood through “embrace,”
+       the actor's similarity to the king, which consists
+       in their taking up an activity that has a single form,
+       is understood. Hence “embrace” is a component of it. !-->
+
+<p><quote rend="single">
+  <lg>
+    <l>praviśya raṅgān niṣkrāmet sūtradhāraḥ sahānugaḥ |</l>
+    <l>sthāpakaḥ praviśet tatra sūtradhāra-samākṛtiḥ ||</l>
+    <l>divya-martye sa tad-rūpo miśram anyataras tayoḥ |</l>
+    <l>sūcayed vastu bījaṃ vā mukhaṃ pātram athāpi vā ||<note type="reference"><ref
+      target="BhāPra:8.78-79">Bhāvaprakāśana 8.78–79.</ref></note></l>
+  </lg>
+</quote> ity uktalakṣaṇānusāreṇa vastu-sūcanam api kṛtam | 
+  <!-- The indication of the plot has also been accomplished
+       in accordance with the definition [Bhāvaprakāśana 8.78–79]
+         [This is also found at Nāṭakalakṣaṇaratnakośa 119]
+         [Part of this also appears in Nāṭyaśāstra 5.162]:
+	 [This is also Daśarūpaka 3.2-3]:
+         Once he enters, the director and his associates
+	 should leave the stage.  Then the stage manager 
+	 enters, together with the director.
+	 One or the other of them, in that form,
+	 should indicate the plot, or the seed, or the
+	 introduction, or the character. !-->
+rāmo hy agastyādīnāṃ gurūṇām upadeśena sarva-rākṣasa-vadhātmikāṃ
+mahotsāha-sādhya-setu-bandhādigarbhatvena gurvīṃ
+sahāya-bhūta-sugrīvādibhiḥ saha sādhyāṃ jagad-rakṣaṇa-phalatvena 
+sarva-janānurañjinīṃ dhuraṃ kartum adhyavasāyam akārṣīd iti | 
+  <!-- For Rāma, on the command of his superiors such as Agastya,
+       made a resolution to fulfill a task, 
+       namely the extermination of all of the Rākṣasas,
+       which was ponderous on account of the fact that
+       it contained within it the construction of the bridge
+       and other acts that could only be accomplished with
+       great effort,
+       and which could only be accomplished with associates
+       such as Sugrīva and so on,
+       and which delighted all people because it resulted 
+       in the protection of the universe. !-->
+guruśabdena mātāpitṛvivakṣāyāṃ gurūpadeśena sahita iti yojyam |</p>
+  <!-- If the mother and father are intended by the word “guru,”
+       then we should construe it as “together with [i.e., 
+       rather than because of] the command of his parents.” !-->
+</ab><!-- commentary-block !-->
+ 
+<pb n="6"/>
+<ab type="commentary-block">
+<p>evam ukta-viśeṣaṇa-viśiṣṭāyā dhuro rūpakāntara-gocaratvenāparyavasānāt nāṭakaika-viṣayatvam avadhārya tad-viśeṣa-jijñāsayā
+tad-uktaṃ gauravātiśayam ukti-saṃvāda-bhūtenānubhavenālakṣyānuvadati—<ref type="lemma"
+target="Āścarya.1.2.1">āryasyeti</ref> ||</p>
+  <!-- Because the sentence would not reach its final meaning
+       if it referred to any of the other rūpakas, 
+       the actress understands the burden so qualified in reference
+       to the Nāṭaka alone, and because she wants to know more about it,
+       she refers back to the immense ponderousness that the director
+       mentioned, by noting her own experience which agrees
+       with his statement. !-->       
+<quote type="base-text"><sp>
+  <speaker>naṭī</speaker>
+  <p n="2.1">ajjassa garīaṃ dāva ahiāraṃ āāro evva sūedi |</p>
+</sp></quote>
+<p>adhikriyate iti karma-vyutpattyā adhikāro nāṭyaprayogaḥ tasya gauravaṃ dṛṣṭer utphullamadhyatva-dhīratvādir ākāra eva tāvat prathamaṃ vacanāt pūrvam eva sūcayati | 
+  <!-- “Responsibility,” in the passive derivation of what
+       one takes responsibility for, is the performance of the play,
+       and its ponderousness is what the appearance itself of the sūtradhāra,
+       that is to say the dilation and seriousness of his gaze,
+       suggests in the first instance, that is to say even before he
+       says anything. !-->
+na tv atra vacanāpekṣā yata ākāreṇa vacanād api sphuṭataram avagamyate ataḥ adhikāra-gauravaṃ na vaktavyam eva | 
+  <!-- [The ponderousness of the responsibility itself] does not
+       demand a statement. Since it is understood even more clearly
+       from his appearance than it is from his statement,
+       he should not have stated it at all. !-->
+adhikāra-gurutva-hetus tu vacana-sāpekṣa iti vākyaparyavasānam | 
+  <!-- It is, however, the reason for the ponderousness of the responsibility
+       that demands a further statement. This is what the final meaning
+       of the sentence is. !-->
+āryasya ākāra evety anvayaḥ |</p>
+  <!-- The syntax is: this itself is your form, sir. !-->
+</ab><!-- commentary-block !-->
+
+<ab type="commentary-block">
+<p>evaṃ tad-ukti-sūcita-jijñāsyatvaṃ gaurava-hetuṃ vivakṣan uktam 
+evārtham anumanyate—<ref type="lemma" target="Āścarya.1.2.2">atha kim</ref> iti ||</p>
+  <!-- He, wishing to speak of the reason for its ponderousness,
+       the desire to know which was suggested by the actress' statement,
+       considers that very meaning that the actress had communicated. !-->
+<quote type="base-text"><sp>
+  <speaker>sūtradhāraḥ</speaker>
+  <p n="2.2">atha kim | sundari nanu bahūnām asādhāraṇo durgamaḥ panthāḥ |</p>
+</sp></quote>
+  <!-- Well, anyway, love, the path that is uncommon 
+       is hard for many to traverse, isn't it? !-->
+<p>asādhāraṇaḥ panthāḥ bahūnāṃ durgamo nanu ity anvayaḥ | 
+atra bahūnām iti ṣaṣṭyāḥ na lokāvyayeti<note type="reference"><ref target="Aṣṭā.2.3.69">Aṣṭādhyāyī 2.3.69.</ref></note>
+ pratiṣedhe 'pi dustyajaṃ kiṃ dhṛtātmanām<note type="reference"><ref target="BhāPu.10.1.58">Bhāgavata
+Purāṇa 10.1.58.</ref></note> ity ādiśiṣṭa-prayogānusāreṇa sādhutvam | 
+  <!-- “The path that is uncommon is hard for many 
+       to traverse, isn't it?” is the construal.
+       Here the sixth case (“many”) is correct,
+       although it would be prohibited by the rule 
+       “na lokāvyayā” [Aṣṭādhyāyī 2.3.69]
+       because it accords with the usages of the learned,
+       such as “what is hard to give up for those who
+       have self-control?” [Bhāgavatapurāṇa 10.1.58]. !-->
+pathiśabdo hi abhimata-deśāntara-prāpti-sādhane saṃskṛte deśaviśeṣe mukhyayā vṛttyā prasiddhaḥ | 
+  <!-- For the word “path” is well known in its primary semantic function
+       in the sense of a particular place that has been fashioned
+       as a means attainment for another place that one wishes to travel to. !-->
+tatrābhimata-sādhanatvaṃ nāma yo guṇas taṃ lakṣayitvā
+tad-guṇa-yogiṣu vidyāviśeṣeṣu gauṇyā vṛttyā vartate | 
+  <!-- By keeping in view the quality of being an 
+       accepted means of attainment, it refers in a
+       secondary semantic function to particular
+       sciences that possess that property. !-->
+atra prakaraṇena ayaṃ nāṭake paryavasyati vidyāntareṣv apy asya prayogaḥ dṛṣṭaḥ yathā—<note type="reference"><ref>Veṅkaṭādri's Mahimnastava, v. 7.</ref></note>
+  <!-- This use of the word in this sense, 
+       which is its accepted sense in theater,
+       can be seen in other sciences as well, as follows: !-->
+<quote rend="single">
+  <lg>
+    <l>ṛju-kuṭila-nānāpathajuṣāṃ nṛṇām eko gamyas tvam asi payasāmarṇava iva</l>
+  </lg>
+</quote> iti | 
+  <!-- [Mahimnastava of Veṅkaṭādri, v. 7]
+       You are like the ocean of milk,
+       the single one traversed by men
+       who betake themselves to various
+       paths, straight and crooked. !-->
+gauṇīvṛttiḥ pūrvair evaṃ lakṣitā—<note type="reference"><ref target="TaVā.p.353">Tantravārttika p. 353.</ref></note>
+<quote rend="single">
+  <lg>
+    <l>abhidheyāvinābhūta-pratītir lakṣaṇocyate |</l>
+    <l>lakṣyamāṇa-guṇair yogād vṛtter iṣṭā tu gauṇatā ||</l>
+  </lg>
+</quote> iti | 
+  <!-- The secondary semantic function has been
+       defined by previous scholars as follows:
+         [This is Kumārila, Tantravārttika, p. 353]
+	 We call “secondary meaning” an apprehension
+	 that invariably accompanies the primary meaning.
+	 By contrast, we accept “qualitative meaning”
+	 by connection with the qualities that are
+	 thus secondarily indicated. !-->
+prakṛṣṭatama-gāmbhīryaudārya-prauḍhatādi-vacana-guṇa-śālitayā pratipādyetivṛttātigauraveṇāsādharaṇo lokotkṛṣṭo yo nāṭaka-viśeṣaḥ sa bahūnāṃ durgamaḥ duṣkara-prayoga eva | 
+  <!-- That particular play that is uncommon
+       because of the extreme weightiness of the plot that 
+       is to be presented, in the sense that it abounds in the most prominent
+       qualities of expression like depth, nobility,
+       and boldness, which is supreme in the world,
+       that is difficult for many to traverse, 
+       in the sense that its performance is difficult. !-->
+nanur evārthe | 
+  <!-- “nanu” has the sense of “eva” here. !-->
+kasyacit tu puṇya-śālino 'bhyāsādy-atiśayenātiprayatna-sādhya-prayogo 
+'yaṃ bhaved api | 
+  <!-- But this performance, which can only be accomplished by 
+       extreme effort, could be possible for someone who has an
+       abundance of good karma, because of the excellence of his
+       practice and so on. !-->
+ata evaṃbhūta-nāṭaka-gocaratvena mamādhikārasya gurutvaṃ yuktam evety
+arthaḥ | 
+  <!-- Therefore it stands to reason that my responsibility
+       is heavy, since its object is play of such a sort.
+       This is the meaning. !-->
+athavā durgamo yaḥ panthāḥ sa bahūnām asādhāraṇaḥ sādhāraṇo na bhavati |
+  <!-- Alternatively, the path that is difficult to traverse
+       is uncommon to many, that is, it is not common. !-->
+aśrāddha-bhojī brāhmaṇa itivat prasajya-pratiṣedhe nañ |
+  <!-- Just like “a Brāhmaṇa who does not eat during the 
+       Śrāddha ceremonies,” the negative prefix here has the
+       sense of the negation of a quality. !-->
+gāmbhīryādiguṇayogāt duṣkara-prayogo yo nāṭakaviśeṣaḥ saḥ anyair aprayukta-pūrvatvād asmābhiḥ prayokṣyamāṇaḥ san asmān praty asādhāraṇo bhavati | 
+  <!-- The particular play whose performance is difficult
+       because it is supplied with qualities such as depth,
+       that play, because it has never before been performed
+       by others, being about to be performed by us,
+       that is an uncommon play with respect to us. !-->
+ato 'syātiprayatna-sādhyatvāt adhikārasya gurutvam iti bhāvaḥ | 
+  <!-- Therefore the responsibility is very heavy 
+       because it needs to be accomplished with great
+       effort. This is the idea !-->
+iha nanu bahūnām ity ārabhya prajñāvilasitam ity antena
+bhāratī-vṛtty-aṅga-bhūtā prarocanā kriyate | 
+  <!-- Here starting from “for many” and going
+       to “playful in his insight,” the promotion
+       is enacted, which is a component of the Bhāratī Vṛtti. !-->
+yathoktam—<note type="reference"><ref cRef="DaRū.3.6">Daśarūpaka 3.6cd</ref></note>
+<quote rend="single">
+  <lg>
+    <l>unmukhīkaraṇaṃ yatra praśaṃsātaḥ prarocanā</l>
+  </lg>
+</quote> iti |
+<!-- That is defined as follows:
+       The promotion is when you get audience's attention
+       by praising. !-->
+kavi-kāvya-prayoktrādīnāṃ praśaṃsayā sāmājika-sahāyādīnām aunmukyāpādanaṃ prarocanety arthaḥ |</p>
+  <!-- Through the praise of the poet, the text,
+       and the performers, the promotion makes the 
+       members of the assembly, their associates, and so on
+       attentive. This is the meaning. !-->
+</ab><!-- commentary-block !-->
+
+<pb n="7"/>
+
+<ab type="commentary-block">
+<p>evam asādhāraṇa-śabdenādhyavasāyasyābhinava-nāṭakatvaṃ śaṅkamānā paripṛcchati—<ref type="lemma" target="Āścarya.1.2.3">ajjetyādinā</ref> ||</p>
+  <!-- Thus suspecting that the undertaking is a new play
+       on account of the word ``uncommon,'' she asks: !-->
+<quote type="base-text"><sp>
+  <speaker>naṭī</speaker>
+  <p n="2.3">ajja kiṃ asāhāraṇaṃ ti pucchadi |</p>
+</sp></quote>
+  <!-- Sir, what I want to ask is: why do you say “uncommon”? !-->
+<p>atra pṛcchater lakṣaṇayā 'bhidhānārthatvam | 
+  <!-- Here the root “ask” has the sense of 
+       “express” by its secondary semantics. !-->
+asādhāraṇa-śabdena ko viśeṣo vivakṣita ity arthaḥ | 
+  <!-- The meaning is: what, in particular, is intended
+       by the word “uncommon”? !-->
+purātanāni nāṭakāni prāyeṇāsmābhir anyaiś ca prayukta-pūrvāṇīti
+teṣām asādhāraṇatvaṃ na ghaṭate adyatanaṃ nāṭakaṃ tādṛśaṃ ca mayā nāśrāvi 
+ity asādhāraṇa-śabdena yo viśeṣo 'bhipretaḥ sa ucyatām ity arthaḥ |</p>
+  <!-- Generally we, and others, perform ancient plays
+       that have already been performed. But the quality of being
+       “uncommon” does not fit with them. 
+       However, I have not heard of a present-day play that also
+       fits this description. Therefore, please tell me what
+       particular meaning you meant by using the word “uncommon.”
+       This is the meaning. !-->
+</ab><!-- commentary-block !-->
+
+<ab type="commentary-block">
+<p>atha tam eva viśeṣam āryamiśra-śāsana-rūpeṇa vacanena sa-bahumānam ācaṣṭe—<ref type="lemma" target="Āścarya.1.2.4">ārya</ref> ityādinā ||</p>
+  <!-- He explains that very particular meaning through 
+       an expression that takes the form of a request
+       from the assembled public, with great respect: !-->
+<quote type="base-text"><sp>
+  <speaker>sūtradhāraḥ</speaker>
+  <p n="2.4">ārye dakṣiṇāpathād āgatam āścarya-cūḍāmaṇiṃ nāma nāṭakam abhinayāmreḍita-saubhāgyam abhilaṣāma ity āryamiśrāṇāṃ śāsanam |</p>
+</sp></quote>
+  <!-- Madam, the public has a request:
+       they desire that a play that has come here from the Deccan, called
+       the Crest-Jewel of Amazement, should have its beauty
+       enhanced by a good staging. !-->
+<p>tava prayoga-naipuṇam anurūpa-prayojya-lābhāt saphalīkariṣyāmīti saṃbodhanābhiprāyaḥ ||</p>
+  <!-- The sense of the vocative is: “I will put your
+       skill in performance to good use by giving you
+       something suitable to perform.” !-->
+<p><ref type="lemma" target="Āścarya.1.2.4">dakṣiṇāpathād</ref> iti || 
+atidūra-deśodbhūtam idaṃ deśaṃ prāptaṃ na tv atratyena kenacin nirmitam atraiva vartamānam ity arthaḥ | 
+  <!-- The meaning is that this play, produced in a far-away place,
+       has reached [this] place. It was not created by anyone from
+       here. And now it is here. !-->
+anena nāṭakasya guṇavattamatvaṃ loka-parigrahānuvṛttyā darśitam | 
+  <!-- By this it is shown that the play possesses good qualities,
+       because it has been passed from people to people. !-->
+<ref type="lemma" target="Āścarya.1.2.4">nāṭakam āgatam</ref> iti | 
+na tu kenacit deśāntara evaṃbhūtaṃ nāṭakam astīti loka-vārtā-śravaṇena taddeśaṃ gatvā nītam | 
+  <!-- Nor is it the case that someone, on hearing from
+       word of mouth that such a play exists in another place, 
+       went to that place and brought it back. !-->
+kintu tat-tad-deśeṣu tat-tad-abhiyukta-parigraheṇa nāṭakaṃ svayam evāgatam iti cetanavan nāṭakasyāgamanasaukaryaṃ darśayitum āgamana-kartṛtva-nirdeśaḥ |
+  <!-- Rather, by the favor of experts in this and that
+       subject, in this and that place,
+       the play has come here by itself. Thus, in order
+       to show that the play has arrived with the
+       ease of a sentient being, it is 
+       referred to as the agent of coming. !-->
+  <!-- There is a Mahābhāṣya reference that is relevant here. !-->
+vīrakāryādbhuta-rasa-bhūyiṣṭhatvena āścarya-karāṇāṃ cūḍāmaṇir ity āścarya-cūḍāmaṇir iti saṃjñā | 
+āścarya-bhūtaś cūḍāmaṇir yasmin pratipādyatvenāṅgīkṛta iti vā ||</p>
+  <!-- Because it is full of the wonderous rasa which is
+       produced by acts of heroism, the play is called
+       the Crest-Jewel of Amazement, it is the Crest-Jewel
+       of those things that produce amazement. 
+       Alternatively, it could be explained as that in which
+       there is a crest jewel that is amazing. !-->
+<p><ref type="lemma" target="Āścarya.1.2.4">nāṭakam</ref> iti || 
+prakaraṇādīṃ rūpakāntarāṇāṃ prakṛti-bhūtam 
+  <!-- archetype !-->
+itihāsa-purāṇādi-prasiddhetivṛtta-sahitaṃ
+bīja-bindu-patākā-prakarī-kārya-lakṣaṇārtha-prakṛti-pañcakopetaṃ 
+  <!-- five major turning points in the plot NŚ 19.21 !-->
+prārambha-yatna-prāptyāśā-niyatāpti-phalāgamāvasthā-pañcaka-samanvitaṃ
+  <!-- stages conditions: prārambha, yatna, prāptyāśā,  !-->
+mukha-pratimukha-garbhāvamarśa-nirvahaṇa-saṃjña-sandhi-pañcaka-tad-aṅga-catuṣṣaṣṭi-sahitaṃ
+  <!-- five components and sixty-four subsidiary components !-->
+nīrasānucitetivṛtta-sūcaka-viṣkambha-praveśaka-cūlikāṅkāsyāṅkāvatārākhyārthopakṣepaka-pañcaka-viśiṣṭaṃ
+  <!-- five insertions:   !-->
+mahā-sattvatādi-guṇa-viśiṣṭa-dhīrodāttādy-anyatara-nāyakaṃ 
+  <!-- dhīrodātta and dhīralalalita nāyaka !-->
+śīlārjavādi-guṇa-viśiṣṭa-svīyā-kanyakānyatara-nāyikaṃ 
+  <!-- !-->
+pīṭhamarda-viṭa-vidūṣakādi-sahāyopabṛṃhita-nāyaka-vyāpāraṃ
+  <!-- !-->
+vidarbha-pāñcāla-lāṭa-gauḍākhya-deśa-bhedodbhūta-rīti-catuṣṭaya-saṃpannaṃ
+  <!-- ???? where does this come from? !-->
+bhāratī-sāttvikī-kaiśiky-ārabhaṭī-saṃjñaka-vṛtti-catuṣṭayopaśobhitam
+  <!-- !-->
+āvantyā-paurastyā-dākṣiṇātyā-māgadhī-nāmadheya-caturvidha-pravṛtti-cāturyopetaṃ
+  <!-- !-->
+vibhāvānubhāva-vyabhicāri-sāttvikopabṛmhita-raty-utsāha-sthāyyātmaka-vīra-śṛṅgārāntyatarāṅgirasaṃ
+  <!--  !-->
+śuddhaikānekānubandhi-dharmārtha-kāma-phalaṃ 
+  <!-- single, connected with one, or connected with two !-->
+yad-rūpakaṃ tan nāṭakam ity ucyate |</p>
+
+<p>āścarya-cūḍāmaṇir nāma nāṭakam astīti śeṣaḥ | 
+tad-abhinayāmreḍita-saubhāgyam abhilaṣāma iti tacchabdo 'dhyāhāryaḥ | 
+  <!-- did the commentator read āścaryacūḍāmaṇir? !-->
+abhinayair vācikāṅgikāhārya-sāttvikair āmreḍitaṃ saubhāgyaṃ yasyeti vigrahaḥ | 
+āmreḍita-śabdenārthaparyālocanāsvādaḥ pūrvam eva saṃvṛtta iti darśitam | 
+  <!-- Through the word “repeated” [āmreḍita],
+       what is shown is that the savoring of the analysis
+       of its meaning has already begun. !-->
+idānīṃ prayoga-darśanam abhilaṣāma ity uktam | 
+  <!-- Now we want to see a performance. This is what is said. !-->
+mahatāṃ niyojyaṃ prati nijābhilāṣa-nivedanam abhilaṣita-niyoga-param eva 
+bhavatīti śāsanam ity uktam |</p>
+  <!-- It is called a “commandment” (śāsana) because when the
+       great make a proclamation of their own desire to a servant,
+       that proclamation itself is tantamount to a commandment of
+       what they wish. !-->
+</ab><!-- commentary-block !-->
+<pb n="8"/>
+
+<ab type="commentary-block">
+<p>evam uktasya nāṭaka-viśeṣasya pravirala-vidvaj-jana-dakṣiṇāpathāpādānatvenāviśvasanīyatvāt aprayojyatvaṃ manyamānā sāpahāsam āha |</p>
+  <!-- Because she cannot believe that the particular play that was mentioned
+       was brought from the Deccan, where scholars are rare,
+       she thinks that it should not be performed, and says scornfully: !-->
+<quote type="base-text"><sp>
+  <speaker>naṭī</speaker>
+  <p n="2.5">ajja accāhidaṃ khu edaṃ, āāsaṃ pasavaï pupphaṃ, siadāo tellaṃ uppādaaṃti, jaï dakkhiṇāo disāo āadaṃ ṇāḍaaṇibaṃdhaṇam |<note type="chaya">ārya atyāhitaṃ khalv etat, ākāśaṃ prasūte puṣpaṃ, sikatāḥ tailam utpādayanti, yadi dakṣiṇasya diśaḥ āgataṃ nāṭakanibandhanam |</note></p>
+  <!-- Sir, this is quite out of place. 
+       The sky will rain flowers,
+       the sand will produce oil,
+       if it is the case that the text of a play
+       has arrived from the South. !-->
+</sp></quote>
+<p>āhitaṃ sthitaṃ tad atikramya vartata ity atyāhitaṃ saṃbaddham ity arthaḥ |
+  <!-- The meaning is this: something is “out of place”
+       if it goes beyond the place where it stands and resides
+       somewhere else. !-->
+ākāśaṃ puṣpaṃ prasūte sikatās tailam utpādayanti tarhīti sidhyati | 
+<ref type="lemma" target="Āścarya.1.2.5">yadi dakṣiṇasyā diśa āgataṃ nāṭaka-nibandhanam</ref> iti ||
+nibandhanam eva tāvat tata āgataṃ na dṛṣṭapūrvaṃ kiṃ punar viśiṣṭaṃ nāṭakākhyaṃ
+nibandhanam iti darśayituṃ nibandhanam ity uktam |
+  <!-- It says “text” [nibandhana] in order to show that not even a text
+       has ever been seen to come from there, much less a particular text
+       called a Nāṭaka. !-->
+yadi tata āgataṃ nāṭaka-nibandhanaṃ tarhīdaṃ vṛttāntaram ākāśādibhyaḥ puṣpādi-jananam eva 
+tat-tulyam ity arthaḥ |
+  <!-- The meaning is this: If the text of the play has come from there,
+       then this piece of news is as if flowers were to come from
+       the sky and so on. !-->
+nidarśanālaṅkāraḥ | yathoktaṃ—<note type="reference"><ref target="KāPra.10.97">Kāvyaprakāśa 10.97.</ref></note>
+<quote rend="single">
+  <lg>
+    <l>nidarśanā |</l>
+    <l>abhavad-vastu-saṃbanda upamāparikalpakaḥ</l>
+  </lg>
+</quote> atrāsaṃbhavann eva ākāśādi-puṣpādyor janyajanakabhāva uktaḥ
+sann upamāyāṃ paryavasyati |</p>
+  <!-- This figure is a Nidarśana.
+       As it has been defined: nidarśana is a relation
+       with a non-existing thing that causes one to imagine
+       a simile. !-->
+</ab><!-- commentary-block !-->
+
+<ab type="commentary-block">
+<p>atha tasya doṣābhāsādi-niveśaṃ nirasyann āha—<ref type="lemma" target="Āścarya.1">ārya</ref> iti ||</p>
+  <!-- He says the following, refuting the charge 
+       of an apparent fault : !-->
+<quote type="base-text"><sp>
+  <speaker>sūtradhāraḥ</speaker>
+  <p>
+    <s n="2.6">ārye mā bhaivam |</s>
+    <s n="2.7">upacinu guṇam, apahastaya janmābhiniveśam |</s>
+    <s n="2.8">paśya—</s>
+  </p>
+  <!-- No, Madam, not at all. Count its good qualities,
+       and leave aside considering the place 
+       where it comes from. Look: !-->
+  <pb n="9"/>
+  <lg n="3">
+    <l>guṇāḥ pramāṇaṃ na diśāṃ vibhāgaḥ<caesura/>
+       nidarśanaṃ nanv idam eva tatra |</l>
+    <l>stana-dvaye te hari-candanaṃ ca<caesura/>
+       hāraś ca nīhāra-marīci-gauraḥ || 3 ||</l>
+  </lg>
+</sp></quote>
+  <!-- The quality of a work is what matters.
+       Not any division into regions.
+       Here is an example for this:
+       on your breasts, the yellow sandalwood,
+       and the necklace as white as the moon. !-->
+<p>ārye mā bhaivaṃ voca iti śeṣaḥ | 
+atropacinv ity anena guṇādānasya puṣpāpacaya-sāmyaṃ dyotitam | 
+janma-bhūmim uddiśya yo 'bhiniveśaḥ doṣa-grahaṇa-nirbandhaḥ tam apahastaya parityajety arthaḥ |
+  <!-- The ellipsis is: madam, do not speak like that.
+       With the word “count” (upacinu) what is illustrated
+       is that the consideration of virtues is similar to
+       plucking flowers. With reference to a birthplace,
+       the consideration that is a reason for considering faults,
+       forget about that, or throw it away: this is the meaning. !-->
+ubhayatrāpi sadṛṣṭāntaṃ hetum āha—<ref type="lemma" target="Āścarya.1">paśye</ref>tyādinā ||</p>
+  <!-- He says this with an example for both. !-->
+<p>guṇā evopādāne pramāṇaṃ kāraṇaṃ hāne ca doṣā eva kāraṇam ity arthāt sidhyati |
+  <!-- The only good reason to take up a work is its virtues. 
+       And the only reason to avoid it are its faults. 
+       This is what we get from the meaning. !-->
+ubhayatrāpi na digvibhāgaḥ kāraṇam || <ref type="lemma" target="Āścarya.1">idam eve</ref>ti || 
+  <!-- The division into regions is not a reason for either of them. !-->
+na hy asmat-sannihitāt saṃpratipannāc ca sādhīyo 'vyannidarśanāntaram asti |</p>
+  <!-- For there is no better example [of it?] that what is 
+       near to us and what we all recognize. !-->
+</ab><!-- commentary-block !-->
+
+<ab type="commentary-block">
+<p>athātma-gata-hāra-haricandanāvalokana-pūrvakaṃ sabahumānaṃ tad-uktim eva saṃvadati—<ref
+type="lemma" target="Āścarya.1">yujyate ratnākaraḥ khalusa deśa</ref> iti ||</p>
+  <!-- Now she agrees with his statement respectfully,
+       first looking at her own pearl necklace and sandalwood paste. !-->
+<quote type="base-text"><sp>
+  <speaker>naṭī</speaker>
+  <stage n="3.1">ātmānaṃ vilokya</stage>
+  <p>
+    <s n="3.2">jujjaï, raaṇāaro khu so deso |</s> 
+    <s n="3.3">ajja kadamo uṇa so kavī jo attaṇo pañjārūvaṃ ṇibandhaṇavvājeṇa desaṃtaraṃ pesidukāmo |<note type="chaya">yujyate, ratnākaraḥ khalu sa deśaḥ | ārya, katamaḥ punaḥ sa kaviḥ ya ātmanaḥ prajñārūpaṃ nibandhana-vyājena deśāntaraṃ preṣitukāmaḥ |</note></s></p>
+</sp></quote>
+<p>athaivaṃbhūtaṃ nāṭaka-karaṇa-samarthaṃ kaviṃ bahumanyamānā tan-nāmadheyādikaṃ paripṛcchati—<ref type="lemma" target="Āścarya.1.3.3">ārye</ref>ityādinā || 
+  <!--Now, highly esteeming such a poet, who is an expert in the
+      production of plays, she asks his name and so on !-->
+ya ātmanaḥ prajñā-svarūpaṃ nibandhana-vyājena preṣitukāmaḥ nibandhana-nirmāṇārambha-samaye saṃvṛtta iti vākya-parisamāptiḥ | 
+  <!-- The poet who, desiring to send the very form of his
+       wisdom in the guise of a text, fulfilled [that desire]
+       at the time of undertaking the creation of the text. !-->
+kavayo hi sva-buddhi-vyāpāra-vaicitryaṃ deśāntare 
+kālāntare ca prakāśayituṃ kāvyam ārabhanti | 
+  <!-- For poets undertake poetry in order to show off 
+       their varied powers of intellect in other places
+       and at other times. !-->
+yathoktaṃ—<note type="reference"><ref>Cited in the Kāvyaprakāśa</ref></note>
+<quote rend="single">
+  <lg>
+    <l>divam apy upayātānām ākalpam analpaguṇagaṇā yeṣām |</l>
+    <l>ramayanti jaganti giraḥ kathamiva kavayo na te vandyāḥ ||</l>
+  </lg>
+</quote> iti |
+  <!-- Are those poets not to be praised somehow,
+       of whom, even when they reach heaven, nevertheless
+       their speech of so many good qualities continues
+       delighting the world until the end of the eon? !-->
+ādhāreṇa puruṣeṇa vinā ādheyasya prajñā-svarūpasya deśāntara-prāpteḥ
+pratīyamānatvād ādyo viśeṣo 'laṅkāraḥ |
+  <!-- Because something that is based on something else (ādheya)
+       is understood even without its basis (ādhāra), namely, the 
+       fact that the very form of his wisdom has reached other lands
+       (is understood) even without (the person himself),
+       this is the first kind of 'specification' figure. !-->
+yathoktaṃ—<note type="reference"><ref>Kāvyaprakāśa</ref></note>
+<quote rend="single">
+  <lg>
+    <l>vinā prasiddham ādhāram ādheyasya vyavasthitiḥ</l>
+    <l>ekātmā yugapad-vṛttir ekasyānekagocaraḥ ||</l>
+    <l>anyat-prakurvataḥ kāryam aśaktyasyānya-vastunaḥ |</l>
+    <l>tathaiva karaṇaṃ ceti viśeṣas trividhaḥ smṛtaḥ ||</l>
+  </lg>
+</quote> iti | 
+  <!-- The condition of a superstrate without its commonly-accepted substrate, 
+       the simultaneous and unitary existence of a single thing that has several fields of application,
+       and the effect of one thing, which is impossible, as it produces another thing:
+       These are the three kings of “specification.” !-->
+atra kārya-bhūta-vāstava-nibandhana-niṣedha-pūrvakaṃ tat-kāraṇa-bhūta-prajñā-rūpa-samāropas tasminn ādarśa-gata-pratibimbavat
+sphuṭataram avagamyamānatvād iti jñeyam |
+nāpahnutir alaṅkāro 'tra saṃbhavati upamānopameyabhāvābhāvāt |
+evaṃ hi 
+<quote rend="single">
+  <lg>
+    <l>prakṛtaṃ yanniṣedhyānyat sādhyate sā tv apahnutiḥ |<note type="reference"><ref cRef="KāPra.10.146">Kāvyaprakāśa 10.146.</ref></note></l>
+  </lg>
+</quote>
+ity asya vyākhyānaṃ uktam—upameyam asatyaṃ kṛtvā upamānaṃ satyatayā yat sthāpyate sāpahnutir ity alaṃ vistareṇa | 
+evaṃbhūtaḥ kaviḥ punaḥ sa katamaḥ tacchabdena kaver avaśyābhyupagantavyatvaṃ darśayati |</p>
+</ab><!-- commentary-block !-->
+
+<pb n="10"/>
+
+<ab type="commentary-block">
+<p>atha sabahumānam uttaraṃ dadāti |</p>
+<quote type="base-text">
+<sp>
+  <speaker>sūtradhāraḥ</speaker>
+  <p>
+    <s n="3.4">ārye śrūyatām |</s>
+    <s n="3.5">unmāda-vāsavadattā-prabhṛtīnāṃ kāvyānāṃ kartuḥ kaveḥ śaktibhadrasyedaṃ prajñāvilasitam |</s>
+    <s n="3.6">atas tvam api pātrāvadhānaṃ kuruṣva |</s>
+    <s n="3.7">aham apy ārya-miśrān vijñāpayāmi |</s>
+    <s n="3.8">aye kiṃ nu khalu mayi vijñāpanavyagre śabda iva śrūyate |</s>
+    <s n="3.9">aṅga paśyāmi |</s>
+  </p>
+</sp></quote>
+<p>ārye ucitavādini vivakṣita-vacanāvakāśa-dānāt samucita evāyaṃ praśnaḥ śrūyatām | 
+śrāvya evāyaṃ dhanyo mahākaviḥ ||
+<ref type="lemma" target="Āścarya.1.3.5">śaktibhadrasyeti</ref> || śaktyā
+kavitva-nidāna-bhūtena saṃskāreṇa bhadra ity arthānugatam eva nāma ||
+<ref type="lemma" target="Āścarya.1.3.5">prajñā-vilasitam</ref> iti ||
+pūrvavat tat-kāryatvena nibandhanasya tattvāropaḥ ||
+<ref type="lemma" target="Āścarya.1.3.5">unmāda-vāsavadattā-prabhṛtīnāṃ kāvyānāṃ kartur</ref> iti ||
+pūrvam eva bahu-prabandha-kartṛtvena prasiddhaḥ |
+na kevalam idānīm etannibandhana-nibandhṛtvenaiva |
+anenābhyāsāt pūrva-prabandhebhyo 'sya viśeṣo darśitaḥ |
+yato 'ham evaṃbhūta-mahākavi-kṛta-nāṭaka-prayoga-gocarāṃ dhuram udvahāmi atas tvam apy ātmocitaṃ pātraṃ praty avadhānaṃ tadekaparatvaṃ kuruṣva |
+evam ity anena prayoga-sāmagrī-prakāra-lābha uktaḥ |</p>
+<p>evaṃ prarocanāṃ kṛtvā prayogātiśayenāṅkādya-pātra-praveśaṃ
+sūcayitum upakramate—<ref type="lemma" target="Āścarya.1.3.8">aye</ref> iti ||
+<ref type="lemma" target="Āścarya.1.3.7">kiṃ nu khalv</ref> ityādinā<note type="reference"><ref cRef="DaRū.3.11">Daśarūpaka 3.11</ref></note> ||
+<quote rend="single">
+  <lg>
+    <l>eṣo 'yam ity upakẹspāt sūtradhāra-prayogataḥ |</l>
+    <l>pātra-praveśo yatraiṣa prayogātiśayo mataḥ ||</l>
+  </lg>
+</quote>
+<!-- prayoga not in the sense of performance,
+     but in the sense of a use of words: 
+     "a special usage of words" !-->     
+aye ity acintitopanata-padārthopalambha-saṃbhavam āvegaṃ sūcayati |
+vijñāpanārthaṃ vyagre prayoga-kālāti-pāta-bhayāt saṃbhrameṇa 
+pravartamāne sati śabda iva śrūyate | 
+ivaśabdo viśeṣānavadhāraṇadyotanārthaḥ |
+kiṃ ni khalv iti śabda-viśeṣaṃ taddhetuṃ ca nirūpayati—<ref type="lemma" 
+target="Āścarya.1.3.9">aṅga paśyāmī</ref>ti ||
+avahito bhūtvā vicārya niścinomīty arthaḥ ||</p>
+</ab><!-- commentary-block !-->
+
+<ab type="commentary-block">
+<quote type="base-text">
+<stage n="3.10">nepathye jyāghoṣaḥ kriyate</stage>
+</quote>
+</ab><!-- commentary-block !-->
+
+<ab type="commentary-block">
+<p>atha nepathye kriyamāṇa-jyāghoṣaṃ śrutvā niścityāha—<ref type="lemma"
+target="Āścarya.1.3.11">bhavatu vijñātam</ref> iti ||</p>
+<quote type="base-text"><sp>
+  <speaker>sūtradhāraḥ</speaker>
+  <p>
+    <s n="3.11">bhavatu vijñātam |</s>
+  </p>
+  <lg n="4">
+    <l>sapatnīkasya rāmasya vartayan vanyamāspadam |</l><pb n="11"/>
+    <l>jyāghoṣeṇaiva saumitriḥ pakvān sattvān vyapohati || 4 ||</l>
+  </lg>
+</sp>
+<stage n="4.1">niṣkrāntau</stage>
+<label type="dramaturgical">sthāpanā</label>
+</quote>
+
+<p>bhavatu-śabdaḥ mānasa-niścaye | 
+<quote rend="single">bhavatvāntaranirṇaye</quote> iti |
+saumitrir jyāghoṣeṇa pakvān pariṇatān | jāyate 'sti vardhate vipariṇamate apakṣīyate mriyata
+ity āsāṃ ṣaṇṇām avasthānāṃ madhye turīyāṃ vipariṇāmāvasthāṃ prāptān nirūḍha-yauvanatvenātidṛptān
+ity arthaḥ | sattvān siṃha-vyāghrādīn apohati nirasyati |
+kimartham ity āha—<ref type="lemma" target="Āścarya.1.4">sapatnīkasye</ref>ti ||
+sapatnīkasya rāmasya vanyam āspadaṃ nivāsayogyāṃ parṇaśālām ||
+<ref type="lemma" target="Āścarya.1.4">vartayann</ref> iti || hetau śatā |
+parṇaśālā-nirmāṇārthaṃ duṣṭa-sattva-nirāsaṃ karotīty arthaḥ |
+anena kevalam aṅkādya-pātra-praveśa eva na sūcitaḥ sapatnīkasya rāmasya praveśo 'pi sūcitaḥ |
+atrāmukhasya kathodghāta-pravartaka-prayogātiśaya-saṃjñakāni trīṇi asādhāraṇāny aṅgāni uddhātyakāvalagātādīni trayodaśa-vīthy-aṅgāni sādhāraṇānīti ṣoḍaśāṅgam āmukham |
+sarveṣām aṅgānām ekatra na niyamaḥ |
+<quote rend="single">
+  <lg>
+    <l>teṣām anyatamenārthaṃ pātraṃ vākṣipya sūtrabhṛt |</l>
+    <l>prastāvanānte nirgacchet tato vastu prapañcayet ||</l>
+  </lg>
+</quote> ity uktatvāt<note type="reference"><ref cRef="BhāPra.8.136">Bhāvaprakāśana 8.138</ref></note> |
+atra prayogātiśayenaiva pātra-praveśaḥ sūcitaḥ |
+yathā śākuntale—<quote rend="single">eṣa rājeva duṣyantaḥ sāraṅgeṇātiraṃhasā</quote> iti |
+evaṃ prārabdhatvāt prayogasya tad-ārambha-vijñāpanaṃ nirarthakaṃ
+manyamānaḥ tad-akrṭvaivānantarocita-pātra-bhūmikā-parigrahārthaṃ naṭī-sahitaḥ 
+sūtradhāraḥ nepathyaśālām uddiśya niṣkrāntaḥ |
+sthāpanety āmukhaparyāyaḥ ||</p>
+<label type="dramaturgical">|| ity āmukham ||</label>
+</ab><!-- commentary-block !-->
+
+</ab><!-- āmukham !-->
+
+<pb n="12"/>
+
+<ab type="commentary-block">
+<p>athātrādau 
+<quote type="single">
+  <lg>
+    <l>ādau viṣkambhakaṃ kuryād aṅkaṃ vā kārya-yuktitaḥ |</l>
+    <l>apekṣitaṃ parityajya nīrasaṃ vastu-vistaram ||</l>
+    <l>yadā saṃdarśayec cheṣaṃ kuryād viṣkambhakaṃ tadā |</l>
+    <l>yadā tu sarasaṃ vastu mūlād eva pravartate ||</l>
+    <l>ādāv eva tadāṅkaḥ syād āmukhākṣepasaṃśrayaḥ |</l>
+  </lg>
+</quote> iti<note type="reference"><ref cRef="DaRū.3.28-30">Daśarūpaka 3.28–30</ref></note> viṣkambhasya pākṣikatvābhidhānād āmukhānte na niyama ity āmukhākṣiptāsyāṅkasyaiva prastāvaḥ kṛtaḥ |
+<!-- At the beginning, either the viṣkambhaka may be performed,
+     or alternatively the act itself, depending on what is 
+     needful:
+     If, having skipped over the tedious (nīrasa) development
+     of the plot, one represents the remaining parts that 
+     the audience needs (apekṣita), then there should be a 
+     viṣkambhaka.
+     If on the other hand an interesting (sarasa) plot gets going 
+     from the very beginning, then the aṅka should occur at the 
+     beginning, depending on the indication in the prologue (āmukha).
+       [Daśarūpaka 3.28-30ab] !-->
+<!-- Because it has been stated that the viṣkambha is optional,
+     it is not required at the end of the āmukha.
+     Hence what has been performed is an introduction (prastāvaḥ) 
+     to the act itself (aṅka), which is indicated as the default in
+     the prologue (āmukha). !-->
+<!-- For this language see Vidhirasāyana !-->
+aṅkaś caivaṃ lakṣitaḥ | yathā—
+<quote rend="single">
+  <lg>
+    <l>pratyakṣa-netṛ-carito bindu-vyāpti-puraskṛtaḥ |</l>
+    <l>aṅko nānā-prakārārtha-saṃvidhāna-rasāśrayaḥ ||</l>
+  </lg>
+</quote> iti<note type="reference"><ref cRef="DaRū.3.31">Daśarūpaka 3.31</ref></note> | 
+atra dhīrodāttasya rāmasya sarva-kāryeṣu sāhāyyaṃ pratipadyamāno lakṣmaṇo 'pi dhīrodātta eva na dhīroddhataḥ |
+tallakṣaṇānāṃ darpa-mātsaryādīnām ananugateḥ mahāsattvatādīnām anugateś ca |
+dhīrodātta-guṇāś ca tatra tatra yojayiṣyāmaḥ |</p>
+<quote type="base-text">
+<stage n="4.2">tataḥ praviśati dhanur-bāṇa-pāṇir lakṣmaṇaḥ</stage>
+</quote>
+</ab><!-- commmentary-block !-->
+
+<ab type="commentary-block">
+<p>atha lakṣmaṇo yauvanodaye 'pi bhrātṛ-gocara-bhakty-atiśayena mahāsattvatayā ca kāmānubhavam utsṛtya niruddhābhiṣekasya
+vanaṃ gatasya rāmasya padavīṃ chāyevānugamya tat-tad-ṛṣīṇām āśrameṣu nivasatas tasya 
+daśa-varṣāṇy apratyūhena paricaryāṃ vidhāya rākṣasa-pīḍita-muni-jana-prārthanayā
+nikhila-rākṣasa-vadhaṃ pratijñāya tad-vaira-saṅghaṭanārthaṃ godāvarī-tīraṃ
+prāptasya bhrātuḥ parṇa-śālā-nirmāṇārthaṃ niyogam avalambya siṃha-vyāghrādi-duṣṭa-sattva-samākīrṇaṃ taṃ
+deśam avalokya baddha-sannāhas tan-nirākaraṇopāyaṃ parṇaśālā-nirmāṇa-prakāraṃ ca manasā nirdhārayati—
+<ref type="lemma" target="Āścarya.1.5">jyāghoṣeṇe</ref>tyādi ||</p>
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <lg n="5">
+    <l>jyā-ghoṣeṇa nirākaromi bhayadān paryanta-bhājo mṛgān<caesura/>
+       parṇaiḥ sadma samāpayāmi śayanaṃ badhnāmi puṣpacchadaiḥ |</l><pb n="13"/>
+    <l>vetrāṇām upapādayāmi valayair āyāmināṃ viṣṭaraṃ<caesura/>
+       siñcāmi kṣatim ārdra-paṅkaja-rajo-viddhair apāṃ reṇubhiḥ || 5 ||</l>
+  </lg>
+</sp></quote>
+<p>jyāghoṣeṇa mṛgān siṃha-vyāghrādīn nirākaromi dūrīkaromi |
+yathā punaḥ pratyāgamanavāñcā na bhavet tathā kaṭhinena jyā-śabdena dūraṃ
+nayāmīty arthaḥ |
+anaṅgī-kṛta-rājya-paripālanatvāt niyamitvāc ca nigrahasyānaucityāc ca
+nirākaromīty uktam | kutaḥ punas tannirākaraṇam ata āha—<ref type="lemma" target="Āścarya.1.5">bhayadān</ref> iti ||
+ātmani teṣāṃ bhaya-janakatvābhāve 'pi sāmanyena bhayadān ity uktam | yata āryāyā
+ārya-darśanārtham āgatānāṃ cātra sthitāḥ santā bhayaṃ dāsyanti ataḥ pūrvam eva
+nirākaromīty arthaḥ | nanu bhayadā api te yatra na sannidadhate tatra parṇaśālā
+kriyatām ata āha—<ref type="lemma" target="Āścarya.1.5">paryanta-bhāja</ref> iti || ātmāśraya-deśāpekṣayā 
+paryanta-śabdaḥ paryantānātma-deśa-vyatiriktān sarva-dig-upādhikān deśa-viśeṣān
+bhajantīti paryanta-bhājaḥ | godāvarī-tīra-pradeśān sarvān eva sannihita-jalatvena
+pracchāya-śītalatvena ca nivāsa-gṛhīkṛtya putra-kaḷatrādibhiḥ saha svairam āsīnān 
+na tu yadṛccha-yāgatān ity arthaḥ | anena nirākaraṇasyāvaśyakartavyatvaṃ darśitam |
+atra viśeṣaṇa-dvayasya samuccityeva nirākaraṇahetutvaṃ na pratyekam |
+ato dūrasthānāṃ bhayadānāṃ sannihitānām abhayadānāṃ ca nirākaraṇe
+na tātparyam | parṇaśālāyāḥ parṇabhūyiṣṭhatvāt tannirmāṇe teṣāṃ
+pradhāna-kāraṇatvāt parṇair ity uktam | etac ca sādhanāntarāṇām upalakṣaṇam |
+samāpayāmīti samāpana-nirdhāraṇaṃ karaṇa-prakāra-nirdhāraṇam apy ākṣipati 
+akṛtasya samāpanāyogāt | vetrāṇāṃ valayaiḥ valayī-kṛtair vetrair iti 
+valayīkaraṇa-nirdhāraṇa-prakāraḥ ||</p>
+<p><ref type="lemma" target="Āścarya.1.5">viṣṭaraṃ</ref> iti || vratinām āsanaviśeṣam |</p>
+<p><ref type="lemma" target="Āścarya.1.5">upapādayāmi</ref> utpādayāmīty arthaḥ | āyāminām iti viṣṭarasya
+saṃdhāna-kṛta-pāruṣyābhāvaṃ darśayati | śayanīyasya parṇādi-sādhanāntara-saṃbhave 'pi
+mārdavātiśayam āmodaṃ cāpādayituṃ puṣpacchadair ity uktam | puṣpa-dalair ity arthaḥ |
+ardrair nisargato rajobhir viddhaiḥ saṃpṛktair apāṃ reṇubhiḥ kṣitiṃ siñcāmi secanena 
+saṃskaromi |</p>
+<p>atretivṛtta-bīja-bhūto bhayada-rakṣo-nirākaraṇotsāhaḥ kavinā 
+lakṣmaṇa-mukhena sūcita iti jñeyam ||</p>
+</ab>
+
+<ab type="commentary-block">
+<p><ref type="lemma" target="Āścarya.1.5.1">tathā kṛtve</ref>ti || mṛga-nirākaraṇa-prabhṛtīnāṃ 
+vāstu-bali-paryantānāṃ karmaṇām anuṣṭhāna-prakāro yathā
+nidhāritaḥ tathety arthaḥ |</p> 
+<quote type="base-text"><sp>
+  <stage n="5.1">tathā kṛtvā</stage>
+  <p>
+    <s n="5.2">kathaṃcid evam anuṣṭhitam ārya-śāsanam |</s>
+    <s n="5.3">aho nu khalu vipannānām avasthā medhāvinī |</s>
+    <s n="5.4">yāvad imāṃ parṇaśālāṃ pa<pb n="14" break="no"/>risamāptāṃ tāvat go-dāvaryās taṭaikadeśe taraṅga-mārutair adhva-śramam apanayantam āryam āryayā sārdhaṃ vijñāpayāmi |</s>
+  </p>
+</sp></quote>
+<p>kṛtvā vilokayann āhety arthāt sidhyati | 
+kathaṃcid ity aparicaya-nimittaḥ kleśo darśitaḥ na tu yathāvad anuṣṭhānābhāvaḥ | 
+evam iti dṛśyamāna-prakāra-nirdeśaḥ ||</p>
+<p><ref type="lemma" target="Āścarya.1.5.2">śāsanam anuṣṭhitam</ref> iti || 
+yady api śāsanasya niyoga-rūpa-vākyātmakatvād anuṣṭheyatvaṃ saṃbhavati tathāpi tad-gocara-karmānuṣṭhānena vinā śāsanasyārthavattvābhāvāt
+tad-anuṣṭhānaṃ śāsanānuṣṭhānam ity upacaryata ity adoṣaḥ | 
+sarvatra hi pravṛtti-viṣayasya karmaṇaḥ iṣṭa-prāpti-hetutvam aniṣṭa-parihāra-hetutvaṃ vāvagamyaiva pravṛttir dṛṣṭā |
+iha tu tad-avagataṃ vinā pravṛtti-viṣayasya karmaṇaḥ śāsana-viṣayatva-buddhyaiva pravṛttir iti darśitum evam uktam | 
+ata āha—<quote rend="single">ājñā gurūṇām avicāraṇīyā</quote> iti |
+evam ātmano 'paricita-karmānuṣṭhāna-sāmarthyaṃ 
+vipina-vāsa-rūpa-vipad-vilasitaṃ manyamānas tan-mahimānaṃ prati vismayam avalambamānas 
+taṭastha-vṛttyā nirūpayati—<ref type="lemma" target="Āścarya.1.5.3">aho nu khalv</ref> iti || 
+avasthā vṛttiḥ medhāvinī medhayā atiśāyinyā buddhi-vṛttyā yuktā | 
+<quote rend="single">asmāyāmmedhāsrajo viniḥ</quote> ity atiśāyane vinipratyayaḥ |
+atra vipannatvam eva hetur iti niścīyate | 
+avipannānām evaṃbhūta-buddhi-vṛtty-adarśanāt
+puruṣa-dharmasyāpi medhātiśayasyāvasthāyāṃ samāropaḥ | 
+tatphalasya tatra darśanād iti jñeyam | 
+pūrvam ṛṣyāśrameṣu daśa-varṣāṇi nivasatas tasya muni-janānubhāvāśramābhāga-darśana-sahāya-lābhādibhiḥ rājya-bhraṃśa-vana-vāsa-padeṣu nātīva vipad-buddhir jātā | 
+idānīm vijanaṃ vanaṃ prāpya tatrāryayor nivāsa-vyasanam ālocayataḥ mahatī vipad-buddhir jātā |
+etac ca bhāvino mātṛ-viṣaya-saṃrambhasya dvāratāṃ pratipadyate | 
+atra kavinā vipannānām ity anena sītāviyogātmikā vipat-sūcitā |
+medhāvinīty anena sugrīva-sakhya-setu-bandhādy-upāya-darśanaidamarthyaṃ ca sūcitam |
+evaṃ parṇaśālāṃ kṛtvā tannivedanam adhyavasyati—<ref type="lemma" target="Āścarya.1.5.4">yāvad</ref> iti || 
+yāvad tāvat āryaṃ prati parṇaśālāṃ pari-samāptāṃ vijñāpayāmīty āśayaḥ |
+āryayā sārdhaṃ taraṅga-mārutair adhyāśramam apanayantam ity anenātmanā 'sannidhānāsahāyāntarrābhāvāc ca tad-vyasanālocana-nimittaḥ khedo vyajyate | 
+tena ca tat-samīpa-gamanatvarā sūcitā | 
+ayam eva khedas tad-darśana-samaya prakaṭībhaviṣyati | 
+evaṃ vakṣyati kaṣṭạṃ vidheḥ karmeti |</p>
+</ab><!-- commentary-block !-->
+
+<ab type="commentary-block">
+<p>atha parikramya sahasātmābhimukham āyantīṃ lalita-sukumāra-rūpāṃ śūrpaṇakhāṃ dṛṣṭvāha—<ref type="lemma" target="Āścarya.1.5.6">aye</ref> iti ||</p>
+<quote type="base-text"><sp>
+  <stage n="5.5">parikramyāvalokya</stage>
+  <p>
+    <s n="5.6">aye araṇya-viruddheyam ākṛtiḥ |</s>
+    <s n="5.7">kutaḥ |</s>
+  </p>
+</sp></quote>
+<p>aya ity adbhuta-darśana-samāvegaṃ sūcayati | 
+iyaṃ saukumāryādi-viśiṣṭatvena dṛśyamānā ākṛtiḥ ākāra-viśeṣaḥ |
+ākārasyaivāraṇya-viruddhatvāt ākṛtir ity uktam | 
+araṇye viruddhā ayogyeti yāvat | 
+asyā janmano nivāsasya vā araṇye na saṃbhava ity arthaḥ | 
+evaṃ taddarśana-samaye kiṃcid-asaṃbhāvanā jātā |
+tadaiva tad-rūpa-vaicitrya-darśana-janitena vismayena māyā-prabhāva-jānatena kiñcid autsukyena ca stambhita-prasaro 'bhūt | 
+kuta ity araṇya-virodha-hetv-apekṣā darśitā |</p>
+<quote type="base-text"><sp>
+  <lg n="6">
+    <l>asyāti-mātrāyata-locanasya<caesura/>
+       nata-bhruṇaḥ kamra-payo-dharasya |</l>
+    <l>āścarya-ratnasya vilāsa-yoneḥ<caesura/>
+       kim ākaro dyaur nu vasundharā nu || 6 ||</l>
+  </lg>
+</sp></quote>
+<p>asyāścarya-ratnasya hi vasudhā ākaraḥ kiṃ nu dyaur iti kiṃśabdasya nuśabdābhyāṃ saṃbandhaḥ |
+atra <quote rend="single">pāṭha-kramād arthakramaḥ śreyān</quote> iti nyāyena pāṭhakramo 
+na vivakṣitaḥ | pāṭha-kramāśrama-prathamaṃ svargākaratvena nirūpitasya punaḥ bhūmyākaratva-parigrahaṇād apakarṣo bhaveti | 
+ata evottaraśloke sanāthīkurvāṇā dharaṇim iti prathamaṃ dharaṇyākaratvaṃ vakṣyate |
+vasundharā-śabdaḥ vasundharaikadeśa-bhūta-viśiṣṭa-janapada-vivakṣayā prayuktaḥ |
+itarathā 'raṇya-deśasyāpi tad-eka-deśatvena saṃdeha-koṭy-anupraveśa-saṃbhavāt | 
+ākara-śabdo hi dhana-dhānyādīnām udbhava-sthāne deśe prasiddhaḥ |
+atra hi ratnotpatti-sthāna-deśasya jijñāsitatvāt ākara ity uktam |
+autsukya-janito 'yam ākara-vitarkaḥ |</p>
+<p><ref type="lemma" target="Āścarya.1.6">asyāścaryaratnasye</ref>ty || sādṛśya-nibandhanā sādhya-vasānikā
+lakṣaṇāśrayitavyā prastutasya strīrūpasya nigīryāś carya-ratnatvenādhyavasitatvāt |
+yad uktaṃ—<note type="reference"><ref cRef="KāPra">Kāvyaprakāśa</ref></note>
+<quote rend="single">
+  <lg>
+    <l>viṣayyante kṛte 'nyasmin sā syāt sādhyavasānikā</l>
+  </lg>
+</quote> iti | āścarya-śabdo 'trāyu-dhṛtam itivat kārya-kāraṇa-saṃbandha-hetukayā 
+sāropayā lakṣaṇayāścārya-kāraṇe vartate | ato ratna-śabda-sāmānādhikaraṇyam upapannam |
+yathoktaṃ—<note type="reference"><ref cRef="KāPra">Kāvyaprakāśa</ref></note>
+<quote rend="single">
+  <lg>
+    <l>sāropānyā tu yatroktau viṣayī viṣayas tayā</l>
+  </lg>
+</quote> iti | 
+strīrūpasya ratnābheda-pratītyā vaiśiṣtam āropa-phalam |
+atrāvyabhicāritvāvagatis tatphalam |
+āyata-locanasyety ādibhir viśeṣaṇaiḥ aṅga-prasaṅga-sauṣṭhavātiśayo darśitaḥ | 
+atha tātkālikān viśeṣān āha—<ref type="lemma" target="Āścarya.1.6">vilāsayoner</ref> iti ||</p>
+<p>priyatama-darśana-kāle netrādi-vyāpārāṇāṃ viśeṣeṇa lasanaṃ yat sa vilāsaḥ |
+yathāha—
+<quote rend="single">
+  <lg>
+    <l>tātkāliko viśeṣas tu vilāso 'ṅgakriyādiṣu</l>
+  </lg>
+</quote> iti | 
+etac ca śarīrāt bhavasya lalitasya hāva-bhāvādīnāṃ citta-vikārāṇām apy upalakṣaṇam | 
+yathāha—
+<quote rend="single">
+  <lg>
+    <l>sukumāro 'ṅgavinyāso masṛṇo lalitaṃ bhavet</l>
+  </lg>
+</quote> iti |
+<quote rend="single">
+  <lg>
+    <l>nirvikārātmakāt sattvāt bhāvas tatrādy-avikriyā |</l>
+    <l>helākṛtaḥ saśṛṅgāro hāvo 'kṣibhrūvilāsakṛt ||</l>
+  </lg>
+</quote> ityādi |
+yato 'sya strīratnasya mahanīya-deśākaratvam ato 'raṇya-viruddhatvam iti hetutvenaitad vākya-paryavasānam |</p>
+<p>evaṃ kṣaṇa-mātraṃ tan-māyā-prabhāva-kṛta-rūpa-vaicitrya-darśana-janita-vismayautsukya-vyākṣipta-citto
+bhūtvā tadaivātma-smṛtim avalambyātmīyaṃ citta-vikāraṃ nirūpyāha—<ref type="lemma" target="Āścarya.1.6.2">kim idam</ref> iti ||</p>
+<quote type="base-text"><sp>
+  <pb n="15"/>
+  <stage n="6.1">cittavikāraṃ nirūpya</stage>
+  <p>
+    <s n="6.2">kim idam |</s>
+    <s n="6.3">nanv ahaṃ rāmānujo lakṣmaṇaḥ |</s>
+  </p>
+</sp></quote>
+<p>anenātmani saṃjātasya cāpalasya sattva-balam avalambya nirāsaḥ kriyate | 
+cāpalasyātmany ayogyatve hetum āha—<ref type="lemma" target="Āścarya.1.6.3">nanv ahaṃ rāmānujo lakṣmaṇa</ref> iti || 
+lakṣmaṇa-śabdo 'tra tan-mātre prayojanābhāvāt svārtham abhidhāya tat-sahacāri-vinaya-dhairyādi-guṇa-saṃpannatvam avagamayati |
+lakṣmaṇaśabdena dharyādi-guṇānām avagame sati teṣāṃ lakṣmaṇa-svarūpāntarbhāva-pratītiḥ phalaṃ bhavati | 
+na svaśabdair abhidhāne tad-antarbhāva-pratītir asti |
+etad uktaṃ bhavati—naisargika-vinaya-dharyādi-guṇa-yogitvena prasiddhaṃ yanmama lakṣmaṇatvaṃ tasyātyantam ayogyam idaṃ
+smara-cāpalam iti | 
+evaṃ rāmānujaśabdo 'pi svārtham abhidhāya tan-mātre prayojanābhāvāt tat-samaveta-jyāyaḥ-pāratantryaṃ gamayati |
+yad idaṃ bālyāt prabhṛti niyamena tat-pāratantryāt sarva-loka-prasiddhaṃ rāmānujatvaṃ tasyāpy etad atyantam anucitam ity arthaḥ |</p>
+<p>lakṣmaṇa-śabdenābhipretam arthaṃ vivṛṇoti—<ref type="lemma" target="Āścarya.1">sanāthīkurvāṇe</ref>ti ||</p>
+<quote type="base-text"><sp>
+  <pb n="16"/>
+  <lg n="7">
+    <l>sanāthīkurvāṇā dharaṇim athavā dhāma marutāṃ<caesura/>
+       bhaved eṣā kāmaṃ viramatu vitarkaś caladhiyām |</l>
+    <l>vacaḥ kartuṃ pitror vanam idam avāptasya vaśino<caesura/>
+       vaśe tiṣṭhan bhrātuḥ smara-paravaśaḥ syāṃ katham aham || 7 ||</l>
+  </lg>
+</sp></quote>
+<p>pūrvārdhena eṣā ātmanā dhariṇīṃ sanāthīkurvāṇā kāmaṃ bhavet | 
+athavā marutāṃ dhāma svargaṃ kāmam ity anenānyad vā deśāntaram ity anavasthā darśitā | 
+nāsmākam asmin viṣaye mārga-dṛṣṭa-tṛṇādivat svalpo 'py ādaro yata ity arthāt vākyasya paryavasānam |
+ato 'yam ākara-vitarko viramatu anenākara-vitarkeṇālam ity arthaḥ | 
+na hy upekṣāgocare vastuni parīkṣayā kiñcit prayojanam iti bhāvaḥ | 
+na kevalaṃ prayojanābhāvād evāyaṃ vitarko nāśriyate kintv avadyāpādakatvāc cety āha—<ref type="lemma" target="Āścarya.1.7">vitarkaś caladhiyām</ref> iti ||
+vitarka-śabdasya pūrvottara-padābhyāṃ saha saṃbandhaḥ |
+yata evaṃjātīyako vitarkaś caladhiyāṃ bhavati ato 'smav apy anuvartamāno 'yaṃ vitarkaś cala-dhītvam āpādayati |
+na cāsmāsv anuvartate vinaya-dhairyādi-guṇa-śālitvena cala-dhītvābhāvād iti tebhyo vyatireko 'rthād gamyate |</p>
+
+<p>rāmānuja-śabdenābhipretam arthaṃ vivṛṇoti—<ref type="lemma" target="Āścarya.1.7">vacaḥ kartum</ref> iti || 
+ahaṃ kathaṃ smara-paravaśaḥ syāṃ na kenāpi hetunā smara-vaivaśyasyāvakāśaḥ | atra hetuḥ—bhrātur vaśe tiṣṭhan iti ||
+na tu bhrātrā nirbandhena svavaśaṃ prāpitaḥ | 
+svayam eva vaśaṃ prāptaḥ | 
+yo 'haṃ svayam eva bālyāt prabhṛti bhrātṛ-paricaryāṃ paraṃ darmaṃ jānānaḥ etāvantaṃ kālaṃ tad-vaśe tiṣṭhāmi sa evedānīṃ kathaṃ smara-paravaśo bhaveyam | 
+avyavasthita-cittatvaṃ hi tadā syāt |
+veśeṣata idānīṃ āryasyāvasthā-viśeṣe nirūpyamāṇe 'tyantam anucitam evedam ity āha—<ref type="lemma" target="Āścarya.1.7">vaca</ref> iti ||
+yadi rājyasthasyānanuṣṭhita-guru-niyogasya vā vaśavartī na syāṃ tadā nātyantaṃ doṣāya bhavet |
+saṃprati punaḥ guru-niyogam anuṣṭhātuṃ vana-vāsa0kleśam anubhavato dharmānuṣṭhāna-sāhāyyam avalambya varamāno 'haṃ kathaṃ kāma-paravaśaḥ syām iti vanam idam avāptasyety anenoktam | 
+pitror vacaḥ kartum ity anenāryācaritenaiva gurv-anugmanasya mahimānaṃ jānānaḥ katham evaṃbhūtaḥ syām ity ayam artho vyajyate | 
+punar api hetvantaram āha—<ref type="lemma" target="Āścarya.1.7">vaśina</ref> iti ||
+jitendriyasya vaśe vartamānaḥ katham ajitendriyaḥ syām ity arthaḥ | 
+atra lalitādarśanātmakena vighnenākulīkṛtād api guru-paricaryā-vyavasāyād latatvena nāyakaguṇo darśitaḥ |
+yathāha—<quote rend="single">vyavasāyād acalanaṃ sthairyaṃ vighnākulād api</quote> iti |
+atr pūrvārdha-gatayānādaroktyā nirīkṣaṇasya nindāgarbhatvaṃ vyajyate | 
+evaṃ  nindāgarbham īkṣitāyā api tasyā ānavartanena punas tannivartanārthaṃ paruṣataravīkṣaṇam api yogyatayā labhyata eveti tad api kṛtam ity avaseyam |</p>
+</ab><!-- commentary-block !-->
+
+<pb n="17"/>
+
+<ab type="commentary-block">
+<p>atha nāṭaka-pratipādyasya sarvasya nāyaka-pratināyaketivṛttasya
+bīja-bhūtaṃ śūrpaṇakhā-vṛttāntaṃ lakṣmaṇa-mukhena sūcitopakramaṃ pratipādayati |
+iha khalu śūrpaṇakhā rāvaṇa0nihata-bhartṛkā tan-niyogena lokottaraṃ puruṣaṃ patitvena
+parigrahītum itas tataḥ saṃcarantī jana-sthānam āsādya godāvarī-tīra-gataṃ raghuvīraṃ
+dṛṣṭvā madanākula-hṛdayā ātmano rūpaṃ tad-rūpa-guṇānanurūpaṃ manyamānā māyā-balena
+lalita-sukumāraveṣā bhūtvā tam upagamya tato 'labdha-manorathā tena lakṣmaṇābhibhamana-vyājena
+pratyākhyātā tato 'pasarpaṇam icchanty api tan-niyogakaraṇaṃ tat-prasāda-hetuṃ manyamānā
+tato nirgatya mārge gacchanty evātmābhimukham āgacchantaṃ saumitriṃ dṛṣṭvā
+vismayautsukya-vivaśā rāma-sādṛśyena tam avagamya tad-rūpātiśayaṃ
+vibhāvayati—<ref type="lemma" target="Āścarya.1.7.3">ham</ref> ityādi ||</p>
+<quote type="base-text">
+<stage n="7.1">tataḥ praviśati lalita-sukumāra-veṣā śūrpaṇakhā</stage>
+</quote>
+</ab><!-- commentary-block !-->
+
+<ab type="commentary-block">
+<quote type="base-text"><sp>
+  <speaker>śūrpaṇakhā</speaker>
+  <stage n="7.2">lakṣmaṇaṃ nirūpya</stage>
+  <p>
+    <s n="7.3">haṃ aaṃ vi so evva |</s>
+  </p>
+  <stage n="7.4">vrīḷāṃ nāṭayati</stage>
+</sp></quote>
+<p>ham ity avicārita-rūpātiśaya-darśana-prabhava-harṣa-samuttho vāg-rūpo 'nubhāvaḥ |
+sarveṣām eva saundarya-saukumāryādīnāṃ tathā-bhūtatvenaiva dṛśyamānatvāt sa eveti tattvāropaḥ |
+āropa-phalaṃ ca sarvathaivābheda-pratītiḥ |
+apiśabdo guṇāśraya-samuccayārthaḥ |
+taddarśana-samaye pūrvaṃ tad-ekāśrayatvena ye nirūpetā guṇāḥ teṣāṃ sarveṣām asminn api vidyamānatvāt ayam api sa eveti samuccayopapattiḥ | 
+ayogya-vyavacchedārtha eva-śabdaḥ |
+na hi tādṛśaḥ kaścid asādhāraṇo guṇo 'smin jāgarti yena bheda-pratyaya-sāpekṣaṃ tat-sadṛśo 'yam iti sādṛśyaṃ na rāmo 'yam ity arāmatvaṃ vā gamyate | 
+anena pṛthaktva-mātram eva bheda-hetur na pratīti-bheda iti vyajyate | 
+pūrvaṃ rāma-samīpād āgacchantyās tad-ānukūlyālābhaṃ lakṣmaṇasyātādṛg-guṇatvaṃ ca nirūpyātmānam adhanyaṃ manyamānāyā mahān nirvedo jātaḥ |
+punas tādṛśa-guṇasyāsya darśanena saṃjātasyānandasya sa eva nirvedaḥ poṣa-hetuḥ saṃvṛtta iti jñeyam | 
+evaṃ tad-darśanānantaram uttamāṅganā-samucita-vrīḷā-sādhvasādibhiḥ tat-purato 'pavarta-mānam ātmānaṃ paśyatas tasya kiñcit saṃjātaṃ citta-vikāra-manu-bhāva-mukhenālakṣya kṛtārthā punaḥ tatkṣaṇād eva tasya sāvajñaṃ paruṣataraṃ dṛṣṭi-pātam avalokyātmānurāgāpārajñānāt tasyānurāga-bhaṅgam āśaṅkya viśeṣato vrīḷādibhiḥ ātmānurāgaṃ sphuṭataraṃ prakāśya tat-purato 'tiṣṭhat | 
+vrīḷāṃ nāṭayatīty anena vrīḷādīnām ādhikyam evoktam | 
+itarathā vilāsayoner ity anena sāvajña-paruṣatara-dṛ̣ṣṭi-pātāt pūrvam udāttasya vilāsa-yogasyāṃbhavaḥ prasajyeta |</p>
+</ab><!-- commentary-block !-->
+
+<pb n="18"/>
+
+<ab type="commentary-block">
+<p>atha saumitriḥ svavyāpāra-viruddhaṃ niśācarī-vyāpāraṃ nirīkṣya nirūpayati—<ref type="lemma" target="Āścarya.1.7.5">pratikūlam</ref> iti ||</p>
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="7.5">pratikūlam idam ācaritam |</s>
+    <s n="7.6">yad eṣā</s></p>
+  <lg n="8">
+    <l>ācārānanucaratā tapo-dhanānāṃ<caesura/>
+       sāvajñaṃ paruṣataraṃ mayekṣitāpi |</l>
+    <l>savrīḷā vadanam adhaḥkaroti kampāt<caesura/>
+       uttaṃsa-pragalita-ṣaṭpadena mūrdhnā || 8 ||</l>
+  </lg>
+</sp></quote>
+<p>pratyakṣeṇa dṛśyamānam idam ācaritam ācaraṇam |
+bhāve niṣṭhā | 
+pratikūlam asmād vyāpārasyātyantaviruddham |
+kathaṃ virodha ity ata āha | yat yata eṣā idānīm araṇya-madhye
+sahasā dṛśyamānā avidita-kula-nāmadheyādikā tapo-dhanānām ācārān anucaratā
+mayā sāvajñaṃ paruṣataraṃ cokṣatāpi savrīḷā kampāddhetoḥ uttamebhyaḥ 
+śiro 'laṅkārabhūtebhyaḥ kusumebhyaḥ pragalitāḥ pracyutāḥ pūrvaṃ
+parimalād alolupatayāvasthitāḥ ṣaṭpadā yasmin | atra kampātiśayenānubhāvena
+sādhvasātiśayo gamyate | tena mūrdhnā saha vartamānā vadanam adaḥ karoti |
+atrādhomukhatvenānubhāvena vrīḷātiśayo gamyate |
+yathoktaṃ—
+<quote rend="single">
+  <lg>
+    <l>durācārādibhir vrīḍā dhārṣṭyābhāvas tam unnayet |</l>
+    <l>sācīkṛtāṅgavaraṇavaivarṇyādhomukhādibhiḥ ||</l>
+  </lg>
+</quote> iti | vrīḍā-sāhdvasātiśayenānurāgātiśayaḥ prakāśyate tayos tat-kāryatvāt |
+<ref type="lemma" target="Āścarya.1">tapodhanānām</ref> iti || parama-premāspadatva-guṇa-yogāt
+tapasi dhanaśabdopacāraḥ | sarvasyaiva hi dhanaṃ premāspadaṃ bhavati |
+tapasvināṃ tu tapa eva parama-premāspadaṃ bhavati | ataḥ teṣāṃ tad eva dhanam |
+anenārthakalatrādi-viṣayābhilāṣo nirastaḥ | tena tad-ācārānuvidhāyino 'pi
+tad-abhāvaḥ prakāśyate | ācārān yam aniyamādīn tad-aṅga-bhūtaṃs triṣavaṇa-snānādīṃś cānucaratā
+tad-vad anutiṣṭhatā ity anena tapaś-caraṇācihna-bhūta-jaṭā-valkalādi-dhāraṇaṃ paśyantyā 
+asyā madāntakāgamanaṃ matpurato 'vasthānaṃ vānucitam |
+tatrāpi kamanīya-veṣābharaṇam ātma-ramaṇam ivaivaṃbhūtaṃ mām avalokayantyā yad idaṃ
+vrīḍādibhir ātmānurāga-prakāśanaṃ tad atyantaṃ viruddham iti dyotitam | tatrāpy evaṃ
+vilasantī nindāgarbham īkṣitā ātmakāntena sādaraṃ prekṣyamāṇeva pūrvasmād adhikataraṃ
+yad vrīḍādibhir ātmānurāgātiśaya-prakāśanaṃ karoti tan mahāntaṃ nirbandhaṃ
+dyotayti | punar nirvartayituṃ paruṣam paruṣataraṃ ca vīkṣitā nija-preyasā
+praṇayātiśaya-garbhaṃ vilokyamāneva yad ātmānaṃ tat-tad-vilāsāspadaṃ karoti
+tad atyantaṃ dainyam āpādayati | yathā yathā krameṇa mayā vairāgyātiśayaḥ 
+prakāśyate tathā tathaiṣā rāgātiśayaṃ vibhāvayati tat-tad-etat kvacid api na dṛṣṭapūrvam |</p>
+</ab><!-- commentary-block !-->
+
+<pb n="19"/>
+
+<ab type="commentary-block">
+<p>atha niśācarī evaṃ vilāsa-viśeṣaiḥ prayatamānāpi utpanna-dhvastasyānurāgasyānudayaṃ
+sāvajña-dṛṣṭi-pātādy-anubhāvair anumāya cintayati—<ref type="lemma" target="Āścarya.1.8.2">kiṃ
+nu khalv ayam api bhaṇisyatī</ref>ti ||</p>
+<quote type="base-text"><sp>
+  <speaker>śūrpaṇakhā</speaker>
+  <stage n="8.1">svagatam</stage>
+  <p>
+    <s n="8.2">kiṃ ṇu khu aaṃ vi bhaṇassadi, hodu ettiaṃ dāva kahaïssam |</s>
+  </p>
+  <stage n="8.3">prakāśam</stage>
+  <p>
+    <s n="8.4">ajja, ido dāva |</s>
+  </p>
+</sp></quote>
+<p>rāmeṇa yathoktaṃ tathaiva vā, utānyathaiva vety arthaḥ |
+evaṃ nirūpya jayatv ārya ity evaṃrūpaṃ samudācāraṃ kartum upakramamāṇā prayāṇānmukhaṃ taṃ
+dṛṣṭvā ābhimukhya-saṃpādana-prakāraṃ manasā nirdhārayate—<ref type="lemma" target="Āścarya.1.8.2">bhavatv</ref> iti ||
+bhavatu-abdo mānasa-niścayam āha | tāvat prathamam etāvan-mātraṃ kathayiṣyāmi |
+yāvatā vacanenābhimukhyaṃ labhyate | paścād ābhimukhye saṃjāte 'bhilaṣitaṃ nivedayāmīti bhāvaḥ ||
+<ref type="lemma" target="Āścarya.1.8.4">ārya itas tāvad</ref> āgamyatām iti śeṣaḥ |
+kiṃ vāṅ-mātreṇāpy evaṃbhūtaṃ janam anabhinandya jigamiṣasīti bhāvaḥ |</p>
+</ab><!-- commentary-block !-->
+
+<ab type="commentary-block">
+<p>evaṃ tasyāś ceṣṭāviśeṣaiḥ vacana-viśeṣeṇa ca ātma-citta-vilobhanārthaṃ duradhyavasāyam avagamyamānayā
+saha saṃbhāṣaṇam api prasaktānuprasaktyā sānubandhaṃ sat prastuta-kāryasya niyamasya ca
+bhaṅgam āpādayed iti niścitya punar loka-vṛttānusāreṇāpy asyām avasthāyāṃ prativacanaṃ
+na dātavyam ity adhvayavsyati—<ref type="lemma" target="Āścarya.1.8.5">na samādhiḥ strīṣv</ref> iti ||
+loko loka-vṛttam āgataṃ prati svāgatavacanādi |
+samādhis taṃ na jānāti | yady api samādhi-yukta-puruṣa-niṣṭha eva 
+taddhetuko loka-vṛttānta-jñānābhāvaḥ tathāpi samādher avyabhicāreṇa taddhetutvaṃ darśayituṃ tad-āropo
+yujyate | yadi samādhis tarhi lokajñatvam api nāsty eva | tat kiṃ tad-abhāvasya
+puruṣa-niṣṭhatva-kathaneneti bhāvaḥ | atra samādhi-śabdena samādhy-avasthā-yogyatvam evocyate |
+na tat-kāle samādhi-yogaḥ | itarathā <quote rend="single">ātmānaṃ na paraṃ vetti
+yogī yuktaḥ samādhinā</quote> iti nyāyena sva-paravibhāga-jñānābhavaḥ prasajyeta |
+ata eva strīṣv iti loka-vṛtta-jñānābhāvasya viṣayaniyamaḥ kṛtaḥ |
+etad uktaṃ bhavati—tapasvināṃ strīviṣayaṃ loka-vṛttānta-jñānaṃ nāstīti
+prativacanadānābhāvena na kaścid doṣa iti | samādhir nāma upāsakasya
+yam aniyamādy-aṅgasaptaka-sādhya upāsya-niṣṭhaś citta-laya ucyate |
+yad uktaṃ—
+<quote rend="single">
+  <lg>
+    <l>yam aniyamāsana eva nāyāmāḥ pratyāhṛtiḥ sahaiva dhāraṇayā |</l>
+    <l>dhyānaṃ cāpi samādhiḥ proktāny aṅgāni yogayogyāni ||</l>
+    <l>satyam ahiṃsā samatā dhṛtir asteyaṃ kṣamārjavaṃ ca tathā |</l>
+    <l>vairāgyam iti yamaḥ syāt svādhyāya-tapo 'rvanā-vratāni tathā ||</l>
+    <l>santōṣaś ca saṃśauco niyamaḥ syād āsanaṃ ca pañcavidhaṃ |</l>
+    <l>padma-svastika-vajraka-bhadraka-vīrāhvayāḥ kramāt tadapi ||</l>
+    <l>recaka-puraka-kumbhaka-bhedāt trividhaḥ prabhañjanāyāmaḥ |</l>
+    <l>muñced dakṣiṇayānilam athānayed vāmayā ca madhyagayā ||</l>
+    <l>saṃsthāpayec ca nāḍyetyevaṃ proktāni recakādīni |</l>
+    <l>ṣoḍaśa-śata-dviguṇa-catuṣṣaṣṭikamātrāṇi tāni ca kramaśaḥ ||</l>
+    <l>cittātmaika-dhṛtasya prāṇasya sthāna-sahṛtiḥ sthānāt |</l>
+    <l>pratāhāro jñeyaḥ caitanya-yutasya samyag anilasya ||</l>
+    <l>rathānasthāpanakarma proktā syād dharaṇeti tattvajñaiḥ |</l>
+    <l>yo manasi devatāyā bhāvaḥ syād asya mantriṇaḥ samyak ||</l>
+    <l>saṃ-sthāpayec ca tatrety evaṃ dhyānaṃ vadanti tattvavedaḥ |</l>
+    <l>sattā-mātraṃ nityaṃ śuddham api nirañjanaṃ ca yat proktam ||</l>
+  </lg>
+</quote></p>
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="8.5">na samādhiḥ strīṣu lokajñaḥ |</s>
+  </p>
+  <stage n="8.6">tūṣṇī gacchati</stage>
+</sp></quote>
+</ab>
+
+<pb n="20"/>
+
+<quote type="base-text"><sp>
+  <speaker>śūrpaṇakhā</speaker>
+  <stage n="8.7">kiñcid anugamya</stage>
+  <p>
+    <s n="8.8">ajja asadisaṃ via ajjassa saraṇāadassa uvakkhaṇaṃ itthiā-jaṇassa |</s>
+  </p>
+</sp></quote>
+
+<pb n="21"/>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="8.9">nahi nahi, mayopeṣyate bhavatī sāṃpratam avasthāntaraśocanīyasya guror alaṅghanīyena śāsanena khalu |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>śūrpaṇakhā</speaker>
+  <p>
+    <s n="8.10">jaï evvaṃ, imaṃ vi jaṇaṃ aṃtareṇa āṇṇā gurujaṇassa ṇa khu dāva uvakkhaṇaṃ aruhadi |</s>
+  </p>
+</sp></quote>
+
+<pb n="22"/>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <stage n="8.11">saroṣaṃ</stage>
+  <p>
+    <s n="8.12">āḥ kas tāvan mām ājñāpayati |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>surpa</speaker>
+  <stage n="8.13">bhayaṃ nirūpya</stage>
+  <p>
+    <s n="8.14">pasīdadu pasīdadu ajjo |</s>
+    <s n="8.15">ajjo evva rāmo āṇavedi |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <stage n="8.16">svagatam</stage>
+  <p>
+    <s n="8.17">hanta pūrvam anayā dṛṣṭaḥ khalv āryaḥ, bhavatu, prasādayāmi guru-vacana-muhūrta-bhājanībhūtām atrabhavatīm |</s>
+  </p>
+  <stage n="8.18">prakāśam</stage>
+  <p>
+    <s n="8.19">bhadre kim ājñāpayaty āryaḥ |</s>
+  </p>
+</sp></quote>
+
+<pb n="23"/>
+
+<quote type="base-text"><sp>
+  <speaker>śūrpaṇakhā</speaker>
+  <p>
+    <s n="8.20">suṇodu ajjo |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="8.21">avahito 'smi |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>śūrpaṇakhā</speaker>
+  <p>
+    <s n="8.22">ajja mae saha attaṇo pariaraṇaṃ ajja-rāmo āṇavedi |<note type="chaya">ārya mayā saha ātmanaḥ paricaraṇam ārya-rāmaḥ ājñāpayati</note></s></p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <stage n="8.23">hastaṃ parāvṛtya</stage>
+  <p>
+    <s n="8.24">paśya—</s>
+  </p>
+  <pb n="24"/>
+  <lg n="9">
+    <l>vāso valkalam āspadaṃ viṭapino vanyaṃ śarīra-sthitiḥ<caesura/>
+       śayyā darbhalatā prasādhanam apāṃ varṣī jaṭānāṃ bharaḥ |</l>
+    <l>bāle kiṃ bahunā vane vanamṛga-nyāyasya na tvaṃ padaṃ<caesura/>
+       sāraṅgākṣi tapobhṛtaḥ kva tapasāṃ śatruḥ kva saṅkalpajaḥ || 9 ||</l>
+  </lg>
+</sp></quote>
+
+<pb n="25"/>
+
+<quote type="base-text"><sp>
+  <speaker>śūrpaṇakhā</speaker>
+  <p>
+    <s n="9.1">alīaṃ alīaṃ edaṃ |</s>
+    <s n="9.2">ṇa so ajjo ajjāe saha vattadi |</s></p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="9.3">bhadre na jānāsi paramārthato vṛttam āryasya |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>śūrpaṇakhā</speaker>
+  <p>
+    <s n="9.10">kiṃ kiṃ |</s>
+  </p>
+</sp></quote>
+
+<pb n="26"/>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="9.11">yāvad āryas tīrṇa-pratijñaḥ prakṛti-maṇḍalaṃ guru-janaṃ bharataṃ ca na paśyati, tāvad ekam eva dharmam avalambate |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>śūrpaṇakhā</speaker>
+  <p>
+    <s n="9.12">jaï evvaṃ ettha sā kiṃ karodi |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="9.13">yad ahaṃ karoti</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>śūrpaṇakhā</speaker>
+  <p>
+    <s n="9.14">jaha ajjaṃ sā uvaaradi taha tumaṃ vi ahaṃ uvaarissam |</s>
+  </p>
+</sp></quote>
+
+<pb n="27"/>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="9.15">bhadre idam api prārthanīyam |</s>
+    <s n="9.16">paśya—</s>
+  </p>
+  <lg n="10">
+    <l>yatate yasya niṣkṛtyai janaḥ sarvo 'pi buddhimān |</l>
+    <l>dāsyaṃ tat svayam icchantī mugdhā tvaṃ mugdhalocane || 10 ||</l>
+  </lg>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>śūrpaṇakhā</speaker>
+  <p>
+    <s n="10.1">ajja kiṃ siṇeho tulaadi guṇa-dosāṇi |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <stage n="10.2">ātmagatam</stage>
+  <p>
+    <s n="10.3">evaṃ vyāharantīm enām kim iti pratyādi<pb n="28" break="no"/>śāmi |</s>
+    <stage n="10.4">vicārya</stage> 
+    <s n="10.5">bhavatu dṛṣṭam |</s>
+    <stage n="10.6">prakāśam</stage> 
+    <s n="10.7">bhadre āryasya parṇa-gṛha-praveśānantaram atrabhavatīm abhipreta-sthāne drakṣyāmi |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>śūrpaṇakhā</speaker>
+  <p>
+    <s n="10.8">jaï evvaṃ ajja, tassa paṇṇasālassa passado evva paḍivālaïssam |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <stage n="10.9">ātmagataṃ</stage>
+  <p>
+    <s n="10.10">astu kāmaṃ, nāsty anantarāyaḥ kālakṣepaḥ |</s>
+  </p>
+  <stage n="10.11">prakāśaṃ</stage>
+  <p>
+    <s n="10.12">yad abhipretaṃ bhavatu bhavatyai |</s>
+  </p>
+</sp></quote>
+
+<pb n="29"/>
+
+<quote type="base-text"><sp>
+  <speaker>śūrpaṇakhā</speaker>
+  <p>
+    <s n="10.13">jaṃ ajjo āṇavedi |</s></p>
+</sp></quote>
+
+<quote type="base-text">
+<stage n="10.14">iti niṣkrāntā</stage>
+</quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <stage n="10.15">savimarśaṃ</stage>
+  <p>
+    <s n="10.16">parīkṣāspadam eṣā |</s>
+    <s n="10.17">kutaḥ |</s>
+  </p>
+  <lg n="11">
+    <l>kvedaṃ vanaṃ vanacarair api durvigāhaṃ<caesura/>
+       kveyaṃ vadhūḥ kuvalayacchavicoranetrā |</l>
+    <l>hemāravinda-makaranda-rasopayogāṃ<caesura/>
+       kaḥ śraddadhīta jaladhau kalahaṃsa-kanyām || 11 ||</l>
+  </lg>
+  <pb n="30"/>
+  <p>
+    <s n="11.1">eṣa pūrvoddiṣṭaḥ pradeśaḥ |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text">
+<stage n="11.2">tataḥ praviśati rāmaḥ sītayā saha</stage>
+</quote>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <p>
+    <s n="11.3">devi nagarādhivāsāt saviśeṣa iva vanādhivāso me pratibhāti | </s>
+    <s n="11.4">paśya—</s>
+  </p>
+  <pb n="31"/>
+  <lg n="12">
+    <l>udyānaṃ vanabhūmayaḥ kusumitair udgandhayaḥ pādapaiḥ<caesura/>
+       śailā nirjhara-hāsino jaladhara-śyāmā giriḥ kṛtrimaḥ |</l>
+    <l>nadyaḥ sārasa-mūrcchitormi-valayā gharmābhiṣekāspadaṃ<caesura/>
+       śītāḥ śīkara-saṅgamāt surabhayo mitraṃ sarojānilāḥ || 12 ||</l>
+  </lg>
+</sp></quote>
+
+<pb n="32"/>
+
+<quote type="base-text"><sp>
+  <speaker>sītā</speaker>
+  <p>
+    <s n="12.1">ajjaütta jāva ahaṃ jīvāmi dāva ettha evva vasiduṃ me buddhī jaï taha ṇa kilaṃmadi sākede guru-jaṇo |<note type="chaya">āryaputra yāvad ahaṃ jīvāmi tāvad atraiva vastuṃ me buddhiḥ yadi tathā na klāmyati sākete gurujanaḥ |</note></s></p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <stage n="12.2">vilokya</stage>
+  <p>
+    <s n="12.3">ayam ayam āryaḥ, aho nu khalu kaṣṭaṃ vidheḥ karma, nahi nahi, kaikeyyāḥ |</s>
+    <s n="12.4">amba kaikeyi,</s>
+  </p>
+  <pb n="33"/>
+  <lg n="13">
+    <l>āryeṇāṃśukam ujjhatā dhṛtam abhūd āpāṭalaṃ valkalaṃ<caesura/>
+       vinyastaṃ padam āryayā vṛkavadhū-pādāṅka-pāṃsau pathi |</l>
+    <l>saṃtāpais tanutām upaiti bharataḥ paryākulāḥ kosalāḥ<caesura/>
+       vaidhavyaṃ hatam āsthitā tvam api te dhik karma sarvaṅkaṣaṃ || 13 ||</l>
+  </lg>
+  <pb n="34"/>
+  <p>
+    <s n="13.1">yāvad āryam upasarpāmi |</s>
+  </p>
+  <stage n="13.2">upasṛtya</stage>
+  <p>
+    <s n="13.3">jayatv āryaḥ</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <p>
+    <s n="13.4">lakṣmaṇa kim avasitas tavārambhaḥ |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="13.5">ārya atha kim |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <p>
+    <s n="13.6">tena hi tasya mārgam ādeśaya |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="13.7">yad ājñāpayati āryaḥ |</s>
+    <s n="13.8">ita itaḥ |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text">
+<stage n="13.9">sarve parikrāmanti</stage>
+</quote>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <stage n="13.10">lakṣmaṇasya mukha-rāgaṃ vilokya</stage>
+  <p>
+    <s n="13.11">vatsa lakṣmaṇa</s>
+  </p>
+  <lg n="14">
+    <l>mārge nirvṛti-mārga-mārgaṇa-parān ārādhayanto munīn<caesura/>
+       svairaṃ sevita-tīrtha-sindhu-payaso dūraṃ nirastādhayaḥ |</l>
+    <l>mātrā lakṣmaṇa kekayendra-sutayā, vyājena nītā vayaṃ<caesura/>
+       svām utsṛjya dhuraṃ bhuvo muni-vanaṃ yātavyam ikṣvākubhiḥ || 14 ||</l>
+  </lg>
+</sp></quote>
+
+<pb n="35"/>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="14.1">satyam āha lokaḥ <quote rend="single">na santy aguṇā guṇavatām</quote> iti |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <p>
+    <s n="14.2">lakṣmaṇa kiṃ nādyāpi śāntas te mātari saṃrambhaḥ |</s>
+  </p>
+</sp></quote>
+
+<pb n="36"/>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+     <s n="14.3">ārya</s>
+  </p>
+  <lg n="15">
+    <l>mātroḥ prasnavibhiḥ stanais tvayi mudā saṃphulla-dṛ̣ṣṭyos tayoḥ<caesura/>
+       tātasyāśrujalaiḥ samaṃ śirasi te haimāt kṣarantyo ghaṭāt |</l>
+    <l>āpas tatr vasiṭḥa-mantra-jayinā mantreṇa ruddhā yayā<caesura/>
+       tāṃ lokotsava-kāla-rātri-madayāṃ manye kathaṃ mātaram || 15 ||</l>
+  </lg>
+</sp></quote>
+
+<pb n="37"/>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <stage n="15.1">karṇau pidhāya</stage>
+  <p>
+    <s n="15.2">śāntaṃ pāpaṃ śāntaṃ pāpam |</s>
+  </p>
+  <lg n="16">
+    <l>hate rājye bhavān bhaktyā pratyācaṣṭe svamātaram |</l>
+    <l>aho saṃtoṣa-bāhyānām adharmaika-rataṃ manaḥ || 16 ||</l>
+  </lg>
+  <p>
+    <s n="16.1">paśya bāla pāpātmanaḥ kṣatriyasya—</s>
+  </p>
+  <lg n="17">
+    <l>sādhāraṇī nayavidāṃ dharaṇiḥ kalatram<caesura/>
+       astrāṇi mitram arayaḥ sahajāḥ sutāś ca |</l><pb n="38"/>
+    <l>pāpāt parasya patanaṃ narakeṣu lābhaḥ<caesura/>
+       dve cāmare ca sitamātapavāraṇaṃ ca || 17 ||</l>
+  </lg>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="17.1">nāhaṃ rājyābhilāṣād bravīmi |</s>
+  </p>
+</sp></quote>
+
+<pb n="39"/>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <p>
+    <s n="17.2">kim anyat tava kopakāraṇam |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="17.3">viparyastaḥ krama iti</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <p>
+    <s n="17.4">yady evam ahaṃ tava prathamam upālambha-viṣayaḥ |</s>
+    <s n="17.5">paśya—</s>
+  </p>
+  <lg n="18">
+    <l>indra-kalpe sthite rājñi sneha-paryaśru-locane |</l>
+    <l>abhiṣekāya nirlajjo yaḥ siṃhāsanam āsthitaḥ || 18 ||</l>
+  </lg>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>sītā</speaker>
+  <p>
+    <s n="18.1">saccaṃ evva bhaṇidaṃ ajjaütteṇa |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="18.2"><quote rend="single">vayasā pariṇato 'ham</quote> iti tātas tathā tvayi pratipannaḥ |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <p>
+    <s n="18.3">nanu bharataḥ kanīyān me |</s>
+  </p>
+</sp></quote>
+
+<pb n="40"/>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="18.4">aham aśaktaḥ pṛthivīṃ rakṣitum iti |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <p>
+    <s n="18.5">bāla paśya</s>
+  </p>
+  <lg n="19">
+    <l>na kathaṃ rakṣituṃ śaktaḥ pṛthvīm ātmadevatām |</l>
+    <l>dānavonmūlanaṃ tejo yasya dyām api rakṣati || 19 ||</l>
+  </lg>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="19.1">kintu putra-snehāt tayā cāpalyaṃ kṛtam iti |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <p>
+    <s n="19.2">eṣa loka-svabhāvaḥ bahu-putrāṇām ekasmin īṣat-pakṣa-pātaḥ |</s>
+    <s n="19.3">tava kiṃ sādhāraṇo bhrātṛ-snehaḥ |</s>
+  </p>
+</sp></quote>
+
+<pb n="41"/>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="19.4">kiṃ bahunā |</s>
+    <s n="19.5">sarvathā tātasya maraṇa-kāraṇaṃ saiva saṃvṛttā |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <p>
+    <s n="19.6">mā mā |</s>
+    <s n="19.7">tātaṃ prati niraparādhaḥ sa gurujanaḥ |</s>
+    <s n="19.8">paśya—</s>
+  </p>
+  <lg n="20">
+    <l>niyama-salilaṃ pitror hartuṃ nirīkṣaṇa-vandhyayoḥ<caesura/>
+       kṣipati kalaśaṃ toyādhāre paṭu-dhvanitaṃ sute |</l>
+    <l>uṣasi mṛgatāṃ yātā rājñā vana-dvipa-śaṅkayā<caesura/>
+       rabhasam iṣur unmuktaḥ kālād asūn aharat svayam || 20 ||</l>
+  </lg>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>sītā</speaker>
+  <p>
+    <s n="20.1">jujjaï tādiseṇa vihiṇā hodavvam |</s>
+    <s n="20.2">kā uṇa aṇṇahā attāṇaṃ loaṃ a viṇāsedi |</s>
+  </p>
+</sp></quote>
+
+<pb n="42"/>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="20.3">yady evam aham evāparādhaḥ |</s>
+    <s n="20.4">prasīdatv āryaḥ |</s>
+    <s n="20.5">kathā-prasaṅgād aviditāntaram āgatāḥ smaḥ parṇaśālām |</s>
+    <s n="20.6">praviśatv āryaḥ |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <p>
+    <s n="20.7">lakṣmaṇa tvayāpy ekānte pariśramo 'panīyatām |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>lakṣmaṇaḥ</speaker>
+  <p>
+    <s n="20.8">yad ājñāpayaty āryaḥ |</s>
+  </p>
+  <stage n="20.9">iti niṣkrāntaḥ</stage>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <stage n="20.10">parṇaśālāṃ praviśya sarvato vilokya savismayaṃ</stage>
+  <p>
+    <s n="20.11">devi paśya paśya sarvatomukha-naipuṇyaṃ vatsa-lakṣamaṇasya |</s>
+    <s n="20.12">iha hi</s>
+  </p>
+  <lg n="21">
+    <l>dhanur-jyā-nirghoṣaiḥ sarabhasam apāstaṃ mṛgakulaṃ<caesura/>
+       kṛtā parṇaiḥ śālā śayanam api puṣpaiḥ pratinavaiḥ |</l>
+    <l>latābhir vetrāṇāṃ viracitam abhūd āsanam idaṃ<caesura/>
+       jalaiḥ sindhoḥ siktā bali-kusuma-bhājo vanabhuvaḥ || 21 ||</l>
+  </lg>
+</sp></quote>
+
+<pb n="43"/>
+
+<quote type="base-text"><sp>
+  <speaker>sītā</speaker>
+  <p>
+    <s n="21.1">ajjaütta kusuma-pallava-samiddhihiṃ paṇṇasālā-vibhūdihiṃ kadatthido pāsāda-bahumāṇo |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text"><sp>
+  <speaker>rāmaḥ</speaker>
+  <p>
+    <s n="21.2">devi vivaktaṃ ca sthānam idam |</s>
+    <s n="21.3">sevyatāṃ vanānta-mārutaḥ |</s>
+    <s n="21.4">tathā hi—</s>
+  </p>
+  <lg n="22">
+    <l>aśaṅkitā śithilaya pāṃsudhūsaraṃ<caesura/>
+       stanāṃśukaṃ śuka-haritaṃ śukālape |</l>
+    <l>viśoṣitādhara-kamalaṃ visarpatā<caesura/>
+       taraṅgitaṃ tava mukha-gandha-vāhinā || 22 ||</l>
+  </lg>
+</sp></quote>
+
+<pb n="44"/>
+
+<quote type="base-text"><sp>
+  <speaker>sītā</speaker>
+  <p>
+    <s n="22.1">jaṃ ajjaütto āṇavedi |</s>
+  </p>
+</sp></quote>
+
+<quote type="base-text">
+<stage n="22.2">niṣkrāntau</stage>
+</quote>
+
+<quote type="base-text">
+<trailer>iti śaktibhadra-viracite cūḍāmaṇi-nāṭake<lb/>
+  prathamo 'ṅkaḥ ||</trailer>
+</quote>
+
+</div><!-- aṅka !-->
+
+</body>
+</text>
+</TEI>
