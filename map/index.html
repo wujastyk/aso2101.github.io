@@ -1,0 +1,53 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title data-template="config:app-title">Sātavāhana Sites</title>
+<script src="https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js"/>
+<link href="https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css" rel="stylesheet"/>
+<style>
+  body { body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<script type="text/javascript">
+L.mapbox.accessToken = 'pk.eyJ1IjoiYXNvMjEwMSIsImEiOiJwRGcyeGJBIn0.jbSN_ypYYjlAZJgd4HqDGQ';
+
+var map = L.mapbox.map('map', 'aso2101.kbbp2nnh')
+    .setView([20.217, 74.083], 8); // centers on Nasik
+
+map.on('load',function() {
+  map.addSource("points", {
+    "type": "geojson",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 19.3064, 73.6799 ]
+        },
+        "properties": {
+          "title": "Nāṇeghāṭ",
+          "marker-size": "large",
+          "marker-color": "#A80000"
+        }
+      }]
+    }
+  });
+  map.addLayer({
+    "id": "points",
+    "type": "symbol",
+    "source": "points",
+    "layout": {
+      "text-field": "{title}",
+      "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+      "text-anchor": "top"
+    }
+  });
+});
+</script>
+    </div>
+  </body>
+</html>
