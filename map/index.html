@@ -3,46 +3,427 @@
 <meta charset="UTF-8">
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <title data-template="config:app-title">Sātavāhana Sites</title>
+<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
 <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
 <link href='style.css' rel='stylesheet' />
 <style>
+  #map { margin:0px 0px 40px 0px; padding:0px; width:100%; height:400px; top:23px; }
 </style>
 </head>
 <body>
 <div id="map">
 <script type="text/javascript">
-  L.mapbox.accessToken = 'pk.eyJ1IjoiYXNvMjEwMSIsImEiOiJwRGcyeGJBIn0.jbSN_ypYYjlAZJgd4HqDGQ';
-                
-  var bounds = L.latLngBounds(geojson);
-  var map = L.mapbox.map('map', 'aso2101.kbbp2nnh'); // centers on Nasik
-  var geojson = [{
+  var geojson = {
+  "type": "FeatureCollection",
+  "features": [{
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [ 19.3064, 73.6799 ]
+      "coordinates": [81.181151, 16.457786]
+    },
+    "properties": {
+      "title": "Allūru",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [80.352706, 16.577839]
+    },
+    "properties": {
+      "title": "Amarāvati",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [75.017370, 14.535351]
+    },
+    "properties": {
+      "title": "Banavāsi",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [77.128680, 20.115338]
+    },
+    "properties": {
+      "title": "Vāśim",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [73.481632, 18.728027]
+    },
+    "properties": {
+      "title": "Bhājā",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [73.535467, 18.720860]
+    },
+    "properties": {
+      "title": "Beḍsā",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [79.2919190, 20.263363]
+    },
+    "properties": {
+      "title": "Candankhedā",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [76.386856, 14.208679]
+    },
+    "properties": {
+      "title": "Candravalli",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [79.2919190, 20.263363]
+    },
+    "properties": {
+      "title": "Candankhedā",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [81.130304, 17.017273]
+    },
+    "properties": {
+      "title": "Guṇṭupalli",
+      "marker-color": "#FF7F50"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [76.936, 16.841]
+    },
+    "properties": {
+      "title": "Kanaganahalli",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [73.431188, 18.068489]
+    },
+    "properties": {
+      "title": "Kol",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [73.083, 18.283]
+    },
+    "properties": {
+      "title": "Kuḍā",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [80.105816, 16.904221]
+    },
+    "properties": {
+      "title": "Jaggayyapeṭa",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [70.483234, 21.525707]
+    },
+    "properties": {
+      "title": "Junāgaṛh",
+      "marker-color": "#FF7F50"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [73.877, 19.209]
+    },
+    "properties": {
+      "title": "Junnar",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [72.8274892, 19.2230443 ]
+    },
+    "properties": {
+      "title": "Kānherī",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [73.470556, 18.783287 ]
+    },
+    "properties": {
+      "title": "Kārle",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [80.080998, 16.212954]
+    },
+    "properties": {
+      "title": "Kesānapaḷḷi",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [77.060384, 12.383942]
+    },
+    "properties": {
+      "title": "Malavaḷḷi",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [73.417, 18.063]
+    }, 
+    "properties": {
+      "title": "Mahāḍ",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [79.528680, 16.50202]
+    },
+    "properties": {
+      "title": "Mañcikallu",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [79.939421, 20.992996]
+    },
+    "properties": {
+      "title": "Miregaon",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [77.273102, 15.628432]
+    },
+    "properties": {
+      "title": "Myākadoni",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [80.222340, 16.178840]
+    },
+    "properties": {
+      "title": "Maidavolu",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [73.6799, 19.3064]
     },
     "properties": {
       "title": "Nāṇeghāṭ",
-      "marker-size": "large",
-      "marker-color": "#A80000"
+      "marker-color": "#3bb2d0"
     }
-  }];
-
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+     "coordinates": [73.792838, 20.004674]
+    },
+    "properties": {
+     "title": "Nāsik",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+     "coordinates": [74.927763, 19.549153]
+    },
+    "properties": {
+     "title": "Nevāsā",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [75.39919, 19.46091]
+    },
+    "properties": {
+     "title": "Paiṭhan",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [81.148694, 16.944366]
+    },
+    "properties": {
+      "title": "Pātagaṇḍigūḍem",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [79.636416, 20.793791]
+    },
+    "properties": {
+     "title": "Pauni",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [79.472845, 17.419729]
+    },
+    "properties": {
+      "title": "Phaṇigiri",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [74.993175, 20.312931]
+    },
+    "properties": {
+     "title": "Pitalkhorā",
+      "marker-color": "#3bb2d0"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [79.325173, 21.393422]
+    },
+    "properties": {
+      "title": "Rāmṭek",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [77.808009, 21.237389]
+    },
+    "properties": {
+      "title": "Ṛddhapur",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [79.563525, 16.529273]
+    },
+    "properties": {
+      "title": "Reṇṭāla",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [75.258751, 14.417505]
+    },
+    "properties": {
+      "title": "Tāḷagunda",
+      "marker-color": "#D3D3D3"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [85.785595, 20.262561]
+    },
+    "properties": {
+      "title": "Udayagiri",
+      "marker-color": "#FF7F50"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+    "coordinates": [79.862827, 16.148872]
+    },
+    "properties": {
+      "title": "Velpūru",
+      "marker-color": "#FF7F50"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [79.240903, 16.522168]
+    },
+    "properties": {
+      "title": "Vijayapuri",
+      "marker-color": "#D3D3D3"
+    }
+  }]
+};
+  L.mapbox.accessToken = 'pk.eyJ1IjoiYXNvMjEwMSIsImEiOiJwRGcyeGJBIn0.jbSN_ypYYjlAZJgd4HqDGQ';
+  var map = L.mapbox.map('map', 'aso2101.kbbp2nnh');
+  var bounds = L.latLngBounds(geojson);
   var myLayer = L.mapbox.featureLayer()
-    .addTo(map);    
-  myLayer.on('layeradd', function(e) {
-    var marker = e.layer,
-        feature = marker.feature;
-    var popupContent =  '<a href="#' + feature.properties.name + '">' + feature.properties.name + '</a>';
-    marker.bindPopup(popupContent);
-  });
-
+    .addTo(map);
   myLayer.setGeoJSON(geojson);
-
-  myLayer.on('mouseover', function(e) {
-    e.layer.openPopup(); 
-  });
 </script>
 </body>
 </html>
