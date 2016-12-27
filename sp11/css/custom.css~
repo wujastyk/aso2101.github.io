@@ -1,0 +1,216 @@
+/* Load the Matrka Serif font */
+@font-face {
+    font-family: "Shobhika";
+    src: url(Shobhika-Regular.otf);
+}
+@font-face {
+    font-family: "Noto Sans Devanagari";
+    src: url(NotoSansDevanagari-Regular.ttf);
+}
+@font-face {
+    font-family: "Noto Sans Devanagari";
+    src: url(NotoSansDevanagari-Bold.ttf);
+    font-weight:bold;
+}
+@font-face {
+    font-family: "Shobhika";
+    src: url(Shobhika-Bold.otf);
+    font-weight:bold;
+}
+body {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  font-size:150%;
+  line-height:1.9;
+}
+h1 {
+  text-align:center;
+  line-height:1.5;
+}
+.page {
+  text-indent:0px;
+  padding:4px;
+  display:block;
+  float:right;
+  font-size:10pt;
+  font-weight:normal;
+  font-family: sans-serif;
+  background-color: #fbfbfb;
+  background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f5f5f5));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: linear-gradient(to bottom, #ffffff, #f5f5f5);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+  border: 1px solid #ddd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+  -moz-box-shadow: inset 0 1px 0 #ffffff;
+  box-shadow: inset 0 1px 0 #ffffff;
+}
+.textstructure {
+  padding-bottom:10px;
+}
+
+/* Formats line-groups (verses):
+      These are inline so that following
+      <ref> elements can be inline with the
+      last line of a verse. */
+div.lg {
+  display:inline;
+  font-size:17.5px;
+}
+/* Format individual lines as block elements */
+div.lg span.l {
+  display:block;
+  margin-left:30px;
+}
+blockquote div.lg span.l {
+  display:block;
+  margin-left:10px;
+}
+div.lg span.l+div.lg span.l:last-child {
+  display:inline-block;
+}
+span.l:last-child {
+  margin-bottom:10px;
+}
+div.lg span.l
+/* Add space after pāda-break (<lb type="pada"/>) */
+span.caesura:after {
+  content: "\A\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0" !important;
+  white-space:pre;
+}
+span.verse_offset {
+  content: "\00a0";
+  width:180px;
+  display:inline-block;
+}
+.quote {
+  display:inline;
+}
+.quote.block {
+  display:block;
+  padding-left:2em;
+}
+.reference {
+  color:#777;
+  opacity:0.70;
+}
+.inline-reference:before {
+  content:"[";
+}
+.inline-reference:after {
+  content:"]";
+}
+.foreign {
+  font-style:italic;
+}
+.bformula {
+  font-family: "Brahmi"; serif;
+}
+.btn {
+  padding: 2px 4px;
+}
+a.symbol, a.bsymbol {
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.symbol + .popover > .popover-content {
+  font-size:24px !important;
+  margin-top:10px;
+  padding-bottom:0px;
+  font-weight:bold;
+  letter-spacing:2px;
+}
+.bsymbol + .popover > .popover-content {
+  font-size:24px !important;
+  font-weight:bold;
+  letter-spacing:2px;
+  font-family: "Brahmi"; serif;
+}
+.bformula:before, .eformula:before {
+  content:"[";
+}
+.bformula:after, .eformula:after {
+  content:"]";
+}
+.eformula .symbol {
+  position:relative;
+  top:5px;
+}
+.btn-circle {
+  width: 49px;
+  height: 49px;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 20px;
+  line-height: 2.00;
+  border-radius: 30px;
+}
+
+.btn-circle-micro {
+  width: 19px;
+  height: 19px;
+  text-align: center;
+  padding: 1px 0;
+  font-size: 13px;
+  line-height: 0.1;
+  border-radius: 30px;
+}
+
+.btn-circle-sm {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding: 2px 0;
+  font-size: 20px;
+  line-height: 1.65;
+  border-radius: 30px;
+}
+
+.btn-circle-lg {
+  width: 79px;
+  height: 79px;
+  text-align: center;
+  padding: 13px 0;
+  font-size: 30px;
+  line-height: 2.00;
+  border-radius: 70px;
+}
+
+.breadcrumb {
+  font-size:100%;
+  padding: 7px 14px;
+  margin: 20px 0 18px 0px;
+  background-color: #fbfbfb;
+  background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f5f5f5));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: linear-gradient(to bottom, #ffffff, #f5f5f5);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+  border: 1px solid #ddd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+  -moz-box-shadow: inset 0 1px 0 #ffffff;
+  box-shadow: inset 0 1px 0 #ffffff;
+}
+.breadcrumb li {
+  display: inline-block;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.breadcrumb .divider {
+  padding: 0 5px;
+  color: #999999;
+}
+.breadcrumb .active a {
+  color: #333333;
+}

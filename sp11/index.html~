@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" 
+	  content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet"
+	  href="css/bootstrap.min.css">
+    <link rel="stylesheet"
+	  href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet"
+	  href="css/custom.css">
+    <link rel="stylesheet"
+	  href="css/bootstrap-toc.css">
+    <link rel="stylesheet" 
+	  type="text/css" 
+	  href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+    <link rel="stylesheet"
+	  href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  </head>
+
+  <body data-spy="scroll" data-target="#toc" onload="initialize()">
+    <div class="container">
+      <div class="row">
+	<div class="col-sm-3">
+	  <nav id="toc" data-spy="affix" data-toggle"toc"></nav>
+	</div>
+	<div class="col-sm-9" id="root"></div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/toc.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+    <script src="js/bootstrap-toc.js"></script>
+  </body>
+</html>

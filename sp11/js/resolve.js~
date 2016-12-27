@@ -1,0 +1,74 @@
+function resolveFormulas() {
+  $('.symbol').each(function() {
+    if ($(this).attr('data-content')) {
+      var formula = $(this).attr('data-content');
+      formula = formula.replace('bha','ˉ');
+      formula = formula.replace('ha','˘');
+      formula = formula.replace('au','ˉ˘˘ˉˉ');
+      formula = formula.replace('ñ','ˉ˘˘ˉˉ');
+      formula = formula.replace('ai','˘ˉ˘ˉ˘ˉ');
+      formula = formula.replace('ṭ','˘ˉ˘ˉ˘ˉ');
+      formula = formula.replace('o','ˉ˘ˉˉ');
+      formula = formula.replace('ṣ','ˉ˘ˉˉ');
+      formula = formula.replace('a','˘˘˘');
+      formula = formula.replace('m','˘˘˘');
+      formula = formula.replace('ā','ˉ˘˘');
+      formula = formula.replace('t','ˉ˘˘');
+      formula = formula.replace('i','˘ˉ˘');
+      formula = formula.replace('k','˘ˉ˘');
+      formula = formula.replace('e','˘ˉˉ');
+      formula = formula.replace('b','˘ˉˉ');
+      formula = formula.replace('u','˘˘ˉ');
+      formula = formula.replace('l','˘˘ˉ');
+      formula = formula.replace('ī','ˉ˘ˉ');
+      formula = formula.replace('ś','ˉ˘ˉ');
+      formula = formula.replace('ṛ','˘ˉˉ');
+      formula = formula.replace('ṅ','˘ˉˉ');
+      formula = formula.replace('ū','ˉˉˉ');
+      formula = formula.replace('g','ˉˉˉ');
+      formula = formula.replace('ṅ','˘ˉˉ');
+      formula = formula.replace('d','˘˘˘˘');
+      formula = formula.replace('r','˘˘');
+      formula = formula.replace('p','ˉ˘');
+      formula = formula.replace('j','˘ˉ');
+      formula = formula.replace('s','ˉˉ');
+      $(this).attr('data-content',formula);
+    }
+  });
+  $('.bsymbol').each(function() {
+    if ($(this).attr('data-content')) {
+      var formula = $(this).attr('data-content');
+      formula = formula.replace('bha','𑀕');
+      formula = formula.replace('ha','𑀭');
+      formula = formula.replace('au','𑀕𑀭𑀭𑀕𑀕');
+      formula = formula.replace('ñ','𑀕𑀭𑀭𑀕𑀕');
+      formula = formula.replace('ai','𑀭𑀕𑀭𑀕𑀭𑀕');
+      formula = formula.replace('ṭ','𑀭𑀕𑀭𑀕𑀭𑀕');
+      formula = formula.replace('o','𑀕𑀭𑀕𑀕');
+      formula = formula.replace('ṣ','𑀕𑀭𑀕𑀕');
+      formula = formula.replace('a','𑀭𑀭𑀭');
+      formula = formula.replace('m','𑀭𑀭𑀭');
+      formula = formula.replace('ā','𑀕𑀭𑀭');
+      formula = formula.replace('t','𑀕𑀭𑀭');
+      formula = formula.replace('i','𑀭𑀕𑀭');
+      formula = formula.replace('k','𑀭𑀕𑀭');
+      formula = formula.replace('e','𑀭𑀕𑀕');
+      formula = formula.replace('b','𑀭𑀕𑀕');
+      formula = formula.replace('u','𑀭𑀭𑀕');
+      formula = formula.replace('l','𑀭𑀭𑀕');
+      formula = formula.replace('ī','𑀕𑀭𑀕');
+      formula = formula.replace('ś','𑀕𑀭𑀕');
+      formula = formula.replace('ṛ','𑀭𑀕𑀕');
+      formula = formula.replace('ṅ','𑀭𑀕𑀕');
+      formula = formula.replace('ū','𑀕𑀕𑀕');
+      formula = formula.replace('g','𑀕𑀕𑀕');
+      formula = formula.replace('ṅ','𑀭𑀕𑀕');
+      formula = formula.replace('d','𑀭𑀭𑀭𑀭');
+      formula = formula.replace('r','𑀭𑀭');
+      formula = formula.replace('p','𑀕𑀭');
+      formula = formula.replace('j','𑀭𑀕');
+      formula = formula.replace('s','𑀕𑀕');
+      $(this).attr('data-content',formula);
+    }
+  });
+};
