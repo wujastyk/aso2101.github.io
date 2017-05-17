@@ -1,0 +1,106 @@
+var xml = "malatimadhava.xml";
+var xslt = "sarit-base.xsl";
+
+function initialize(script,version) {
+  $(".panel-group").remove();
+  setVersion();
+  setScript();
+  outline();
+}
+
+function setVersion() {
+  var ver = localStorage.getItem("version");
+  if (ver == null) {
+    $("#versionselector").val("orig.xsl");
+    localStorage.setItem("version","orig.xsl");  
+  } else {
+    $("#versionselector").val(ver);
+  }
+  $("#versionselector").on("change",function() {
+    localStorage.setItem("version",this.value);
+    location.reload();
+  });
+}
+
+function setScript() {
+  var val = localStorage.getItem("script");
+  if (val == "Deva") {
+    $("input[name='script'][value='Deva']").prop("checked",true);
+    $("input[name='script'][value='Deva']").parent().addClass("active");
+  }
+  else {
+    $("input[name='script'][value='Latn']").prop("checked",true);
+    $("input[name='script'][value='Latn']").parent().addClass("active");
+  }
+  $("input[name='script']").on("change",function() {
+    localStorage.setItem("script",this.value);
+    location.reload();
+  });
+};
+
+function outline() {
+  var ver = localStorage.getItem("version");
+  $.when($.get(xml),$.get(ver),$.get(xslt)).done(function(x,y,z) {
+    var textVersion = transformSanskrit(x[0],y[0]),
+	panelGroup = $('<div class="panel-group"></div>'),
+	chapternumber = '';
+    $(textVersion).find('div[type="aṅka"]').each(function(index) {
+      var panelHeading = $('<div class="panel-heading clearfix"></div>'),
+	  chapter = $(this);
+          chapternumber = chapter.attr('n'),
+          chaptertitle = chapter.children('head').text(),
+          chapterlink = $('<div class="panel-title pull-left"><a class="skt" data-toggle="collapse" href="#'+chapternumber+'">'+chaptertitle+'</a></div>'),
+          panelContent = $('<div class="panel-collapse collapse in" id="#"></div>').attr("id",chapternumber),
+          chapterPanel = $('<div class="panel panel-default chapter"></div>'),
+	  fragment = document.createDocumentFragment();
+      // the namespace is necessary to ge the XSLT working
+      chapter.attr("xmlns","http://www.tei-c.org/ns/1.0");
+      chapter.appendTo(fragment);
+      content = transformSanskrit(fragment,z[0]),
+      $(panelHeading).append(chapterlink);
+      $('<div class="panel-body"></div>').append(content).appendTo(panelContent);
+      $(chapterPanel).append(panelHeading);
+      $(chapterPanel).append(panelContent);
+      $(panelGroup).append(chapterPanel);
+    });
+    $("#root").append(panelGroup);
+    translit();
+  });
+}
+
+function translit() {
+  var script = localStorage.getItem("script");
+  if (script == "Deva") {
+    $("#root").find(".skt").each(function() {
+      $(this).contents().filter(function() {
+        return this.nodeType == 3;
+      }).each(function() {
+        q = $(this).text();
+	r = preprocess(q);
+        y = Sanscript.t(r,'iast','devanagari');
+        z = $('<span class="transliterated Deva"></span>').append(y)
+        $(this).replaceWith(z);
+      });
+    });
+  }
+}
+
+// Preprocess strings from IAST to Devanāgarī. 
+function preprocess(x) {
+  return x.replace(" ’","’")
+    .replace(/r ([gṅjñḍṇdnbmhyvrlaāiīuūeo])/,"r$1")
+    .replace(/n ([gṅjñḍṇdnbmhyvrlaāiīuūeo])/,"n$1")
+    .replace(/m ([gṅjñḍṇdnbmhyvrlaāiīuūeo])/,"m$1")
+    .replace(/ś c/,"śc")
+    .replace(/s t/,"st")
+    .replace(/d ([gṅjñḍṇdnbmhyvrlaāiīuūeo])/,"d$1")
+    .replace(/([kcṭtpśsṣ]) ([kcṭtpśsṣ])/,"$1$2")
+    .replace(/([vy]) ([aāiīuūeo])/,"$1$2");
+}
+
+function transformSanskrit(node,xsl) {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  return xsltProcessor.transformToFragment(node,document);
+}
+

@@ -1,0 +1,35 @@
+function setRadioButton() {
+  var val = localStorage.getItem("script");
+  if (val == "Deva") {
+    $("input[name='script'][value='Deva']").prop("checked",true);
+    $("input[name='script'][value='Deva']").parent().addClass("active");
+    translit(val);
+  }
+  else {
+    $("input[name='script'][value='Latn']").prop("checked",true);
+    $("input[name='script'][value='Latn']").parent().addClass("active");
+  }
+  $("input[name='script']").on("change",function() {
+    localStorage.setItem("script",this.value);
+    translit(this.value);
+  });
+};
+
+function translit(x) {
+  $("#root").find(".skt").each(function() {
+    $(this).contents().filter(function() {
+      return this.nodeType == 3;
+    }).each(function() {
+      q = $(this).text();
+      if (x == "Latn") {
+        y = Sanscript.t(q,'devanagari','iast');
+        // z = $('<span class="transliterated Latn"></span>').append(y);
+      } else {
+        y = Sanscript.t(q,'iast','devanagari');
+        // z = $('<span class="transliterated Deva"></span>').append(y)
+      }
+      $(this).text(y);
+	//replaceWith(y);
+    });
+  });
+};
