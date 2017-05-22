@@ -784,8 +784,7 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
 </sp>
 
 <pb n="15"/>
-<stage n="5.7">praviśya
-<note type="commentary">
+<stage n="5.7">praviśya<note type="commentary">
   <p>
     <s><ref target="MaMa.1.5.7">praviśya pāripārśvika</ref> iti |</s>
     <s>sūcitārthaśravaṇasākāṃkṣatvena tatpraveśopapattiḥ |</s>
@@ -910,7 +909,7 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
   <speaker>naṭaḥ</speaker>
   <p>
     <s n="6.1">kasmin prakaraṇe |
-    <note type="commentary">
+    <note type="commentary" corresp="MaMa.1.6.1">
       <p>
 	<s><ref target="MaMa.1.6">citrā kathe</ref>tyanenotpādyetivṛttatvaṃ prakaraṇalakṣaṇamanusmārito naṭaḥ pṛcchati—<ref target="MaMa.1.6.1">kasmin prakaraṇa</ref> iti |</s>
 	<s>ete guṇā iti śeṣaḥ |</s>
@@ -935,20 +934,119 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
 <sp>
   <speaker>sūtradhāraḥ</speaker>
   <p>
-    <stage n="6.2">vicintya</stage>
+    <stage n="6.2">vicintya<note type="commentary" corresp="1.6.2">
+    <p>
+      <s><ref target="MaMa.1.6.2">vicintyeti</ref> samāhitena manasā tādṛśaṃ prakaraṇaṃ vicāryāhetyarthaḥ |</s>
+    </p></note>
+    </stage>
     <s n="6.3">
       <choice>
 	<orig>asti dakṣiṇāpathe vidarbheṣu padmanagaraṃ nāma nagaram |</orig>
 	<reg>asti dakṣiṇā-pathe vidarbheṣu padmanagaram nāma nagaram |</reg>
-      </choice>
+      </choice>   
+      <note type="commentary" corresp="MaMa.1.6.3">
+	<p>
+	  <s>
+	    <quote>
+	      <lg>
+		<l>vindhyāttu dakṣiṇo deśo dakṣiṇāpathasaṃjñitaḥ |</l>
+	      </lg>
+	    </quote>
+	  iti <title>vaijayantī</title> |</s>
+	</p>
+      </note>
     </s>
     <s n="6.4">
       <choice>
 	<orig>tatra kecit taittirīyiṇaḥ brāhmaṇāḥ paṅktipāvanāḥ <pb n="19"/>pañcāgnayo dhṛtavratāḥ somapīthinaś caraṇagurava udumbaranāmāno brahmavādinaḥ prativasanti |</orig>
 	<reg>tatra ke-cit taittirīyiṇaḥ brāhmaṇāḥ paṅkti-pāvanāḥ <pb n="19"/>kāśyapāḥ pañca-agnayaḥ dhṛta-vratāḥ somapīthinaḥ caraṇaguravaḥ udumbara-nāmānaḥ brahmavādinaḥ prativasanti |</reg>
       </choice>
+      <note type="commentary" corresp="MaMa.1.6.4">
+	<p>
+	  <s><ref target="MaMa.1.6.4">taittirīyo</ref> nāma guruniyogāt yogīśvareṇa yājñavalkye<pb nb="19" break="no"/>nodgīrṇo  mūrtastittiribhūtaistacchiṣyairgṛhītvā jagati pravartito yajurvedaśākhāviśeṣaḥ |</s>
+	  <s>yathāha <name>murāriḥ</name>—
+	  <quote>
+	    <lg>
+	      <l>yajūṃṣi taittirīyāṇi mūrtāni vamati sma yaḥ |</l>
+	      <l>sa yogī yājñavalkyastvāṃ vedāntānadhyajīgapat ||</l>
+	    </lg>
+	  </quote>
+	  iti |</s>
+	  <s><quote>tittirivaratantukhaṇḍikokhācchaṇ</quote> <note type="reference">4-3-102</note> iti chaṇ |</s>
+	  <s>tasya śabdato ’rthataś ca gṛhītatvāt tadvantaḥ ata iniḥ taittirīyiṇa iti |</s>
+	  <s>anena svaśākhādhyayanapūrvakatvam adhyayanasya dhvanyate |</s>
+	  <s>bhūriśrutam ityādinā śākhāntarādhyayanāder vakṣyamāṇatvāt |</s>
+	  <s>pātakisahasrasya paṅktau sthito ya ekastān sarvān punāti, sa <ref target="MaMa.1.6.4">paṅktipāvanaḥ</ref>, <quote>āsahasrāt paṅktiṃ punanti</quote> iti śruteḥ—
+	  <quote>
+	    <lg>
+	      <l>agryāḥ sarveṣu vedeṣu sarvapravacaneṣu ca |</l>
+	      <l>śrotriyānvayajāścaiva vijñeyāḥ paṅktipāvanāḥ ||</l>
+	    </lg>
+	  </quote>
+	  iti <name>manu</name>vacanāc ca |</s>
+	  <s><ref target="MaMa.1.6.4">kāśyapāḥ</ref> kāśyapagotrasambhavāḥ |</s>
+	  <s><ref target="MaMa.1.6.4">pañcāgnayaḥ</ref> gārhapatyāhavanīyadakṣiṇāgnisabhyāvasathyākhyāḥ pañcāgnayo yairupāsyante |</s>
+	  <s>athavā
+	  <quote>
+	    <lg>
+	      <l>pañcāgnayo manuṣyeṇa paricaryāḥ prayatnataḥ |</l>
+	      <l>pitā mātāgnirātmā ca guruśca bharatarṣabha ||</l>
+	    </lg>
+	  </quote>
+	  iti <title>mahābhārat</title>oktapañcāgniśuśrūṣaṇaparāḥ |</s>
+	  <s><ref target="MaMa.1.6.4">dhṛtavratāḥ</ref> kṛcchracāndrāyaṇāditapaḥpariśīlanasaṃskṛtaśarīrāḥ |
+	  <quote>
+	    <lg>
+	      <l>vrataṃ viṣṇvṛtuvarṣejyātapomāsāgnibhuktiṣu |</l>
+	    </lg>
+	  </quote>
+	  iti <title>vaijayantī</title> |</s>
+	  <s><quote>somapīthī tu somapaḥ</quote> iti <title>vaijayantī</title> |</s>
+	  <s>pañcāgnaya ityanena <pb n="20"/>gatārthatve'pi somapīthina iti vacanaṃ tācchīlyaṃ dyotayati |</s>
+	  <s><ref target="MaMa.1.6.4">caraṇaguravaḥ</ref> vedaśākhāviśeṣādhyāpanācāryāḥ |
+	  <quote>
+	    <lg>
+	      <l>na pṛcched gotracaraṇaṃ na svādhyāyaṃ na cāgamam |</l>
+	    </lg>
+	  </quote>
+	  iti vacanāt |</s>
+	  <s>athavā
+	  <quote>
+	    <lg>
+	      <l>ācāro vṛttacāritracaritracaraṇāni ca |</l>
+	    </lg>
+	  </quote>
+	  iti <title>vaijayantī</title> |</s>
+	  <s>laukikānāṃ svayam anuṣṭhānena sadācāropadeṣṭāraḥ |
+	  <quote rend="single">
+	    <lg>
+	      <l>śrutiḥ smṛtiḥ sadācāraḥ svasya ca priyamātmanaḥ |</l>
+	      <l>etaccaturvidhaṃ prāhuḥ sākṣāddharmasya lakṣaṇam ||</l>
+	    </lg>
+	  </quote>
+	  iti <name>manu</name>vacanāt |
+	  <quote rend="single">
+	    <lg>
+	      <l>yadyadācarati śreṣṭhas tattadevetaro janaḥ |</l>
+	      <l>sa yat pramāṇaṃ kurute lokastadanuvartate ||</l>
+	    </lg>
+	  </quote>
+	  iti <name>bhagavad</name>vacanāc ca |</s>
+	  <s>ṣaṇmāsamātraparyāptadhānyasaṃgrahī gṛhasthaḥ <ref target="MaMa.1.6.4">udumbara</ref> audumbaraś ca |
+	  <quote>
+	    <lg>
+	      <l>udumbarastu ṣaṇmāsasaṃgrahī tulyakālabhuk |</l>
+	    </lg>
+	  </quote>
+	  iti <title>vaijayantī</title> |</s>
+	  <s>tatas tena nāmnā prasiddhāḥ |</s>
+	  <s>brahmaviṣayā vītarāgakathā brahmavādaḥ, <quote>ekamevādvitīyaṃ</quote> ityādivedāntavākyaśaktitātparyaparyālocanaśīlāḥ |</s>
+	  <s><quote>brahmaṇi vadaḥ</quote> <note type="reference">vā. 3-2-78</note> iti ṇiniḥ ||</s>
+	</p>
+      </note>
     </s>
   </p>
+
   <pb n="20"/>
   <lg n="7">
     <l>
@@ -967,7 +1065,77 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
 	     dārān apatyāya tapaḥ-artham āyuḥ || 7 ||</reg>
       </choice>
     </l>
+    <note type="commentary" corresp="MaMa.1.7">
+      <p>
+	<s><ref target="MaMa.1.7">te śrotriyā</ref> ityādi |</s>
+        <s>yadyapyekaśākhāmadhītya śrotriya iti smaryate, tathāpyatra brāhmaṇatvamātraparaḥ śrotriyaśabdaḥ |</s>
+	<s>paṅktipāvanatvādibhiḥ sarvavedādhyayanādiguṇapratipādanāt |</s>
+	<s><ref target="MaMa.1.7">tattvaviniścayāya</ref> īśvarayāthārthyanirṇayaṃ kartuṃ <quote>tumarthācca bhāvavacanāt</quote> <note type="reference">2-3-15</note> iti caturthī |</s>
+	<s> sadasadekānekanityānityādivikalpadusthaparasparaviruddhavividharāddhāntavihvalīkṛtabuddhisthirīkaraṇāyetyarthaḥ |</s>
+	<s><ref target="MaMa.1.7">bhūri</ref> bahu |</s>
+	<s><ref target="MaMa.1.7">śāśvataṃ</ref> saṃśayaviparyāsanirasanena niṣkampam |</s>
+	<s><ref target="MaMa.1.7">śrutaṃ</ref> śāstraśravaṇaṃ, <ref target="MaMa.1.7">ādriyante</ref> aśuśrūṣātvarāślāghānirāsena sambhāvayanti |</s>
+	<s><quote>bahubhyaḥ śrotavyaṃ bahudhā śrotavyaṃ</quote> iti vacanāt |</s>
+	<s><pb n="21"/>
+	<quote>
+	  <lg>
+	    <l>na hyekasmād gurorjñānamutthitaṃ syāt supuṣkalam |</l>
+	    <l>brahmaitadadvitīyaṃ vai gīyate bahudharṣibhiḥ</l>
+	  </lg>
+	</quote>
+	iti <title>bhāgavato</title>kteḥ |
+	<quote>
+	  <lg>
+	    <l>iṣṭaṃ yāgātmakaṃ karma pūrtaṃ khātādikarma ca</l>
+	  </lg>
+	</quote>
+	iti <title>vaijayantī</title> |</s>
+	<s>karma karturīpsitatamaṃ saṃyogavibhāgayorasamavāyikāraṇaṃ vā, tadartham |</s>
+	<s><ref target="MaMa.1.7">arthān</ref> dhanāni |
+	<quote>
+	  <lg>
+	    <l>ṣaṇṇāṃ tu karmaṇāmasya trīṇi karmāṇi jīvikā |</l>
+	    <l>yājanādhyāpane caiva viśuddhācca pratigrahaḥ ||</l>
+	  </lg>
+	</quote>
+	iti smṛtakrameṇārjanarakṣaṇādibhiḥ |</s>
+	<s><ref target="MaMa.1.7">dārān</ref> patnīṃ |</s>
+	<s><quote>dārāḥ puṃsi ca bhūmni ca</quote> iti pulliṅgatvaṃ nityabahuvacanāntatvaṃ ca |</s>
+	<s><quote>apatyaṃ tokaṃ tayoḥ same</quote> iti strīpuṃsasādhāraṇo ’patyaśabdaḥ, tadartham |
+	<quote>
+	  <lg>
+	    <l>striyaḥ śriyo gṛhasyoktāstasmāt pūjyā viśeṣataḥ |</l>
+	  </lg>
+	</quote>
+	iti smṛteḥ, vasanābharaṇādibhirācāraparirakṣaṇena ca |</s>
+	<s>taporthaṃ sakalapumarthatīrthāya dharmānuṣṭhānāya |</s>
+	<s><quote>arthena nityasamāsaḥ sarvaliṅgatā ca vaktavyā</quote> <note type="reference">pā. 2-1-36</note> iti caturthīsamāsaḥ napuṃsakatvaṃ ca |</s>
+	<s><ref target="MaMa.1.7">āyuḥ</ref> jīvitadhāraṇakālam |</s>
+	<s>vedābhyāsādibhirāyurvedopadeśakramānuṣṭhānena ca |
+	<quote>
+	  <lg>
+	    <l>anabhyāsena vedānāmācārasya ca varjanāt |</l>
+	    <l>ālasyādannadoṣāc ca mṛtyur viprān jighāṃsati ||</l>
+	  </lg>
+	</quote>
+	iti <name>manu</name>vacanāt |</s>
+	<s>atra śrutamityṛṣīṇāmiṣṭāyeti devānāmapatyāyeti pitaṝṇāmṛṇāpākaraṇapravṛttiḥ pratipādyate |</s>
+	<s>kiñca taporthamiti dārānityarthāniti tattvaviniścayāyeti dharmakāmārthamokṣākhyapuruṣārthacatuṣṭayāvāpteḥ kṛtakṛtyatā ca dyotyate |</s>
+	<s>taporthamāyuriti ca sarvasādhāraṇam |
+	<quote>
+	  <lg>
+	    <l>āyuḥ kāmayamānena dharmārthasukhasādhanam |</l>
+	    <l>āyurvedopadeśeṣu vidheyaḥ paramādaraḥ ||</l>
+	  </lg>
+	</quote>
+	<pb n="22"/>ity ukteḥ |</s>
+	<s>ādaraṇakriyāyā madhyamadhyāsīnāyāḥ prākaraṇikasarvavākyārthasambandhāt tulyayogiteyam |</s>
+	<s>atra ca vākyacatuṣṭayena kramāt khyātyādīnāṃ draviṇalobhasya viṣayalaulyasya dehābhimānasya cārthataḥ paryudāsāt parisaṅkhyālaṅkāraḥ || 7 ||</s>
+      </p>      
+    </note>
   </lg>
+
+
   <pb n="22"/>
   <p>
     <s n="7.1">
@@ -975,14 +1143,75 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
 	<orig>tad āmuṣyāyaṇasya tatrabhavataḥ sugṛhītanāmno bhaṭṭagopālasya <pb n="13"/>pautraḥ pavitrakīrter nīlakaṇṭhasyātmasaṃbhavo bhaṭṭaśrīkaṇṭhapadalāñchano bhavabhūtināmā jātūkarṇīputraḥ kavir nisargasauhṛdena bharateṣu svakṛtim evaṃprāyaguṇabhūyasīm asmākam arpitavān |</orig>
 	<reg>tat-āmuṣyāyaṇasya tatrabhavataḥ su-gṛhīta-nāmnaḥ bhaṭṭagopālasya <pb n="13"/>pautraḥ pavitra-kīrteḥ nīlakaṇṭhasya ātmasaṃbhavaḥ bhaṭṭaśrīkaṇṭha-pada-lāñchanaḥ bhavabhūti-nāmā jātūkarṇī--putraḥ kaviḥ nisarga-sauhṛdena bharateṣu sva-kṛtim evam-prāya-guṇa-bhūyasīm asmākam arpitavān |</reg>
       </choice>
+      <note type="commentary" corresp="MaMa.1.7.1">
+	<p>
+	  <s><ref target="MaMa.1.7.1">tat</ref> yasmād evaṃ padmanagare brahmavādinaḥ prativasanti tasmāddhetoḥ |</s>
+	  <s><quote>āmuṣyāyaṇāmuṣyaputrikāmuṣyakuliketi vaktavyam</quote> <note type="reference">vā. 6. 3. 21</note> ityupasaṃkhyānāt aluk |</s>
+	  <s>prakhyātapitṛjāte ’patyapratyayaḥ |
+	  <quote>
+	    <lg>
+	      <l>prakhyātāt piturutpanna āmuṣyāyaṇa iṣyate</l>
+	    </lg>
+	  </quote>
+	  iti <name>halāyudhaḥ</name> |</s>
+	  <s>tatra bhavatastasmin padmanagare sambhūtasya |
+	  <quote>vartamānasāmīpye vartamānavadvā</quote> <note type="reference">3. 3. 31</note> iti śatā, na punastatrabhavata iti pūjāvācitvena yojanīyaḥ |</s>
+	  <s>prastutabrāhmaṇasambandhapratipādakaśabdāntarābhāvāt pūjāvācibhaṭṭaśabdaprayogācca |</s>
+	  <s>bhaṭṭācāryabhaṭṭabāṇādivat |</s>
+	  <s><ref target="MaMa.1.7.1">pavitrā</ref> pāvanī |</s>
+	  <s><ref target="MaMa.1.7.1">śrīkaṇṭhapadalāñchanaḥ</ref> kanakapaṭṭādiniviṣṭā parameśvarapadanyāsamudrā śikhādidhṛtā lakṣaṇaṃ yasya |</s>
+	  <s>anena śivabhaktyatiśayaḥ sūcitaḥ |</s>
+	  <s>tattvajñānamuṣitadevatābhedānāmapi,
+	  <quote>bhaktyā māmabhijānāti yāvānyaścāsmi tattvataḥ</quote> iti <name>bhagavad</name>vacanāt |</s>
+	  <s>tattvajñānasya bhaktimantareṇānupapatterbhakteśca pūrvajanmavāsanāvaśāt kvacideva devatāviśeṣe sambhavādevamuktiḥ |</s>
+	  <s>na punarbhedadarśitayā |
+	  <quote>dvaitino ’tathyadarśinaḥ</quote> iti |
+	  <pb n="23"/>
+	  <quote>
+	    <lg>
+	      <l>sṛṣṭisthityantakaraṇīṃ brahmaviṣṇuśivātmikām |</l>
+	      <l>sa saṃjñāṃ yāti bhagavāneka eva janārdanaḥ ||</l>
+	    </lg>
+	  </quote>
+	  iti bhedanindanādabhedapratipādanāc ca |</s>
+	  <s><quote>śreṣṭhaḥ paramahaṃsānām</quote> ityādinā svayaṃ paramahaṃsaparivrājakāntevāsitvakathanāt <quote>yadvedādhyayanaṃ tathopaniṣadāṃ sāṅkhyasya yogasya ca jñānam</quote> iti jñānitvokteśca |</s>
+	  <s><ref target="MaMa.1.7.1">padam</ref> iti padaśuddhyupalakṣitaṃ vyākaraṇaśāstram, <ref target="MaMa.1.7.1">vākyaṃ</ref> vākyavicāraparaṃ mīmāṃsādiśāstram, <ref target="MaMa.1.7.1">pramāṇaṃ</ref> pramāṇādipadārthalakṣaṇaparīkṣaṇavicakṣaṇamakṣapādādiśāstram, tāni jānātīti padavākyapramāṇajñaḥ |</s>
+	  <s><ref target="MaMa.1.7.1">bhavabhūtir nāma</ref> prasiddhaḥ |</s>
+	  <s><ref target="MaMa.1.7.1">kaviḥ</ref> prājñaḥ kāvyakṛcca |</s>
+	  <s><quote>prājñakāvyakṛtau kavī</quote> iti <title>vaijayantī</title> |</s>
+	  <s>nisargasauhṛdāt akṛtrimaṃ mitrabhāvamavalambya |</s>
+	  <s><quote>lyablope pañcamī</quote> |</s>
+	  <s>nisargasauhṛdetyanena tatkṛteḥ svairavaśyamādaraṇīyatvaṃ dyotyate |</s>
+	  <s>svakṛtiṃ svasya karma |</s>
+	  <s><ref target="MaMa.1.7.1">evaṃprāyaguṇabhūyasīṃ</ref> evaṃśabdo bhūmnetyādyuktaguṇaparāmarśakaḥ |</s>
+	  <s>prāyaḥśabdastulyaparyāyaḥ |</s>
+	  <s>etādṛśaguṇabahulām |</s>
+	  <s><ref target="MaMa.1.7.1">evaṃprāy</ref>eti tādṛśānāṃ guṇāntarāṇāṃ nītiśāstrayojanādīnāmapi bāhulyaṃ sūcayati |</s>
+	  <s>asmākamiti |</s>
+	  <s>sampradānatvavivakṣābhāvāt sambandhamātre ṣaṣṭhī |</s>
+	  <s><ref target="MaMa.1.7.1">arpitavān</ref> dattavān |</s>
+	</p>
+      </note>
     </s>
+
     <s n="7.2">
       <choice>
 	<orig>yatra khalv iyaṃ vācoyuktiḥ |</orig>
 	<reg>yatra khalu iyam vācaḥ-yuktiḥ |</reg>
       </choice>
+      <note type="commentary" corresp="MaMa.1.7.2">
+	<p>
+	  <s><ref target="MaMa.1.7.2">yatra</ref> kṛtau |</s>
+	  <s><ref target="MaMa.1.7.2">khalu</ref> prasiddhau |</s>
+	  <s>iyamiti vakṣyamāṇaparāmarśaḥ |</s>
+	  <s><ref target="MaMa.1.7.2">vācoyuktiḥ</ref> vāgupapattiḥ |</s>
+	  <s><quote>vāgdikpaśyadbhyo yuktidaṇḍahareṣu</quote> 
+	  <note type="reference">vā. 6. 3. 21</note> iti ṣaṣṭhyā aluk ||</s>
+	</p>
+      </note>
     </s>
   </p>
+
   <lg n="8">
     <l>
       <choice>
@@ -1001,7 +1230,69 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
 	     kālaḥ hi ayam niḥ-avadhiḥ vipulā ca pṛthvī || 8 ||</reg>
       </choice>
     </l>
+    <note type="commentary" corresp="MaMa.1.8">
+      <p>
+        <s><ref target="MaMa.1.8">ye nāme</ref>tyādi |</s>
+	<s><ref target="MaMa.1.8">nāma</ref> sambhāvanāyām |</s>
+	<s><quote>nāma prākāśyasambhāvyakrodhopagamakutsane</quote> iti <title>vaijayantī</title> |</s>
+	<s><ref target="MaMa.1.8">kecid</ref> iti sambhāvyamānatvādevānirdhāritaviśeṣo nirdeśaḥ |</s>
+	<s><ref target="MaMa.1.8">ihe</ref>ti svavartanāsannadeśaparāmarśaḥ |</s>
+	<s><ref target="MaMa.1.8">na</ref> iti |
+	<quote>asmado dvayośca</quote> <pb n="24"/><note type="reference">1. 2. 59</note> ityātmani bahuvacanam |</s>
+	<s><ref target="MaMa.1.8">prathayanti</ref> vistārayantīti svasamakālavartitvaṃ dyotayati |</s>
+	<s><ref target="MaMa.1.8">avajñāṃ</ref> avamānanāṃ <quote>rīḍhāvamānanāvajñāvahelanamasūrkṣaṇaṃ</quote> i<name>tyamaraḥ</name> |</s>
+	<s><ref target="MaMa.1.8">ihāvajñāṃ prathayantī</ref>ty anena <quote>sannikarṣo hi martyānāma nādaraṇakāraṇam</quote> ity etad anusmārayati |</s>
+	<s>yathāha <name>kavivallabhaḥ</name>
+	<quote>
+	  <lg>
+	    <l>saṃstutādaparijñātastasmādvaideśikaḥ kaviḥ |</l>
+	    <l>tato'pi tāvat svaryāto yāti śraddheyasūktitām ||</l>
+	  </lg>
+	</quote>
+	iti |</s>
+	<s><ref target="MaMa.1.8">kimap</ref>īti |</s>
+	<s>tattāvadarvāci parvaṇi tasthuṣāmasmādṛśāṃ paricchedapadavīṃ na ḍhaukata iti bhāvaḥ |</s>
+	<s><ref target="MaMa.1.8">tānprati</ref> tādṛśānmahāmatīn lakṣīkṛtya |</s>
+	<s><ref target="MaMa.1.8">eṣa yatnaḥ</ref> evaṃ guṇaprakaraṇanirmāṇasaṃrambharūpaḥ pratibhāvyāpārapariśramaḥ |</s>
+	<s>tarhi kaṃ pratītyākāṃkṣāyāmāha—<ref target="MaMa.1.8">utpasya[tsya]te</ref> janiṣyate |</s>
+	<s><ref target="MaMa.1.8">tu</ref>śabdo vyāvṛttau |</s>
+	<s>na khalu sarve sarvatra sarvadā ta iva mahāmatayo bhavantīti niyatirityarthaḥ |</s>
+	<s><ref target="MaMa.1.8">ko ’pī</ref>ti kecid itivat sambhāvyamānatvāt sāmānyanirdeśaḥ |</s>
+	<s><ref target="MaMa.1.8">samānadharmā</ref> mandabuddhitvālpaśrutatvādiguṇaḥ sadṛśo yasya |</s>
+	<s><quote>dharmādanic kevalāt</quote> <note type="reference">5. 4. 124</note> 
+	(ityanic) |</s>
+	<s>anumānaṃ cedam |</s>
+	<s>tathā hi ko ’pīti dharminirdeśaḥ |</s>
+	<s>samānadharmotpatsyata iti pratijñā |</s>
+	<s>kālasya niravadhitve sati pṛthavyā vaipulyāditi hetuḥ |
+	<quote>
+	  <lg>
+	    <l>anādirbhagavān kālo nānto'sya dvija vidyate</l>
+	  </lg>
+	</quote>
+	iti, <quote>pañcāśatkoṭivistīrṇā seyamurvī mahāmune</quote> iti ca <title>viṣṇupurāṇa</title>vacanāt |</s>
+	<s><ref target="MaMa.1.8">hi</ref>śabdena prasiddhiṃ dhvanatā sarvajanasaṃvāvadūkamudāharaṇamanusmāryate |</s>
+	<s>yathā bhūte kāle vipule dharaṇītale jāteṣu mandātmatayā kecinmatsadharmāṇo'pi jātāḥ śrūyante |</s>
+	<s>adya ca yathāhaṃ jātastadvadityupanayanigamanavākye apyevamūhye |</s>
+	<s>tān prati neti niṣedhasāmarthyādya utpatsyate taṃ pratītyarthasiddheḥ kaṃ pratītyākāṃkṣā ca pūritā bhavati |</s>
+	<s>uttarārdhe ca kāvyaliṅgamalaṅkāraḥ |</s>
+	<s>śāstrānumānavailakṣaṇyena hetorvākyārthatayā nirdeśāt |</s>
+	<s>kimapīti samānadharmeti ca stutinindāsādhāraṇyena yojanīyau |</s>
+	<s>atra ca gurucaraṇaparicaraṇavimukhānāmidānīntanānāṃ pallavagrahaṇadurlalitānāṃ kṣullakānāṃ gambhīramadhurasandarbhagarbhitarasasudhānirjharodgāriṣu sakalaśāstrārthakadambakapratibimbanamaṇimukuravimbeṣu mādṛśāṃ prabandheṣu jātyandhānāmiva ratnapravekaparīkṣaṇeṣu kutastyo'dhikāraḥ? |
+	<quote>
+	  <lg>
+	    <l>aśaktāstatpadaṃ gantuṃ tato nindāṃ prakurvate</l>
+	  </lg>
+	</quote>
+	iti nyāyena asmannindaiva teṣāmasūyājvaradoṣabheṣajaṃ bhavatu |</s>
+	<s>kā hāniḥ |</s>
+	<s>anyaḥ punaravanyāṃ yatra kutracidyadākadācidutpanno yaḥ kaścidatiniśitamatiramalavipulavidyāvidyotitaḥ sahṛdayo maṇimiva maulimānayiṣyatyāmukhe māsamānāyāḥ stuternindātvena prarohādvyājastutiralaṅkāraḥ |</s>
+	<s>keciditi khalānāṃ kauleyakānāmiva bāhulyam |</s>
+	<s>ko ’pīti sujanasya viduṣo mṛgamadasyeva durlabhatā ca dyotyate || 8 ||</s>
+      </p>
+    </note>
   </lg>
+
   <pb n="25"/>
   <p>
     <s n="8.1">
@@ -1009,14 +1300,37 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
 	<orig>tad ucyantāṃ tatprakhyāpanāya sarve kuśīlavāḥ yathāsvaṃ saṅgītakaprayoge varṇikāparigrahe ca tvaryatām iti |</orig>
 	<reg>tat ucyantām tat-prakhyāpanāya sarve kuśīlavāḥ yathāsvaṃ saṅgītaka-prayoge varṇikā-parigrahe ca tvaryatām iti |</reg>
       </choice>
+      <note type="commentary" corresp="MaMa.1.8.1">
+        <p>
+	  <s><ref target="MaMa.1.8.1">tatprakhyāpanāya</ref> tasyāḥ kṛteḥ prakāśanāya |</s>
+	  <s><quote>bharatāstu kuśīlavāḥ</quote> i<name>tyamaraḥ</name> |</s>
+	  <s>yathāsvaṃ svasvavyutpattyanatikrameṇa |
+	  <quote>
+	    <lg>
+	      <l>nṛttaṃ gītaṃ ca vādyaṃ ca trayaṃ saṅgītamucyate</l>
+	    </lg>
+	  </quote>
+	  iti <name>halāyudhaḥ</name> |</s>
+	  <s>varṇikā tattadveṣaḥ gāne gāyakāṃ vādyavādane vādakāstattadveṣasaṃgrahe ca nartakā ityarthaḥ |</s>
+	</p>
+      </note>
     </s>
     <s n="8.2">
       <choice>
 	<orig>kavivarṇanaṃ prati tena tv evam uktam |</orig>
 	<reg>kavi-varṇanam prati tena tv evam uktam |</reg>
       </choice>
+      <note type="commentary" corresp="MaMa.1.8.2">
+	<p>
+	  <s><ref target="MaMa.1.8.2">kavivarṇanaṃ prat</ref>īti |</s>
+	  <s>prabandhakartuḥ kavivarṇanaṃ praśaṃsanarūpamaṅgamuddiśyetyarthaḥ |</s>
+	  <s>tena kavinā |</s>
+	  <s>tuśabdenaitadāha—<quote>utpatsyate tu mama ko ’pi samānadharmā</quote> ityuktyā sphuritasya madahaṅkārasya guruprasāda eva nidānaṃ nānyat kiñcit, <quote>ācāryavān puruṣo veda</quote> iti śruteḥ, sadgurulābhaśca sakalasampadāmuparīti samādhānaṃ kṛtamiti ||</s>
+	</p>
+      </note>
     </s>
   </p>
+
   <pb n="26"/>
   <lg n="9">
     <l>
@@ -1031,10 +1345,61 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
 	<reg>yathā-artha-nāmā bhagavān yasya jñāna-nidhiḥ guruḥ || 9 ||</reg>
       </choice>
     </l>
+    <note type="commentary" corresp="MaMa.1.9">
+      <p>
+	<s><ref target="MaMa.1.9">guṇaiḥ satām</ref> ityādi |</s>
+	<s><quote>sadbhāve sādhubhāve ca sadityetat prayujyate</quote> iti sādhuvācakasya sacchabdasya saujanyādiguṇadvāreṇaiva pravṛtterguṇavanta eva santa iti sthitam |</s>
+	<s>ataḥ satāṃ guṇairna punarasmākaṃ guṇyapekṣeti bhāvaḥ |</s>
+	<s>anena guṇānāmeva paropakāraparatā naisargikīti dyotyate |
+	<quote>
+	  <lg>
+	    <l>tathā hi sarve tasyāsan parārthaikaphalā guṇāḥ |</l>
+	  </lg>
+	</quote>
+	itivat |</s>
+	<s>ka iti |</s>
+	<s>niravagraheṇa sarvanāmnā vastutaḥ sannasannapīti dhvanyate |</s>
+	<s>guṇaḥ vāditvakavitvādiḥ |</s>
+	<s><ref target="MaMa.1.9">prakhyāpitaḥ</ref> prakāśitaḥ |</s>
+	<s>bhavedityanavaklṛptau liṅ |</s>
+	<s>atra hetumāha—<ref target="MaMa.1.9">yathārthanāmā</ref> abhidheyamanatikrāntaṃ nāma padaṃ yasya |</s>
+	<s><ref target="MaMa.1.9">bhagavām[n]</ref> jagadutpattyādisarvavijñānasampannaḥ |</s>
+	<s>bhagavacchabdena paramahaṃsasannyāsitvamapi sūcayati ||
+	<quote>
+	  <lg>
+	    <l>bhagavadbhir idaṃ gurubhaktiyutaiḥ paṭhitavyamapāṭhyamato'nyajanaiḥ |</l>
+	  </lg>
+	</quote>
+	ity ādyācāryavacanāt <quote>śreṣṭhaḥ paramahaṃsānām</quote> iti kavinaiva <title>mahāvīracarite</title> pratipāditatvācca |</s>
+	<s><ref target="MaMa.1.9">jñānanidhiḥ</ref> jñānānyasmin nidhīyante ityadhikaraṇe ghoḥ kiḥ |</s>
+	<s>yathā dhanadevatā niravadhiratnādinidhānānnidhaya iti vyapadiśyante tatheti nāmapadakathanam |</s>
+	<s>gururiti paramopakāritayā pitrādibhyo mānyatvaṃ dhvanyate |</s>
+	<s>
+	  <quote>
+	    <lg>
+	      <l>sa gururyaḥ kriyāḥ kṛtvā vedamasmai prayacchati |</l>
+	    </lg>
+	  </quote>
+	  iti <title>yājñavalkyasmaraṇāt</title> ||
+	  <quote>
+	    <lg>
+	      <l>utpādakabrahmapitrorgarīyān brahmadaḥ pitā |</l>
+	      <l>brahmajanma hi viprasya pretya ceha ca śāśvatam ||</l>
+	    </lg>
+	  </quote>
+	iti <name>manu</name>vacanācca |</s>
+	<s>atra guruviṣayo bhāvaḥ pratīyate |</s>
+	<s>udāttamalaṅkāraḥ |</s>
+	<s>mahāpuruṣacaritasyāṅgatvena varṇanāt || 9 ||</s>
+      </p>
+    </note>
   </lg>
   <pb n="27"/>
   <p>
-    <s n="9.1">api ca—</s>
+    <s n="9.1">api ca—<note type="commentary" corresp="MaMa.1.9.1"><p>
+	  <s><ref target="MaMa.1.9.1">api c</ref>eti pūrvoktyā samuccinoti |</s>
+	</p></note>
+    </s>
   </p>
   <lg n="10">
     <l>
@@ -1048,11 +1413,196 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
     <l>
       <choice>
 	<orig>yat prauḍhatvam udāratā ca vacasāṃ yac ca arthato gauravam<caesura/>
-	      tac ced asti tatas tad eva gamakam pāṇḍityavaidagdhyayoḥ || 10 ||</orig>
+	      tac ced asti tatas tad eva gamakaṃ pāṇḍityavaidagdhyayoḥ || 10 ||</orig>
 	<reg>yat prauḍhatvam udāratā ca vacasām yat ca arthataḥ gauravam<caesura/>
 	     tat cet asti tataḥ tat eva gamakam pāṇḍitya-vaidagdhyayoḥ || 10 ||</reg>
       </choice>
     </l>
+    <note type="commentary" corresp="MaMa.1.10">
+      <p>
+	<s><ref target="MaMa.1.10">yadvedādhyayanam</ref>ityādi karmopāsanājñānakāṇḍalakṣaṇasya sarvasyāpi vedasyānuṣṭhānasādhanārthajñānapūrvakaṃ grahaṇam |</s>
+	<s><ref target="MaMa.1.10">vedo</ref> nāma parameśvarānniśvasitavadanāyāsenāvirbhūtatvādapauruṣeyasandarbho gabhastimālivat samastapuruṣārthaprakāśako'nādirananta udāttādisvaroccāryaḥ paramapramāṇabhūtaḥ śabdarāśiḥ |</s>
+	<s><ref target="MaMa.1.10">tathe</ref>ti |</s>
+	<s>tena prakāreṇa |</s>
+	<s>svarūpagrahaṇapūrvakam ity arthaḥ |</s>
+	<s><ref target="MaMa.1.10">upaniṣadāṃ</ref> jīveśvaraikyaviṣayasamyakjñānapratipādanaikaparāṇāṃ vedāntānām |
+	<quote>
+	  <lg>
+	    <l>yasmāc ca nirgatā vedā vedāntānyakhilāni ca</l>
+	  </lg>
+	</quote>
+	iti |
+	<quote>
+	  <lg>
+	    <l>vedaiś ca sarvairahameva vedyo vedāntakṛd vedavid eva cāham</l>
+	  </lg>
+	</quote>
+	itivat |</s>
+	<s>vedaśabdenaivopasaṃgṛhītatve ’pi pṛthagupādānamantaḥkaraṇaśodhanasādhanatayā jñānāṅgabhūtakarmapratipādakāt pūrvabhāgāt paramānandarūpavidehakaivalyasādhanajñānapratipādakasyottarabhāgasyābhyarhitatvaṃ dyotayati |
+	<quote>
+	  <lg>
+	    <l>sarvaṃ karmākhilaṃ pārtha jñāne parisamāpyate |</l>
+	  </lg>
+	</quote>
+	iti <name>bhagavad</name>vacanāt
+	<quote>
+	  <lg>
+	    <l>pratyakpravaṇatāṃ buddheḥ karmāṇyutpādya śuddhitaḥ |</l>
+	    <l>kṛtārthānyastamāyānti prāvṛḍante ghanā iva ||</l>
+	  </lg>
+	</quote>
+	iti <name>śrīviśvarūpācārya</name>vacanāc ca |</s>
+	<s><ref target="MaMa.1.10">jñānaṃ</ref> śaktitātparyaparyālocanena prameyanirṇayaḥ |</s>
+	<s>upaniṣadāṃ jñānam iti |</s>
+	<s><quote>kartṛkarmaṇoḥ kṛti</quote> 
+	<note type="reference">2-3-65</note> iti karmaṇi <pb n="28"/>ṣaṣṭhī |</s>
+	<s>pūrvanirdeśāt svābhimatatvaṃ vedāntajñānasya prakāśayati |</s>
+	<s><ref target="MaMa.1.10">sāṃkhyasye</ref>ti |</s>
+	<s>mūlaprakṛtiravikṛtiḥ sattvarajastamasāṃ sāmyāvasthārūpā cicchaktiśūnyā puruṣasya bhogamokṣārthe svata eva pravartamānā pariṇāmaparispandavyāpārā prasavadharmiṇī sakalapuruṣasādhāraṇabhogyasvarūpā ca |</s>
+	<s>puruṣas tu jñānamātrasvarūpo nirguṇo niṣkriyo niṣpariṇāmo na ca vikṛtiḥ na ca prakṛtiḥ, tasya cājñānavijñānanibandhanau bandhamokṣau |</s>
+	<s>puruṣāś ca bahavaḥ pratidehaṃ bhinnāḥ sarve sarvagatāśca |</s>
+	<s>mahānahaṃkārastanmātrāṇi ca svakāraṇaṃ prati vikṛtayaḥ svakāryaṃ prati prakṛtayaḥ ityubhayarūpāḥ prakṛtivikṛtayaḥ, ekādaśendriyāṇi pañcabhūtāni ceti ṣoḍaśa vikṛtaya eveti pañcaviṃśatistattvāni |</s>
+	<s>īśvaro nābhyudgamyate |</s>
+	<s>puruṣārthasya hetoḥ svayameva kṣīravat pravartamānāyāḥ prakṛteḥ kimantargaḍunā pramāṇaśūnyapravartakāntaraparigraheṇetyādyarthapratipādakaṃ dṛṣṭānumānāgamapramāṇakaṃ kapilamunipraṇītaṃ śāstraṃ sāṅkhyaṃ nāma |</s>
+	<s><ref target="MaMa.1.10">yogasye</ref>ti |</s>
+	<s>yogo nāma hairaṇyagarbhaṃ śāstram |</s>
+	<s>tatrāpi sāṃkhyavattattvāni pramāṇāni ca |</s>
+	<s>īśvarastu dharmyādharmyakarmaphalapradātā ṣaḍviṃśako'bhyupagamyate |</s>
+	<s>vikāreṣu ca prakṛtermahān jāyate mahataḥ ṣaḍviśeṣāḥ ahaṃkāraḥ pañca tanmātrāṇi ca |</s>
+	<s>tatrāhaṃkārasyāviśeṣasya viśeṣā ekādaśendriyāṇi śabdatanmātratāviśeṣasya viśeṣa ākāśaḥ |</s>
+	<s>evaṃ sparśatanmātrādīnāmaviśeṣāṇāṃ vāyvādayo viśeṣā ityādi pratipādyate |</s>
+	<s>sāṃkhyasya yogasya jñānam iti sambadhyate |</s>
+	<s><ref target="MaMa.1.10">ca</ref>kāro ’nuktasamuccayārthaḥ |</s>
+	<s>pāñcarātrapāśupatayoścetyarthaḥ |</s>
+	<s>tayorapi śiṣṭaiḥ pramāṇatvābhyupagamāt |
+	<quote>
+	  <lg>
+	    <l>sāṃkhyo yogaḥ pāñcarātraṃ vedāḥ pāśupataṃ tathā |</l>
+	    <l>etānyapi pramāṇāni na hantavyāni hetubhiḥ ||</l>
+	  </lg>
+	</quote>
+	iti <title>mahābhārato</title>kteḥ |</s>
+	<s><quote>trayī sāṃkhyaṃ yogaḥ paśupatimataṃ vaiṣṇavami</quote>ti <name>bhaṭṭācāry</name>okteśca |</s>
+	<s>eṣāṃ ca pratipādanaprakārabhede ’pi pratipādyaparatattvaikyādavaśyajñeyatvam |</s>
+	<s>anyeṣāṃ tu darśanānāṃ keṣāñcit pūrvapakṣatvena bādhyatvāt keṣāñcidvimardāsahatvena heyatvāccetad<pb n="29" break="no"/>agrahaṇamiti veditavyam |</s>
+	<s>tatkathanena, mameti pūrvaślokādāyāti, ekavaktṛkatvāt |</s>
+	<s>mama tadastīti vacanena kiṃ phalamiti śeṣaḥ |</s>
+	<s>tatastatkathanād jñānādvā |</s>
+	<s><ref target="MaMa.1.10">kaścid</ref> ekaḥ |</s>
+	<s>apiśabdo ’dhyāhartavyaḥ |</s>
+	<s><ref target="MaMa.1.10">guṇa</ref> upakāraḥ |</s>
+	<s><ref target="MaMa.1.10">nāṭaka</ref> iti |</s>
+	<s>nāṭakasya prakaraṇaprakṛtitvāt kāraṇena kāryavyapadeśaḥ |</s>
+	<s>na kaścid apy upakāra ityarthaḥ |</s>
+	<s>athavā kaścicchabdo'paricchedyamukhena mukhyavācakaḥ, <quote>yaḥ kaścidvikramo ’yaṃ</quote> <quote>ko ’py eṣa vīraśiśukākṛtiḥ</quote> ityādiṣu tathā darśanānmukhya upakāro nāsti, asyopaskārakatvamātram |</s>
+	<s>upaskāryāyāḥ śaktereva kavitvaṃ prati prādhānyamiti bhāvaḥ |</s>
+	<s>vyutpattitaḥ śaktereva kavitvaṃ prati prādhānyād avyutpattikṛtasya doṣasya śaktyatiraskriyamāṇatvāt |</s>
+	<s>aśaktikṛtasya tu vyutpattyā nihnotumaśakyatvāt |</s>
+	<s>bahujñasyāpi loke śaktivandhyasya tricaturapadaguṃbhanārambhe'pi stambhakampādisambhramaśālinaḥ, samaradharaṇīmavatarata iva kātarasya, vacaḥprasarāniṣpatterniṣpattau vā hāsyāyatanatvāt |</s>
+	<s>kiñcijjñasyāpi tu śaktimataḥ kimapi racayitumunmukhasya siddhāñjanarañjitadṛśa iva mahānidhīnāṃ svarasata evāhamahamikayāhaṃpūrvikayā ca vividhabhaṅgitaraṅgitānāṃ śabdānāṃ prādurbhāvādanvayavyatirekābhyāṃ kavitvabījarūpasaṃskāraviśeṣātmikā śaktireva pradhānam |</s>
+	<s>vyutpattistu tadupaskāriketi nirṇayaḥ |</s>
+	<s>prapañcitaścāyamartho dhvanikāraiḥ |</s>
+	<s>ataḥ śaktikāryamāha—yat prauḍhitvamityādi ||
+	<quote>
+	  <lg>
+	    <l>ukteḥ prauḍhaḥ parīpākaḥ procyate prauḍhisaṃjñayā |</l>
+	  </lg>
+	</quote>
+	iti <name>śrībhojaḥ</name> |</s>
+	<s>pākaśca lakṣito <name>vāmanena</name> 
+	<quote>
+	  <lg>
+	    <l>yatpadāni tyajantyeva parivṛttisahiṣṇutām |</l>
+	    <l>taṃ śabdanyāsaniṣṇātāḥ śabdapākaṃ pracakṣate ||</l>
+	  </lg>
+	</quote>
+	iti |</s>
+	<s>nālikerasahakāramṛdvīkāpākeṣu nālikerapākaś cāyam iṣyate |</s>
+	<s>kramotkarṣāt dṛḍhamadhuratvācca |
+	<quote>
+	  <lg>
+	    <l>padārthe vākyavacanaṃ vākyārthe ca padābhidhā |</l>
+	    <l>prauḍhirvyāsasamāsau ca sābhiprāyatvamasya ca ||</l>
+	  </lg>
+	</quote>
+	iti vāmanenārthadvārāpi prauḍhir uktā |</s>
+	<s>tadubhayamapyatra svīkriyate |
+	<pb n="30"/>
+	<quote>
+	  <lg>
+	    <l>vikaṭākṣarabandhatvamāryairaudāryamucyate |</l>
+	  </lg>
+	</quote>
+	iti <name>śrībhojaḥ</name> |
+	<quote>
+	  <lg>
+	    <l>utkarṣavān guṇaḥ kaścidukteryasmin pratīyate |</l>
+	    <l>tadudārāhvayaṃ tena sanāthā kāvyapaddhatiḥ ||</l>
+	  </lg>
+	</quote>
+	iti <name>daṇḍinaḥ</name> |</s>
+	<s>tadubhayaṃ gṛhyate |</s>
+	<s>śabdārthagatatvena dvayoraṅgīkārāt |</s>
+	<s><ref target="MaMa.1.10">arthato</ref> gauravamabhidheyasya lāghavapratiyogiko guṇaḥ |</s>
+	<s>vimardasahatvaṃ vyaṅgyaprādhānyena camatkārakāritvaṃ ca |</s>
+	<s>lāghave punastārkikagocaraṃ gatasyārthasya caṇḍamārutolluṇṭhitasya tūlapiṇḍasyeva śatadhā khaṇḍanaprasaṅgāt |</s>
+	<s><ref target="MaMa.1.10">arthataḥ</ref> iti ṣaṣṭhyarthe tasiḥ |</s>
+	<s><ref target="MaMa.1.10">prauḍhatvamudāratā ce</ref>ti |</s>
+	<s>yaditi dvābhyāṃ vacasāṃ viśeṣyamāṇatvādekasya yadupādānaṃ gauraveṇa arthasyaiva viśeṣyamāṇatvāt pṛthak yacchabdopādānamiti mantavyam |</s>
+	<s><ref target="MaMa.1.10">tad</ref> iti vākyārthabhūtaṃ vastu parāmṛśyate |</s>
+	<s><ref target="MaMa.1.10">tataḥ</ref> tasminnāṭake |</s>
+	<s>saptamyarthe tasiḥ |</s>
+	<s><ref target="MaMa.1.10">tadeva</ref> tadvastveva |</s>
+	<s><ref target="MaMa.1.10">gamakaṃ</ref> jñāpakam |</s>
+	<s>gatyarthānāṃ buddhyarthatvāt |</s>
+	<s><ref target="MaMa.1.10">pāṇḍityaṃ</ref> paṇḍitasya karma bhāvo vā śabdārthajñānaṃ bāhuśrutyaṃ ca |
+	<quote>
+	  <lg>
+	    <l>paṇḍā tu saṃskṛtā buddhistadvān paṇḍita ucyate |</l>
+	  </lg>
+	</quote>
+	<ref target="MaMa.1.10">vaidagdhyaṃ</ref> vidagdhasya karma bhāvo vā |</s>
+	<s>vyaṅgyārthasaṃvit vyañjakaśabdaprayogasāmarthyaṃ ca |
+	<quote>
+	  <lg>
+	    <l>agrāmye saralodāravidagdhacchekadakṣiṇā |</l>
+	  </lg>
+	</quote>
+	iti <title>vaijayantī</title> |</s>
+	<s>boddhṛtvavidagdhatvavyapadeśayoḥ śabdārthasādhanajñānamātravyaṅgyajñānakāryatvasya kāvyaprakāśe pratipādanāt |</s>
+	<s><quote>paṇḍito vāpyanātmavān</quote> iti mahābhārate ca paṇḍitātmavatorbhedapratipādanāt |</s>
+	<s><quote>guṇavacanabrāhmaṇādibhyaḥ karmaṇi ca</quote> <note type="reference">5-1-124</note> iti ṣyañ |</s>
+	<s><ref target="MaMa.1.10">ced</ref> iti |</s>
+	<s>anena parīkṣakān prati yatnataḥ parīkṣaṇaprārthanā sūcyate |</s>
+	<s>atra pūrvārdhe kṛtasya kathanasyākṣepādākṣepaḥ |</s>
+	<s>uttarārdhe yadyarthoktau kalpanādatiśayoktirarthāpattiścālaṅkāraḥ |</s>
+	<s><quote>asti dakṣiṇāpatha</quote> ityādinā pāṇḍityavaidagdhyayor ity antena prakaraṇena bharatavihitetikartavyatārūpasambandhābhidheyaprayojanajñāpanārthaṃ kavinā svagotranāmanī pratipādite |</s>
+      </p>
+      <p>
+	<s><quote>yān udāharanty āryamiśrāḥ</quote> ityādinā pariṣadaḥ pūjā |</s>
+	<s><quote>bhūmnā rasānām</quote> ityādinā paramānandānubhavaḥ paramaprayojanam |</s>
+	<s>vyutpattyādayastvavāntaraphalāni sūcitāni |</s>
+	<s><quote>prakaraṇanāyakasya mālatīvallabhasya mādhavasya</quote> iti vakṣyamāṇena mālatīmādhavau nāyakau, tāvadhikṛtya kṛto grantho mālatīmādhavamiti prakaraṇanāma ca sūcitaṃ veditavyam |</s>
+	<s><quote>lubākhyāyikābhyaḥ pratyayasya bahulam</quote> <note type="reference">vā. 4-3-87</note> iti lup |</s>
+	<s>aṇ vā |</s>
+	<s>yathoktaṃ <name>bharatena</name>—
+	<quote>
+	  <lg>
+	    <l>gotraṃ nāma ca gṛhṇīyāt pūjāvākyaṃ ca pārṣadaḥ |</l>
+	    <l>nāṭakasya ca yannāma garbhanirdiṣṭalakṣaṇam ||</l>
+	  </lg>
+	</quote>
+	iti |</s>
+	<s>atha
+	<quote>
+	  <lg>
+	    <l>divyamartye sa tadrūpo miśramanyatarastayoḥ |</l>
+	    <l>sūcayedvastubījaṃ vā mukhaṃ pātramathāpi vā ||</l>
+	  </lg>
+	</quote>
+	iti vacanāt || 10 ||</s>
+      </p>
+    </note>
   </lg>
 </sp>
 
@@ -1065,12 +1615,38 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
 	 <orig>tā bhūmikās tadaiva bhāvena sarve vargyāḥ pāṭhitā |</orig>
 	 <reg>tāḥ bhūmikāḥ tadā eva bhāvena sarve vargyāḥ pāṭhitāḥ |</reg>
        </choice>
+       <note type="commentary" corresp="MaMa.1.10.1">
+         <p>
+	   <s>bhaṅgyā pātrasūcanamukhena kāvyārthaṃ sthāpayati—<ref target="MaMa.1.10.1"> naṭaḥ—tā</ref> iti |</s>
+	   <s><ref target="MaMa.1.10.1">tac</ref>chabdo ’nubhataṃ parāmṛśati |</s>
+	   <s><quote>tattadveṣas tu bhūmikā</quote> iti <title>vaijayantī</title> |</s>
+	   <s><ref target="MaMa.1.10.1">bhūmikā</ref>śabdenātra tadanuguṇaḥ kavivyāpārabhūtaḥ śabdasandarbha ucyate |</s>
+	   <s><quote>śṛṇuta manobhiravahitaiḥ kriyāmimāṃ kālidāsasya</quote> ity atra śṛṇuteti, na tu paśyatetyukteḥ |</s>
+	   <s><ref target="MaMa.1.10.1">tadaiva</ref> yadā svakṛtimarpitavān tadanantaramevetyarthaḥ |</s>
+	   <s><ref target="MaMa.1.10.1">vargyāḥ</ref> |</s>
+	   <s>asmadyūthabhavāḥ <quote>digādibhyo yat</quote> <note type="reference">4-3-55</note> |</s>
+	   <s><ref target="MaMa.1.10.1">pāṭhitāḥ</ref> adhyāpitāḥ |</s>
+	   <s><quote>gatibuddhipratyavasānārthaśabdakarmākarma<pb n="32" break="no"/>kāṇāmaṇi kartā sa ṇau</quote> <note type="reference">1-4-52</note> iti śabdakarmakatvād dvikarmakatā |</s>
+	 </p>
+       </note>
      </s>
      <s n="10.2">
        <choice>
 	 <orig>saugatajaratpravrājikāyās tu kāmandakyāḥ prathamāṃ bhāva evādhīte tadantevāsinyās tu aham avalokitāyāḥ |</orig>
 	 <reg>saugata-jarat-pravrājikāyāḥ tu kāmandakyāḥ prathamām bhāvaḥ eva adhīte tat-antevāsinyāḥ tu aham avalokitāyāḥ |</reg>
        </choice>
+       <note type="commentary" corresp="MaMA.1.10.2">
+	 <p>
+	   <s><ref target="MaMa.1.10.2">saugatajaratpravrājikāyāḥ</ref> bauddhasiddhāntavartinyā vṛddhāyāḥ sannyāsinyāḥ <ref target="MaMa.1.10.2">kāmandakī</ref>ti saṃjñā |</s>
+	   <s><ref target="MaMa.1.10.2">prathamāṃ</ref> sarvapātrādibhūtām |</s>
+	   <s><ref target="MaMa.1.10.2">adhīte</ref> paṭhati |</s>
+	   <s>tadantevāsinyāstacchiṣyāyāḥ |</s>
+	   <s><quote>śayavāsavāsiṣvakālāt</quote> <note type="reference">6-3-18</note> iti sampamyā aluk |</s>
+	   <s><ref target="MaMa.1.10.2">avalokite</ref>ti saṃjñā |</s>
+	   <s>adhīya iti sāmarthyāt puruṣavipariṇāmaḥ |</s>
+	   <s>bhūmikām iti ca tuśabdenākṛṣyate |</s>
+	 </p>
+       </note>
      </s>
    </p>
 </sp>
