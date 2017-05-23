@@ -56,8 +56,8 @@ function outline() {
       // the namespace is necessary to ge the XSLT working
       chapter.attr("xmlns","http://www.tei-c.org/ns/1.0");
       chapter.appendTo(fragment);
-      content = transformSanskrit(fragment,z[0]),
-      $(panelHeading).append(chapterlink);
+      content = transformSanskrit(fragment,z[0]), 
+     $(panelHeading).append(chapterlink);
       $('<div class="panel-body"></div>').append(content).appendTo(panelContent);
       $(chapterPanel).append(panelHeading);
       $(chapterPanel).append(panelContent);
@@ -76,17 +76,22 @@ function activateModals() {
     show: false
   });
   $(".hasModal").hover(function() {
-    $(this).children('span').css('background','#F0F0F0');
+    $(this).children('span :not(.chaya-toggle)').css('background','#F0F0F0');
     $(this).css('background','#F0F0F0');
   }, function() {
-    $(this).children('span').css('background','#FFF');
+    $(this).children('span :not(.chaya-toggle)').css('background','#FFF');
     $(this).css('background','#FFF');
   });
   $(".hasModal").css('cursor','pointer');
-  $(".hasModal").on('click',function(){
+  $(".hasModal").on('click',function(evt){
+    if(evt.target.class == "chaya-toggle")
+        return;
     var id = $(this).attr('id'),
         modalid = "modal-"+id.replace(/\./g,'\\.');
     $("#"+modalid).modal('toggle');
+  });
+  $(".chaya-toggle").on('click',function(e){
+    e.stopPropagation();
   });
 }
 
@@ -144,10 +149,6 @@ function preprocess(x) {
     .replace(/([rnmd]) ([gṅjñḍṇdnbmhyvrlaāiīuūeo])/g,"$1$2")
     .replace("aï","a####i")
     .replace("aü","a####u")
-    //.replace(/n ([gṅjñḍṇdnbmhyvrlaāiīuūeo])/g,"n$1")
-    //.replace(/m ([gṅjñḍṇdnbmhyvrlaāiīuūeo])/g,"m$1")
-    //.replace(/([śs]) ([ct])/g,"$1$2")
-    //.replace(/d ([gṅjñḍṇdnbmhyvrlaāiīuūeo])/g,"d$1")
     .replace(/([kcṭtpśsṣ]) ([kcṭtpśsṣ])/g,"$1$2")
     .replace(/([vy]) ([aāiīuūeo])/,"$1$2")
     .replace(/ḷ([aāiīuūṛṝ])/,"ḻ$1");
