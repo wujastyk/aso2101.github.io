@@ -2465,7 +2465,12 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
           <reg>na</reg>
         </choice>
       </w>
-      <w>paḍivādedi[pratipādayati],</w>
+      <w>
+        <choice type="chaya">
+	  <orig>paḍivādedi,</orig>
+	  <reg>pratipādayati,</reg>
+	</choice>
+      </w>
       <w>
         <choice type="chaya">
           <orig>jeṇa</orig>
@@ -2474,14 +2479,8 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
       </w>
       <w>
         <choice type="chaya">
-          <orig>coriā-</orig>
-          <reg>corikā-</reg>
-        </choice>
-      </w>
-      <w>
-        <choice type="chaya">
-          <orig>vivāhe</orig>
-          <reg>-vivāhe</reg>
+          <orig>coriāvivāhe</orig>
+          <reg>corikāvivāhe</reg>
         </choice>
       </w>
       <w>
@@ -2516,6 +2515,22 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
 	<reg>tat sākṣāt pratiṣedhaḥ kopāya śivaḥ tu ayam upāyaḥ || 14 </reg>
       </choice>
     </l>
+    <note type="commentary" corresp="MaMa.1.14">
+      <p>
+	<s>atra hetumāha—<ref target="MaMa.1.14">tāṃ yācata</ref> ityādi |</s>
+	<s><ref target="MaMa.1.14">narmasuhṛt</ref> krīḍāsu mitram |</s>
+	<s>vidūṣaka ity arthaḥ |</s>
+	<s>ata eva jarāvairūpyajaḍatvādidoṣaviśiṣṭatvaṃ sidhyati |</s>
+	<s>narmasuhṛd iti vāllabhyātiśayaṃ dyotayati |</s>
+	<s>nṛpamukhena natvātmamukheneti, rājamukhena punarapratyākhyeyatvam |</s>
+	<s><ref target="MaMa.1.14">sākṣāt pratiṣedhaḥ na dāsyāmī</ref>ti mukhataḥ pratyākhyānam |</s>
+	<s><ref target="MaMa.1.14">kopāya</ref> vikṛtaye |</s>
+	<s>narapater ity arthāt |</s>
+	<s><ref target="MaMa.1.14">tu</ref>śabdo bhinnakramaḥ |</s>
+	<s><ref target="MaMa.1.14">ayamupāyas</ref> tu śivaḥ, rājakopādyanarthaparihāreṇa śuddhaḥ |</s>
+	<s><ref target="MaMa.1.14">ayam</ref> iti mukhataḥ prārabdhacaurikāvivāharūpaḥ ||</s>
+      </p>
+    </note>
   </lg>
 </sp>
 
@@ -2604,22 +2619,34 @@ kālapriyanāthasya yātrā-prasaṅgena nānā-dik-anta-vāstavyaḥ mahā-jana
   <p>
     <s n="14.2">
       <choice>
-	<orig>saṃvaraṇam hi tat |</orig>
+	<orig>saṃvaraṇaṃ hi tat |</orig>
+	<reg>saṃvaraṇam hi tat |</reg>
       </choice>
+      <note type="commentary" corresp="MaMa.1.14.2">
+	<p>
+	  <s>pravṛttyanumeyatvaṃ prakāśayati—<ref target="MaMa.1.14.2">saṃvaraṇaṃ</ref> tat |</s>
+	  <s>mantraguptiḥ sā |</s>
+	  <s>gūḍhākāreṅgitatvam ity arthaḥ |</s>
+	</p>
+      </note>
     </s>
   </p>
   <pb n="43"/>
   <lg n="15">
     <l>
       <choice> 
-	<orig>viśeṣataḥ tu bālatvāt<caesura/>
-	      tayoḥ vivṛta-bhāvayoḥ |</orig>
+	<orig>viśeṣatas tu bālatvāt<caesura/>
+	      tayor vivṛtabhāvayoḥ |</orig>
+	<reg>viśeṣataḥ tu bālatvāt<caesura/>
+	      tayoḥ vivṛta-bhāvayoḥ |</reg>
       </choice>
     </l>
     <l>
       <choice>
-	<orig>tena mādhava-mālatyoḥ<caesura/>
-	      kāryaḥ sva-mati-nihnavaḥ || 15 ||</orig>
+	<orig>tena mādhavamālatyoḥ<caesura/>
+	      kāryaḥ svamatinihnavaḥ || 15 ||</orig>
+	<reg>tena mādhava-mālatyoḥ<caesura/>
+	      kāryaḥ sva-mati-nihnavaḥ || 15 ||</reg>
       </choice>
     </l>
   </lg>
