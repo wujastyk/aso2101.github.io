@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" 
+	  content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>The Sandeśarāsaka of Abdul Rahman</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body onload="initialize()">
+    <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top">
+	<div class="navbar-head">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+	    <span class="sr-only">Toggle navigation</span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="#">Sandeśarāsaka</a>
+	</div>
+
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <form class="navbar-form nav navbar-left">
+	    <div class="btn-group" id="scriptselector" data-toggle="buttons">
+	      <label class="btn btn-default">
+		<input type="radio" name="script" value="Deva">अ</input>
+	      </label>
+	      <label class="btn btn-default">
+		<input type="radio" name="script" value="Latn">a</input>
+	      </label>
+	    </div>
+	  </form>
+	  <ul class="nav navbar-nav navbar-right" style="margin-right:20px;">
+	    <li><a href="#modal-instructions" class="navbar-right" data-toggle="modal" data-target="#modal-instructions">Instructions</a></li>
+	  </ul>
+	</div>
+
+      </nav>
+
+      <div class="row">
+	<div class="col-sm-12" id="root"></div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/sanscript.js"/></script>
+    <script src="js/loader.js"></script><script src="js/bootstrap.min.js"></script>
+    <div id="modals">
+      <div id="modal-instructions" class="modal fade text-left" tabindex="-1" role="dialog" aria-labelledby="modal-instructions-label">
+	<div class="modal-dialog modal-lg" role="document">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <button type="button" class="close modal-close"  aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	      <h3 id="modal-instructions-label">Instructions</h3>
+	    </div>
+	    <div class="modal-body">
+	      <p>The text is from: Muni Jinavijaya and Harivallabh C. Bhayani (eds.), <em>Sandeśarāsaka of Abdul Rahman</em>. Singhi Jain Series no. 2.. Bombay: Bharatiya Vidya Bhavan, 1945. This was edited from three manuscripts, which they call <a href="#modal-A" class="app-wit" data-toggle="modal" data-target="#modal-A">A</a>, <a href="#modal-B" class="app-wit" data-toggle="modal" data-target="#modal-B">B</a>, and <a href="#modal-C" class="app-wit" data-toggle="modal" data-target="#modal-C">C</a></p>
+	      <p>For every verse, there may be one of any of the following five buttons on the right-hand side:</p>
+	      <ul class="ul-unstyled">
+		<li><button class="btn btn-default btn-sm">M</button> displays information about the <hi>metrical pattern</hi> of the verse.</li>
+		<li><button class="btn btn-default btn-sm">Ṭ</button> displays the <hi>ṭippanaka</hi> commentary from manuscript <a href="#modal-B" class="app-wit" data-toggle="modal" data-target="#modal-B">B</a> of the text.</li>
+		<li><button class="btn btn-default btn-sm">A</button> displays the <hi>avacūrikā</hi> commentary from manuscript <a href="#modal-A" class="app-wit" data-toggle="modal" data-target="#modal-A">A</a> of the text. (In most cases, the two commentaries are nearly identical.)</li>
+		<li><button class="btn btn-default btn-sm">T</button> displays my own working <hi>translation</hi> of the text.</li>
+		<li><button class="btn btn-default btn-sm">N</button> displays some  <hi>notes</hi>, including a glossary.</li>
+	      </ul>
+	      <p>This electronic text was put together by Andrew Ollett in June 2017.</p>
+	    </div>
+	    <div class="modal-footer">
+	      <button type="button" class="btn btn-primary modal-close">Close</button>
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

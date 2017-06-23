@@ -1,0 +1,179 @@
+body {
+  font-family: 'Matrka Serif', serif;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  padding-top:65px;
+}
+.Deva {
+  font-family: "Murty Sanskrit";
+  font-size:24px;
+}
+#scriptselector .btn {
+  height: 34px;
+  font-size:18px;
+  font-weight:normal!important;
+  padding: 3px 6px;
+}
+.panel-body {
+  font-size: 18px;
+}
+/* Formats line-groups (verses):
+      These are inline so that following
+      <ref> elements can be inline with the
+      last line of a verse. */
+.lg {
+  display:inline;
+}
+/* Format individual lines as block elements */
+.lg .l {
+  display:block;
+  margin-left:30px;
+}
+.lg .l+.lg .l:last-child {
+  display:inline-block;
+}
+.l:last-child, .l:last-of-type {
+  margin-bottom:10px;
+}
+.lg .l
+/* Add space after pāda-break (<lb type="pada"/>) */
+.caesura:after {
+  content: "\A\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0" !important;
+  white-space:pre;
+}
+.verse_offset {
+  content: "\00a0";
+  width:180px;
+  display:inline-block;
+}
+.title, .name {
+  font-weight:bold;
+}
+.quote {
+  background:#f0f0f0;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  padding:4px;
+}
+
+.quote .l {
+  background:#f0f0f0;
+  -moz-border-radius:4px;
+  border-radius:2px;
+  padding:2px;
+}
+..quote .l span {
+  display:inline;
+  background:#f0f0f0;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  padding:2px;
+}
+.quote.block {
+  padding-left:2em;
+}
+.ref {
+  color:#999;
+}
+.ref:before {
+  content:"[";
+}
+.ref:after {
+  content:"]";
+}
+.reference {
+  font-weight:bold;
+}
+.foreign {
+  font-style:italic;
+}
+/*
+.prakritword {
+  background: url(../images/HlfA2is.gif) bottom repeat-x;
+}
+*/
+.sanskritword {
+  display:none;
+  color:#777;
+}
+.sanskritword:before {
+  content:"\00a0\ = \00a0";!important;
+}
+.verse-label {
+  display:none;
+}
+/* for drama */
+.stage:before {
+  content:"(";
+}
+.stage:after {
+  content:")";
+}
+.stage {
+  margin-right:6px;
+  color:#999;
+}
+.stage-sp {
+  display:inline;
+}
+.stage-center {
+  display:block;
+}
+.stage.division {
+  font-size:20px;
+}
+div.sp {
+  display:block;
+}
+p.sp {
+  display:inline-block;
+}
+.speaker {
+  display:inline;
+  text-transform:uppercase;
+}
+
+/* miscellaneous things */
+.panel-title a {
+  text-decoration:none;
+}
+.cust-label {
+  display:block;
+  margin-left:300px;
+  margin-bottom:10px;
+}
+.cust-label.initial {
+  margin-left:60px;
+}
+.squarebrackets::before {
+  content:"[";
+}
+.squarebrackets::after {
+  content:"]";
+}
+.modal-quote {
+  padding:15px;
+  font-size:14pt;
+}
+.modal-body, .modal-body .tab-pane {
+  padding:10px;
+  font-size:14pt!important;
+}
+.app-note, .app-lem, .app-wit {
+  text-decoration:none!important;
+}
+.app-wit {
+  font-weight:bold;
+}
+.app-reading .Deva {
+  font-size:12pt!important;
+}
+h3.glossary {
+  font-variant:small-caps;
+  letter-spacing:2px;
+}
+.btn-default {
+  font-weight:bold;
+}

@@ -1,0 +1,2521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sandesarasaka">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sandeśarāsaka</title>
+        <author>Abdul Rahaman</author>
+        <editor>Jinavijaya Muni</editor>
+        <editor>Harivallabh Bhayani</editor>
+        <respStmt>
+          <name xml:id="ao">Andrew Ollett</name>
+          <resp>Transcription and TEI markup</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<p>SARIT publication statement
+        <date when="2011-08-20">August 20th, 2011</date>
+	</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+	  <monogr>
+	    <editor>
+	      <name>
+		<surname>Bhayani</surname>
+		<forename>Harivallabh</forename>
+	      </name>
+	    </editor>
+	    <editor>
+	      <name>Jinavijaya Muni</name>
+	    </editor>
+            <title level="m">Sandeśarāsaka of Abdul Rahman</title>
+            <imprint>
+              <publisher>Bharatiya Vidya Bhavan</publisher>
+              <pubPlace>Bombay</pubPlace>
+              <date when="1945">1945</date>
+            </imprint>
+	  </monogr>
+          <series>
+            <title level="s">Singhi Jain Series</title>
+            <biblScope unit="number">22</biblScope>
+            <respStmt>
+              <resp>General Editor</resp>
+              <name>Jinavijaya Muni</name>
+            </respStmt>
+          </series>
+        </biblStruct>
+        <listWit>
+          <witness xml:id="A"><bibl>Bhandarkar Oriental Research Institute,
+            Ms. number 181 of 1881-1882</bibl>, 12 leaves, on each 11-12 lines with a line of Sanskrit (<foreign xml:lang="san-Latn">avacūrikā</foreign>) written above each line, apparently in a different hand. Jain Devanāgarī. Scribe of <foreign xml:lang="san-Latn">avacūrikā</foreign>: Paṃ. Nayasamudra.	Includes (e.g.) marginal definition of Raḍḍā meter (from Nandaḍḍha) copied as part of main text in stanza 18, similarly Paddhaḍī in stanza 21.</witness>
+          <witness xml:id="B">Ms. from Jñānabhaṇḍār of Ācārya Śrī Jinaharisāgarjī at Lohāvaṭ in Marwar, 28 leaves. Completed at Hisāradurga (Hisār fort in the Punjab) on the 8th day of the bright half of Āṣādha, Wednesday. Contains a Sanskrit ṭippaṇa with many errors, authored by Lakṣmīcandra, a disciple of Devendrasūri of the Rudrapallīya Gaccha; his belonged to the Prāgvāṭa family (i.e. the Porwāḍ caste of the Banias) and his father's name was Hāliga and his mother's Tilakhū; commentary composed in 1465 VS. He says that he copied it from the exposition of a Kṣatriya named Gāhaḍa. </witness>
+          <witness xml:id="C">From a Bhaṇḍār at Pātan, 17 leaves, Jain Devanāgarī. Copyist is Muni Mānasāgara, a discipline of Upādhyāya Devasāgara, at the behest of a Bhaṭṭāraka. Looks like it was written 1700-1750 VS. Text only.</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>SARIT encoding description: using ṃ for anusvāra and ṁ for anunāsika</p>
+      <variantEncoding method="location-referenced" location="internal" />
+      <metDecl>
+	<p xml:id="Ābhāṇaka">The <hi rend="bold">ābhāṇaka</hi> or <hi rend="bold">rāsaka</hi> meter:
+	<graphic url="images/abhanaka.jpg"/>
+	<quote>
+	  <lg>
+	    <l>matta hohi caürāsī cahu paya cāri kala<caesura/>
+	       te saṭhi joṇi nibaṃdhī jāṇahu cahu a dala |</l>
+	    <l>paṃcakkalu vajjijjahu gaṇu suṭṭhuvi gaṇahu<caesura/>
+	       so vi āhāṇaü chaṃdu ke vi rāsaü muṇahu ||</l>
+	  </lg>
+	</quote>
+	</p>
+	<p xml:id="Dohā">The <hi rend="bold">dohā</hi> meter is composed of four short quarters. The odd and even quarters in a line contain 13 and 11 <hi>mātrā</hi>s, respectively. The even quarters of a <hi>dohā</hi> must end in a group of three <hi>mātrā</hi>s, usually a heavy syllable followed by a light syllable. Moreover, this three-<hi>mātrā</hi> unit rhymes between the second quarter and the fourth (i.e., between the first and second line).</p>
+	<p xml:id="Gāthā">The <hi rend="bold">gāthā</hi> is the most common meter of Prakrit poetry. It consists of two lines which are each composed of seven and a half alternating groups (<hi>gaṇa</hi>s) of syllables. Each of these group (<hi>gaṇa</hi>) must add up to four moras (or <hi>mātrā</hi>s). The odd groups (i.e., <hi>gaṇa</hi>s 1, 3, 5, and 7) must not contain a ‘syncopated’ rhythm, that is, LGL or L|LLL (the latter stands for four light syllables with a word break between the first and the second, which causes the <hi>gaṇa</hi> to be parsed as syncopated rather than unsyncopated). Additionally, the sixth group of the first line <hi>must</hi> be syncopated. The line ends in a ‘half’ group, which is always a single syllable (with the weight of two moras). The second line is identical to the first, except that the sixth group is made up a single light syllable rather than a group of syllables adding up to four moras.</p>
+	<p xml:id="Vastuka">The <hi rend="bold">vastuka</hi> meter: more on this soon...</p>
+      </metDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2017-06-20" who="#AO">Started work on this again (after 6 years!)</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <!--
+      <div n="1" type="prakrama">
+	<head>prathamaḥ prakramaḥ</head>
+	<pb n="1"/>
+	<lg xml:id="SaRā.001" type="āryā">
+	  <l xml:id="SaRā.001ab">rayaṇāyaradharagiritaruvarāiṁ gayaṇaṃgaṇaṃmi 
+          <app>
+            <lem>rikkhāiṃ</lem>
+            <rdg wit="#C">rikkhāo</rdg>
+            </app> | 
+	  </l>
+	  <l xml:id="SaRā.001cd">jeṇa 'jja sayala 
+          <app>
+            <lem>siriyaṃ</lem>
+            <rdg wit="#B #C">siriyā</rdg>
+          </app> 
+          <app>
+            <lem>so</lem>
+            <rdg wit="#B">taṃ</rdg>
+          </app> 
+          <app>
+            <lem>buhayaṇa</lem>
+            <rdg wit="#C">buhiyaṇa</rdg>
+            </app> vo 
+            <app>
+              <lem>sivaṃ</lem>
+              <rdg wit="#A #C">suhaṃ</rdg>
+            </app> 
+            <app>
+              <lem>deu</lem>
+              <rdg wit="#C">diṃtu</rdg>
+              </app> || 1 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippaṇaka">
+            <p>|| OM namo gurubhyaḥ ||</p>
+            <lg>
+              <l>natvā jina-gurūn bhaktyā smṛtvā vāṅmayadevatām |</l>
+              <l>vṛttiṃ sandeśarāsasya kurute munipuṅgavaḥ || 1 ||</l>
+            </lg>
+            <p>tasyādyāṃ gāthām āha — <app><lem>granthaprā</lem><rdg>grantaḥ prā-</rdg></app>rambhe abhīṣṭadevatāpraṇidhānapradhānā <app><lem>prekṣāvatāṃ</lem><rdg>preṣavatāṃ</rdg></app> pravṛttir ity aucityāt sūtrasya prathamanamaskāragāthā |</p>
+            <p>[1] yathā — ‘rayaṇā-’ — bho budhajanāḥ! sa <app><lem>sraṣṭā</lem><rdg>śraṣṭā</rdg></app> — kartā vaḥ — yuṣmākaṃ śivaṃ māṅgalyaṃ dadātu — prakarotu | yena sraṣṭrā ratnākara-dharā-giri-<app><lem>taru</lem><rdg>tara</rdg></app>varāḥ, gaganāṅgaṇe <app><lem>ṛkṣā</lem><rdg>rikṣā</rdg></app>ṇi cetyādi sakalaṃ — samastam, sṛṣṭaṃ — utpādi[tam] ity arthaḥ || 1 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p>[1] bho budhajanāḥ ! sa sṛṣṭikarttā vaḥ — yuṣmākaṃ śivaṃ dadātu | yena <app><lem>sraṣṭrā</lem><rdg>śraṣṭhā</rdg></app> ratnākara-dharā-giri-taruvarā gaganāṅgaṇe ṛkṣāṇi <app><lem>cetyādi</lem><rdg>caityādi</rdg></app> sakalaṃ — samastaṃ <app><lem>sṛṣṭam</lem><rdg>śraṣṭā</rdg></app> utpāditam ity arthaḥ ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Oceans, lands, mountains, trees, the stars in the courtyard of the sky—may he who created everything, learned ones, grant you prosperity.</p>
+	  </note>
+	</lg>
+	
+	<pb n="2"/>
+	<lg xml:id="SaRā.002" type="āryā">
+	  <l xml:id="SaRā.002ab">māṇussadivvavijjāharehiṁ 
+          <app>
+            <lem>ṇaha</lem>
+            <rdg wit="#C">naha</rdg>
+            </app>maggi sūra-sasibiṃbe |
+	  </l>
+	  <l xml:id="SaRā.002cd">āehiṁ jo ṇami<app>
+          <lem>jjaï</lem>
+          <rdg wit="#B">jjaïṃ</rdg>
+          </app> taṃ ṇayare 
+          <app>
+            <lem>ṇamaha</lem>
+            <rdg wit="#A">namaha</rdg>
+            <rdg wit="#B">ṇavahu</rdg>
+            </app> kattāraṃ || 2 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[2] tathā ca — ‘māṇusa-’ manuṣya-deva-vidyādharair nabhomārge sūrya-śaśibimbābhyāṃ ādito yo <app><lem>namaskriyate</lem><rdg>namaskṛyate</rdg></app> | bho nāgarikalokāḥ ! taṃ karttāraṃ namata || 2 ||</p>
+	    <quote>
+	      <lg>
+		<l>dvandvālāpanameṣajabhojanasamaye samāga[me] ca ramaṇīnām |</l>
+		<l>anivārito 'pi tiṣṭhati sa khalu sakhe! vyaktanāgarikaḥ ||</l>
+	      </lg>
+	    </quote>
+	    <p>yas tv eteṣu sthāneṣu anivāritaḥ — aniṣedhitaḥ tiṣṭhati sa nā<app><lem>gari</lem><rdg>garī</rdg></app>kaḥ procyate | keṣu keṣu sthānakeṣu — yatra kaścid ālocaṃ karoti, athavā yatrauṣadhādivārttā kriyate, tathā bhojanāvasare kasyāpi gehe na gacchati | athavā ekāntapradeśe, strīsamāgame ca, vārtāsamaye, yas tu aniṣedhito 'pi tiṣṭhati | sa caturanāgariko bhavati ||</p>
+	    <p>eṣā (etad?) vipulāgāthāchandaḥ | atha gāthālakṣaṇam —</p>
+	    <cit>
+	      <quote>
+		<lg>
+		  <l>paḍhamo bārahamatto, bīo aṭṭhārasehiṃ nāyavvo |</l>
+		  <l>jaha paḍhamo taha tīo, daha paṃcavi[hū]siyā gāhā ||</l>
+		</lg>
+	      </quote>
+	      <ref resp="ao">cf. Prākṛtapiṅgala 54</ref>
+	    </cit>
+	    <p>tatra gāthāchandasi prathamapadaṃ dvā<app><lem>daśa</lem><rdg>dasa</rdg></app>mātṛkam, dvitīyaṃ padaṃ aṣṭādaśamātṛkam, tṛtīyaṃ dvādaśamātṛkam, caturthaṃ pañcadaśamātṛkam | evaṃ sarvatra jñeyam |</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p>mānuṣyadevavidyādharair nabhomārge sūryaśaśibimbābhyām ādito <app><lem>yo</lem><rdg>ye</rdg></app> namas<app><lem>kriyate</lem><rdg>kṛyate</rdg></app> bho nāgarikās taṃ kartāraṃ <app><lem>namata</lem><rdg>namataḥ</rdg></app> ||</p>
+	    <quote>
+	      <lg>
+		<l>dvandvālāpanameṣajabhojanasamaye samāgame ca ramaṇīnām |</l>
+		<l>anivārito 'pi tiṣṭhati, sa khalu sakhe! vyaktanāgarikaḥ ||</l><note place="app">A <foreign xml:lang="sa">ādarśasthitā nāgarikaśabdopari ṭippaṇī |</foreign></note>
+	      </lg>
+	    </quote>
+	  </note>
+	  <note type="translation">
+            <p>By men, gods, and Vidyādharas, by the orbs of the sun and moon in heaven's course—do reverence to that creator, urbane ones, who is reverenced by them.</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.003" type="āryā">
+	  <l xml:id="SaRā.003ab">paccāesi pahūo puvvapasiddho ya miccha<app>
+          <lem>deso tthi</lem>
+          <rdg wit="#A">deso vi</rdg>
+          <rdg wit="#B">desu tthi</rdg>
+          </app> |</l>
+	  <l xml:id="SaRā.003cd">taha visae saṃbhūo āraddo mīraseṇassa || 3 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>abhīṣṭadevatānamaskāram uktvā kaviḥ svadeśādisvarūpam āha — ‘paccāesi-’ — pratīcyāṃ — paścimadiśi, prabhūtaḥ pūrvvaprasiddho mlecchanāmā deśo 'sti | tatra viṣaye ‘āraddo’ deśītvā[t] tantuvāyo mīra<app><lem>senākhyaḥ</lem><rdg>senākṣyaḥ</rdg></app> saṃbhūtaḥ  — utpannaḥ || 3 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[3] kaviḥ svadeśādisvarūpam āha — pratīcyāṃ — paścimāyām, prabhūtaḥ — pradhānaḥ, pūrvaprasiddho mlecchanāmā deśo 'sti | tatra ‘āraddo’ deśītvāt tantuvāyo mīrasenākhyaḥ sambhūtaḥ — utpannaḥ</p>
+	  </note>
+	  <note type="translation">
+            <p>In the western region there is a powerful and famous country of Mlecchas. In that area was born a weaver named Mīrasena.</p>
+	  </note>
+	</lg>
+	<pb n="3"/>
+	<lg xml:id="SaRā.004" type="āryā"> 
+	  <l xml:id="SaRā.004ab">taha taṇao 
+          <app>
+            <lem>kula</lem>
+            <rdg wit="#A">kuli</rdg>
+            </app>kamalo 
+            <app>
+              <lem>pāiya</lem>
+              <rdg wit="#A">pāīya</rdg>
+              </app>kavvesu gīya<app>
+              <lem>visayesu</lem>
+              <rdg wit="#C">visaesu</rdg>
+              </app> |
+	  </l>
+	  <l xml:id="SaRā.004cd">addahamāṇapasiddho 
+          <app>
+            <lem>saṃnehaya</lem>
+            <rdg wit="#B">saṃneha</rdg>
+            <rdg wit="#C">saṃnnehaï</rdg>
+            </app>rāsayaṃ 
+            <app>
+              <lem>raïyaṃ</lem>
+              <rdg wit="#A">raīyaṃ</rdg>
+              </app> || 4 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[4] tasya — mīrasya tanayaḥ, kule kamala iva kulakamalaḥ, prākṛtakāvyeṣu gītaviṣayeṣu, prasiddhaḥ — labdha<app><lem>rekhaḥ</lem><rdg>reṣaḥ</rdg></app> abdala rahamāna nāmā abhūt | tena <app><lem>sandeśā</lem><rdg>saṃdesā</rdg></app>nāṃ <app><lem>rāsakaḥ</lem><rdg>rāsakaṃ</rdg></app> nāmā 'pabhraṃśagranthaḥ kṛtaḥ || 4 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[4] tasya — mīrasenasya tanayaḥ kulakamalaḥ prākṛtakāvye gītaviṣayeṣu bhogeṣu ca prasiddho labdharekho abdala rahamāno 'bhūt | tena sandeśa<app><lem>rāsakaṃ</lem><rdg>rāśakaṃ</rdg></app> [nāma] śāstraṃ kṛtam ||</p>
+	  </note>
+	  <note type="translation">
+            <p>His son was the lotus of the family in Prakrit poetry and subjects of song, known as Addahamāṇa. He composed the Saṃdeśarāsaka.</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.005" type="āryā">
+	  <l xml:id="SaRā.005ab">puvvaccheyāṇa 
+          <app>
+            <lem>ṇamo</lem>
+            <rdg wit="#B">namo</rdg>
+            </app> sukaīṇa 
+            <app>
+              <lem>ya</lem>
+              <rdg wit="#C">i</rdg>
+              </app> saddasatthakusalāṇa |
+	  </l>
+	  <l xml:id="SaRā.005cd">
+            <app>
+              <lem>tiya</lem>
+              <rdg wit="#A">tia</rdg>
+              </app>loe 
+              <app>
+		<lem>succhaṃdaṃ</lem>
+		<rdg wit="#C">sacchaṃdaṃ</rdg>
+		</app> jehiṁ kayaṃ 
+		<app>
+		  <lem>jehi</lem>
+		  <rdg wit="#B">je</rdg>
+		</app>
+		<app>
+		  <lem>ṇiddiṭṭhaṃ</lem>
+		  <rdg wit="#B">nidiṭṭhaṃ</rdg>
+          </app> || 5 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[5] kaviḥ svasvarūpam uktvā 'nauddhatye[na] pūrvvakavīn namaskārapūrvvaṃ vyāvarṇayann āha — ‘puvvaccheyāṇa-’ — pūrvvachekebhyaḥ sukavibhyaś ca namo 'stu | kīdṛśebhyaś chekebhyaḥ kavibhyaś ca śabdaśāstrakuśalebhyaḥ | yais triloke = svargga-mṛtyu-pātālarūpe | sva(su)cchandam — sva(su)cchando vidyate yasmin tat sa(su)cchandaṃ śāstraṃ kṛtam | yaiś ca nirdiṣṭaṃ so(śo)dhitam ity arthaḥ | ataḥ kavibhiḥ kṛtaṃ paṇḍitaiḥ so(śo)dhitam || 5 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[5] pūrvacchekebhyaḥ sukavibhyaś ca namo 'stu | kīdṛśebhyaḥ śabdaśāstrakuśalebhyaḥ | triloke yaiḥ succhandaḥśāstraṃ kṛtam | yaiś ca nirdiṣṭaṃ, <app><lem>śodhitaṃ</lem><rdg>sodhitaṃ</rdg></app>, pravarttāpitam ||</p>
+            <p>paṇḍita-kavyo[raṃ]taraṃ kṛtaṃ mayūreṇa yathā</p>
+            <quote>
+              <lg>
+		<l>tūrṇamānīyatām cūrṇaṃ, pūrṇacandranimānena |</l>
+		<l>kavaye bāṇabhaṭṭāya, paṇḍitāya ca daṇḍine || 1 ||</l>
+              </lg>
+            </quote>
+	  </note>
+	  <note type="translation">
+            <p>Reverence to clever ones of the past, and to good poets skilled in the disciplines of language, who in the triple world have invented and defined good meters,</p>
+	  </note>
+	  
+	</lg>
+	<lg xml:id="SaRā.006" type="āryā">
+	  <l xml:id="SaRā.006ab">
+            <app>
+              <lem>avahaṭṭaya</lem>
+              <rdg wit="#B">avahaṭṭaï</rdg>
+              </app>-<app>
+              <lem>sakkaya</lem>
+              <rdg wit="#B">sakkaï</rdg>
+              </app>-<app>
+              <lem>pāiyaṃmi</lem>
+              <rdg wit="#B">pāiyāiṃ</rdg>
+              <rdg wit="#A">pāiyaṃ ca</rdg>
+            </app> 
+            <app>
+              <lem>pesāiyaṃmi</lem>
+              <rdg wit="#B">pesāiyāṇa</rdg>
+              </app> bhāsāe |
+	  </l>
+	  <l xml:id="SaRā.006cd">lakkhaṇachaṃdāharaṇe 
+          <app>
+            <lem>sukaïttaṃ</lem>
+            <rdg wit="#C">sakavittaṃ</rdg>
+          </app> 
+          <app>
+            <lem>bhūsiyaṃ</lem>
+            <rdg wit="#C">bhūsiya</rdg>
+          </app> jehiṃ || 6 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[6] apa<app><lem>bhraṃśa</lem><rdg>bhraṃśaḥ</rdg></app>-saṃskṛta-prākṛta-paiśācikādicaturbhir bhāṣābhiḥ, <app><lem>yaiḥ</lem><rdg></rdg></app> kavitvaṃ kṛtam, lakṣaṇa-cchandaābharaṇābhyāṃ tac ca vibhūṣitam, tebhyo namaḥ || 6 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[6] apabhraṃśa-saṃskṛta-prākṛta-paiśācikabhāṣayā sukavitvaṃ śobhanaṃ kāvyaṃ yaiḥ kṛtam | anyac ca lakṣaṇa-cchanda-ābharaṇābhyāṃ bhūṣitaṃ maṇḍitaṃ ca ||</p>
+	  </note>
+	  <note type="translation">
+            <p>who have adorned their good poetry with the necklace of grammar and metrics in the Apabhramsha, Sanskrit, Prakrit and Paishachi languages.
+	    </p>
+	  </note>
+	</lg>
+	<pb n="4"/>
+	<lg xml:id="SaRā.007" type="āryā">
+	  <l xml:id="SaRā.007ab">tāṇa 'ṇu 
+          <app>
+            <lem>kaīṇa</lem>
+            <rdg wit="#A #C">kaī</rdg>
+            </app> amhārisāṇa 
+            <app>
+              <lem>sui</lem>
+              <rdg wit="#C">suya</rdg>
+          </app>saddasattharahiyāṇa |</l>
+	  <l xml:id="SaRā.007cd">lakkhaṇachaṃdapamukkaṃ 
+          <app>
+            <lem>kukavittaṃ</lem>
+            <rdg wit="#B">kukaïttaṃ</rdg>
+            </app> ko pasaṃsei || 7 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[7] teṣāṃ satkavīnām, anu — paścāt, asmādṛśānāṃ kavīnām, śruti-śabda-śāstrarahitānāṃ kavitvaṃ, lakṣaṇa-cchandobhyāṃ pramuktam, kaḥ praśaṃsayati? — api tu na ko 'pi || 7 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[7] teṣāṃ kavīnām, anu — paścāt śrutiśabdaśāstrarahitānām asmādṛśāṃ lakṣaṇacchandapramuktaṃ kutsitaṃ kavitvaṃ kaḥ praśaṃsati ? api tu na ko 'pi ||</p>
+	  </note>
+	  <note type="translation">
+            <p>After them, who will praise the bad poetry, bereft of grammar and metrics, of poets like myself who lack both śruti and the disciplines of language?</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.008" type="āryā">
+	  <l xml:id="SaRā.008ab">ahavā ṇa 
+          <app>
+            <lem>ittha</lem>
+            <rdg wit="#B #C">atthi</rdg>
+            </app> doso jaï uiyaṃ 
+            <app>
+              <lem>sasahareṇa</lem>
+              <rdg wit="#A #C">sasiharaṃmi</rdg>
+              </app> ṇisi<app>
+              <lem>samae</lem>
+              <rdg wit="#B">samaye</rdg>
+              </app> |
+	  </l>
+	  <l xml:id="SaRā.008cd">tā kiṃ ṇa hu joijjaï bhuaṇe 
+          <app>
+            <lem>rayaṇīsu</lem>
+            <rdg wit="#A">rayaṇīi</rdg>
+            <rdg wit="#C">raïṇei</rdg>
+          </app> 
+          <app>
+            <lem>joikkhaṃ</lem>
+            <rdg wit="#C">joikke</rdg> 
+            </app> || 8 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[8] tarhi mā kuryās tadartham āha —‘ahavā ṇa-’ — athavā <app><lem>ityu</lem><rdg>ityo</rdg></app>pāyāntarasmaraṇe, nātra doṣaḥ | yadi <app><lem>śaśa</lem><rdg>śaśi</rdg></app>dhareṇa — candreṇa niśi uditam, tarhi rajanīṣu bhu(bha)vane — gṛhe jyotiṣkaṃ dīpaṃ kiṃ na <app><lem>dyotate</lem><rdg>dyotyate</rdg></app> ?, api tu dyotate || 8 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[8] tarhi mā kuryās tadartham āha — athavetyupāyāntarasmaraṇe, nātra doṣaḥ | yadi śaśadhareṇa niśyuditaṃ tarhi rajanīṣu jyotiṣkaṃ dīpaṃ bhu(bha)vane gṛhe jiṃ na dyotate ?, api tu udyotate ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Rather, there's no fault here: if the moon rises at nighttime, then is a little houselamp really not to shine?</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.009" type="āryā">
+	  <l xml:id="SaRā.009ab">jaï 
+          <app>
+            <lem>para</lem>
+            <rdg wit="#C">paru</rdg>
+          </app><app>
+          <lem>huehiṃ</lem>
+          <rdg wit="#B">hueṇa</rdg>
+          </app> raḍiyaṃ sarasaṃ 
+          <app>
+            <lem>sumaṇo</lem>
+            <rdg wit="#A">sumano</rdg>
+          </app>haraṃ ca tarusihare |</l>
+	  <l xml:id="SaRā.009cd">tā kiṃ bhuvanārūḍhā mā kāyā karakarāyaṃtu || 9 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[9] parabhṛtābhiḥ — kokilābhiḥ yadi sarasaṃ sumanoha[raṃ] yathā bhavati tathā tarusihare(śikhare)raṭitam, tarhi bhu(bha)vaṇā(nā)rūḍhāḥ gṛhavali(la)bhisthitāḥ kākā mā karakarāyantu — karakara iti śabdaṃ mā kurvantu ?, api tu kurvantu || 9 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[9] yadi prabhṛtābhiḥ — kokilābhiḥ sarasaṃ — sumanoharaṃ yathābhraśikhare raṭitam — śabditam, tarhi kiṃ bhu(bha)vanārūḍhāḥ kākā mā karakarāyantu ?, [api tu karakarāyantu ] kas tān vārayati ||</p>
+	  </note>
+	  <note type="translation">
+            <p>If a cuckoo chirps an exquisite and captivating song in the treetop, then is the crow in the rafters of the house not to caw?</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.010" type="āryā">
+	  <l xml:id="SaRā.010ab">taṃtīvāyaṃ 
+          <app>
+            <lem>ṇisuyaṃ</lem>
+            <rdg wit="#A #C">nisuyaṃ</rdg>
+          </app> jaï kiri karapallavehi aïmahuraṃ |</l>
+	  <l xml:id="SaRā.010cd">tā 
+          <app>
+            <lem>maddala</lem>
+            <rdg wit="#A">maddali</rdg>
+            </app>karaḍiravaṃ mā 
+            <app>
+              <lem>summaü</lem>
+              <rdg wit="#C">summaï</rdg>
+              </app> rāma<app>
+              <lem>ramaṇesu</lem>
+              <rdg wit="#A">ravaṇesu</rdg>
+              </app> || 10 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[10] yadi tantrī — vīṇāvāditram, kila iti saṃbhāvanāyām, karapallavaiḥ — hastāṅgulībhiḥ vāditaṃ nitarāṃ śrutam, tarhi mardalakaraṭivāditre rāma(mā)ramaṇī(ṇe)ṣu — strīkrīḍāsu, mā <app><lem>śrūyatām</lem><rdg>śrusyatām</rdg></app> ?, api tu śrūyatām || 10 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[10] tantrī — vīṇāvādaṃ śrutaṃ yadi cet karapallavair atimadhuram, tarhi mardalakaraṭa(ṭi)vāditraviśeṣaravaṃ rāmāramaṇeṣu — strīkrīḍāsu mā śrūyatām ?, api tu śrūyatām ||</p>
+	  </note>
+	  <note type="translation">
+            <p>If the sweet sound of the vīṇā is heard, played as it were by bud-like hands, then is the sound of dholaks and cymbals at gatherings of women not to be heard?</p>
+	  </note>
+	</lg>
+	<pb n="5"/>
+	<lg xml:id="SaRā.011" type="āryā">
+	  <l xml:id="SaRā.011ab">jaï 
+          <app>
+            <lem>mayagalu</lem>
+            <rdg wit="#B">maïgalu</rdg>
+            <rdg wit="#C">maïgala</rdg>
+            </app> maü jharae 
+            <app>
+              <lem>kamala</lem>
+              <rdg wit="#A">kavala</rdg>
+              <rdg wit="#B">kamalā</rdg>
+              </app>dalabbahalagaṃdhaduppiccho |
+	  </l>
+	  <l xml:id="SaRā.011cd">jaï 
+          <app>
+            <lem>aïrāvaï</lem>
+            <rdg wit="#B">erāvaï</rdg>
+            </app> matto tā sesagayā ma 
+            <app>
+              <lem>maccaṃtu</lem>
+              <rdg wit="#B">muccaṃtu</rdg>
+              </app> || 11 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[11] yadi mataṅgajaḥ — diggajo madaṃ jharati, kīdṛśaḥ kamaladalapracuragandhaduḥprekṣaḥ | anyac ca — yadi airāvaṇo matto bhavati, tarhi <app><lem>śeṣā</lem><rdg>seṣā</rdg></app> gajā mattā na bhavanti ?, api tu bhavanty eva || 11 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[11] yadi mataṅgajāḥ — diggajaḥ kamaladalabahalagandhaduḥprekṣaṃ [madaṃ] jharati, anyac ca — airāpatiḥ — airāvaṇo matto bhavati; tadā śeṣagajāḥ kiṃ madaṃ mā jharantu — mā mādyantu ?, api tu mādyantu ||</p>
+	  </note>
+	  <note type="translation">
+            <p>If Madakala streams with rut, overpowering like the strong fragrance of lotus-leaves, if Airāvata ruts, then are the other elephants not to rut?</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.012" type="āryā">
+	  <l xml:id="SaRā.012ab">jaï atthi pārijāo 
+          <app>
+            <lem>bahuviha</lem>
+            <rdg wit="#A">bāhuvihi</rdg>
+            </app> gaṃdhaḍḍha<app>
+            <lem>kusuma</lem>
+            <rdg wit="#C">kusama</rdg>
+            </app> āmoo |
+	  </l>
+	  <l xml:id="SaRā.012cd">phullaï suriṃdabhuvaṇe tā sesatarū ma phullaṃtu || 12 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[12] yadi pārijāto bahuviha(dha)gandhāḍhyakusumāmodo 'sti, anyac ca — surendrabhavane praphullati, tarhi śeṣataravaḥ kiṃ na phullantu ?, api tu phullantu || 12 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[12] yadi pārijāto 'sti, kīdṛg ? bahuvidhagandhās tryakusumāmodaḥ, surendrabhu(bha)vane praphullati, tarhi śeṣās taravo mā phullantu ?, api tu phullantu || 12  ||</p>
+	  </note>
+	  <note type="translation">
+            <p>If the pārijāta flower, with the fragrance of flowers rich in various smells, blossoms in Indra's heaven, then are other plants not to blossom?</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.013" type="āryā">
+	  <l xml:id="SaRā.013ab">jaï atthi 
+          <app>
+            <lem>ṇaī</lem>
+            <rdg wit="#A #C">naī</rdg>
+            </app> gaṃgā tiyaloe ṇiccapayaḍiyapahāvā |
+	  </l>
+	  <l xml:id="SaRā.013cd">vaccaï sāyara<app>
+          <lem>samuhā</lem>
+          <rdg wit="#C">samuhaṃ</rdg>
+          </app> tā sesasarī ma 
+          <app>
+            <lem>vaccaṃtu</lem>
+            <rdg wit="#C">maccaṃtu</rdg>
+            </app> || 13 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[13] yadi gaṅgā nāma nadī asti, triloke nityaṃ praga(ka)ṭitaprabhāvā, sāgaraṃ — samudraṃ sarati, tarhi śeṣāḥ saritaḥ sāgaraṃ kiṃ mā sarantu ?, api tu sarantu || 13 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[13] yadi gaṅgā nāma nady asti, sā triloke prakaṭitaprabhāvā sāgarasaṃmukhā vrajati; tarhi śeṣasarito mā vrajantu ?, api tu vrajantu || 13 ||</p>
+	  </note>
+	  <note type="translation">
+            <p>If the Ganges river, its power eternally evident in the three worlds, meanders towards the sea, then are other rivers not to meander?</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.014" type="āryā">
+	  <l xml:id="SaRā.014ab">jaï saravaraṃmi vimale 
+          <app>
+            <lem>sūre uiyaṃmi</lem>
+            <rdg wit="#B">sūro uvayaṃmmi</rdg>
+            <rdg wit="#C">sūre uvayaṃ</rdg>
+          </app> 
+          <app>
+            <lem>viasiā</lem>
+            <rdg wit="#B">vihasiyā</rdg>
+            <rdg wit="#C">vihisiyā</rdg>
+          </app> 
+          <app>
+            <lem>ṇaliṇī</lem>
+            <rdg wit="#B #C">naliṇī</rdg>
+            </app> |
+	  </l>
+	  <l xml:id="SaRā.014cd">tā kiṃ vāḍivilaggā 
+          <app>
+            <lem>mā</lem>
+            <rdg wit="#B">ṇaṃ</rdg>
+          </app> 
+          <app>
+            <lem>viasaü</lem>
+            <rdg wit="#C">vihasaü</rdg>
+            </app> tuṃbiṇī 
+            <app>
+              <lem>kahavi</lem>
+              <rdg wit="#B">kahava</rdg>
+              </app> || 14 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[14] yadi vimale sarasi — sarovare, sūryodgame kamalinī vikasitā, tarhi vṛttivilagnā tumbinī vallī kiṃ mā vikasantu ? || 14 || </p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[14] yadi vimale — vistīrṇe sarasi sūryodgame kamalinī vikasati tarhi vṛttivilagnā tumbinī vallī kiṃ mā vikasatu ?, api tu vikasatu || </p>
+	  </note>
+	  <note type="translation">
+            <p>If in a pure pond a lotus-pad blossoms with the rising sun, then is the pumpkin not to blossom at all, lodged in its patch of thorns?</p>
+	  </note>
+	</lg>
+	<pb n="6"/>
+	<lg xml:id="SaRā.015" type="āryā">
+	  <l xml:id="SaRā.015ab">jaï bharaha<app>
+          <lem>bhāvachaṃde</lem>
+          <rdg wit="#C">bhāvichaṃde</rdg>
+        </app> 
+        <app>
+          <lem>ṇaccaï</lem>
+          <rdg wit="#A">naccaï</rdg>
+        </app>
+        <app>
+          <lem>ṇavaraṃga</lem>
+          <rdg wit="#B #C">ṇavaraṃgi</rdg>
+          </app> caṃgimā taruṇī |
+	  </l>
+	  <l xml:id="SaRā.015cd">tā kiṃ gāmagahillī tālīsadde ṇa 
+          <app>
+            <lem>ṇaccei</lem>
+            <rdg wit="#C">ṇaccihaï</rdg>
+            </app> || 15 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[15] yadi bharaha(ta)bhāvacchandasā navaraṅgacaṅga(ṅgi)mā — nūtanavarṇapradhānā nāyikā nṛtyati, tarhi grāmīṇavadhū tālīśabde na nṛtyatu ?, api tu nṛtyatu || 15 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[15] yadi bharatabhāvacchandasā navaraṅgavaṅgimā taruṇī nṛtyati, tarhi grāmagrathilā tālīśabdena kiṃ na nṛtyatu ?, api tu nṛtyatu ||</p>
+	  </note>
+	  <note type="translation">
+            <p>If a woman, beautiful with fresh love, dances with the rhythms and gestures of Bharata, then is the village flirt not to dance to the sound of the beat?</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.016" type="āryā">
+	  <l xml:id="SaRā.016ab">jaï bahuladuddha<app>
+          <lem>saṃmīliyā</lem>
+          <rdg wit="#A">saṃmiliyā</rdg>
+        </app> 
+        <app>
+          <lem>ya</lem>
+          <rdg wit="#B #C">u</rdg>
+          </app> ullalaï 
+          <app>
+            <lem>taṃdulā</lem>
+            <rdg wit="#C">sataṃdulā</rdg>
+            </app> khīrī |
+	  </l>
+	  <l xml:id="SaRā.016cd">tā kaṇakukkasasahiā rabbaḍiyā mā 
+          <app>
+            <lem>daḍavva</lem>
+            <rdg wit="#C">duḍaba</rdg>
+            </app>ḍaü || 16 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[16] yadi pracuradugdhena sammīlitā tandulānāṃ kṣīrī ullalati, tarhi dhānyakaṇatuṣayuktā rabbaḍikā mā daḍabbaḍaü — mā śabdaṃ karotu ? || 16 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[16] yadi pracuradugdhasaṃmiśritā tandulānāṃ khīrī ullalati, tarhi dhānyakaṇītuṣayuktā rabbaḍīyā kiṃ mā daḍhabbaḍaü — mā śabdaṃ karotu ?, api tu karotu ||</p>
+	  </note>
+	  <note type="translation">
+            <p>If rice pudding mixed with a lot of milk bubbles up, then is gruel made from barley chaff not to sputter?</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.017" type="āryā">
+	  <l xml:id="SaRā.017ab">jā jassa kavvasattī sā teṇa 
+          <app>
+            <lem>alajjireṇa</lem>
+            <rdg wit="#A">alajjareṇa</rdg>
+            <rdg wit="#C">alijjareṇa</rdg>
+            </app> bhaṇiyavvā |
+	  </l>
+	  <l xml:id="SaRā.017cd">jaï caümuheṇa bhaṇiyaṃ tā 
+          <app>
+            <lem>sesā</lem>
+            <rdg wit="#B #C">sesakaī</rdg>
+            </app> mā 
+            <app>
+              <lem>bhaṇijjaṃtu</lem>
+              <rdg wit="#B">bhaṇijjaṃti</rdg>
+              </app> || 17 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[17] sādhyam āha — ‘jā jassa kavva-’ — yā yasya kāvyena śaktiḥ, sā tena lajjāṃ muktvā bhaṇitavyā | yadi caturmukhena — brahmaṇā bhaṇitam — catvāro vedāḥ kṛtāḥ, tarhi śeṣāḥ kavayo mā kavitvaṃ kurvantu || 17 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[17] svakāvyakaraṇe ātmānasutsāhayasi — yā yasya kāvye śaktiḥ sā tena lajjāṃ muktvā bhaṇitavyā | yadi caturmukhena — brahmaṇā bhaṇitam — catvāro vedāḥ kṛtāḥ, tarhy apare kavayaḥ kiṃ kavitvaṃ mā kurvantu ?, api tu kurvantu ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Whatever poetic power a man has, he should say it without shame: if Caturmukha has spoken, then are the others not to speak?</p>
+	  </note>
+	</lg>
+	<milestone unit="metricalgroup"/>
+	<lg xml:id="SaRā.018" type="raḍḍa">
+	  <l xml:id="SaRā.018ab">
+            ṇatthi tihuyaṇi jaṃ ca ṇahu diṭṭhu,</seg>
+            tumhehiṁ vi jaṃ na suu viaḍabaṃdhu succhaṃdu sarasaü |</seg>
+	  </l>
+	  <l xml:id="SaRā.018c">ṇisuṇeviṇu ko rahaï, laliyahīṇu mukkhāha pharasaü |</l>
+	  <pb n="7"/>
+	  <l xml:id="SaRā.018d">
+            <app>
+              <lem>to</lem>
+              <rdg wit="#B">tā</rdg>
+            </app> 
+            <app>
+              <lem>duggacciya</lem>
+              <rdg wit="#B">doggacciya</rdg>
+              <rdg wit="#A">dogociya</rdg>
+              </app> chearihiṁ 
+              <app>
+		<lem>pattahi</lem>
+		<rdg wit="#A">punnihi</rdg>
+		</app> alahaṃtehiṃ |
+	  </l>
+	  <l xml:id="SaRā.018e">āsāsijjaï kaha 
+          <app>
+            <lem>kaha vi</lem>
+            <rdg wit="#B">kahava</rdg>
+            </app> saïvattī 
+            <app>
+              <lem>rasiehiṃ</lem>
+              <rdg wit="#C">sarasiehiṃ</rdg>
+              </app> || 18 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[18] kavitvakaraṇāyātmānaṃ protsāhya granthasya manāg ramaṇīyatvaṃ darśayann anaudhatyena kavīn āha — ‘ṇatthi tihuyaṇi-’ — bho kavayaḥ ! tribhuvane tannāsti, yad yuṣmābhir na dṛṣṭam — na jñātam, anyac ca na śrutam — nākarṇitam | ataḥ sarvvaviśeṣajñānāt | yuṣmatkṛtaṃ vikaṭabandhaviśeṣaḥ(ṣaṃ) succhandasaṃ sarasaṃ śrutvā, asmākaṃ mūrkhānāṃ virasitaṃ prākṛtaṃ kāvyam, lalitahīnam — lālityavarjjitaṃ [kaṃ] śroṣyati ? api tu na ko 'pi | tarhi agre kathaṃ pravṛttiḥ ? | tad dṛṣṭāntenāha — yathā durgatair dāridropadrutaiś chekaiḥ, patrāṇi — nāgavallīdalāni, ala[bha]mānaiḥ parvatādau bahumau[mū]lyatvāt, sa(śa)tapatrikā āsvādyate, tathā mama kāvyam api paṭhiṣyanti || 18  ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[18] kavitvakaraṇe ātmānaṃ protsāhya ātmagranthasya manāg ramaṇīyatvaṃ darśayan āha — bhoḥ kavayaḥ ! tribhuvane tannāsti yadyuṣmābhir na <app><lem>dṛṣṭam</lem><rdg>diṣṭaṃ</rdg></app> — na jñātam, yac ca na śrutam | [yuṣmatkṛtaṃ] vikaṭabandhaviśeṣaṃ succhandaṃ sarasaṃ śrutvā, asmākaṃ mūrkhānāṃ spṛṣṭaṃ — kṛtaṃ kāvyaṃ lalitahīnaṃ śrutvā kaḥ sthāsyati — punaḥ kaḥ śroṣyat ?, api tu na ko 'pi | tarhy agre kathaṃ pravṛttis tad dṛṣṭāntenāha — yathā durgatair daridraiś chekaiḥ, patrāṇi nāgavallīdalānyalabhamānaiḥ, parvatādau śatapatrikāsvādyate tathā mama kāvyam api paṭhiṣyanti |</p>
+            <p>[raḍḍacchando yathā — ] jāsu virayaṇi huṃti paya paṃca,</p>
+            <lg><l>paḍhamaṃ ciya panaraha ya, bīa cāri gāraha niruddhaü |</l><l>taha tīaï paṃcadaha, raḍḍabheu jāṇahu su suddhaü |</l><l>karahiamohiṇi mianayaṇi rāhāseṇu muṇiṃdu |</l><l>aṃtihi dohaü jisu havaï kavi naṃdaḍḍha bhaṇaṃti ||</l></lg>
+            <p>yasyāḥ prastāra ādau pañcadaśaikādaśapañcadaśamātrāṇi pañca padāni, prānte ca dodhaka iti raḍḍālakṣaṇam | dodhakalakṣaṇam agre kathayiṣye ||</p>
+	  </note>
+	  <note type="translation">
+            <p>There is no imposing work with good meters and full of rasa in the triple world which you have neither seen nor heard. Who can stand to listen to the harsh and charmless work of fools? Still, when clever connoisseurs are hard up and don't come across betel leaves, they sometimes resort to palash leaves.</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.019" type="raḍḍa">
+	  <l xml:id="SaRā.019ab">
+            ṇia<app>
+            <lem>kavittaha vijja</lem>
+            <rdg wit="#A">kavittavijja</rdg>
+          </app>
+          <app>
+            <lem>māhappa</lem>
+            <rdg wit="#C">māhappu</rdg>
+            </app>,
+            </seg>
+            paṃḍitta<app>
+            <lem>pavittharaṇu</lem>
+            <rdg wit="#B">pavivittharaṇu</rdg>
+            <rdg wit="#C">pavittaraṇu</rdg>
+            </app> maṇujaṇaṃmi 
+            <app>
+              <lem>koliya</lem>
+              <rdg wit="#C">kāliya</rdg>
+              </app>payāsiu |
+              <note place="app">For line 2 B reads <foreign xml:lang="sa">maṇu muṇevi kiṃciya payāsiu</foreign>.</note>
+            </seg>
+	  </l>
+	  <l xml:id="SaRā.019c">koūhali bhāsiaü sarala<app>
+          <lem>bhāi</lem>
+          <rdg wit="#B">bhāiṃ</rdg>
+        </app>
+        <app>
+          <lem>saṃneha</lem>
+          <rdg>saṃnaha</rdg>
+          </app>rāsaü |
+          <note place="app">Line 3 not read in C; appears to be a mistake.</note>
+	  </l>
+	  <l xml:id="SaRā.019d">
+            <app>
+              <lem>taṃ jāṇivi ṇimisiddhu khaṇu</lem>
+              <rdg wit="#B">tuhnijjaï ṇava sadda khaṇu</rdg>
+              <rdg wit="#C">taṃ jāṇa va nimasiddhu khaṇu</rdg>
+            </app> 
+            <app>
+              <lem>buhayaṇa</lem>
+              <rdg wit="#B #C">buhiyaṇa</rdg>
+              </app> karavi 
+              <app>
+		<lem>saṇehu</lem>
+		<rdg>siṇehu</rdg>
+		</app> |
+	  </l>
+	  <l xml:id="SaRā.019e">pāmarajaṇathūlakkharahi jaṃ 
+          <app>
+            <lem>raïyaü</lem>
+            <rdg wit="#C">rayaïṃ u</rdg>
+            </app> ṇisuṇehu || 19 || [raḍḍacchandaḥ |]
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[19] tataḥ prāñjaliḥ, nijagranthaśravaṇārthaṃ paṇḍitān āha — ‘ṇiyakavitta-’ — bho budhajanāḥ ! niḥśabdaṃ yathā kṣaṇaṃ <app><lem>tūṣṇīkriyatām</lem><rdg>tūṣṇīkṛyatāṃ</rdg></app> | anyac ca — yat pāmareṇa sthūlākṣaraiḥ — grāmyavarṇaiḥ racitam, tat snehaṃ kṛtvā śṛṇuta | kīdṛśaṃ nijakavitvavidyāyā māhātmyaṃ prabhāvarūpam, ātmānumānena pāṇḍityapravistāraṇam | kathaṃ prakāśitam ? — manasi  kim api jñātvā prakāśitam | kautūhalena bhāṣitam | punaḥ kathaṃ ? — saralabhāvena | sandesa(śa)rāsakaṃ nāma | raḍḍacchandaḥ | tallakṣaṇam — </p>
+            <lg>
+              <l>jāsu viyaraṇi huṃti paya paṃca, </l>
+              <l>paḍhamaṃ ciya paṃnaraha, bīya cāri gāraha niruddhaü |</l>
+              <l>taha tīyaï paṃcadaha, raḍḍabheu jāṇau su suddhaü |</l>
+              <l>karahiṇi mohiṇi miyanayaṇi, rāsāseṇa muṇiṃdu |</l>
+              <l>aṃtitiṃ dohaü jasu havaï, kavi naṃdaḍḍha bhaṇaṃti ||</l>
+            </lg>
+            <p>yasya prastāre ādau pañcadaśa — ekādaśa — pañcadaśa - ekādaśa — pañcadaśamātrikāṇi bhavanti pañca padāni | prānte dodhakaḥ | iti raḍḍa[la]kṣaṇam | dodhakalakṣaṇam agre <app><lem>kathayiṣyati</lem><rdg>kathayaṣyate</rdg></app> ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[19] tataḥ prāñjalir nijagranthaśravaṇārthaṃ paṇḍitān āha — bho budhajanāḥ ! snehaṃ kṛtvā nijakavitvavidyāyā māhātmyaṃ prabhāvarūpamātmānumānena pāṇḍityapravistāraṇaṃ manuṣyaloke kaulikena tantuvāyunā (yena) prakāśitaṃ kautūhalabhāṣitaṃ saralabhāvena pāmarajanena mūrkheṇa kṛtaṃ sandeśarāsakaṃ nāma kavitvalakṣaṇaṃ niḥśabdaṃ kolāhalaṃ vihāya śṛṇuta ||</p>
+	  </note>
+	  <note type="translation">
+            <p>The greatness in knowledge of his own poetry, the dissemination of his learning, brought to light among men by a weaver, spoken with eagerness and straightforward emotion—the Saṃdeśarāsaka. Knowing this, O learned, attend for just half a second and listen to what was composed in the thick letters of a ploughman.</p>
+	  </note>
+	</lg>
+	<milestone unit="metricalgroup"/>
+	<pb n="8"/>
+	<lg xml:id="SaRā.020" type="paddhaṭika">
+	  <l xml:id="SaRā.020ab">
+            
+              <app>
+		<lem>saṃpaḍiu</lem>
+		<rdg wit="#B">saṃpaḍiyaṃ</rdg>
+            </app> ju sikkhaï kui samatthu,</seg>
+            tasu kahaü vibuha saṃgaha<app>
+            <lem>vi hatthu</lem>
+            <rdg wit="#C">bihatthu </rdg>
+            </app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.020cd">
+            paṃḍittaha mukkhaha muṇahi bheu,</seg>
+            
+              <app>
+		<lem>tiha</lem>
+		<rdg wit="#B #C">taha</rdg>
+            </app> puraü paḍhivvaü ṇa hu vi eu || 20 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[20]  tataḥ prāñjalir nijagranthaśravaṇārthaṃ paṇḍitān āha | tato granthapaṭhanasya śiṣyā(kṣā)m āha — ‘saṃpaḍiü ju-’ — ko 'pi samarthaḥ — prajñāvān, saṃpratitaṃ — prasaṅgāgatam, idaṃ(maṃ) sandeśarāsakaṃ paṭhati, tasya sandeśakavido hastaṃ gṛhītvā bhaṇāmi | ye janāḥ paṇḍitānāṃ mūrkhāṇāṃ cāntaraṃ jānanti, teṣāṃ pura[ta] eṣa sandeśarāsako nāma na paṭhitavyaḥ | yatas te mahāntaḥ paṇḍitāḥ | paddhaḍīchandaḥ | tallakṣaṇam —</p>
+            <lg>
+              <l>solasamattaü jahiṁ paü dīsaï, akkharagattu na kiṃ pi salīsaï |</l>
+              <l>pāyaü pāyaü jamakavisuddhaü, paddhaḍīaha ihu chaṃdu pasiddhaü ||</l>
+            </lg>
+            <p>catvāry api padāni ṣoḍaśamātrāṇi | ādyārddhe yamakam, uttarārddhe yamakam | evaṃ sarvatra jñeyam || 20 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[20] tato granthapaṭhanaśīlasya śikṣām āha — yaḥ ko 'pi samarthaḥ — prajñāvān, sampratitaṃ — prāptam idaṃ śāstraṃ paṭhati tasya budhasya paṇḍitasya hastaṃ gṛhītvā bhaṇāmi | ye janāḥ paṇḍitānāṃ mūrkhāṇām antaraṃ kurvanti — jānanti teṣāṃ purata eṣa na paṭhitavyaḥ | yatas te mahāntaḥ paṇḍitāḥ ||</p>
+            <p>paḍḍhaḍīchando yathā —
+            <lg>
+              <l>solasamattaü jahi paü dīsaï, akkharu gaṃtu kiṃ pi salīsaï |</l>
+              <l>pāyaü pāyaü jamaka visuddhaü, paddhaḍīaha iha chaṃda visuddhaü ||</l>
+            </lg>
+            catvāro 'pi padāḥ ṣoḍaśamātrikāḥ | ādyārdhe uttarārdhe ca yamakam ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Whatever capable person gets it and learns it, I take his hand, O learned ones, and speak. Those who know the difference between scholars and fools—this text must certainly not be read before them.</p>
+	  </note>
+	</lg>
+	<pb n="9"/>
+	<lg xml:id="SaRā.021" type="paddhaṭika">
+	  <l xml:id="SaRā.021ab">
+            ṇahu rahaï buhā kukavittaresi, </seg>
+            <app>
+              <lem>abuhattaṇi abuhaha ṇahu pavesi</lem>
+              <rdg wit="#B">abuhattaṇitta abbuhappavesi</rdg>
+              <rdg wit="#C">pavesu</rdg>
+            </app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.021cd">
+            ji ṇa mukkha 
+            <app>
+              <lem>ṇa</lem>
+              <rdg wit="#B #C">na</rdg>
+            </app> paṃḍiya majjhayāra, </seg>
+            
+              <app>
+		<lem>tiha</lem>
+		<rdg wit="#C">taha</rdg>
+            </app> puraü paḍhivvaü savvavāra || 21 || [paddhaḍīchandaḥ]</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[21] taddhetum āha — ‘ṇahu rahaï-’ — budhā matkṛte kāvye kutthi(tsi)te, na tiṣṭhanti — na manaḥ kurvanti | abudhatvena — abudhās tatrāpraveśinaḥ | ye na mūrkhāḥ, na paṇḍitāḥ, kintu madhyasthāḥ, teṣāṃ purataḥ sarvadaiva paṭhitavyaḥ || 21 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[21] taddhetum āha — budhā matkṛte kāvye na tiṣṭhanti — na manaḥ kurvanti; abudhatvena, nābudhās tatra praveśinaḥ | ye na mūrkhāḥ, na paṇḍitāḥ, kintu madhyasthāḥ, teṣāṃ purataḥ sarvadaiva paṭhitavyaḥ ||</p>
+	  </note>
+	  <note type="translation">
+            <p>The learned don't stay, because the poetry is bad; the unlearned don't even show up, because of their being unlearned. Those who stand between the fool and the scholar—it must at all times be read before them.</p>
+	  </note>
+	</lg>
+	<milestone unit="metricalgroup"/>
+	<lg xml:id="SaRā.022" type="ḍumilā">
+	  <l xml:id="SaRā.022ab">
+            aṇurāiyarayaharu 
+            <app>
+              <lem>kāmiya</lem>
+              <rdg wit="#A">kāmīya</rdg>
+            </app><app>
+            <lem>maṇaharu</lem>
+            <rdg wit="#C">maṇuharu</rdg>
+            </app>, </seg>
+            mayaṇa<app>
+            <lem>maṇaha</lem>
+            <rdg wit="#C">mahappaha</rdg>
+            </app> pahadīvayaro |</seg>
+	  </l>
+	  <l xml:id="SaRā.022cd">
+            virahaṇi<app>
+            <lem>maïraddhaü</lem>
+            <rdg wit="#B">maïsaddhaü</rdg>
+          </app> 
+          <app>
+            <lem>suṇahu</lem>
+            <rdg wit="#A">suṇaha</rdg>
+            </app> visuddhaü, </seg>
+            rasiyaha rasa<app>
+            <lem>saṃjīvayaro</lem>
+            <rdg wit="#B">saṃjīyaro</rdg>
+            <rdg wit="#C">saṃjīviyaro</rdg>
+            </app> || 22 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[22] granthasya guṇā[nā]ha — ‘aṇuraïya-’ — anurāgiṇāṃ sarvaśāstravidāṃ ratigṛhaṃ samādhisthānam, kāmukānāṃ manoharam, madanamanaskānāṃ pathodīpakaram | virahiṇīnāṃ makaradhvajam, rasikānāṃ rasasaṃjīvanakaram, viśuddhaṃ ja[nāḥ] śṛṇuta || 22 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[22] granthasya guṇaḥ — ḍomilābandhena | anurāgināṃ (ṇāṃ) ratigṛham, kāmukānāṃ manoharam, madanamanaskānāṃ pathodīpakaram, virahiṇīnāṃ makaradhvajam, rasikānāṃ rasasañjīvanakaram, viśuddhakaram, bho janāḥ ! śṛṇuta ||</p>
+	  </note>
+	  <note type="translation">
+            <p>The meeting place of the yearning lover, the captivation of the lustful, the lamp upon the path for those of passionstruck mind, the god of love himself for the woman in separation from her beloved, pure, the revivifying elixir of rasa for the connoisseur: listen! </p>
+	  </note>
+	</lg>
+	<pb n="10"/>
+	<lg xml:id="SaRā.023" type="ḍumilā">
+	  <l xml:id="SaRā.023ab">
+            
+              <app>
+		<lem>aïṇehiṇa</lem>
+		<rdg wit="#C">ahaṇeiha</rdg>
+            </app> bhāsiu, raïmaïvāsiu, </seg>
+            savaṇa<app>
+            <lem>sakuliyaha</lem>
+            <rdg wit="#B">sukuli jiya</rdg>
+            <rdg wit="#C">sukuli jahi</rdg>
+            </app> amiyasaro |</seg>
+	  </l>
+	  <l xml:id="SaRā.023cd">
+            
+              <app>
+		<lem>laï</lem>
+		<rdg wit="#C">laha</rdg>
+              </app> 
+              <app>
+		<lem>lihaï</lem>
+		<rdg wit="#A #C">lahaï</rdg>
+            </app> viyakkhaṇu, atthaha lakkhaṇu, </seg>
+            suraï<app>
+            <lem>saṃgi</lem>
+            <rdg wit="#C">saggi</rdg>
+          </app> 
+          <app>
+            <lem>ju</lem>
+            <rdg wit="#C #A">su</rdg>
+          </app>
+          <app>
+            <lem>viaḍḍha</lem>
+            <rdg wit="#A #B">viaḍha</rdg>
+            </app>naro || 23 || [ḍumilāchandaḥ]
+            </seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[23] yato 'tisnehena bhāṣitam, ratimativāsitam, karṇaśaṣkulyāṃ yathā'bhṛtam | anyac ca — vicakṣaṇo lae — bhāve likhati jānāti | anyac ca — arthalakṣaṇaṃ sa eva vetti, yaḥ suratisaṅge vidagdho bhavati, nāparaḥ | ḍumillācchandaḥ | tallakṣaṇaṃ yathā — </p>
+            <lg>
+              <l>ḍumilāhi payāsiṇa, matta visesiṇa, dohiṃ tahiṃ ciya cyāri bhaṇū |</l>
+              <l>bhaṇa matta battīsa vitīsaghamela (?) aṭṭhaya ṭhāma ṭhavesa gaṇū ||</l>
+              <l>gaṇa anna milijjaï, soi ṭhavijjaï, taṃ puṇa jāṇi ṇa bhaṃti karī |</l>
+              <l>kari jamaku visāiṇa, pāiṇa pāiṇa, suṭṭhu vi chaṃdu vibhaṃji parī ||</l>
+            </lg>
+            <p>|| iti śrīdevendrasūriśiṣya vā- śrīlakṣmīcandraviracitāyāṃ saṃdeśarāsakavṛttau prathamaḥ prakramaḥ ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[23] yato 'tisnehena bhāṣitam, ratimativāsitam, karṇaśaṣkulyoḥ yathāmṛtam | anyacca — etasyārthalakṣaṇaṃ sa eva vicakṣaṇo lae —  bhāve likhati —  jānāti, yaḥ suratisaṅge vidagdho bhavati, nāparaḥ ||</p>
+            <p>[ḍumilā chando yathā — ] ḍumilā hi pa- ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Spoken with utmost care, infused in thoughts of lovemaking, the nectar-lake for the channels of the ears: the clever person who is experienced in the matter of lovemaking takes it and writes it, indicating its meanings.</p>
+	  </note>
+	</lg>
+      </div>
+      <div n="2" type="prakrama">
+	<head>dvitīyaḥ prakramaḥ</head>
+	<pb n="11"/>
+	<lg xml:id="SaRā.024" type="raḍḍa">
+	  <l xml:id="SaRā.024ab">
+            vijayanayarahu kāvi vara<app><lem>ramaṇi</lem><rdg wit="#A">ravaṇi</rdg><rdg wit="#B">taruṇi</rdg></app>,</seg>
+            uttaṃgathira<app><lem>thorathaṇi</lem><rdg wit="#C">thoru-</rdg><rdg wit="#B">thoraghaṇa</rdg></app>, <app><lem>biruḍa</lem><rdg wit="#A">baruḍa</rdg><rdg wit="#B">viraḍa</rdg></app>lakka dhayaraṭṭhapaühara |</seg>
+	  </l>
+	  <l xml:id="SaRā.024c">dīṇāṇaṇa pahu <app><lem>ṇihaï</lem><rdg wit="#B">nihaï"</rdg><rdg wit="#C">nihaya</rdg></app>, <app><lem>jala</lem><rdg wit="#C">jalu jala-</rdg></app>pavāha <app><lem>pavahaṃti</lem><rdg wit="#B">pavahaṃta</rdg></app> dīhara |</l>
+	  <l xml:id="SaRā.024d">virahaggihi <app><lem>kaṇayaṃgi</lem><rdg wit="#C">kaṇayaggi</rdg></app>taṇu taha <app><lem>sāmalima</lem><rdg wit="#A">sāmalaü</rdg><rdg wit="#C">sāmaliya</rdg></app><app><lem>pavannu</lem><rdg wit="#C">pavanna</rdg></app> |</l>
+	  <l xml:id="SaRā.024e"><app><lem>ṇajjaï</lem><rdg wit="#A">ṇijjaï</rdg></app> <app><lem>rāhi</lem><rdg wit="#B">rāha</rdg></app> <app><lem>viḍaṃbiaü</lem><rdg wit="#C">viḍaṃbioṁ</rdg></app> tārāhivaï <app><lem>saünnu</lem><rdg wit="#C">savannu</rdg></app> || 24 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[24] atha kathāsvarūpam āha  — ‘vijayanayarahu-’ — vikramapurāt kācid varanāï(yi)kā uccasthiradṛḍha-sthūlakucā bhramarīmadhyamadhyā dhārttarāṣṭra-rājahaṃsa-gatir virahiṇītvād dīnānanā | netrayor dīrghabharaṃ jalapravāhaṃ pravahantī paradeśāgataṃ patiṃ paśyati | tathā kanakāṅgyā virahāgninā tanu śarīraṃ śyāmalimāprapannām, kaviḥ kathayati — manye tārādhipatiś candra[ḥ] sampūrṇo rāhuṇā viḍambito grasta iti || raḍḍacchandaḥ || 24 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[24] vikramapurāt kācit varanāyikā uccasthiradṛḍhasthūlakucā bhramarīmadhyamadhyā dhārttarāṣṭra-gatiḥ, virahiṇītvād dīnānanā, netrayor dīrghatarajalapravāhapravahantī paradeśagataṃ prabhuṃ paśyati | punaḥ kīdṛśī — tathā kanakāṅgyās tanu tathā śyāmaṃ prapannam, yathā jñāyate tārādhipatiḥ sampūrṇo viḍambato rāhuṇā — grasta iti ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Some beautiful woman from Vijayanagara — her breasts pronounced, firm, and full; her waist like a bee's; her gait like a swan's — was looking for her husband with despair on her face. Long torrents streamed. Because of the fire of separation, that golden-limbed woman's body took on a dark hue: it looked like the full moon, distorted by eclipse.</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.025" type="raḍḍa">
+	  <l xml:id="SaRā.025ab">
+            phusaï loyaṇa <app><lem>ruvaï</lem><rdg wit="#B">ruyaï</rdg><rdg wit="#C">ruaï</rdg></app> <app><lem>dukkhatta</lem><rdg wit="#B">dukkhitta</rdg></app>, </seg>
+            <app><lem>dhammillaü</lem><rdg wit="#C">dhammillo</rdg></app>mukka<app><lem>muha</lem><rdg wit="#C">muhu</rdg></app>, vijjaṃbhaï <app><lem>aru</lem><rdg wit="#B">ta</rdg><rdg wit="#C">niya-</rdg></app> <app><lem>aṃgu</lem><rdg wit="#A">aṃga</rdg></app> moḍaï |</seg>
+	  </l>
+	  <l xml:id="SaRā.025c">virahānali <app><lem>saṃtavia</lem><rdg wit="#A">saṃtavīa</rdg></app>, sasaï dīha kara<app><lem>sāha</lem><rdg wit="#C">sāsa</rdg></app> toḍaï |</l>
+	  <pb n="12"/>
+	  <l xml:id="SaRā.025d"><app><lem>ima</lem><rdg wit="#A">iva</rdg></app> <app><lem>muddhaha</lem><rdg wit="#C">muṃddhaha</rdg><rdg wit="#B">muddhahaṃ</rdg></app> vilavaṃtiyaha mahi calaṇehi <app><lem>chihaṃtu</lem><rdg wit="#C">chivaṃtu</rdg></app> |</l>
+	  <l xml:id="SaRā.025e">addhuḍḍīṇaü <app><lem>tiṇi</lem><rdg wit="#A">taṃ</rdg><rdg wit="#C">ta</rdg></app> pahiu pahi joyaü pavahaṃtu || 25 || [raḍḍa-] </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[25] tasyā virahāvasthāṃ vyāvarṇayann āha — locane — ‘phusaï’ — utphuṃsati duḥkhārttā roda(di)ti | dhammillonmuktamukhā vijṛmbhati | aṅgaṃ moṭayati | virahānalasaṃtaptāśvasti, karasāṣā(śākhāḥ)troṭayati | evaṃ mughdayā vilapantyā mahīṃ calanābhyāṃ krāman arddho(dhvo)dvignaḥ, nagaramadhyaṃ vihāya pārśva eva saṃcaran, pathi pravahan pathiko dṛṣṭaḥ || raḍḍacchandaḥ || 25 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[25] tasyā virahāvasthāṃ vyācaṣṭe — locane utphuṃsati, duḥkhārttā roditi, dhammillamuktā, mukhe vijṛmbhati, aṅgaṃ moṭayati, virahānalasaṃtaptāśvasati, karaśākhās troṭayati | evaṃ mugdhayā vilapantyā mahīṃ calaṇā(nā)bhyāṃ krāman, advhodvigno nagaramadhyaṃ vihāya pārśve saṃcaran pathi pravahan pathiko dṛṣṭaḥ || </p>
+	  </note>
+	  <note type="translation">
+            <p>She rubbed her eyes, and wept, overwhelmed by grief: her braids were undone, her mouth agape, her body writhing. Burnt in the fire of separation, she sighed deeply and rubbed her fingers down. While she was lamenting like this, she noticed a traveller, putting his feet to the earth, flying on his way, approaching her on the road.</p>
+	  </note>
+	</lg>
+	<milestone unit="metricalgroup"/>
+	<lg xml:id="SaRā.026" type="rāsā">
+	  <l xml:id="SaRā.026ab">
+            taṃ <app><lem>ji</lem><rdg wit="#C">ja</rdg></app> <app><lem>pahia</lem><rdg wit="#A">pahiu</rdg></app> pekkheviṇu <app><lem>pia</lem><rdg wit="#B">piya</rdg></app><app><lem>ükkaṃkhiriya</lem><rdg wit="#A">ukkhaṃkhirīya</rdg><rdg wit="#C">ukkaṃṣiriya</rdg></app>, </seg>
+            maṃtharagaya <app><lem>saralāivi</lem><rdg wit="#A">saralāvia</rdg></app> uttāvali <app><lem>caliya</lem><rdg wit="#A">calia</rdg></app> | </seg>
+	  </l>
+	  <l xml:id="SaRā.026cd">
+            taha maṇahara <app><lem>callaṃtiya</lem><rdg wit="#B">calaṇihi callaṃ</rdg></app> caṃcala<app><lem>ramaṇa</lem><rdg wit="#A">ravaṇi</rdg></app>bhari, </seg>
+            <app><lem>chuḍavi</lem><rdg wit="#A">chuḍḍavi</rdg></app> <app><lem>khisiya</lem><rdg wit="#A">khisīa</rdg></app> rasaṇāvali <app><lem>kiṃkiṇi</lem><rdg wit="#A">kaṃkaṇi</rdg><rdg wit="#B">kiṃkaṇi</rdg></app><app><lem>ravapasari</lem><rdg wit="#A #C">gaya pasari</rdg></app> || 26 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[26] taṃ pathikaṃ dṛṣṭvā patyutkaṇṭhitā, mantharagatiṃ saralayitvā yāvad utsukagatyā caliyā, tāvanmanoharaṃ calantyāś capalaramaṇabharāt kaṭipradeśād rasanāvaliḥ kiṅkiṇīkvaṇayuktā chuṭitā | ābhāṇakanāma cchandaḥ | tallakṣaṇaṃ yathā — </p>
+            <quote>
+              <lg>
+		<l>
+		  <seg xml:id="SaRā.ābhāṇaka-a" type="pada">matta hohi caürāsī cahu paya cāri kala</seg>
+		  <seg xml:id="SaRā.ābhāṇaka-b" type="pada">te saṭhi joṇi navaddhī jāṇahu cahu a dala |</seg>
+		</l>
+		<l>
+		  <seg xml:id="SaRā.ābhāṇaka-c" type="pada">paṃcakkalu vajjijjahu gaṇu suddhi vi gaṇahu</seg>
+		  <seg xml:id="SaRā.ābhāṇaka-d" type="pada"> so vi āhāṇau chaṃdu ke vi rāsaü muṇahu ||</seg>
+		</l>
+              </lg>
+            </quote>
+            <p>pade pade ekaviṃśati mātrā sarvasaṃ(khyā) caürāsīti | ādau ṣaṭ kalāḥ, tadanu trayaḥ | aparas tu catuḥ kalāḥ | ekastrimātṛkaḥ | pañcakalaḥ varjjanīyaḥ || eṣa(tat) rāsakacchandaḥ || 26 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[26] pathikaṃ dṛṣṭvā tayā kiṃ kṛtam ityābhāṇakachandasāha — taṃ pathikaṃ dṛṣṭvā patyutkaṇṭhitā mantharagamanaṃ tyaktvā yāvad utsukā gatyā calitā tāvanmanoharaṃ calantyās tasyāś capalaramaṇabharād rasanā kiṅkiṇīkvaṇa prasarā chuṭitā ||</p>
+            <p>chando yathā — ‘matta hoi caürāsī cahu paya cyāri kala-’ ||</p>
+	  </note>
+	  <note type="translation">
+            <p>On seeing the traveller, eagerly expecting her husband, she hastened her saunter and came quickly. As she was coming alluringly, because of the burden of her unsteady hips, her waist-chains broke and slipped off with a jingling sound.</p>
+	  </note>
+	</lg>
+	<pb n="13"/>
+	<lg xml:id="SaRā.027" type="rāsā">
+	  <l xml:id="SaRā.027ab">
+            taṃ jaṃ <app><lem>mehala</lem><rdg wit="#A">mehali</rdg></app> ṭhavaï gaṃṭhi <app><lem>ṇiṭṭhura</lem><rdg wit="#B #C">niṭṭhura</rdg></app> suhaya,</seg>
+            <app><lem>tuḍiya</lem><rdg wit="#A">tuḍavi</rdg><rdg wit="#C">tuḍaci</rdg></app> <app><lem>tāva</lem><rdg wit="#A">tāma</rdg><rdg wit="#C">tāba</rdg></app> <app><lem>thūlāvali</lem><rdg wit="#C">dhūlāvali</rdg></app> <app><lem>ṇava</lem><rdg wit="#B #C">nava</rdg></app>sarahāralaya |</seg>
+	  </l>
+	  <l xml:id="SaRā.027cd">
+            sā tivi kivi saṃvarivi <app><lem>caïvi</lem><rdg wit="#C">cayavi</rdg></app> <app><lem>kivi</lem><rdg wit="#A">kevi</rdg></app> <app><lem>saṃcariya</lem><rdg wit="#A">saṃcarīya</rdg></app>, </seg>
+            ṇevara <app><lem>caraṇa</lem><rdg wit="#A">caraṇi</rdg></app> vilaggivi taha <app><lem>pahi</lem><rdg wit="#B">paya</rdg></app> <app><lem>paṃkhuḍiya</lem><rdg wit="#C">pakkhaḍiya</rdg></app> || 27 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[27] sā subhagā yāvat tāṃ mekhalāṃ granthau sthāpayati, tāvatā muktāmayī sthūlā navasarahāralatāvalis truṭitā | [............] tāvatā nūpuracaraṇābhyāṃ vilagya nirbalatvāt patitā || 27 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[27] sā śubhā yāvatā mekhalāṃ granthau sthāpayati tāvatā muktāmayī sthūlāvalir navasarahāralatā truṭitā | tatas tāni kānicinmuktāphalāni saṃmīliyitvā (saṃmīlya) kānicid autsukyāt tyaktvā saṃcalitā, tāvatā nūpuracaraṇābhyāṃ vilagya patitety arthaḥ ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Then, as the beautiful woman was tying her belt tightly to the knot of her dress, her thick set of nine lovely necklaces broke: she went on her way, gathering some up, and leaving others, when her foot got stuck in her anklet and she stumbled on the road.</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.028" type="rāsā">
+	  <l xml:id="SaRā.028ab">
+            paḍi uṭṭhiya savilakkha salajjira <app><lem>saṃjhasiya</lem><rdg wit="#A">saṃjhasīya</rdg></app>,</seg>
+            <app><lem>taü</lem><rdg wit="#A">taṃ</rdg></app> <app><lem>siya</lem><rdg wit="#A">sira></rdg></app> saccha <app><lem>ṇiyaṃ</lem><rdg wit="#B #C">niyaṃ</rdg></app>saṇa muddhaha vivala<app><lem>siya</lem><rdg wit="#B">sia</rdg></app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.028cd">
+            taṃ saṃvari <app><lem>aṇusariya</lem><rdg wit="#A">aṇusarīa</rdg></app> pahiyapāvayaṇamaṇa, </seg>
+            <app><lem>phuḍavi</lem><rdg wit="#C">phuḍivi</rdg></app> <app><lem>ṇitta</lem><rdg wit="#B">ṇatta</rdg><rdg wit="#C">nitta</rdg></app> kuppāsa vilaggiya <app><lem>dara sihaṇa</lem><rdg wit="#A">dara siṇaha</rdg></app> || 28 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>yāvat patitotthitā savilakṣā salajjā saṃbhramitā | tāvat śvetaṃ svacchaṃ nivasanaṃ — śirovastraṃ vivalasitaṃ — dūrībhūtam | tadapi saṃvarayitvā pathikaprāpana(ṇa)ma[na]skā yāvat saṃsmṛtā, tāvatā netrapaṭṭaṃ vastramayaṃ kūrpāsakaṃ kañcukaṃ vidārya kucau īsaddare chidre vilagnau — prakaṭau jā(yā)tāv ity arthyaḥ || 28 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>yāvat patitotthitā savilakṣā salajjā saṃśasitā tāvat śvetaṃ svacchaṃ nivasanaṃ — śirovastraṃ vivalasitaṃ — dūrībhūtam; tadapi saṃvaraïtvā (saṃvrtya) pathikaprāpamanaskā yāvat saṃsmṛtā, tāvatā netrapaṭṭaṃ vastramayaṃ kūrpāsaṃ kañcukaṃ vidārya kucau dare chidre vilagnau — prakaṭau yātāv ity arthaḥ || </p>
+	  </note>
+	  <note type="translation">
+            <p>Fallen, she got up, and was bewildered with shame and embarrassment. Then the girl's clear white shawl slipped down: gathering it up, she followed, intending to reach the traveller, and her silken shirt burst and clung a little around her breasts.</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.029" type="rāsā">
+	  <l xml:id="SaRā.029ab">
+            chā<app><lem>yaṃtī</lem><rdg wit="#A">yaṃtī</rdg></app> kaha kaha va salajjira <app><lem>ṇiya</lem><rdg wit="#B">niya</rdg></app><app><lem>karahi</lem><rdg wit="#B">karihi</rdg></app>,</seg>
+            kaṇayakalasa jhaṃpaṃtī ṇaṃ iṃdī<app><lem>varahi</lem><rdg wit="#A #B">varihi</rdg></app> |</seg>
+	  </l>
+	  <pb n="14"/>
+	  <l xml:id="SaRā.029cd">
+            to āsanna pahutta <app><lem>sagaggira</lem><rdg wit="#B">gaggira</rdg></app><app><lem>gira</lem><rdg wit="#C">giri</rdg></app><app><lem>vayaṇi</lem><rdg wit="#A">taruṇi</rdg></app>,</seg>
+            <app><lem>kiyaü</lem><rdg wit="#A">kiaü</rdg></app> saddu <app><lem>savilāsu</lem><rdg wit="#A">suvilāsu</rdg></app> karuṇa dīharanayaṇi || 29 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[29] sā bālā salajjā pathikaṃ pati[vi]rahiṇītvāt karaṇam, padminītvāt savilāsam, śabdaṃ kṛtavatī | kiṃ kurvantī? — nijakarābhyāṃ kucāvācchādayantī | nu vitarke | kanakakalasāvindīvarābhyāmācchādayantī | yatas tasyā hastau punaḥ punaḥ sakajjalanetrasparśādakṣālanāt śyāmalatāṃ gatau | tato dīrghanetrā sagadgadgīrvadanā āsannaṃ nikaṭaṃ prāptā || 29 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[29] sā salajjā pathikaṃ prati, virahiṇītvāt, karuṇaṃ savilāsaṃ śabdaṃ kṛtavatī | nijakarābhyāṃ kucaṃ(cau) cācchādayantī | ‘nu’ iti vitarke, kanakakalasāvīndīvarābhyāṃ nīlotpalābhyāmācchāditau, yatas tasyā hastau kajjalanetrarasādakṣālanāc ca śyāmatāṃ gatau | tato dīrghanetrā sagadgadānikaṭaṃ prāptā ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Somehow covering up with her own hands, embarrassed, like she would cover two golden pots with dark lotuses. Then a stuttering voice came forth from her mouth: the long-eyed girl made a noise, both lovely and pitiful.</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.030" type="rāsā">
+	  <l xml:id="SaRā.030ab">
+            ṭhāhi ṭhāhi <app><lem>ṇimisiddhu</lem><rdg wit="#B">ṇimisaddhu</rdg><rdg wit="#C">timisiddhu</rdg></app> suthiru avahāri maṇu, </seg>
+            ṇisuṇi kiṃ pi jaṃ jaṃpaüṃ <app><lem>hiyaï</lem><rdg wit="#A">hiaï</rdg><rdg wit="#C">hiyaya</rdg></app> <app><lem>pasijji</lem><rdg wit="#A">pasijjhi</rdg><rdg wit="#B">pasajji</rdg></app> khaṇu |</seg>
+	  </l>
+	  <l xml:id="SaRā.030cd">
+            <app><lem>eya</lem><rdg wit="#A">eï</rdg></app> vayaṇa <app><lem>āyanni</lem><rdg wit="#C">āinni</rdg></app> pahiu <app><lem>koūhaliu</lem><rdg wit="#C">koūhiliyaŏ</rdg></app>,</seg>
+            <app><lem>ṇeya ṇia</lem><rdg wit="#C">nei niya</rdg></app>ttaü tā su kamaddhu vi <app><lem>ṇahu</lem><rdg wit="#B #C">nahu</rdg></app> caliu || 30 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[30] kim āha — ‘ṭhāhi ṭhāhi’ — nimeṣārddhaṃ susthiraṃ yadhā(thā) tiṣṭha tiṣ̣ṭha | manasy avadhāraya | yat kiñcid jalpāmi tacchravaṇābhyāṃ śṛṇu | kṣaṇaṃ hṛdaye prasīda | tasyā etāni vākyāni ākarṇya, pathikaḥ kautūhalitaḥ san, na kramārddhaṃ nivṛtto n cāgre calitaḥ | kṣubdhatvāt tathaiva saṃsthita ity arthaḥ || 30 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[30] kim āha — nimeṣārdhaṃ susthiraṃ yathā tiṣṭha tiṣṭha | manasyavadhāraya | yat kiñcijjalpāmi tacchravaṇābhyāṃ śṛṇu | kṣaṇaṃ hṛdaye prasīda | tasyā etāni vākyāni ākarṇya, pathikaḥ kautūhalitaḥ san, na kramārdhaṃ nivṛtto na cāgre calitaḥ | kṣubdhatvāt tathaiva saṃsthita ity arthaḥ ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Wait, hold on for half a second! Give me your attention: listen to this thing I'm saying and soften your heart for a moment. Hearing these words the traveller became confused: he backed up not even half a step, nor went ahead.</p>
+	  </note>
+	</lg>
+	<milestone unit="metricalgroup"/>
+	<lg xml:id="SaRā.031" type="dohā">
+	  <l xml:id="SaRā.031ab">
+            <app><lem>kusuma</lem><rdg wit="#B #C">kusama</rdg></app>sarāuha rūva<app><lem>ṇihi</lem><rdg wit="#C">ṇihiṃ</rdg></app></seg>
+            vihi <app><lem>ṇimmaviya</lem><rdg wit="#B">ṇimmamiya</rdg></app> gariṭṭha |</seg>
+	  </l>
+	  <l xml:id="SaRā.031cd">
+            taṃ pikkheviṇu <app><lem>pahiyaṇihiṃ</lem><rdg wit="#A">paṃthiyaṇihiṃ</rdg><rdg wit="#B">pahiyajaṇi</rdg></app></seg>
+            gāhā <app><lem>bhaṇiyā</lem><rdg wit="#B #C">paḍhiyā</rdg></app> aṭṭha || 31 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[31] kusumaśarāyudhāṃ vidhinā gariṣṭhāṃ rūpanidhiḥ(dhiṃ) nirmitāṃ tāṃ prekṣya pathikenāṣṭhau gāthā bhaṇitā[ḥ] || 31 ||</p>
+            <p>dodhakacchandaḥ | tallakṣaṇam —</p>
+            <quote>
+              <lg>
+		<l>teraha mattā visamapaya, sama egāraha matta |</l>
+		<l>ihu jāṇijjahu dohaḍaü, anna ma karijahu vatta |</l>
+              </lg>
+            </quote>
+            <p>prathama-tṛtīyapade [trayo]daśamātre bhavataḥ | dvitīya-caturthe pade ekādaśamātrike bhavataḥ | iti dodhakaḥ ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[31] kusumasa(śa)rāyudhaṃ rūpanidhir vidhinā gariṣṭhā nirmitā | tāṃ prekṣya pathikenāṣṭau gāthā bhaṇitāḥ | chando yathā —</p>
+            <quote><lg><l>‘teraha mattā visamapaya, samaegāra [-ha matta |’ ityādi] |</l></lg></quote>
+	  </note>
+	  <note type="translation">
+            <p>The creator must have made her the most amazing weapon of the love-god, a treasury of beauty — on seeing her the traveller spoke eight gāthās.</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.031-ex12">
+	  <l xml:id="SaRā.031-ex1ab">{pahiu bhaṇaï bivi dohā tasu su viyaḍḍhapari |</l>
+	  <l xml:id="SaRā.031-ex1cd">iku maṇi viṃbhaü thiyaü <app><lem>ki</lem><rdg wit="#C">kiṃ</rdg></app> <app><lem>rūviṇi</lem><rdg wit="#B">rūvaṇi</rdg></app> pikkhi kari ||</l>
+	  <l xml:id="SaRā.031-ex2ab">kiṃ nu payāvaï <app><lem>aṃdhalaü</lem><rdg wit="#C">aṃdhulaü</rdg></app> ahavi viyaḍḍhalu āhi |</l>
+	  <l xml:id="SaRā.031-ex2cd">jiṇi <app><lem>erisi</lem><rdg wit="#B">erisa</rdg></app> tiya ṇimmaviya ṭhaviya na <app><lem>appaha</lem><rdg wit="#A">appahu</rdg></app> pāhi ||}
+	  <note place="app"><foreign xml:lang="sa">etad dodhakayugalaṃ</foreign> B C <foreign xml:lang="sa">sañjñake ādarśadvaye labhyate, paraṃ</foreign> A <foreign xml:lang="sa">ādarśe nopalabhyate | ata etasyāvacūrikāpi na vidyate | kṣepakaprāyam idam |</foreign></note></l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>ataḥ paraṃ pathikaceṣṭām āha — pathikas tāṃ dṛṣṭvā dodhakadvayam āha — ‘pahiu’ — pathika[ḥ] dvau dodhakau bhaṇati | tasyāṃ vidagdhapariṇā ekaḥ manasi vismayo jātaḥ | tāṃ rūpavatīṃ prekṣa(kṣya) ahaṃ evaṃ manye — kiṃ nu prajāpatiḥ andhaḥ, athavā ṣaṇḍhaḥ? | yadetādṛśīṃ strīṃ nirmāya yenātmapārśve na sthāpiteti |</p>
+	  </note>
+	  <note type="translation">
+            <p>The traveller spoke these two dohās to her, with utmost skill: a singular amazement has arisen in my heart when I see this beautiful woman: is the creator blind, or just a eunuch, since he didn't set such a woman up with him when he made her?</p>
+	  </note>
+	</lg>
+	<pb n="16"/>
+	<lg xml:id="SaRā.032" type="āryā">
+	  <l xml:id="SaRā.032ab"><app><lem>aï</lem><rdg wit="#B">aya</rdg></app>kuḍilamāipihuṇā viviha<app><lem>taraṃgiṇisu</lem><rdg wit="#A">taraṃgaṃsu</rdg></app> salilakallolā |</l>
+	  <l xml:id="SaRā.032cd">kisaṇattaṇaṃmi <app><lem>alayā</lem><rdg wit="#A">aliyā</rdg></app> aliulamāla vva rehaṃti || 32 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[32] devīvarṇanaṃ caraṇād, nārīvarṇanaṃ śirasaḥ | ata āha — atikuṭilamātrayā pradhānāḥ | yathā taraṅgiṇīṣu salilakallolā vakrāḥ | kṛṣṇatve alikulamālā iva | evaṃvidhās tasyā alakāḥ śobhante || 32 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[32] devīvarṇanaṃ caraṇād, nārī- śirasaḥ | ata āha — tasyā alakā[ḥ] śobhante | kīdṛśāḥ ? — atikuḍilamātrayā pradhānāḥ, taraṅgiṇīsalilakallolā iva vakrāḥ | kṛṣṇatvenālikulamālā iva ||</p>
+	  </note>
+	  <note type="translation">
+            <p>In their extreme curliness, they were like surges of water in all kinds of rivers; in their darkness, her locks were like a swarm of bees.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.033" type="āryā">
+	  <l xml:id="SaRā.033ab">rayaṇītama<app><lem>viddavaṇo</lem><rdg wit="#C">viddamaṇo</rdg></app> amiyaṃjharaṇo <app><lem>sapuṇṇa</lem><rdg wit="#B">ya puṇṇa</rdg><rdg wit="#C">sapunna</rdg></app>somo ya |</l>
+	  <l xml:id="SaRā.033cd">akalaṃka <app><lem>māi</lem><rdg wit="#B">māya</rdg></app> <app><lem>vayaṇaṃ</lem><rdg wit="#C">baïṇaṃ</rdg></app> vāsaraṇāhassa paḍibiṃbaṃ || 33 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[32] tasyā vadanaṃ vāsaranāthasya pratibimbavad rarāja | kīdṛśam ? — rajanītamovidrāvakaḥ, amṛtasrāvī, saṃpūrṇṇaḥ akalaṅko yaḥ somo mātraṃ upamā || 33 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">8
+          <p>[33] tasyā vadanaṃ vāsaranāthasya pratibimbam iva rarāja | kīdṛśam? — rajanītamovidrāvakomṛtsrāvī | sampūrṇasomasya akalaṅkamātrā vāsaranāthasyopamā nānyā ||</p>
+	  </note>
+	  <note type="translation">
+            <p>And her face was like a spotless full moon, dispersing the darkness of night and flowing with nectar, the very reflection of the lord of the day.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.034" type="āryā">
+	  <l xml:id="SaRā.034ab"><app><lem>loyaṇa</lem><rdg wit="#C">loaṇa</rdg></app><app><lem>juyaṃ</lem><rdg wit="#C">juaṃ</rdg></app> ca <app><lem>ṇajjaï</lem><rdg wit="#B">ṇajjaïṃ</rdg></app> raviṃdadala dīhara ca rāillaṃ |</l>
+	  <l xml:id="SaRā.034cd">piṃḍīrakusumapuṃjaṃ taruṇi<app><lem>kavolā</lem><rdg wit="#A">kavolaṃ</rdg></app> kalijjaṃti || 34 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[34] ahamevaṃ manye — tasyāḥ striyāyā locanayugaṃ dīrghataraṃ rāgāḍhyaṃ aravindadalaṃ jigya(jaya?)ti | dāḍimīpuṣpagucchaṃ tasyā[ḥ] kapolo(lau) jigya(jaya)taḥ || 34 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[34] yasyā locanayugalam aravindadalaṃ dīrghataraṃ rāgāḍhyaṃ śobhate | piṇḍīrakusumapuñjavad dāḍimīpuṣpagucchavat tasyāḥ kapolau dṛśyete || </p>
+	  </note>
+	  <note type="translation">
+            <p>And her two eyes look like lotus-petals, long and deeply colored. People must consider the girl's cheeks to be a cluster of pomegranate flowers.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.035" type="āryā">
+	  <l xml:id="SaRā.035ab">komala <app><lem>muṇāla</lem><rdg wit="#B #C">miṇāla</rdg></app><app><lem>ṇalayaṃ</lem><rdg wit="#A">nalayaṃ</rdg><rdg wit="#B">ṇilayaṃ</rdg></app> amarasaruppanna bāhu<app><lem>juyalaṃ</lem><rdg wit="#A">juvalaṃ</rdg></app> <app><lem>se</lem><rdg wit="#B">ca</rdg></app> |</l>
+	  <l xml:id="SaRā.035cd">tāṇaṃte karakamalaṃ <app><lem>ṇajjaï</lem><rdg wit="#B">ṇajjaïṃ</rdg></app> dohāiyaṃ paümaṃ || 35 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[35] ahamevaṃ manye — tasyā bāhuyugalam, amarasaraütpannaṃ komalaṃ mṛṇālanalakam, padmasarasaḥ saṃbhūtasvarṇṇakamalaṃ bhūmimadhyadaṇḍaṃ jigya(jaya?)ti | tayoḥ bāhvoḥ prānte yat karakamalaṃ tad dvidhābhūtaṃ padmaṃ jñāyate || 35 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[35] tasyā bāhuyugalaṃ amarasaraütpannaṃ mānasaśaraḥsaṃjātaṃ mṛṇālanalakaṃ mithaḥsvarṇakamalasya bhūmimadhyasthadaṇḍamiva komalaṃ śobhate, tayor bāhu(hvoḥ) yatkarakamalaṃ tad dvidhābhūtapadmamiva jñāyate ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Her two arms are soft like a lotus-stalk arisen from a lake of nectar; her delicate hands at the end of them seem like lotus-flower split in two.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.036" type="āryā">
+	  <l xml:id="SaRā.036ab">sihaṇā suyaṇa-<app><lem>khalā</lem><rdg wit="#C">kalā</rdg></app> iva thaḍḍhā niccunnayā ya muharahiyā |</l>
+	  <l xml:id="SaRā.036cd">saṃgami suyaṇasaricchā <app><lem>āsāsahi</lem><rdg wit="#B">āsāsaï</rdg></app> be vi aṃgāiṃ || 36 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>tasyā nāi(yi)kāyāḥ kucau svajanakhalū(lau) iva śobhataḥ | khalopamānaṃ katham? — stabdhau nityonnatau mukharahitau | aprasūtatvāt | saṅgamenānyonyamilitena svajanasadṛkṣau | kiṃ kurvatau ? — dvāvapi aṅgāni āśvāsayantau || 36 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[36] tasyā[ḥ] kucau svajanakhalāviva śobhataḥ | khalopamā[na]māha — stabdhau kaṭhinau nityonnatau, aprasūtatvāt, mukharahitau | tathā ca saṅgame mele svajanasadṛkṣau | yato dvāv apy aṅgānyāsvāśvāsayataḥ | athavāntarabāhyāṅge āśvāsayataḥ ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Her breasts are like good guys and bad guys — firm (obdurate), always tall (always proud), and with nipples (talkative); but they are like good guys because during intercourse (during battle) they give pleasure to the body (give assurance to the armies).</p>
+	  </note>
+	</lg>
+
+	<pb n="17"/>
+	<lg xml:id="SaRā.037" type="āryā">
+	  <l xml:id="SaRā.037ab">giri<app><lem>ṇaï</lem><rdg wit="#B #C">naï</rdg></app>samāvattaṃ joijjaï <app><lem>ṇāhi</lem><rdg wit="#C">nābhi</rdg></app>maṃḍalaṃ <app><lem>guhiraṃ</lem><rdg wit="#A">gahiraṃ</rdg></app> |</l>
+	  <l xml:id="SaRā.037cd">majjhaṃ macca<app><lem>suhaṃ miva</lem><rdg wit="#C">suhaṃmiva</rdg></app> <app><lem>tucchaṃ</lem><rdg wit="#B">tucchaṃti</rdg></app> taralaggaīharaṇaṃ || 37 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[37] tasyā nābhimaṇḍalaṃ girinadyāvarttasadṛśaṃ [gabhīraṃ] dṛśyate | anyac ca — tasyā madhyaṃ marttyasukham iva — mānukhya(ṣya)kabhogasātam iva utcchaṃ dṛśyate | kadācana dṛggocaram, kadācanādṛggocaram | athavā taralagatau hāriṇaṃ padam iva || 37 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[37]  tasyā nābhimaṇḍalaṃ girinadyāvarttasadṛśaṃ gaṃbhīraṃ dṛśyate dyotate vā | anyac ca — madhyaṃ martyasukham iva tuccham, kadācanendriyagocaram, kadācana taralagater haraṇam, athavā taralagatau hāriṇaṃ padam iva ||</p>
+	  </note>
+	  <note type="translation">
+            <p>The deep circle of her navel looked like a whirlpool in a mountain-river. Her waist was slight, like joy for mortals, ruining her unsteady walk.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.038" type="āryā">
+	  <l xml:id="SaRā.038ab"><app><lem>jālaṃdhari</lem><rdg wit="#C">jālaṃdhara</rdg></app>thaṃbhi<app><lem>jiyā</lem><rdg wit="#C">biyā</rdg><rdg wit="#B">jiū</rdg></app> urū <app><lem>rehaṃti</lem><rdg wit="#A">rehiṃti</rdg></app> tāsu aïrammā |</l>
+	  <l xml:id="SaRā.038cd"><app><lem>vaṭṭā ya ṇāi</lem><rdg wit="#B">vaṭṭā i ṇāya</rdg></app>dīhā sarasā sumaṇoharā <app><lem>jaṃghā</lem><rdg wit="#C">rammā</rdg></app> || 38 || [kṣepaka]</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[38] tasyā urū jālandhari-kadalī-garbhasadṛśau rājataḥ | ca punaḥ — vṛtte, nātidīrghe, sutarāṃ manohare sarase jaṅghe rājataḥ || 38 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[38] jālandharī-kadalīstambha-jetārau tasyā urāvatiramyau rājataḥ | vṛtte nātidīrghe sarase sumanohare jaṅghe rājataḥ ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Her very lovely thighs seem to conquer the trunk of the jālandharī tree, and her captivating calves are round, not too long, and graceful.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.039" type="āryā">
+	  <l xml:id="SaRā.039ab">rehaṃti paümarāi va <app><lem>calaṇaṃ</lem><rdg wit="#A">caraṇaṃ</rdg></app>guli <app><lem>phaliha</lem><rdg>phaliya</rdg></app>kuṭṭi ṇahapaṃtī |</l>
+	  <l xml:id="SaRā.039cd">tucchaṃ romataraṃgaṃ <app><lem>uvvinnaṃ</lem><rdg wit="#C">uvvillaṃ</rdg></app> <app><lem>kusuma</lem><rdg wit="#A #C">kusama</rdg></app>nalaesu || 39 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[39] tasyāś caraṇāṅgulayaḥ padmarāgakhaṇḍānīva śobhante | tathā ca — tāsām aṅgulīnām upari nakhāḥ padmarāgoparisthasphaṭikakhaṇḍānīva | tathā ca — tāsv aṅgulīṣu udbhagnakamalanālatantusadṛśaṃ romataraṅgaṃ vyaracat || 39 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[39] tasyāś caraṇāṅgulayaḥ padmarāgakhaṇḍānīva śobhante | tathā ca — tāsām aṅgulīnām upari nakhāḥ padmarāgoparisthitasphaṭikakhaṇḍānīva | tathā ca — tāsv aṅgulīṣūdbhagnakamalanālatantusadṛśaṃ romataraṅgaṃ vyacarat ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Her toes look like rubies; her toenails like chips of quartz; her slight wave of hair, trembling like the hair on the stalk of a flower.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.040" type="āryā">
+	  <l xml:id="SaRā.040ab">sayalajja sireviṇu payaḍiyāiṁ aṃgāiṁ <app><lem>tīya</lem><rdg wit="#C">tīi</rdg></app> savisesaṃ |</l>
+	  <l xml:id="SaRā.040cd">ko <app><lem>kaviyaṇāṇa</lem><rdg wit="#A">kaīyaṇāṇa</rdg></app> <app><lem>dūsaï</lem><rdg wit="#B">dūsaïṃ</rdg></app> siṭṭhaṃ <app><lem>vihiṇā</lem><rdg wit="#A">vihaṇāi</rdg></app> vi puṇaruttaṃ || 40 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[40] vidhinā sai(śai)lajāṃ sṛṣṭvā tasyā aṅgāni tadvat, tato vā saviśesa[m], yathā prakaṭitāni — kṛtāni | ata āha — kaḥ kavīn dūṣayati | yad vidhināpi punaruktaṃ sṛṣṭam || 40 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[40] vidhinā śai[la]jāṃ sṛṣṭvā tasyā aṅgāni tadvat tato 'pi saviśeṣaṃ yathā praga(ka)ṭitāni — kṛtāni | ata āha —  kaḥ kavīn dūṣayati, yad vidhināpi punaruktaṃ sṛṣṭam ||</p>
+	  </note>
+	  <note type="translation">
+            <p>After creating Pārvatī, he endowed her limbs with special beauty. Who will blame poets for their repetition, if even the creator repeats his creation?</p>
+	  </note>
+	</lg>
+
+	<pb n="18"/>
+	<lg xml:id="SaRā.041" type="rāsā">
+	  <l xml:id="SaRā.041ab">
+            gāhā taṃ nisuṇeviṇu <app><lem>rāya</lem><rdg wit="#C">rāi</rdg></app>marāla<app><lem>gaï</lem><rdg wit="#A">gaya</rdg></app>, </seg>
+            <app><lem>calaṇaṃ</lem><rdg wit="#A">caraṇaṃ</rdg></app>guṭṭhi dharatti salajjira ullihaï |</seg>
+	  </l>
+	  <l xml:id="SaRā.041cd">
+            <app><lem>taü</lem><rdg wit="#A">taṃ</rdg></app> paṃthiu kaṇayaṃgi tattha <app><lem>bolāviyaü</lem><rdg wit="#A">bolāviaü</rdg><rdg wit="#C">volāviu</rdg></app>, </seg>
+            <app><lem>kahi</lem><rdg wit="#A">kaha</rdg></app> jāisi hiva pahiya kaha va <app><lem>tuha</lem><rdg wit="#B">tuhu</rdg></app> <app><lem>āiyaü</lem><rdg wit="#C">āiu</rdg></app> || 41 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[41] tadanu kiṃ kṛtaṃ tayā tadāha — ‘gāhā taṃ nisuṇe’ — tā gāthāḥ śrutvā rājamarālagatyā caraṇāṅguṣṭhena dharitrīṃ salajjamullikhantyā kanakāṅgyā pathiko vācālitaḥ | ataḥ paraṃ kva yāsyasi, kutaḥ samupāgataḥ || 41 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[41] gāthāḥ śrutvā tato rājahaṃsagatyā caraṇāṅguṣṭhena dharitrīṃ salajjamulikhantyā tayā kanakāṅgyā pathika ti vācālitaḥ — he pathika ! [kva yāsyasi ? kutas tvam āgataḥ ? || ]</p>
+	  </note>
+	  <note type="translation">
+            <p>Then, after hearing these gāthās, the woman with the walk of a flamingo bashfully drew a line on the earth with her toe. Then the golden-limbed girl spoke to the traveller: Where are you going, O traveller, and where have you come from?</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.042" type="rāsā">
+	  <l xml:id="SaRā.042ab">
+            <app><lem>ṇayaraṇāmu</lem><rdg wit="#B">nayaru nāmi</rdg></app> sāmoru saroruhadalanayaṇi, </seg>
+            <app><lem>ṇāyara</lem><rdg wit="#C">nāyara</rdg></app>jaṇa<app><lem>saṃpunnu</lem><rdg wit="#A">saṃpunna</rdg></app> harisa <app><lem>sasihara</lem><rdg wit="#C">saśihara</rdg></app><app><lem>vayaṇi</lem><rdg wit="#C">bayaṇi</rdg></app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.042cd">
+            dhavalatuṃgapāyārihi <app><lem>tiurihi</lem><rdg wit="#A">tiuri</rdg></app> <app><lem>maṃḍiyaü</lem><rdg wit="#C">maṃḍiu</rdg></app>, </seg>
+            ṇahu <app><lem>dīsaï</lem><rdg wit="#B">dīsaïṃ</rdg></app> kui mukkhu <app><lem>sayalu</lem><rdg wit="#C">sayala</rdg></app> <app><lem>jaṇu</lem><rdg wit="#A">jaṇa</rdg></app> paṇḍiyaü || 42 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[42] tatpṛṣṭaḥ pathikaḥ prāha — ‘nayaru-’ — he hemasaroruhadalanetre śaśadharavadani(ne) ! sāmoru = mūlasthānanāma nagaraṃ vartate | kīdṛśam ? — nāgarikaiḥ saṃpūrṇṇam, dhavalatuṅgaprākārais tripuraiś ca maṇḍitam | anyac ca — yatra ko 'pi na mūrkhaḥ, kintu sakalo 'pi janaḥ paṇḍitaḥ || 42 || </p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[42] sāmoraṃ mūlasthānaṃ nāma nagaram | he saroruhadalanayane ! nāgarajanaiḥ sampūrṇam, śaśadharavadani(ne) dhavalatuṅgaprākārais tripuraiś ca maṇḍitaṃ vartate | tatra ko 'pi mūrkho na dṛśyate, sakalo 'pi janaḥ paṇḍito 'sti ||</p>
+	  </note>
+	  <note type="translation">
+            <p>The name of the city is Sāmora, you with lotus-petal eyes; it is full of urbane people, and joy, O moon-faced one. It is adorned with fortifications, with high white walls. Nor is any fool to be seen; everybody is a paṇḍit.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.043" type="rāsā">
+	  <l xml:id="SaRā.043ab">
+            viviha<app><lem>viakkhaṇa</lem><rdg wit="#B">viyakhaṇu</rdg></app>satthihi jaï <app><lem>pavasii</lem><rdg wit="#B">pavasīi</rdg></app> ṇiru,</seg>
+            summaï chaṃdu maṇoharu pāyaü <app><lem>mahurayaru</lem><rdg wit="#C">mahuru saru</rdg></app> |</seg>
+	  </l>
+	  <pb n="19"/>
+	  <l xml:id="SaRā.043cd">
+            kaha va <app><lem>ṭhāi</lem><rdg wit="#C">ṭhāiṃ</rdg></app> caü<app><lem>veihiṃ</lem><rdg wit="#A">veyahiṃ</rdg><rdg wit="#C">beihiṃ</rdg></app> veu payā<app><lem>siyaï</lem><rdg wit="#A">siaïṃ</rdg></app>, </seg>
+            kaha <app><lem>bahurūvi ṇi</lem><rdg wit="#A">baharūvi ṇi</rdg><rdg wit="#C">bahurūvihiṃ ya</rdg></app>baddhaü rāsaü <app><lem>bhāsiyaï</lem><rdg wit="#A">bhāsīaï</rdg><rdg wit="#C">bhāsiyaïṃ</rdg></app> || 43 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[43] yadi vicakṣaṇaiḥ saha purānta[ḥ] paribhramyate, tadā manoharaṃ chandasā madhuraṃ prākṛtaṃ śrūyate | kutrāpi caturvedibhiḥ veda[ḥ]prakāśyate | kutrāpi bahurūpa(pi)bhir nibaddho rāsako bhāṣyate || 43 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[43] yadi vicakṣaṇaiḥ saha purāntaḥ paribhrama(mya)te, tadā manoharaṃ chandasā madhuraṃ prākṛtaṃ śrūyate, kutrāpi caturvedibhir vedaḥ śrūyate, prakāśyate vā | kutrāpi bahurūpakair nibaddho rāsako bhākṣa(ṣya)te ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Certainly, if scholars and wise men of various types should stay there, they would hear Prakrit meters, captivating and sweet, and in some place the Veda is broadcast by Caturvedis; somewhere else rāsas are spoken, composed in various forms.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.044" type="rāsā">
+	  <l xml:id="SaRā.044ab">
+            kaha va <app><lem>ṭhāi</lem><rdg wit="#C">thāiṃ</rdg></app> <app><lem>sudayavaccha</lem><rdg wit="#A #C">sudavaccha</rdg></app> kattha <app><lem>va nala</lem><rdg wit="#A #C">vara nala</rdg></app><app><lem>cariu</lem><rdg wit="#C">cariyaü</rdg></app>, </seg>
+            <app><lem>kattha va viviha</lem><rdg wit="#C">kattha vivihiṃ </rdg></app>viṇoihi bhārahu <app><lem>uccariu</lem><rdg wit="#B">uccariuṃ</rdg></app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.044cd">
+            kaha va ṭhāi āsīsiya <app><lem>cāihi</lem><rdg wit="#A">cāīya</rdg></app> <app><lem>dayava</lem><rdg wit="#C">pavaï</rdg></app>rihiṃ, </seg>
+            rāmāyaṇu ahi<app><lem>ṇaviyaaï</lem><rdg wit="#A">ṇavīaï</rdg></app> kattha vi kayavarihiṃ || 44 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[44] kutrāpi su(sa)dayavacchakathā, kutrāpi nalacaritra[m], kutrāpi vividhavinodaiḥ bhārataṃ uccaritaṃ śrūyate | anyac ca — kutrāpi kutrāpi āśiṣā tyāgibhir dvijavaraiḥ rāmāyaṇam abhinūyate || 44 || </p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[44] kutrāpi sadayavacchakathā, kutrāpi nalacaritram, kutrāpi vividhavinodair bhārataṃ śrūyate; kutrāpy āśiṣā tyāgibhir dvijavarair bhārata(rāmāyaṇa?)muccāryate ||</p>
+	  </note>
+	  <note type="translation">
+            <p>In some place Śūdrakavatsa, in another place Nalacarita, and somewhere else Bhārata is pronounced with various kinds of entertainment. In some place blessings are given by renunciant Brahmans; in another, the Rāmāyaṇa is declaimed by excellent poets.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.045" type="rāsā">
+	  <l xml:id="SaRā.045ab">
+            ke <app><lem>āinnihiṃ</lem><rdg wit="#C">āinnihi</rdg><rdg wit="#B">āyannahiṃ</rdg></app> <app><lem>vaṃsavīṇa</lem><rdg wit="#C">baṃsavīṇa</rdg><rdg wit="#B">vīṇavaṃsa</rdg></app>kāhalamuraü, </seg>
+            kaha <app><lem>payavaṇṇa</lem><rdg wit="#A">payavaṃna</rdg><rdg wit="#C">payabanna</rdg></app>ṇibaddhaü <app><lem>summaï</lem><rdg wit="#A">suṃmaï</rdg></app> gīyaraü |</seg>
+	  </l>
+	  <l xml:id="SaRā.045cd">
+            <app><lem>āyaṇṇahi</lem><rdg wit="#B">āinnihiṃ</rdg></app> susamattha <app><lem>pīṇaünnaya</lem><rdg wit="#C">pīṇunnaya</rdg></app><app><lem>thaṇiya</lem><rdg wit="#A">thaṇihi</rdg></app>, </seg>
+            callahi <app><lem>calla</lem><rdg wit="#A">coa</rdg></app> <app><lem>karaṃtiya</lem><rdg wit="#A">karaṃti</rdg><rdg wit="#B">karaṃtī</rdg></app> <app><lem>kattha vi</lem><rdg wit="#A">katthaevi</rdg><rdg wit="#C">kattha va</rdg></app> <app><lem>ṇaṭṭaṇiya</lem><rdg wit="#A">ṇaïṇihi</rdg></app> || 45 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[45] kecid vaṃśavīṇakāhalamurajamṛdaṅgaśabdān ākarṇayanti | kvāpi prākṛtavarṇanibaddho gītaravaḥ śrūyate | kutrāpi ākarṇane(rṣaṇe) samarthā[ḥ] pīnonnatastanyaḥ narttakya[ḥ] calacaletiśabdaṃ kurvantyaś calanti || 45 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[45] ke 'pi vaṃśavīṇākāhalamurajaśabdānākarṇayanti | kutrāpi prākṛtavarṇair nibaddho gītaravaḥ śrūyate | kutrāpy ākarṣaṇe samarthāḥ pīnonnatastanyaḥ narttakyaś calacalaśabdaṃ kurvantyaḥ paribhramaṇaṃ kurvanti ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Some listen to the sound of the flute, vīṇā, trumpet, and drum; in one place the sounds of songs composed in padas or syllables is heard; in another place, people listen to capable dancers with full and high breasts, making the sound callahi, calla. (Carcarī?)</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.046" type="rāsā">
+	  <l xml:id="SaRā.046ab">
+            nara aüvva <app><lem>viṃbhaviya</lem><rdg wit="#B">vimhayahiṃ</rdg><rdg wit="#C">vimhiyahiṃ</rdg></app> vivihanaḍanāḍaïhiṃ,</seg>
+            <app><lem>mucchijjahi</lem><rdg wit="#B">mucchijjaï</rdg><rdg wit="#C">mucchajjahiṃ</rdg></app> <app><lem>pavisaṃta ya</lem><rdg wit="#A">pavisaṃtiya</rdg><rdg wit="#B">pavisaṃtā</rdg></app> vesā<app><lem>vāḍaïhiṃ</lem><rdg wit="#A">vāḍayahi</rdg></app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.046cd">
+            bhamahiṃ <app><lem>kā</lem><rdg wit="#C">ke</rdg></app> vi <app><lem>mayaviṃbhala</lem><rdg wit="#B #C">maïmiṃbhala</rdg></app> gurukarivaragamaṇi,</seg>
+            anna rayaṇa<app><lem>tāḍaṃkihi</lem><rdg wit="#A">tādaṃkahi</rdg></app> <app><lem>parigholi</lem><rdg wit="#C">parigholli</rdg></app>rasavaṇi || 46 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[46] yatra narā vividhanaṭanāṭakibhir vismayante | yatra veśyābhir veśyāpāṭake praviśanto nīrāgiṇo 'pi mūrcchyante | tad varṇanam āha — kāścid veśyā madabhimbhalā gajagamanā bhramanti | anyā ratnatāḍaṅkaiḥ pratigholantaśravaṇāḥ paribhramanti || 46 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[46] yatra narā vividhanaṭanāṭikībhir vismayante | yatra veśyābhir veśyāpāṭake praviśanto nīrāgiṇo 'pi mūrcchyante | tad varṇanam āha — kācid veśyā madabhimbhalā gajagamanā bhramati | anyā ratnatāḍaṅkaiḥ pratigholantaśravaṇā bhramanti ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Men, amazed as never before by various kinds of actors and actresses, lose consciousness when they so much as enter the veśyā's quarters. They stumble around—some walking like huge elephants, tripping with intoxication (rut); others, their ears whirling about because of the jeweled ear-ornaments on them.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.047" type="rāsā">
+	  <l xml:id="SaRā.047ab">
+            avara kaha va ṇivaḍabbharaghaṇatuṁgatthaṇihiṃ,</seg>
+            <app><lem>bhariṇa</lem><rdg wit="C">dhariṇa</rdg></app> majjhu <app><lem>ṇahu</lem><rdg wit="#A">ṇuhu</rdg></app> <app><lem>tuṭṭaï</lem><rdg wit="#C">tuṭṭe</rdg></app> tā <app><lem>viṃbhaü</lem><rdg wit="#B">viṃbaü</rdg><rdg wit="#C">viṃbhaü</rdg></app> maṇihiṃ |</seg>
+	  </l>
+	  <l xml:id="SaRā.047cd">
+            kā vi keṇa <app><lem>sama dara</lem><rdg wit="#C">sama</rdg></app> hasaï <app><lem>niyakoaṇihi</lem><rdg wit="#A">nniyakoaṇihi</rdg><rdg wit="#B">niyaïmaïkoiṇihi</rdg><rdg wit="#C">nayamaïkoūṇihi</rdg></app>,</seg>
+            chittatuccha<app><lem>tāmiccha</lem><rdg wit="#C">tiricchiya</rdg></app> tiracchiyaloyaṇihi || 47 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[47] aparā kācana bhramati | kīdṛśī ? — yat tasyā madhyaṃ niva(bi)ḍottaraghanatuṅgastanayor bhāreṇa na truṭati tadāścaryam | aparā kācana kenāpi saha ijakalamadakaukucyạ̄m (kucābhyāṃ) kṣiptatucchatāmiccha[m] kajjalaṃ nirya(k) sthitalocanābhyāṃ dara manāk(g) hasati ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[47] aparā kācana bhramati | kīdṛśī ? — tasyā madhyaṃ niva(bi)ḍoddhuravanatuṅgastanayor bhāreṇa na truṭati, tadāścaryam | aparā kācit kenāpi saha nijakamadakaukucābhyāṃ kṣiptatucchakajjalatiryaksthitalocanābhyāṃ dara manāk(g) hasati ||</p>
+	  </note>
+	  <note type="translation">
+            <p>In one place, women with breasts firm, heavy, thick, and raised up—they strike amazement into their minds: how is their waist not snapped by the weight? Another breaks a slight smile at some man despite her anger (??), her eyes cast sidelong, with a bit of kajjal smeared off.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.048" type="rāsā">
+	  <l xml:id="SaRā.048ab">
+            avara kā vi su<app><lem>viakkhaṇa</lem><rdg wit="#C">viyakkhaṇi</rdg></app> <app><lem>vihasaṃtī</lem><rdg wit="#C">vihasaṃti</rdg><rdg wit="#B">vihasaṃtiya</rdg></app> <app><lem>vimali</lem><rdg wit="#C">vimala</rdg></app>,</seg>
+            <app><lem>ṇaṃ</lem><rdg wit="#B">ṇajjaï ṇaṃ</rdg></app> sasi<app><lem>sūra</lem><rdg wit="#A">sūru</rdg></app> <app><lem>ṇivesiya</lem><rdg wit="#A">ṇivesiu</rdg></app> <app><lem>rehaï</lem><rdg wit="#B"><note><foreign xml:lang="sa">nāsti</foreign> B</note></rdg></app> <app><lem>gaṃḍayali</lem><rdg wit="#A">gaṃḍiyali</rdg></app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.048cd">
+            mayaṇa<app><lem>vaṭṭu</lem><rdg wit="#C">vaṭṭa</rdg></app> <app><lem>miaṇā</lem><rdg wit="#B">mayaṇā</rdg><rdg wit="#C">maïṇā</rdg></app>hiṇa kassa va <app><lem>paṃkiyau</lem><rdg wit="#A">paṃkaaü</rdg></app>,</seg>
+            annaha <app><lem>bhālu</lem><rdg wit="#C">bhāla</rdg></app> turakki tilaï ālaṃkiyaü || 48 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[48] aparā kā 'pi suvicakṣaṇā vihasantī vimalā nirmalahāsyā bhramasi | kīdṛśī ? — aham evaṃ manye śaśi-sūryau gaṇḍayor niviṣṭau | kasyāś cin madanapaṭṭaṃ kucasthalaṃ mṛganābhipaṅkāṅkitaṃ varttate | anyasyā bhālaṃ tīkṣṇena tilakenālaṅkṛtaṃ varttate || 48 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[48] aparā kācit suvicakṣaṇā vikasantī vimalātinirmalahāsyā bhramati | kīdṛśī ? — manye, śaśi-sūryau gaṇḍayor niviṣṭau | kasyāś cana madanapaṭṭaṃ kucasthalaṃ mṛganābhipaṅkāṅkitaṃ vartate | anyasyā bhālaṃ tīkṣṇeṇa tilakenālaṅkṛtaṃ vartate ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Another one, very clever, walks around with a pure white smile: it seems like the sun and the moon have entered into her cheeks. The chest of another is smeared with musk. Another's forehead is adorned with a Turkish mark.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.049" type="rāsā">
+	  <l xml:id="SaRā.049ab">
+            hāru <app><lem>kasa vi thūlā</lem><rdg wit="#A">kasa thūlā</rdg><rdg wit="#B">kasa va thūlā</rdg></app>vali ṇiṭṭhura rayaṇabhari,</seg>
+            lulaï maggu alahaṃtaü thaṇavaṭṭaha sihari |</seg>
+	  </l>
+	  <l xml:id="SaRā.049cd">
+            <app><lem>guhira</lem><rdg wit="#A">gahira</rdg></app> ṇāhi<app><lem>vivaraṃtaru</lem><rdg wit="#B">viyaḍaṃtaru</rdg></app> <app><lem>kassa vi</lem><rdg wit="#B #C">kassa va</rdg></app> <app><lem>kuṃḍaliu</lem><rdg wit="#A">kuṃḍaliyaü</rdg></app>,</seg>
+            <app><lem>tivala</lem><rdg wit="#A #B">vimala</rdg></app> <app><lem>taraṃga pasaṃgihi</lem><rdg wit="#B">taraṃgi pasaṃgiu</rdg></app> rehaï <app><lem>maṃḍaliu</lem><rdg wit="#C">maṃḍaliyaü</rdg></app> || 49 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[49] kasyāś cit stanapaṭṭasiṣa(śikha)re hāraḥ praveśamalabhan ratnabhareṇa lolati | kasyāś cin nābhivivaraṃ gambhīraṃ kuṇḍalitaṃ — kuṇḍalākāraṃ varttate | punaḥ kīdṛśaṃ nābhivivaranam? — trivalītaraṅgaprasaṅgato maṇḍalitam iva śobhate || 49 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[49] kasyāś cana stanapaṭṭaśikhare niṣṭhure hāraḥ praveśam alabhan ratnabhareṇa lolati | kasyāś cin nābhivivaraṃ gambhīraṃ kuṇḍalitaṃ — kuṇḍalākāraṃ vartate | punaḥ kīdṛśaṃ nābhivivaram ? — trivalītaraṅgaprasaṅgato maṇḍalitam iva śobhate ||</p>
+	  </note>
+	  <note type="translation">
+            <p>The necklace of another, an uncomfortable set of thick strands with a massive jewel, rolls around without finding a path on the peak of her chest. The deep chasm of another's navel is like a ring, and it looks as if it has been rounded by contact with the waves of her trivalī. </p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.050" type="rāsā">
+	  <l xml:id="SaRā.050ab">
+            ramaṇa<app><lem>bhāra</lem><rdg wit="#A">bhāru</rdg></app> guruviyaḍaü kā <app><lem>kaṭṭhihi</lem><rdg wit="#C">kaṭṭhiṃhiṃ</rdg></app> <app><lem>dharaï</lem><rdg wit="#A">varaï</rdg></app>,</seg>
+            aï<app><lem>malhiraü</lem><rdg wit="#C">milhiraü</rdg></app> camakkaü turiyaü <app><lem>ṇahu</lem><rdg wit="#B">nahu</rdg></app> <app><lem>saraï</lem><rdg wit="#B">saraïṃ</rdg></app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.050cd">
+            jaṃpaṃtī mahurakkhara kassa <app><lem>va</lem><rdg wit="#C">vi</rdg></app> kāmiṇihiṃ, </seg>
+            hīrapaṃti<app><lem>sāriccha</lem><rdg wit="#C">sariccha</rdg></app> ḍasaṇa jhasurāruṇihiṃ || 50 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[50] kācid ramaṇabhāraṃ guruvikaṭam, atisthūlatvāt, kaṣṭena bibhartti | tasyāś  calantyā upānahoś camacamacchabdo 'timantharas tu(stva)ritaṃ na sarati | aparasyā madhurākṣaraṃ jalpantyāḥ kāminyā hīrapaṅktisadṛkṣā nāgavallīdalāraktādaśanāḥ śobhante || 50 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[50] kācid ramaṇabhāraṃ guruvikaṭam, atisthūlatvāt, kaṣṭena bibharti —  dhārayati | tasyāś calantyā upānahoś camacamaśabdo 'timantharas tvaritaṃ na śa(sa)rati | aparasyā madhurākṣaraṃ jalpantyāḥ kāminyā hīrapaṅktisadṛkṣā nāgavallīdalāraktā daśanāḥ śobhante || </p>
+	  </note>
+	  <note type="translation">
+            <p>One woman bears the weight of her hips, heavy and huge, with difficulty. The creaking sound (of her sandals) is very lovely; it is not rushed at all. As another lustful woman speaks sweet syllables, her teeth look like a row of diamonds, on account of the redness of the paan.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.051" type="rāsā">
+	  <l xml:id="SaRā.051ab">
+            avara kaha va varamuddha hasaṃtiya aharayalu,</seg>
+            sohālaü karakamalu saralu <app><lem>bāhaha</lem><rdg wit="#B">bāhahu</rdg></app> juyalu |</seg>
+	  </l>
+	  <l xml:id="SaRā.051cd">
+            <app><lem>annaha</lem><rdg wit="#B">aṇṇahaṃ</rdg></app> taruṇikaraṃguli<app><lem>ṇaha</lem><rdg wit="#B">nakha</rdg></app> ujjala vimala, </seg>
+            <app><lem>avara</lem><rdg wit="#A">ahava</rdg></app> kavola <app><lem>kalijjahi</lem><rdg wit="#A">kalijjihi</rdg></app> dāḍima<app><lem>kusuma</lem><rdg wit="#C">kusama</rdg></app>dala || 51 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[51] aparasyā varamughdāyā hasantyā adharadalaṃ karakamalaṃ saralaṃ bāhuyugalaṃ trayaṃ samaṃ śo[bhā]ḍhyaṃ varttate | tatra kamalabhramo yathā — bāhuyugalaṃ daṇḍasthānīyam, adharaṃ dalasthānīyam, karaṃ kamalasthānīyaṃ jātam | evaṃ kamalabhramaḥ | anyasyās taruṇyāḥ karāṅgulinakhā ujjvalā vimalā[ḥ] so(śo)bhante | aparasyāḥ kapolau dāḍimakuśa(su)madalau śobhataḥ || 51 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[51] aparasyā varamugdhāyā hasantyā adharadalaṃ bāhuyugalaṃ samaṃ śobhāḍhyaṃ vartate | tatra kamabhramo yathā — adharaṃ dalasthānīyam, karaṃ kamalasthānīyam, saralaṃ bāhuyugalaṃ daṇḍasthānīyam | anyasyā api nāya(yi)kāyāḥ karāṅgulīṣu nakhā ujjvalā bhānti | aparasyāḥ kapolau dāḍimakusumadalau kalyete ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Somewhere, as another lovely girl laughs, there's a lip-petal, a beautiful flower-hand, and a straight pair of arms (like a lotus). Another young woman has shining white fingernails. Another's cheeks look like the petals of a pomegranate flower.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.052" type="rāsā">
+	  <l xml:id="SaRā.052ab">
+            bhamuhajuyala sannaddhaü kassa <app><lem>va</lem><rdg wit="#B">vi</rdg></app> bhāi<app><lem>yaï</lem><rdg wit="#B">yaïṃ</rdg></app>,</seg>
+            ṇāi koi <app><lem>koyaṃḍu</lem><rdg wit="#C">koiṃḍu</rdg></app> <app><lem>aṇaṃgi</lem><rdg wit="#A">āṇaṃgi</rdg></app> caḍāiyaï</seg>
+	  </l>
+	  <l xml:id="SaRā.052cd">
+            ikkaha ṇevara<app><lem>juyalaya</lem><rdg wit="#A">juyalaü</rdg><rdg wit="#C">juyala</rdg></app> summaï raü ghaṇaü,</seg>
+            annaha rayaṇanibaddhaü mehala <app><lem>ruṇa</lem><rdg wit="#B">ruṇu</rdg></app><app><lem>jhuṇaü</lem><rdg wit="#C">jhaṇaï</rdg></app> || 52 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[52] kasyāś cid bhrūyugalaṃ sannaddhaṃ ślakṣṇaṃ bhāti | manye kamapi kodaṇḍaṃ madanena caṭāpyate | ekasyā nūpurayugalasya ghanaḥ śabdaḥ śrūyate | anyasyā ratnanibaddhāyā mekhalāyā ruṇajhuṇaśabdaḥ śrūyate || 52 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[52] kasyāś cid bhrūyugalaṃ ślakṣṇaṃ bhāti | manye kodaṇḍaṃ kamapi madanena caṭāpyate | ekasyā api nevarayugale ghano ravaḥ śrūyate, anyasyā ratnanibaddhamekhalāraṇajhaṇatkāraḥ śrūyate ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Another's pair of eyebrows look closely knit (standing ready), as if it were a bow being strung by Kāmadeva. Another's pair of anklets makes a loud noise; another's belt, bound with jewels, makes a jingling sound.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.053" type="rāsā">
+	  <l xml:id="SaRā.053ab">
+            cikkaṇaraü caṃbāihiṃ līlaṃtiya <app><lem>pavaru</lem><rdg wit="#A">pavara</rdg></app>,</seg>
+            ṇava<app><lem>sara</lem><rdg wit="#C">saru</rdg></app><app><lem>āgami ṇajjaï</lem><rdg wit="#A">aggi muṇijjaï</rdg></app> <app><lem>sārasi rasiu saru</lem><rdg wit="#C">sārasiu saru</rdg></app></seg>
+	  </l>
+	  <l xml:id="SaRā.053cd">
+            <app><lem>paṃcamu</lem><rdg wit="#C">paṃcama</rdg></app> kaha va jhuṇaṃtiya jhīnaü mahura<app><lem>yaru</lem><rdg wit="#A">yara</rdg></app>,</seg>
+            <app><lem>ṇāyaṃ tuṃbari</lem><rdg wit="#C">ṇārayatuṃbaru</rdg></app> sajjiu sura<app><lem>pikkhaṇaï</lem><rdg wit="#B">pikkhaṇaya</rdg></app> saru || 53 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[53] kāsāṃcin nāi(yi)kānāṃ līlantīnāṃ upānahāṃ pravaraḥ cikkaṇaḥ śabdaḥ pravarttate | manye, navaśaradāgame sārasena rasitam | kasyāś cit kvāpi pañcamaṃ kurvantyāḥ kṣīṇo madhurataraḥ svaro bhāti sma | manye suraprekṣaṇe tumbareṇa svaraḥ sajjitaḥ || 53 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[53] upānahaś cikkaṇaḥ śabdaḥ pravaraṃ līlantīnāṃ nāyikānāṃ pravartate | manye navaśaradāgame sārasena rasitam | kasyāś cit pañcamaṃ kurvantyāḥ kṣīṇo madhurataraḥ svaro bhāti sma | manye, suraprekṣaṇe tumbareṇa svaraḥ sajjitaḥ ||</p>
+	  </note>
+	  <note type="translation">
+            <p>The smooth, very lovely sound made by their shoes as they act gracefully seems like the noise made by the sāras bird at the arrival of a new autumn. As one hums the pañcama note somewhere else, delicately and very sweetly, it's like the sound tuned by Tumbara in view of the gods.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.054" type="rāsā">
+	  <l xml:id="SaRā.054ab">
+            ima <app><lem>ikkikkaha</lem><rdg wit="#B #C">ikkakkaha</rdg></app> tattha <app><lem>rūvu</lem><rdg wit="#B">rūva</rdg></app> <app><lem>joyaṃtayaha</lem><rdg wit="#A">joyaṃyayahaṃ</rdg><rdg wit="#B">joyaṃtiyaṃha</rdg></app>,</seg>
+            jhasurapiṁga paya <app><lem>khalahi</lem><rdg wit="#C">khalahiṃ</rdg></app> pahiya pavahaṃ<app><lem>tayaha</lem><rdg wit="A">tayahaṃ</rdg><rdg wit="#B">tiyahaṃ</rdg></app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.054cd">
+            aha <app><lem>bāhiri</lem><rdg wit="#A">bāhari</rdg><rdg wit="#C">bāhira</rdg></app> pari<app><lem>bhamaṇi</lem><rdg wit="#A">bhamaṇa</rdg><rdg wit="#B">bhamaṇu</rdg></app> koi jaï nīsaraï,</seg>
+            <app><lem>pikkhivi</lem><rdg wit="#A">pikkhi</rdg><rdg wit="#B">pikhi</rdg></app> <app><lem>viviha</lem><rdg wit="#A">bahi</rdg></app> <app><lem>ujjāṇu</lem><rdg wit="#A">ujjāṇa</rdg><rdg wit="#B">ujāṇa</rdg></app> bhuvaṇu <app><lem>tahi</lem><rdg wit="B">taha</rdg></app> vīsaraï || 54 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[54] evam ekasyā ekasyās tatra rūpaṃ paśyatāṃ pathi pravahatāṃ pathikānāṃ jhasurapiṅgena nāgavallīdalāsvādanānmuktarasena [pādāḥ] skhalanti | atha bahiḥ paribhramaṇārthaṃ ko' pi yadi nissarati, tadā vividhodyānaṃ dṛṣṭvā bhuvanāni vismarati || 54 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[54] evam ekasyā ekasyās tatra rūpaṃ paśyatāṃ pathi pravahatāṃ pathikānāṃ nāgavallīdalāsvādanānmuktarasena pādāḥ skhalanti | atha bahiḥ paribhramaṇārthaṃ ko 'pi yadi nissarati tadā vividhodyānaṃ dṛṣṭvā bhuvanāni vismarati ||</p>
+	  </note>
+	  <note type="translation">
+            <p>Thus, as travellers note the beauty of each one of them there, as they're setting out on their way, their feet stumble because of the red juice of the paan. Then, if anyone goes outside for a walk, he'll see all kinds of gardens, and forget the houses.</p>
+	  </note>
+	</lg>
+
+	<p>atha vanaspatināmāni—</p>
+	<lg xml:id="SaRā.055" type="rāsā">
+	  <l xml:id="SaRā.055ab">
+            dalla kuṃda <app><lem>saya</lem><rdg wit="#A">saï</rdg></app>vattiya kattha <app><lem>va</lem><rdg wit="#C">vi</rdg></app> rattabala,</seg>
+            kaha va ṭhāi vara mālaï māliya taha vimala |</seg>
+	  </l>
+	  <l xml:id="SaRā.055cd">
+            <app><lem>jūhī khaṭṭaṇa</lem><rdg wit="#B">jūhiyakhaṇa</rdg></app> vālū  <app><lem>caṃbā</lem><rdg wit="#C">vaübā</rdg></app> baüla ghaṇa,</seg>
+            kevaï taha <app><lem>kuṃdaṭṭaya</lem><rdg wit="#C">kuṃḍuṭṭaya</rdg><rdg wit="#B">kaṃduḍḍhaï</rdg></app> aṇurattā sayaṇa || 55 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[55-58] nāmāny eva || 55 - 58 ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.056" type="rāsā">
+	  <l xml:id="SaRā.056ab">
+            māuliṃga mālūra moya māyaṃda mura,</seg>
+            dakkha <app><lem>bhaṃbha</lem><rdg wit="#A">bhabhā</rdg><rdg wit="#B">bhaṃbhā</rdg></app> <app><lem>īkhoḍa</lem><rdg wit="#C">ākhoḍa</rdg></app> <app><lem>pīṇa</lem><rdg wit="#B">khīṇa</rdg><rdg wit="#C">pīḍa</rdg></app> ārū <app><lem>siyara</lem><rdg wit="#A">sihara</rdg></app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.056cd">
+            taruṇatāla <app><lem>taṃmāla</lem><rdg wit="#B">tamāla</rdg></app> taruṇa <app><lem>tuṃbara khayara</lem><rdg wit="#B">tuṃbaru khayaru</rdg></app>,</seg>
+            <app><lem>saṃjiya</lem><rdg wit="#A">saṃjīa</rdg></app> saï<app><lem>vattiya</lem><rdg wit="#A">battīa</rdg></app> <app><lem>sirīsa</lem><rdg wit="#A #C">sarīsa</rdg></app> <app><lem>sīsama</lem><rdg wit="#A">sīsava</rdg></app> <app><lem>ayara</lem><rdg wit="#A">apara</rdg></app> || 56 ||</seg>
+	  </l>
+	</lg>
+
+	<lg xml:id="SaRā.057" type="rāsā">
+	  <l xml:id="SaRā.057ab">
+            <app><lem>pippala</lem><rdg wit="#A">pippaḍa</rdg></app> pāḍala puya palāsa ghaṇasāravaṇa,</seg>
+            maṇahara <app><lem>tujja</lem><rdg wit="#A">tubū</rdg></app> hiranna <app><lem>bhujja</lem><rdg wit="#A">bhuja</rdg></app> <app><lem>dhaya</lem><rdg wit="#C">dhara</rdg></app> vaṃsavaṇa |</seg>
+	  </l>
+	  <l xml:id="SaRā.057cd">
+            <app><lem>nāliera</lem><rdg wit="#B #C">nālaera</rdg></app> niṃboya <app><lem>niṃvijiya</lem><rdg wit="#C">nivaṃjiya</rdg></app> niṃba vaḍa,</seg>
+            <app><lem>ḍhakka</lem><rdg wit="#A">kakka</rdg><rdg wit="#B">ḍakka</rdg></app> cūya <app><lem>aṃbiliya</lem><rdg wit="#A">aṃbilīa</rdg></app> kaṇayacaṃdaṇa nivaḍa || 57 ||</seg>
+	  </l>
+	</lg>
+
+	<lg xml:id="SaRā.058">
+	  <l xml:id="SaRā.058ab">
+            <app><lem>āmarūya</lem><rdg wit="#C">āmamūra</rdg></app> gullara mahūya <app><lem>āmali</lem><rdg wit="#A">āvalīa</rdg></app> abhaya,</seg>
+            nāyaveli maṃjiṭṭha <app><lem>pasari</lem><rdg wit="#B">pasara</rdg></app> daha <app><lem>disaha</lem><rdg wit="#A">disihi</rdg></app> gaya ||</seg>
+	  </l>
+	  <l xml:id="SaRā.058cd">
+            {†maṃdāra jāi taha siṃduvāra |</seg>
+            mahamahaï su vālaü atihi phāra† || rāsāchandaḥ |}<note place="app"><foreign xml:lang="sa">etat pādayugmaṃ kevalaṃ</foreign> B <foreign xml:lang="sa">ādarśe prāpyate, nopalabhyate</foreign> A C <foreign xml:lang="sa">ādarśayugme |</foreign></note></seg>
+	  </l>
+	</lg>
+
+	<lg xml:id="SaRā.059" type="paddhaṭika">
+	  <l xml:id="SaRā.059ab">
+            kiṃkilla kuṃja <app><lem>kuṃkuma</lem><rdg wit="#A">kuṃjama</rdg><rdg wit="#C">kuṃkama</rdg></app> kavola,</seg>
+            surayāra <app><lem>sara</lem><rdg wit="#B">sala</rdg></app>la sallaï salola |</seg>
+	  </l>
+	  <l xml:id="SaRā.059cd">
+            <app><lem>bāyaṃba</lem><rdg wit="#A">nāyaṃba</rdg></app> niṃba <app><lem>niṃbū</lem><rdg wit="#A">niṃbū a</rdg></app> cināra,</seg>
+            simi sāya sarala siya devadāra || 59 || [paddhaḍī |]</seg>
+	  </l>      
+	</lg>
+
+	<lg xml:id="SaRā.060" type="paddhaṭika">
+	  <l xml:id="SaRā.060ab">
+            <app><lem>lesūḍa</lem><rdg wit="A">lhesūḍa</rdg><rdg wit="#B">lesūḍiya</rdg></app> ela <app><lem>laṃbiya lavaṃga</lem><rdg wit="#C">laṃbaya lavaṃga</rdg><rdg wit="#B">lavaṃga caṃga</rdg></app>,</seg>
+            <app><lem>kaṇayāra</lem><rdg wit="#B">kaṇayara</rdg></app> <app><lem>kaïra</lem><rdg wit="#B">karīra</rdg><rdg wit="#C">kaliya</rdg></app> <app><lem>kurabaya</lem><rdg wit="#A">kurabaï</rdg><rdg wit="#B">kuruvaï</rdg></app> khataṃga |</seg>
+	  </l>
+	  <l xml:id="SaRā.060cd">
+            <app><lem>aṃviliya</lem><rdg wit="#A">aṃbilīka</rdg><rdg wit="#B">aṃbilīyayaka</rdg></app> kayaṃba bibhīya <app><lem>coya</lem><rdg wit="#B">cūya</rdg></app></seg>
+            rattaṃjaṇa jaṃbuya guru asoya || 60 ||</seg>
+	  </l>      
+	</lg>
+
+	<lg xml:id="SaRā.061" type="paddhaṭika">
+	  <l xml:id="SaRā.061ab">
+            <app><lem>jaṃbīra</lem><rdg wit="#A">jaṃbhīra</rdg></app> <app><lem>suhaṃjaṇa</lem><rdg wit="#C">suhiṃjaṇa</rdg></app> nāyaraṃga,</seg>
+            <app><lem>bijjaüriya ayaruya</lem><rdg wit="#A">bijjaürī aïruī</rdg><rdg wit="C">bijjaürīya ārū</rdg></app> pīyaraṃga |</seg>
+	  </l>
+	  <l xml:id="SaRā.061cd">
+            naṃdaṇa <app><lem>jima</lem><rdg wit="#A">vaṇa</rdg></app> <app><lem>sohaï</lem><rdg wit="#A">sohaïhi</rdg><rdg wit="#C">sohahi</rdg></app> ratta<app><lem>sāla</lem><rdg>sālu</rdg></app>,</seg>
+            jiha pallava <app><lem>dīsaï</lem><rdg wit="#A">disaï</rdg></app> jaṇu <app><lem>palāva</lem><rdg wit="#A">palāvu</rdg></app> || 61 ||</seg>
+	  </l>      
+	</lg>
+
+	<lg xml:id="SaRā.062" type="paddhaṭika">
+	  <l xml:id="SaRā.062ab">
+            <app><lem>āriṭṭhiya</lem><rdg wit="A">ārīṭhaya</rdg><rdg wit="#C">āraṭṭhiya</rdg></app> <app><lem>damaṇaya</lem><rdg wit="#B">damaṇaï</rdg><rdg wit="#C">davaṇa</rdg></app> gidda cīḍa,</seg>
+            <app><lem>jiha</lem><rdg wit="#B">jihi</rdg></app> ālaï dīsaï <app><lem>saüṇi</lem><rdg wit="#A #C">saüṇa</rdg></app> bhīḍa |</seg>
+	  </l>
+	  <l xml:id="SaRā.062cd">
+            <app><lem>khajjūri</lem><rdg wit="#C">khajjūra</rdg></app> <app><lem>beri</lem><rdg wit="#B">bori</rdg></app> <app><lem>bhāhaṇa</lem><rdg wit="#A">bhāhuṇi</rdg><rdg wit="#B">bhāhaṇu</rdg></app> sayāiṃ,</seg>
+            <app><lem>boheya</lem><rdg wit="#B">bāheya</rdg></app> <app><lem>uvaṇa</lem><rdg wit="#C">ḍuvaṇa</rdg><rdg wit="#B">ḍuvaṇu</rdg></app> tulasīyalāiṃ || 62 ||</seg>
+	  </l>      
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[62] atra śakuni[nāṃ] — pakṣiṇāṃ ālayānāṃ — gṛhāṇāṃ bhīḍā dṛśyate | śeṣaṃ gamyam || 62 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[62] śakuni = pakṣī, ālaya = nīḍa | śeṣaṃ nāmāny eva ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.063" type="paddhaṭika">
+	  <l xml:id="SaRā.063ab">
+            nāesari <app><lem>moḍima</lem><rdg wit="#A">moḍiva</rdg></app> pūgamāla,</seg>
+            <app><lem>maha</lem><rdg wit="#B">aha</rdg></app>mahaï chamma maruaï visāla || 63 || [arddham]</seg>
+	  </l>  
+	</lg>
+
+	<lg xml:id="SaRā.064" type="rāsā">
+	  <l xml:id="SaRā.064ab">
+            annaya sesa mahī<app><lem>ruha</lem><rdg wit="#A">ruhu</rdg></app> atthi <app><lem>ji</lem><rdg wit="#B #C">ju</rdg></app> sasivayaṇi,</seg>
+            muṇaï nāmu taha kavaṇu saroruhadalanayaṇi |</seg>
+	  </l>
+	  <l xml:id="SaRā.064cd">
+            aha savvaï saṃkheviṇu <app><lem>nivaḍa</lem><rdg wit="#B">niviḍa</rdg></app> niraṃtariṇa,</seg>
+            joyaṇa dasa gaṃmijjaï taruchāyaṃ<app><lem>tariṇa</lem><rdg wit="#B">taruṇi</rdg><rdg wit="#C">tiriṇa</rdg></app> || 64 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[64] ityādivṛkṣajātiṣu sugamaṃ nāmāny eva || 64 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[64] anye 'pi śeṣamahīruhā vṛkṣā he śaśivadani(ne)! ye santi teṣāṃ nāmāni he kamalanetre! ko vetti | atha sarve 'pi saṃkṣepeṇa nibiḍā ghanā nirantarāḥ santi, teṣāṃ chāyayā daśayojanāni gamyante ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.064-1" type="rāsā">
+	  <l xml:id="SaRā.064-1ab">[†puraü suvittharu vannaü addhaü jaïvi,</l>
+	  <l xml:id="SaRā.064-1cd">kari ajju gamaṇu mahu bhagā dhū atthavaï ravi ||]<note place="app"><foreign xml:lang="sa">etat pādayugalaṃ kevalaṃ</foreign> B <foreign xml:lang="sa">ādarśe samupalabhyate |</foreign></note></l>
+	</lg>
+
+	<lg xml:id="SaRā.065" type="rāsā">
+	  <l xml:id="SaRā.065ab">
+            <app><lem>tavaṇa</lem><rdg wit="#A #B">tavaṇi</rdg></app><app><lem>titthu</lem><rdg wit="#C">titthi</rdg></app> cāuddisi <app><lem>miyacchi</lem><rdg wit="#C">miccha</rdg></app> <app><lem>vakhāṇiyaï</lem><rdg wit="#A">vakhāṇīyaï</rdg></app>,</seg>
+            <app><lem>mūlatthāṇu</lem><rdg wit="#A">mūlathāṇa</rdg></app> supasiddhaü mahiyali jāṇiyaï |</seg>
+	  </l>
+	  <l xml:id="SaRā.065cd">
+            tiha huṃtaü <app><lem>haüṃ</lem><rdg wit="#B #C">haü</rdg></app> <app><lem>ikkiṇa</lem><rdg wit="#B">ikkaṇi</rdg></app> lehaü <app><lem>pesiyaü</lem><rdg wit="#A">pesiu</rdg></app>,</seg>
+            <app><lem>khaṃbhāittaïṃ</lem><rdg wit="#A">khaṃbhāitthihiṃ</rdg></app> <app><lem>vaccaüṃ</lem><rdg wit="#A #B">vaccaü</rdg></app> pahuāesiyaü || 65 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[65] he mṛgākṣi! sāmorūpure tapanatīrthaṃ — sūryakaṇḍaṃ prasiddham | caturdikṣu vyākhyāyate | tanmūlasthānaṃ nāma prasiddham | sarvair api narāmarair jñāyate | tato 'haṃ lekhavāhaka ekena prekṣi(ṣi)taḥ | stambhatīrthe prabhvādiṣṭo vrajāmi — gacchāmi || 65 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[65] he mṛgākṣi! yatra sāmorapure tapanatīrthaṃ — sūryakaṇḍaṃ prasiddhaṃ vyākhyāyate | tanmūlasthā[naṃ] nāma prasiddhaṃ sarvair api narāmaraiḥ śrūyate | tato 'haṃ lekhavāhaka ekena preṣitaḥ stambhatīrthe prabhā(bhvā)diṣṭo vrajāmi ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.066" type="rāsā">
+	  <l xml:id="SaRā.066ab">
+            eya <app><lem>vayaṇa</lem><rdg wit="#C">vayaṇu</rdg></app> <app><lem>āyannavi</lem><rdg wit="#A">āyannivi</rdg></app> siṃdhubbhavavayaṇi,</seg>
+            <app><lem>sasivi sāsu</lem><rdg wit="#A">sasiusāsu</rdg></app> <app><lem>dīhunhaü</lem><rdg wit="#B">dīunhaü</rdg><rdg wit="#C">dīva unhaü</rdg></app> salilabbhavanayaṇi |</seg>
+	  </l>
+	  <l xml:id="SaRā.066cd">
+            toḍi karaṃguli karuṇa sagaggira girapasaru,</seg>
+            jālaṃdhari <app><lem>va</lem><rdg wit="#C">kasamī</rdg></app> samīriṇa <app><lem>muṃdha</lem><rdg wit="#A">muddha</rdg></app> thara<app><lem>hariya</lem><rdg wit="#A">harīa</rdg></app> ciru || 66 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[66] sindhūdbhavavadanā — candramukhī, salilodbhavanayanā — kamalākṣī, etāni vacanāny ākarṇya, dīrghocchvāsaṃ niḥśvasya, karāṅgulīs troṭaya(yi)tvā sagadgadgīḥprasarā, vātāhatā jālandharīvat — kadalīvat, ciraṃ mugdhā tharaharitā — kampitā || 66 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[66] sindhūdbhavavadanā — candramukhī, salilodbhavanayanā — kamalākṣī, etāni vacanāny ākarṇya dīrghoṣṇaṃ śvāsaṃ niḥśvasya karāṅgulīr marddayitvā sagadgadgīḥprasarā vātāhatā jālandharī = kadalīvat ciraṃ mughdā tharaharitā — kampitā ||</p>
+	  </note>      
+	</lg>
+
+	<lg xml:id="SaRā.067" type="rāsā">
+	  <l xml:id="SaRā.067ab">
+            <app><lem>ruivi</lem><rdg wit="#B">ruyavi</rdg></app> <app><lem>khaṇaddhu</lem><rdg wit="#A">khaṇaddhaü</rdg><rdg wit="#B">khaṇaddhu vi</rdg></app> phusavi nayaṇa puṇa <app><lem>jajjariu</lem><rdg wit="#C">vajjariyaü</rdg></app>,</seg>
+            khaṃbhā<app><lem>ittaha</lem><rdg wit="#B">ittihiṃ</rdg></app> <app><lem>ṇāmi</lem><rdg wit="#C">nāmu</rdg><rdg wit="#B">nāmi</rdg></app>  <app><lem>pahiya taṇu</lem><rdg wit="#B">pahitaṇu</rdg></app> <app><lem>jajjariu</lem><rdg wit="#C">jajjariyaü</rdg></app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.067cd">
+            taha <app><lem>maha</lem><rdg wit="#A">mahu</rdg></app> acchaï <app><lem>ṇāhu</lem><rdg wit="#B #C">nāhu</rdg></app> virahaülhā<app><lem>vayaru</lem><rdg>bayaru</rdg></app>,</seg>
+            ahiya kālu gammiyaü ṇa āyaü ṇiddayaru || 67 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[67] kṣaṇārddhaṃ ruditvā, netre mārjaya(yi)tvā, tayā punar uktam — he pathika! stambhatīrthanāmnā mama śarīraṃ jarjjaritam | tatra virahaspheṭako mama bharttā varttate, taṃ vinā mayā 'dhikaḥ kālo nigamitaḥ | paraṃ sa nirdayo na samāgataḥ || 67 || </p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[67] kṣaṇārdhaṃ ruditvā, netre mārjayitvā, tayā punar uktam — he pathika! stambhatīrthanāmnā mama śarīraṃ jarjaritam | tatra virahapheṭako mama bharttā varttate | taṃ vinā mayā 'dhikakālo nirgamitaḥ, paraṃ sa nirdayo na samāgataḥ ||</p>
+	  </note>      
+	</lg>
+
+	<lg xml:id="SaRā.068" type="rāsā">
+	  <l xml:id="SaRā.068ab">
+            paü <app><lem>moḍavi</lem><rdg wit="#B">moḍivi</rdg></app> <app><lem>nimisiddhu</lem><rdg wit="#B">nimisaddhu</rdg></app> pahia <app><lem>jaï</lem><rdg>je</rdg></app> daya karahi,</seg>
+            <app><lem>kahaüṃ</lem><rdg wit="#A #B">kahaü</rdg></app> kiṃpi saṃdesaü piya <app><lem>tucchakkharahi</lem><rdg wit="#A #B">tucchakharihi</rdg></app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.068cd">
+            pahiu bhaṇaï kaṇayaṁgi kahaha kiṃ runnayaṇa,</seg>
+            jhijjaṃti ṇiru dīsahi <app><lem>uvvinnamiyanayaṇa</lem><rdg wit="#A">mayaṇovinnavayaṇi</rdg></app>†<note place="app">† <foreign xml:lang="sa">'kiṃ jhijjahi diṇarayaṇi uvvinniya miyanayaṇa'</foreign> C <foreign xml:lang="sa">ādarśasthitam etat pāthāntaram |</foreign></note> || 68 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[68] he pathika! yadi dayāṃ kṛtvā kṣaṇārddhaṃ padaṃ moṭayasi, yadā kiñcit saṃdeśakaṃ priyāya tucchākṣaraiḥ jalpāmi | pathiko [bha]ṇati — he kanakāṅgi! kathaya | rudanena kim? | udvignamṛganetre! nitarāṃ ṣi(khi)dyamānā dṛśyase || 68 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[68] he pathika! yadi dayāṃ kṛtvā kṣaṇārdhaṃ padaṃ moṭayasi — upaviśasi, yadā kiṃcit saṃdeśakaṃ priyāya tucchākṣarair jalpāmi | pathiko bhaṇati — he kanakāṅgi! kathaya, rodanena kim? udvignamṛganetre! nitarāmatyarthaṃ khidyamānā dṛśyase ||</p>
+	  </note>      
+	</lg>
+
+	<lg xml:id="SaRā.069" type="dohā">
+	  <l xml:id="SaRā.069ab">
+            jasu ṇiggami <app><lem>reṇukkaraḍi</lem><rdg wit="#B">reṇukkaraḍa</rdg><rdg wit="#C">reḍḍakkaraḍi</rdg></app>, </seg>
+            <app><lem>kīa</lem><rdg wit="#C">kaïya</rdg><rdg wit="#B">ṇiī</rdg></app> ṇa virahadaveṇa |</seg>
+	  </l>
+	  <l xml:id="SaRā.069cd">
+            <app><lem>kima</lem><rdg wit="#A">kiva</rdg></app> dijjaï <app><lem>saṃdesaḍaü</lem><rdg wit="#A">saṃnehaḍaü</rdg></app>, </seg>
+            tasu <app><lem>ṇiṭṭhuraï</lem><rdg wit="#B">niṭṭhuraya</rdg></app> maṇeṇa || 69 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[69] tataḥ sā jīvane 'pi sala[jja]tvaṃ prakaṭayantī prāha — yasya nirgame virahadavenāhaṃ reṇūtkaraṃ— bhasmapuñjaṃ na kṛtā | atas tasmai niṣṭhureṇa manasā saṃdeśakaḥ kathaṃ dīyate || 69 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[69] tataṣ sā jīvane 'pi, sajala(salajja)tvaṃ prakaṭayantī prāha — tasya nirgame nirahadavenāhaṃ reṇūtkaraṃ — bhasmapuñjaṃ na kṛtā | atas tasmai niṣṭhureṇa manasā saṃdeśakaḥ kathaṃ dīyate ||</p>
+	  </note>      
+	</lg>
+
+	<lg xml:id="SaRā.070">
+	  <l xml:id="SaRā.070ab">jasu <app><lem>pavasaṃta</lem><rdg wit="#C">pavasaṃtu</rdg><rdg wit="#B">pavisaṃta</rdg></app> ṇa <app><lem>pavasiā</lem><rdg wit="#B">pavisiyā</rdg></app>, <app><lem>muia</lem><rdg wit="#C">muīa</rdg><rdg wit="#B">muī</rdg></app> <app><lem>vioi ṇa</lem><rdg wit="#B">viuya na</rdg><rdg wit="#C">viyaüi na</rdg></app> jāsu |</l>
+	  <l xml:id="SaRā.070cd">lajjijjaü saṃdesaḍaü, diṃtī pahiya piyāsu || 70 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">yatas tam evārthaṃ dṛḍhayann āha—yasya pravasato na pravi(va)sitā | anyac ca yasya viyoge na mṛtā | atas tasmai priyāya saṃdeśakaṃ dadatī lajje || 70 ||</note>
+	  <note type="commentary" subtype="avacūrikā">yatas tam evārthaṃ dṛḍhayann āha—yasya praviśa(vasa)to 'pi na pravi(va)sitā | anyac ca yasya viyoge na mṛtā | atas yasmai saṃdeśakaṃ dadatī lajje || 70 ||</note>
+	  <note type="translation">I am ashamed to send a message to my beloved: for I did not leave when he left, nor did I die in separation.</note>
+	</lg>
+
+	<lg xml:id="SaRā.071">
+	  <l xml:id="SaRā.071ab"><app><lem>lajjavi</lem><rdg wit="#B">lajjivi</rdg></app> <app><lem>paṃthiya</lem><rdg wit="#A">pathiya</rdg></app> jaï <app><lem>rahaüṃ</lem><rdg wit="#A #B">rahaü</rdg></app>, hiyaü na dharaṇaü <app><lem>jāi</lem><rdg wit="#B">jjāiṃ</rdg></app> |</l>
+	  <l xml:id="SaRā.071cd">gāha <app><lem>paḍhijjasu</lem><rdg wit="#B">paḍhijjasi</rdg></app> ikka <app><lem>piya</lem><rdg wit="#A">pia</rdg></app>, kara leviṇu <app><lem>mannāi</lem><rdg wit="#A">maṃnāi</rdg></app> || 71</l>
+	  <note type="commentary" subtype="ṭippanaka">he pathika! lajjāṃ kṛtvā yadi tiṣṭhāmi tadā hṛdayaṃ dhārayituṃ na śaktā | ata ekāṃ gāthāṃ priyaṃ prati paṭheḥ | karaṃ gṛhītvā tam anunaye[ḥ] | sakopacittaprasādanam anunayaḥ || 72 ||</note>
+	  <note type="commentary" subtype="avacūrikā">he pathika! lajjāṃ kṛtvā yadi tiṣṭhāmi, tadā hṛdayaṃ dhartuṃ na śaknomi | ekāṃ gāthāṃ priyaṃ prati paṭheḥ | karaṃ gṛhītvā pirayaṃ mānayeḥ—priyam anukūlayeḥ ||</note>
+	  <note type="translation">Traveller, if I stand here ashamed, my heart couldn't bear it. So take his hand and tell him one gāthā to ease his anger:</note>
+	</lg>
+
+	<lg xml:id="SaRā.072">
+	  <l xml:id="SaRā.072ab"><app><lem>tuha</lem><rdg wit="#B">tuva</rdg><rdg wit="#C">tua</rdg></app> virahapaharasaṃcūriāiṃ vihaḍaṃti jaṃ na <app><lem>aṃgāiṃ</lem><rdg wit="#C">aṃgāṃiṃ</rdg></app> |</l>
+	  <l xml:id="SaRā.072cd">taṃ ajjakalla<app><lem>saṃghaḍaṇaosahe</lem><rdg wit="#A">saṃghaḍa usahe</rdg><rdg wit="#B">saṃghaḍasahe</rdg></app> ṇāha taggaṃti || 72 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">tām āha—he nātha! tvadvirahaprahārasaṃcūrṇṇitāni aṅgāni yan na vighaṭante tatra kiṃ kāraṇaṃ? — adya kalye saṃghaṭana[m] — mela ity auṣadhaprabhāvena tiṣṭhanti || 72 ||</note>
+	  <note type="commentary" subtype="avacūrikā">tām āha—he nātha! tvadvirahaprahārasaṃcūrṇitāny aṅgāni yan na vighaṭante, tatra kiṃ kāraṇam? — adya kalye saṃgha[ṭa]nam — mela ity auṣadhaprabhāvena tiṣṭhānti ||</note>
+	  <note type="translation">If my body hasn't completely fallen to pieces, beaten by separation from you, it is only because of the medicine of meeting you sometime soon.</note>
+	</lg>
+
+	<lg xml:id="SaRā.088">
+	  <l xml:id="SaRā.088ab"><app><lem>tuhu</lem><rdg wit="#C">tuha</rdg></app> <app><lem>puṇu</lem><rdg wit="#B">puṇi</rdg><rdg wit="#C">puṇa</rdg></app> <app><lem>kajji</lem><rdg wit="#C">kajja</rdg></app><app><lem>hi āva</lem><rdg wit="#B">hiṃ yāva</rdg></app>laü, <app><lem>lihivi</lem><rdg wit="#A">lihavi</rdg><rdg wit="#B">ṇihivi</rdg></app> na <app><lem>sakkaü</lem><rdg wit="#A">sakkaṃ</rdg></app> lehu |</l>
+	  <l xml:id="SaRā.088cd">dohā gāha <app><lem>kahijja</lem><rdg wit="#B">kahijji</rdg><rdg wit="#C">paḍhijja</rdg></app> piya, paṃthiya <app><lem>karivi</lem><rdg wit="#A">karavi</rdg></app> saṇehu || 88</l>
+	  <note type="commentary" subtype="ṭippanaka">bho pathika! tvaṃ aṃtitaṃ(atyantaṃ) kāryavyākulaḥ | ahaṃ lekho(khaṃ) likhitvaṃ(tuṃ) na śaknomi | ato dodhaka[ḥ] gāthā [ca] kathanīyā mama vallabhasya purataḥ | mamopari snehaṃ kṛtvā || 88</note>
+	  <note type="commentary" subtype="avacūrikā">he pathika! tvaṃ kāryākulaḥ - ucchu(tsu)kaḥ, [ahaṃ] lekhaṃ likhituṃ na śaknomi | tvaṃ priyāya dodhaka-gāthe bhaṇeḥ | pathika! snehaṃ kṛtvā ||</note>
+	  <note type="translation">Your work has you rushing. I can’t write a letter. Traveller, convey to my beloved this dohā and gāthā, with my affection.</note>
+	</lg>
+
+	<lg xml:id="SaRā.091">
+	  <l xml:id="SaRā.091ab">
+            <seg type="pada" xml:id="SaRā.091a">pahiu bhaṇaï <app><lem>paḍiuṃji</lem><rdg wit="#C">paṇuuṃji</rdg></app> <app><lem>jāu</lem><rdg wit="#C">jāmi</rdg></app> sasiharavayaṇi,</seg>
+            <seg type="pada" xml:id="SaRā.091b">ahavā <app><lem>kivi</lem><rdg wit="#B">kiṃvi</rdg><rdg wit="#C">kihu</rdg></app> <app><lem>kahaṇijja</lem><rdg wit="#C">kahiṇajja</rdg></app> su mahu <app><lem>kahu</lem><rdg wit="#A">kaya</rdg></app> miyanayaṇi |</seg>
+	  </l>
+	  <l xml:id="SaRā.091cd">
+            <seg type="pada" xml:id="SaRā.091c">kahaü pahiya <app><lem>ki ṇa</lem><rdg wit="#A">ka na</rdg></app> kahaü kahisu kiṃ kahiyayaṇa,</seg>
+            <seg type="pada" xml:id="SaRā.091d"><app><lem>jiṇa</lem><rdg wit="#A">jiṇi</rdg></app> <app><lem>kiya</lem><rdg wit="#A">kaya</rdg><rdg wit="#C">kahiya</rdg></app> eha avattha <app><lem>ṇeharaï</lem><rdg wit="#B">ṇeharaya</rdg><rdg wit="#C">ṇehadaya</rdg></app>rahiya<app><lem>yaṇa</lem><rdg wit="#A">maṇa</rdg></app> || 91 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">pathiko bhaṇati—he śaśadharavadane! preṣaya, vrajāmi, athavā yat kimapi kathanīyaṃ tad he mṛganetre! kathaya | bho pathika! kathayāmi, [kiṃ vā na kathayāmi?], paraṃ kathayiṣye | athavā sneharatirahitāya tasmai kathitena kim | yenaiṣāvasthā kṛtā || 91 ||</note>
+	  <note type="commentary" subtype="avacūrikā">pathiko bhaṇati—he śaśadharavadane! māṃ preṣaya, he mṛganayane! athavā yat kimapi kathanīyaṃ tan mama kathaya | he pathika! kathayāmi, kiṃ na kathayāmi vā?, paraṃ kathayiṣye, tena kathitena kim | sneha[rati]rahitena yenaiṣāvasthā kṛtā ||</note>
+	</lg>
+	<lg xml:id="SaRā.092">
+	  <l xml:id="SaRā.092ab">
+            <seg type="pada" xml:id="SaRā.092a"><app><lem>jiṇi</lem><rdg wit="#A">jiṇ</rdg></app> haü <app><lem>virahaha</lem><rdg wit="#A">virahu</rdg><rdg wit="#B">viraha</rdg></app> kuhari <app><lem>eva</lem><rdg wit="#B">ema</rdg></app> kari ghalliyā,</seg>
+            <seg type="pada" xml:id="SaRā.092b">attha<app><lem>lohi aka</lem><rdg wit="#C">loha aka</rdg></app>yatthi <app><lem>ikalliya</lem><rdg wit="#A">ikallī</rdg></app> <app><lem>milhiyā</lem><rdg wit="#A">milhīā</rdg><rdg wit="#C"><note xml:lang="sa">nāsti padam idam</note></rdg></app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.092cd">
+            <seg type="pada" xml:id="SaRā.092c">saṃdesaḍaü savittharu <app><lem>tuhu</lem><rdg wit="#A #C">tuhu</rdg></app> uttāvalaü,</seg>
+            <seg type="pada" xml:id="SaRā.092d">kahiya pahiya piya gāha vatthu <app><lem>taha</lem><rdg wit="#B">tahi</rdg></app> ḍomilaü || 92 </seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">yenārthalobhena kāminī muktā | virahagarttāyāṃ kṣiptā | sandeśakas tu [vistī]rṇaḥ, tvaṃ tūccha(tsu)kaḥ | paraṃ tasmai ekāṃ gāthāṃ [vastukaṃ] ḍomilakaṃ ca vadeḥ || 92 ||</note>
+	  <note type="commentary" subtype="avacūrikā">virahakuhare—virahagarttāyāṃ yenāhaṃ kṣiptā | evaṃ kṛtvā—kṣiptvā, arthalobhāt akṛtārthenaikākinī muktā | sandeśakaṃ(kaḥ) savistaraḥ, tvam uccha(tsu)kaḥ | priyāya katheḥ(thayeḥ)—gāthāṃ vastukaṃ ca ḍomilam ||</note>
+	  <note type="translation">The traveller said: “I have to be on my way, moon-faced girl. So if you have anything else to say, doe-eyed girl, tell me.” “Should I say it, or shouldn't I? Oh, I will. What's the point of saying anything to that man without love or affection, who put me in this state, who tossed me into the pit of separation, who left me unfulfilled and alone just to make some money? The message is long, and you are eager to go. So, traveller, tell my beloved a gāthā, vastu, and ḍomila.”(91–92)</note>
+	</lg>
+
+	<lg xml:id="SaRā.093" type="āryā">
+	  <l xml:id="SaRā.093ab"><app><lem>taïyā</lem><rdg wit="#A #C">taīyā</rdg></app> <app><lem>nivaḍaṃta</lem><rdg wit="#C">tavaḍaṃta</rdg></app> ṇivesiyāiṃ saṃgamaï jattha ṇahu hāro |</l>
+	  <l xml:id="SaRā.093cd"><app><lem>inhiṃ</lem><rdg wit="#A">inhaṃ</rdg></app> sāyara-<app><lem>sariyā</lem><rdg wit="#A">sarīā</rdg></app>-giri-taru-duggāiṃ <app><lem>aṃtariyā</lem><rdg wit="#B">aṃtariyaṃ</rdg></app> || 93 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[93] pūrvasukhānubhavaṃ smārayantī duḥkhaṃ prakaṭam āha — tadā tvayi niva(bi)ḍaṃ yathānivesi(śi)te avaṣo(āvayo)rantare hāro na saṅkrāntaḥ | idānīṃ sāgarasaritdurgādi antaritam || 93 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[93] pūrvasukhānubhavaṃ smārayantī duḥkhaṃ prakaṭam āha — yadā tvayi nivaḍaṃta-yathāniveśita āvayor antaḥ hāro na saṃkrāntaḥ, idānīṃ sāgarasairdgiritarudurgāś cāntaritāḥ ||</p>
+	  </note>      
+	</lg>
+
+	<lg xml:id="SaRā.094" type="vastuka">
+	  <l xml:id="SaRā.094ab">
+            niya<app><lem>daïyaha</lem><rdg wit="#B">daïya u</rdg><rdg wit="#C">daīyaha</rdg></app> <app><lem>ukkaṃkhiriya</lem><rdg wit="#C">ukkiṃkhiri</rdg></app> <app><lem>kivi</lem><rdg wit="#A">kāvi</rdg></app> virahā<app><lem>uliya</lem><rdg wit="#B">ulīya</rdg></app>,</seg>
+            piyaāsaṃggi pahuttiya <app><lem>tasu</lem><rdg wit="#C"><note><foreign xml:lang="sa">nāsti</foreign> C</note></rdg></app> <app><lem>saṃgami</lem><rdg wit="#C">saṃgama</rdg></app> bāuliya |</seg>
+	  </l>
+	  <l xml:id="SaRā.094cd">
+            <app><lem>te</lem><rdg wit="#A #C">je</rdg></app> <app><lem>pāvahi</lem><rdg wit="#C">pāvahiṃ</rdg></app> suviṇaṃtari dhannaü <app><lem>piya</lem><rdg wit="#C"><note><foreign xml:lang="sa">nāsti</foreign> C</note></rdg></app>taṇupharasu,</seg>
+            āliṃgaṇu avaloyaṇu <app><lem>cuṃbaṇu</lem><rdg wit="#C"><note><foreign xml:lang="sa">nāsti</foreign> C</note></rdg></app> <app><lem>cavaṇu</lem><rdg wit="#A #B"><note><foreign xml:lang="sa">cavaṇu</foreign> A B</note></rdg></app> <app><lem>suraya</lem><rdg wit="#B">suraï</rdg></app>rasu |</seg>
+	  </l>
+	  <l xml:id="SaRā.094ef"><app><lem>ima</lem><rdg wit="#A"><note><foreign xml:lang="sa">nāsti</foreign> A</note></rdg></app> kahiya pahiya tasu ṇiddayaha <app><lem>jaïya kāli</lem><rdg wit="#B">jahi kālihi</rdg></app> pavasiyaü tuhu |</l>
+	  <l xml:id="SaRā.094gh"><app><lem>tasu</lem><rdg wit="#C">tesu</rdg></app> <app><lem>laï maï</lem><rdg wit="#C">saïgalaï</rdg></app> <app><lem>taṇi</lem><rdg wit="#B">taṇu</rdg></app> ṇiṃda ṇahu ko <app><lem>puṇu</lem><rdg wit="#B">puṇa</rdg><rdg wit="#C">paṇi</rdg></app> <app><lem>suviṇaï</lem><rdg wit="#A">suviṇaya</rdg><rdg wit="#B">suiṇaï</rdg></app> <app><lem>saṃga</lem><rdg wit="#A">saṃgu</rdg></app>suhu || 94 || [†ṣatpadam |]<note place="app">C <foreign xml:la="sa">ādarśa evedaṃ padaṃ labhyate |</foreign></note></l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[94] ātma[na]stu mahaddu[ḥ]khatvam āha — yā[ḥ] kāc(śca)na striyo nijadaï(yi)totkaṇṭhitā virahākulitā[ḥ] priyasaṅgaṃ prapannāḥ, tatasaṅgamavyākulitā bhavanti, tāḥ svapnāntare dhanyaṃ tanusparśaṃ āliṅganaṃ avalokanaṃ cumbanaṃ daśanakhaṇḍanaṃ surataṃ ca prāpnuvanti | he pathika | tasmai nirdayāya kathaye[ḥ] — mamāvasthāṃ tu śṛṇu, yasmin kāle tvaṃ praviśi(vasi)taḥ, tasmāl lavāt — kṣaṇān mama nidrā nāsti, kiṃ punaḥ svapnasaṅgamasukham | "grāmo nāsti kutaḥ sīme"ti śā(nyā)yāt | vastukacchandaḥ | tallakṣaṇaṃ yathā —</p>
+            <lg>
+              <l>do veyā sihiyugalaṃ juyāï dunniu dugaṃ vatthuyao |</l>
+              <l>panarasa terasa panarasa terasa jutto divaḍḍhacchaṃdo ||</l>
+            </lg>
+            <p>caturviṃśati mātṛkāṇi catvāri padāni | paścāt pañcadaśa — trayodaśa — pañcadaśa — trayodaśamātrikāṇi catvāri padāni | eṣa (etat) vastukachandaḥ | aparaṃ nāma ṣaṭpadam || 94 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[94] virahiṇīnāṃ virahe manāk sukhasaṃbhavam āha — yāḥ kāścana striyo nijadayitotkaṇṭhitā virahākulitāḥ priyāsaṅge prapannāḥ, tatsaṅgamavyākulitā bhavanti, tāḥ svapnāntare dhanyaṃ tanusparśam āliṅganam avalokanaṃ cumbanaṃ daśanakhaṇḍanaṃ surataṃ cāpunuvanti | he pathika! tasmai nirdayāyaivaṃ kathayeḥ — mamāsvasthāṃ tvaṃ śṛṇu, yasmin kāle tvaṃ praviśi(vasi)tas tasmāllavāt — kṣaṇān mama nidrā nāsti, kiṃ punaḥ svapnasaṅgasukham | "grāmo nāsti kutaḥ sīmā" iti nyāyena ||</p>
+	  </note>      
+	</lg>
+
+	<lg xml:id="SaRā.095" type="ḍumilā">
+	  <l xml:id="SaRā.095ab">
+            piyaviraha<app><lem>vioe</lem><rdg wit="#C">viyoe</rdg></app>, saṃgamasoe, <app><lem>divasarayaṇi</lem><rdg wit="#C">rayaṇi divasa</rdg><rdg wit="#B">divasarayaṇa</rdg></app> <app><lem>jhuraṃta</lem><rdg wit="#A">jhuraṃti</rdg></app> maṇe,</seg>
+            ṇiru <app><lem>aṃgu</lem><rdg wit="#A #B">aṃgi</rdg></app> <app><lem>susaṃtaha</lem><rdg wit="#A">susaṃtahaṃ</rdg></app>, vāha <app><lem>phusaṃtaha</lem><rdg wit="#A">phuraṃtahaṃ</rdg></app>, appaha niddaya kiṃ pi bhaṇe |</seg>
+	  </l>
+	  <l xml:id="SaRā.095cd">
+            ‡<note place="app"><foreign xml:lang="sa">etad uttarārdhātmakabhāgo 'sya padyasya patitaḥ</foreign> C <foreign xml:lang="sa">ādarśe</foreign></note>tasu <app><lem>suyaṇa</lem><rdg wit="#B">suyaṇu</rdg></app> nivesiya, <app><lem>bhāiṇa</lem><rdg wit="#A">bhāiṇi</rdg></app> <app><lem>pesiya</lem><rdg wit="#B">bhesiya</rdg></app>, mohavasaṇa volaṃta khaṇe,</seg>
+            maha sāiya vakkharu, hari gaü takkharu, jāu saraṇi kasu pahiya bhaṇe || 95 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[95] hṛte sarvasve kiṃ karttavyatāmūḍhatvam āha — priyavirahaviu(yo)gāya saṅgamasūcakāya rātriṃdinaṃ kliśyantī, nitarām aṅgaṃ śoṣayantī, bāṣpāni, mārjjayantī, ātmanā(no) nirdayāya kiṃ bhaṇāmi | paraṃ tvaṃ tvevaṃ vadeḥ — yat tvāṃ hri(hṛ)daye niveśya bhāvenāpreṣya(kṣya), mohavaśāt, kṣaṇam, tayoktam — mama svāmino vakkharaṃ = rūpaṃ nāma vastu virahanāmā taskaro hri(hṛ)tvā gacchati pratyaham | tad bhaṇa, priya kasya śaraṇaṃ vrajāmi? || 95 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[95] priyavirahaviyogāya saṅgamasūcakāya rātriṃdinaṃ kliśyantī, nitarām aṅgaṃ śoṣayantī, bāṣpāni mārjayantī, pathika! ātmano nirdayāya priyāya kiṃ bhaṇāmi | paraṃ tvaṃ tvevaṃ vadeḥ — yattvāṃ hṛdaye niveśya bhāvenāprekṣya, mohavaśāt kṣaṇam, tayoktaṃ mama svāmino vakkharaṃ nāma vastu virahanāmā taskaro hṛtvā gacchati pratyaham | tadbhaṇa priya! kasya śaraṇaṃ vrajāmi? ||</p>
+	  </note>      
+	</lg>
+
+	<lg xml:id="SaRā.096" type="rāsā">
+	  <l xml:id="SaRā.096ab">
+            ihu <app><lem>ḍomilaü</lem><rdg wit="#A">ḍomiliu</rdg><rdg wit="#B">ḍomillaü</rdg></app> bhaṇeviṇu <app><lem>niśi(si)tamaharavayaṇi</lem><rdg wit="#A">nittamahumahuravayaṇi</rdg></app>, </seg>
+            <app><lem>huiya</lem><rdg wit="#A">huīya</rdg><rdg wit="#B">huī</rdg></app> <app><lem>ṇimisa</lem><rdg wit="#B">nimiśa</rdg></app> ṇipphaṃda saroruhadalanayaṇi |</seg>
+	  </l>
+	  <l xml:id="SaRā.096cd">
+            ṇahu <app><lem>kihu</lem><rdg wit="#C">kihuṃ</rdg></app> <app><lem>kahaï</lem><rdg wit="#A">kahiu</rdg></app> ṇa pikkhaï <app><lem>jaṃ puṇu</lem><rdg wit="#B">iya puṇu</rdg><rdg wit="#C"><note>C <foreign xml:lang="sa">nāsti</foreign></note></rdg></app> <app><lem>avaru</lem><rdg wit="#C">avara</rdg></app> jaṇu,</seg>
+            <app><lem>citti</lem><rdg wit="#A">citta</rdg></app> bhitti ṇaṃ lihiya <app><lem>muṃdha</lem><rdg wit="#A">muddha</rdg></app> <app><lem>saccaviya</lem><rdg wit="#B">sāccaviya</rdg></app> khaṇu || 96 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[96] etat ḍomilaka[mu]ktvā, candravadanā kamalanetrā nirmi(rni)meśā niḥṣpandā jātā | na ca kimapi kathayati, aparaṃ jaṇaṃ na prekṣate | atra vitarke — bhittau ctralikhiteva satyāpitā — jñātetyarthaḥ || 96 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[96] etat ḍomilakamuktvā, candravadanā kamalanetrā nirme(nirnime)ṣā niḥṣpandā jātā | na ca kimapi kathayati, aparaṃ janaṃ na prekṣate | atra vitarke — bhittau citralikhiteva satyāpitā — dṛṣṭetyarthaḥ || </p>
+	  </note>      
+	</lg>
+
+	<lg xml:id="SaRā.097" type="rāsā">
+	  <l xml:id="SaRā.097ab">
+            <app><lem>osāsaṃ</lem><rdg wit="#C">ūsāsaṃ</rdg></app>bhamaruddhasāsa <app><lem>urunnamuha</lem><rdg wit="#B">urannamuha</rdg></app>,</seg>
+            vammahasarapaḍibhinna saravi piyasaṃgamuha |</seg>
+	  </l>
+	  <l xml:id="SaRā.097cd">
+            dara tiracchi taralacchi pahiu jaṃ <app><lem>joiyaü</lem><rdg wit="#B">joiyaï</rdg></app>,</seg>
+            ṇaṃ guṇasadda <app><lem>uttaṭṭhi</lem><rdg wit="#C">utaṭṭha</rdg></app> <app><lem>kuraṃgi</lem><rdg wit="#C">kuraṃga</rdg></app> <app><lem>paloiyaü</lem><rdg wit="#B">paloiyaï</rdg></app> ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[97] ucchvāsabhramaruddhani[ḥ]svā(śvā)sayā ruditamukhyā manmathaśaraiḥ pratibhinnayā priyasaṅgamasuṣa(khaṃ) smṛtvā, tadanugavo(to)'sti vetīṣat tiryag taralākṣibhyāṃ pathiko dṛṣṭaḥ | manye vitarke vā | guṇaśabdo 'trastayā kuraṅgyā dṛṣṭaḥ saḥ || 97 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[97] ucchvāsabhramaruddhaniḥśvāsayā ruditamukhyā, manmathaśaraiḥ pratibhinnayā, priyasaṅgamasukhaṃ smṛtvā, tadanugato 'sti veti, īṣattiryak taralākṣibhyāṃ pathiko dṛṣṭaḥ | manye — vitarke vā | guṇaśabdo 'trastayā kuraṅgyā dṛṣṭaḥ saḥ ||</p>
+	  </note>      
+	</lg>
+
+	<lg xml:id="SaRā.098" type="rāsā">
+	  <l xml:id="SaRā.098ab">
+            pahiu bhaṇaï thiru hohi <app><lem>dhīru</lem><rdg wit="#A #B">dhīri</rdg></app> <app><lem>āsāsi</lem><rdg wit="#C">āsīsi</rdg></app> khaṇu,</seg>
+            laïvi varikkhiya sasi<app><lem>saünnu</lem><rdg wit="#A">saünha</rdg></app> <app><lem>phaṃsahi</lem><rdg wit="#B">phuṃsahi</rdg></app> vayaṇu |</seg>
+	  </l>
+	  <l xml:id="SaRā.098cd">
+            tassa <app><lem>vayaṇu</lem><rdg wit="#B">vayaṇa</rdg></app> <app><lem>āyanni</lem><rdg wit="#A">āyaṃnni</rdg><rdg wit="#C">āinni</rdg></app> viraha<app><lem>bhara</lem><rdg wit="#C">bhaya</rdg></app><app><lem>bhajjariya</lem><rdg wit="#A">bhajjarīyā</rdg></app>, </seg>
+            laï <app><lem>aṃcalu</lem><rdg wit="#C">aṃculu</rdg></app> <app><lem>muhu</lem><rdg wit="#B">muhuṃ</rdg><rdg wit="#C">muha</rdg></app> puṃchiu taha va <app><lem>salajjariya</lem><rdg wit="#A">salajjarīā</rdg><rdg wit="#C">salajjiriya</rdg></app> || 98 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[98] atha pathikasaujanyam āha — pathiko bhaṇati — sthirā dhīrā bhava | kṣaṇaṃ āsvā(śvā)saya | varakkīṃ — paṭiṃ(ṭīṃ) gṛhītvā śaśisaṃpūrṇṇaṃ mukhaṃ pramārjjaya | tasya vacanam ākarṇṇya virahabharabhagnayā salajjayā vastrāñcalamādāya mukhaṃ pramārjjitam ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[98] atha pathikaḥ saujanyam āha — pathiko bhaṇati — sthirā dhīrā bhava | kṣaṇamāśvāsaya | varākīṃ — paṭīṃ gṛhītvā śaśisaṃpūrṇaṃ mukhaṃ mārjaya | tava(sya) vacanam ākarṇya virahabharabhagnayā lajjayā vastrāñcalamādāya mukhaṃ pramārjitam ||</p>
+	  </note>      
+	</lg>
+
+	<lg xml:id="SaRā.099" type="rāsā">
+	  <l xml:id="SaRā.099ab">
+            pahia ṇa <app><lem>sijjhaï</lem><rdg wit="#C">sijjaï</rdg></app> <app><lem>kiri</lem><rdg wit="#A">kira</rdg></app> balu maha kaṃdappasaü,</seg>
+            rattaü jaṃ ca virattaü niddose ya piu |</seg>
+	  </l>
+	  <l xml:id="SaRā.099cd">
+            <app><lem>ṇeya</lem><rdg wit="#C">neya</rdg></app> suṇiya paraveyaṇa <app><lem>ninnehaha</lem><rdg wit="#A">ṇinnehaha</rdg></app> calaha,</seg>
+            <app><lem>māliṇi</lem><rdg wit="#C">mālaṇi</rdg></app>vittu <app><lem>kahivvaü</lem><rdg wit="#A">kahijjasu</rdg></app> ikkaï taha khalaha || 99 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[99] ātmanaḥ sarvathaivāsamarthatām āha — he pathika! mama kandarppeṇa samam, kila iti saṃbhāvanāyām, balaṃ na siddhyati | yac ca tadrūpa eva priyo[nirdoṣeṇa]doṣaṃ vinā rakta eva viraktaḥ | na ca tena paravedanā śrutā | atas tasmai calitāya khalāya mālinīvṛttaṃ ekaṃ kathanīyam || 99 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[99] ātmanaḥ sarvathaivāsamarthatām āha — he pathika!, kileti saṃbhāvanāyām, mama balaṃ kandarpeṇa samaṃ na siddhyati | yat priyo nirdoṣeṇa doṣaṃ rakto 'pi viraktaḥ | tena paravedanā na śrutā — na jñātā | atas tasmai khalāya nispṛhāyaikaṃ mālinīvṛttaṃ kathayeḥ || chandolakṣaṇaṃ yathā — 'nanamayayayuteyaṃ mālinī bhogilokaiḥ |'</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.100" type="mālinī">
+	  <l xml:id="SaRā.100ab">
+            jaï <app><lem>viraï</lem><rdg wit="#A">viraha</rdg><rdg wit="#C">biraha</rdg></app><app><lem>virāme</lem><rdg wit="#C">birāme</rdg></app> ṇaṭṭhasoho muṇaṃtī,</seg>
+            suhaya <app><lem>taïya</lem><rdg wit="#B #C">taya</rdg></app> <app><lem>roo uggilaṃto</lem><rdg wit="#B">virāo uggilaṃtī</rdg></app> siṇeho |</seg>
+	  </l>
+	  <l xml:id="SaRā.100cd">
+            <app><lem>bharavi</lem><rdg wit="#A">bharaya</rdg></app> <app><lem>navaya</lem><rdg wit="#C">navaï</rdg></app>raṃge <app><lem>ikku</lem><rdg wit="#B">ikkuṃ</rdg></app> kuṃbho dharaṃtī,</seg>
+            hiyaü taha <app><lem>paḍillo</lem><rdg wit="#B">vaḍillo</rdg></app> boliyaṃto viratto || 100 ||</seg>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+            <p>[100] ātmano 'vimarśitvam āha — adyāpi(?) rativirāme ahaṃ svahri(hṛ)dayaṃ naṣṭasaukhyaṃ manyāsyam | yadā he subhaga! yo rāgo navaraṅgasnehamudgilannāsīt, tenaikaṃ kumbhaṃ bhṛtvādhārayiṣyam | yato hṛdayaṃ viraktaṃ tatra kumbhe kṣiptvā nna(mra)kṣitaṃ kṛtvā asthāpayiṣyam — vyāpārayiṣyam || 100 ||</p>
+            <p>eṣa(etat) mālinīcchandaḥ | tallakṣaṇam —</p>
+            <p><q>nanamayayayuteyaṃ mālinī bhogiloke ||</q></p>
+            <p>pañcadaśākṣaraṃ mālinīvṛttam | dvau nagaṇau tadanu magaṇaḥ tadanu dvau yagaṇau ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+            <p>[100] yadi vi(api?) rativiyoge 'haṃ svahṛdayaṃ naṣṭasaukhyam ajñāsyan(m) yadā yo rāgo navaraṅge snehamudgilann āsīt tenaikaṃ kumbhaṃ bhṛtvādhārayiṣyam, yato hṛdayaṃ viraktaṃ tatkumbhe kṣiptvā mrakṣaṇaṃ kṛtvā svastham avadhārayiṣyam ||</p>
+	  </note>      
+	</lg>
+
+	<lg xml:id="SaRā.101">
+	  <l xml:id="SaRā.101ab"></l>
+	  <l xml:id="SaRā.101cd"></l>
+	  <note type="translation"></note>
+	</lg>
+	<lg xml:id="SaRā.102">
+	  <l xml:id="SaRā.102ab">
+            <seg type="pada" xml:id="SaRā.102a">pahiu bhaṇaï <app><lem>pasayacchi</lem><rdg wit="#C">pasaïcchi</rdg><rdg wit="#B">pasiyacchi</rdg></app> dhīri <app><lem>maṇu</lem><rdg wit="#A">māṇuya</rdg></app> paṃthi <app><lem>dharu</lem><rdg wit="#C">karu</rdg></app>,</seg>
+            <seg type="pada" xml:id="SaRā.102b"><app><lem>saṃvari</lem><rdg wit="#C">saṃvaru</rdg></app> <app><lem>ṇiru</lem><rdg wt="#A">ṇitu</rdg></app> <app><lem>loyaṇaha</lem><rdg wit="#B">loyaṇahaṃ</rdg></app> <app><lem>vahaṃtaü</lem><rdg wit="#A">vahaṃtu</rdg></app> <app><lem>nīru</lem><rdg wit="#A">ṇīru</rdg></app> bharu |</seg>
+	  </l>
+	  <l xml:id="SaRā.102cd">
+            <seg type="pada" xml:id="SaRā.102c"><app><lem>pāvāsuya</lem><rdg wit="#B">pāvāsuyaha</rdg></app> bahukajji gamahi <app><lem>tahi</lem><rdg wit="#A #C">taha</rdg></app> paribhamaï,</seg>
+            <seg type="pada" xml:id="SaRā.102d"><app><lem>aṇakiyaï</lem><rdg wit="#A #C">akiyaï</rdg></app> <app><lem>ṇiyaï</lem><rdg wit="#C">niyaya</rdg></app> paüyaṇi suṃdari! <app><lem>ṇahu</lem><rdg wit="#B">nahu</rdg></app> valaï || 102</seg>
+	  </l>
+	  <note type="translation">The traveller said, “Wide-eyed girl, pull yourself together, and get your mind on track. Wipe off the tears that keep streaming from your eyes. Men set out for important business and stay abroad, and they don’t come back until they’ve accomplished their purpose.”</note>
+	</lg>
+	<lg xml:id="SaRā.103">
+	  <l xml:id="SaRā.103ab">
+            <seg type="pada" xml:id="SaRā.103a">te ya <app><lem>viesi</lem><rdg wit="#C">viyesi</rdg></app> phiraṃtaya <app><lem>vammaha</lem><rdg wit="#A">vamhaha</rdg></app>sarapahaya,</seg>
+            <seg type="pada" xml:id="SaRā.103b">ṇiyadharaṇiya <app><lem>sumaraṃta</lem><rdg wit="#B">suyaraṃta</rdg></app> viraha savesaya <app><lem>kaya</lem><rdg wit="#B">kiya</rdg></app> |</seg>
+	  </l>
+	  <l xml:id="SaRā.103cd">
+            <seg type="pada" xml:id="SaRā.103c">divasarayaṇi ṇiya<app><lem>daīya</lem><rdg wit="#C">daïya</rdg></app>soya asahaṃta bharu,</seg>
+            <seg type="pada" xml:id="SaRā.103d">jima <app><lem>tumhihi</lem><rdg wit="#B">tumhaha</rdg></app> <app><lem>tima</lem><rdg wit="#A">tiva</rdg></app> <app><lem>muṃdhi</lem><rdg wit="#C">muṃdha</rdg></app> pahiya <app><lem>jhijjhaṃti</lem><rdg wit="#B">jhijjjhaṃta</rdg></app> ṇiru || 103</seg>
+	  </l>
+	  <note type="translation">“And they as they travel abroad, they too are struck by love’s arrows: they miss their wives, held in separation’s power, day and night incapable of doing anything at all about their lovers’ immense suffering. Lovely girl, travellers waste away just like you do.”</note>
+	</lg>
+
+	<lg xml:id="SaRā.113">
+	  <l xml:id="SaRā.113ab">
+            <seg type="pada" xml:id="SaRā.113a">gayaü divasu thiu sesu pahiya <app><lem>gamu</lem><rdg wit="#C">gama</rdg></app> milhiyaï,</seg>
+            <seg type="pada" xml:id="SaRā.113b">ṇisi <app><lem>atthamu</lem><rdg wit="#C">atthimu</rdg></app> bolevi <app><lem>divasi</lem><rdg wit="#C">divisi</rdg></app> <app><lem>puṇu</lem><rdg wit="#C">puṇi</rdg></app> calliyaï |</seg>
+	  </l>
+	  <l xml:id="SaRā.113cd">
+            <seg type="pada" xml:id="SaRā.113c"><app><lem>biṃbāhari</lem><rdg wit="#B">biṃbāhara</rdg></app> <app><lem>diṇa</lem><rdg wit="#B #C">diṇi</rdg></app> <app><lem>biṃba</lem><rdg wit="#C">biṃbu</rdg></app> <app><lem>junha</lem><rdg wit="#C">junu</rdg></app> <app><lem>gosihi</lem><rdg wit="#B">gosahiṃ</rdg></app> <app><lem>balaï</lem><rdg wit="#C">calaï</rdg></app>,</seg>
+            <seg type="pada" xml:id="SaRā.113d">to <app><lem>jāiaï a kajji</lem><rdg wit="#A">jāyaï akajji</rdg></app> <app><lem>maï</lem><rdg wit="#B">mamaï</rdg></app> aïāvalaï,<note place="app">C ādarśe eṣaḥ pādaḥ ‘raïṇi to jāi haü kajjihiṃ āvalaü’ etādṛśo labhyate</note></seg>
+	  </l>
+	  <l xml:id="SaRā.113ef">
+            <seg type="pada" xml:id="SaRā.113e">jaï na rahahi iṇi <app><lem>ṭhāi</lem><rdg wit="#B #C">ṭhāiṃ</rdg></app> pahiya icchahi <app><lem>gamaṇu</lem><rdg wit="#B">gavaṇu</rdg></app>,</seg>
+            <seg type="pada" xml:id="SaRā.113f">cūḍillaü khaḍahaḍaü piyaha <app><lem>gāhāi bhaṇu</lem><rdg wit="#A">gāiṃ bhamaṇu</rdg></app> || 113 ||</seg>
+	  </l>
+	  <note type="translation">“The day is gone. Not much remains. Forget about going, traveller. Stay for the night and set out again in the day.” “Red-lipped girl, the sun’s disc begins to blaze at dawn, so I will travel at night: I am anxious about my task.” “If you won’t stay here, traveller, and if you really want to go, then tell my love a cūḍillaka, a khaḍahaḍaka, and a gāthā.”</note>
+	</lg>
+      </div>
+      !-->
+      <div n="3" type="prakrama">
+	<head xml:lang="san-Latn">tṛtīyaḥ prakramaḥ</head>
+	<label type="initial" rend="squarebrackets" xml:lang="san-Latn">ato grīṣmavarṇanam</label>
+	<lg xml:id="SaRā.130" met="Ābhāṇaka">
+	  <l xml:id="SaRā.130ab">
+	    ṇavagimhāgami <app><lem>pahiya</lem><rdg wit="#C">pahie</rdg></app> <app><lem>ṇāhu</lem><rdg wit="#C">gaha</rdg></app> jaṃ <app><lem>pavasiyaü</lem><rdg wit="#C">pavisiu</rdg></app>,<caesura/>
+            <app><lem>karavi</lem><rdg wit="#B">karivi</rdg></app> karaṃjuli suha<app><lem>samūha</lem><rdg wit="#B">samūhu</rdg></app> maha ṇivasiyaü |<note place="app" xml:lang="san-Latn"><ptr target="#C"/> ādarśe patita eṣa pādaḥ</note>
+	  </l>
+	  <l xml:id="SaRā.130cd">
+            <app><lem>tasu</lem><rdg wit="#A">tanu</rdg></app> aṇu<app><lem>aṃci</lem><rdg wit="#B">aṃcu</rdg></app> <app><lem>paluṭṭi</lem><rdg wit="#B">paluṭṭavi</rdg></app> virahahavi<app><lem>taviya</lem><rdg wit="#A">taviu</rdg></app>taṇu,<caesura/>
+            valivi <app><lem>patta</lem><rdg wit="#C">patti</rdg></app> ṇiyabhuyaṇi visaṃṭhula <app><lem>vihalamaṇu</lem><rdg wit="#C">vihvalamaṇa</rdg></app> || 130 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">130</label> atha grīṣmartuvarṇanam kavir āha—<ref target="SaRā.130">ṇavagimha</ref>—he pathika! navagrīṣmāgame nāthaḥ pravasitaḥ, tadaivāñjaliṃ kṛtvā—hāsyanamaskāraṃ kṛtvā sukham api pravasitam | tadanu vyāghuṭya virahāgnitāpitatanuṣī visaṃsthula—vihalaṅghalamānasā gṛham āgatā || 130 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">130</label> atha grīṣmatvaṃ vyācakhyāsur āha—<ref target="SaRā.130">ṇavagimhā</ref>—he pathika! navagrīṣmakālāgame nāthaḥ prava<choice><sic>śi</sic><corr>si</corr></choice>taḥ | tadaivāñjaliṃ kṛtvā—hāsyanamaskāraṃ kṛtvā sukham api prava<choice><sic>śi</sic><corr>si</corr></choice>tam | tadanu vyāghuṭya virahāgnitāpitatanuṣī visaṃsthula vihalaṅghalamānasā gṛham āgatā ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p>When my husband left at the beginning of the summer, all my happiness said “goodbye” and took off. I got up, then fell, my body burned my separation's fire. I turned back and got home, destroyed and distressed in my mind.</p></note>
+	  <note type="notes" xml:lang="eng">
+	    <list>
+	      <item>testing</item>
+	      <item>testing again</item>
+	    </list>
+	    <list type="gloss">
+	      <label>karaṃjuli</label>
+	      <item>&lt; <hi>karāñjaliḥ</hi></item>
+	      <label>karavi</label>
+	      <item><hi>Ktvā</hi> of <hi>kṛ-</hi> ‘do’</item>
+	      <label>aṇuaṃci</label>
+	      <item><hi>Ktvā</hi> of <hi>anu-añc-</hi> (?) ‘turn’</item>
+	      <label>paluṭṭi</label>
+	      <item><hi>Ktvā</hi> of <hi>paluṭṭ-</hi> ‘return’</item>
+	      <label>valivi</label>
+	      <item><hi>Ktvā</hi> from <hi>val-</hi> ‘turn’</item>
+	    </list>
+          </note>
+	</lg>
+	<lg xml:id="SaRā.131" met="Ābhāṇaka">
+	  <l xml:id="SaRā.131ab">
+            taha aṇaraï <app><lem>raṇaraṇaü</lem><rdg wit="#C">raṇāraṇaü</rdg></app> asuhu <app><lem>asahaṃtiyahaṃ</lem><rdg wit="#C">asahaṃtayahaṃ</rdg></app>,<caesura/>
+            dussahu malayasamīraṇu <app><lem>mayaṇākaṃtiyahaṃ</lem><rdg wit="#C">mayaṇakkaṃtayahaṃ</rdg></app> |
+	  </l>
+	  <l xml:id="SaRā.131cd">
+            visamajhāla jhalakaṃta jalaṃtiya tivvayara,<caesura/>
+            <app><lem>mahiyali</lem><rdg wit="#B">mahiyala</rdg></app> vaṇatiṇadahaṇa tavaṃti ya <app><lem>taraṇikara</lem><rdg wit="#B">tivvakara</rdg></app> || 131 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">131</label> tathā aratiṃ raṇaraṇakaṃ asu<choice><sic>kkhaṃ</sic><corr>khaṃ</corr></choice> ca sahantyā mama madanārttāyā malayasamīraṇo duḥsaho babhūva | tathā taraṇikarā viṣamajvālayā jvalantamahītalavanatṛṇadāhakās tapante || 131 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">131</label> tathā—aratiṃ raṇaraṇakaṃ asukhaṃ ca sahantyā mama madanārttāyā malayasamīraṇo duḥsaho babhūva | tathā taraṇikarā viṣamajvālayā jvalantamahītalavanatṛṇadāhakās tapante ||</p>
+	  </note>
+	  <note type="translation">
+	    <p>I was so utterly exposed to longing and unhappiness that I couldn't even bear the southern breezes, overcome by love. The harsh wind blows, I feel even sharper pain, there are grass-fires on the ground, and the sun's rays burn.</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.132" met="Ābhāṇaka">
+	  <l xml:id="SaRā.132ab">jamajīhaha ṇaṃ caṃcalu <app><lem>ṇahayalu</lem><rdg wit="#A">ṇahīyalu</rdg></app> lahalahaï,<caesura/>
+            <app><lem>taḍataḍayaḍa</lem><rdg wit="#C">taḍiiḍi</rdg></app> dhara tiḍaï ṇa <app><lem>teyaha</lem><rdg wit="#B">tehaya</rdg><rdg wit="#C">teaha</rdg></app> bharu sahaï |</l>
+	  <l xml:id="SaRā.132cd">aïunhaü <app><lem>vomayali</lem><rdg wit="#B">ḍomayali</rdg></app> pahaṃjaṇu jaṃ <app><lem>vahaï</lem><rdg wit="#B">vahaiṃ</rdg></app>,<caesura/>
+            taṃ jhaṃkharu <app><lem>virahiṇihi</lem><rdg wit="#B">virahiṇīhi</rdg><rdg wit="#C">virahiṇiaṃgu</rdg></app> aṃgu <app><lem>pharisiu</lem><rdg wit="#B">pharasiu</rdg><rdg wit="#C">pharisaü</rdg></app> dahaï || 132 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">132</label> vitarke cañcalaṃ nabhastalaṃ yamajihvāvallahalahati | traḍatraḍatraḍiti dharā <choice><sic>su</sic><corr>śu</corr></choice>ṣyantī—śabdaṃ karoti | tejobharaṃ na sahate | atyuṣṇaḥ prabhañjano vahati | jhaṃkharo ḍuḍuṃyālakanāmā pavanaḥ virahiṇīnām aṅgaṃ spṛṣṭā dahati || 132 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">132</label> vitarke—cañcalaṃ nabhastalaṃ yamajihvāvat lahalahati | traḍatraḍatraḍiti dharā śuṣyantī—śabdaṃ karoti | tejobharaṃ na sahate | <choice><sic>atyuṇya</sic><corr>atyuṣṇaḥ</corr></choice> prabhañjano vyomatale vahati | jhaṃkharo ḍuṇḍuyālakanāmā pavanaḥ virahiṇīnām aṅgaṃ spṛṣṭā dahati || 132 ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p>The sky is constantly waving, like the tongue of death, the earth is crackling—it can't stand the enormous heat—and when the blazing windstorm comes in the sky, it burns the bodies of women suffering in love like a tree.</p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	      <label>jhaṃkharu</label> 
+	      <item><hi>Śabdasāgara</hi> and <hi>PSM</hi> say it is a <foreign>śuṣk vṛkṣ</foreign>, according to <hi>Deśīnāmamālā</hi> 3.54, but commentaries say that it's a wind otherwise called <foreign>Ḍuṃḍalāyaka</foreign>.</item>
+	    </list>
+          </note>
+	</lg>
+	<lg xml:id="SaRā.133" met="Ābhāṇaka">
+	  <l xml:id="SaRā.133ab">piu <app><lem>cāvaïhi</lem><rdg wit="#C">vāvahi</rdg></app> bhaṇijjaï navaghaṇa <app><lem>kaṃkhirihiṃ</lem><rdg wit="#C">kiṃkhirihiṃ</rdg></app>,<caesura/>
+            salila<app><lem>nivahu</lem><rdg wit="#A">nivaü</rdg></app> <app><lem>tucchacchaü</lem><rdg wit="#C">tucchachahu</rdg></app> saraï taraṃgiṇihiṃ |</l>
+	  <l xml:id="SaRā.133cd">phalahāriṇa <app><lem>unnamiyaü</lem><rdg wit="#C">unnaviyaü</rdg></app> <app><lem>aïsacchayaï</lem><rdg wit="#C">aïsucchaha</rdg></app> suhi,<caesura/>
+            kuṃjarasavaṇasariccha <app><lem>pahallira</lem><rdg wit="#B">pahillira</rdg><rdg wit="#C">pahullira</rdg></app> <app><lem>gaṃdhavahi</lem><rdg wit="#C">gaṃdhavihi</rdg></app> || 133 ||</l>
+	  <note type="notes" xml:lang="eng">
+	    <list>
+	      <item>This verse forms a <hi>yugma</hi> with verse 134; see the following for the translation and commentaries.</item>
+	    </list>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.134" met="Ābhāṇaka">
+	  <l xml:id="SaRā.134ab">taha pattihi <app><lem>saṃsaggihi</lem><rdg wit="#B">sahasaggihi</rdg></app> <app><lem>cūyākaṃkhiriya</lem><rdg wit="#C">būyākaṃkhirihi</rdg></app>,<caesura/>
+            kīrapaṃti pari<app><lem>vasaï</lem><rdg wit="#C">vayaï</rdg></app> <app><lem>ṇivaḍa</lem><rdg wit="#B">ṇiviḍa</rdg></app> <app><lem>ṇiraṃtariya</lem><rdg wit="#A">ṇivaḍaṃtariya</rdg><rdg wit="#C">niraṃtarihiṃ</rdg></app> |</l>
+	  <l xml:id="SaRā.134cd">laï pallava <app><lem>jhullaṃti</lem><rdg wit="#B">jhullaṃta</rdg></app> samuṭṭhiya karuṇajhuṇi,<caesura/>
+            haü kiya ṇissāhāra pahiya <app><lem>sāhāra</lem><rdg wit="#C">sāhīra</rdg></app>vaṇi || 134 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">133–134</label> navaghanotkaṇṭhitaiś cātakaiḥ “priya priya” iti śabdo bhaṇyate sma | taraṅgiṇīṣu salilapravā<choice><sic>ha</sic><corr>haḥ</corr></choice>tucchā<choice><sic>ccha</sic><corr>cchaḥ</corr></choice> sarati sma | atha ṣaṭsu padeṣu sahakāravarṇanam—phalabhāreṇonnamitaṃ śubhaṃ sahakāravanaṃ atisacchāyati—adhikaṃ śobhate | anyacca—yatra kuñjaraśravaṇasadṛkṣeṣu gandhavahena prakampiteṣu āmnapatreṣu, cūtotkaṇṭhitā saṃsargiṇī parivāritā preṅkholantī kīrapaṅktir varttate | tataḥ karuṇadhvaniḥ samutthitā | tāṃ śrutvā ’haṃ nissādhārā jātā | tanmanye he pathika! sarvarañjakenāhaṃ virañjitā || 133–134 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">133–134</label> navaghanotkaṇṭhitaiś cātakaiḥ “priya priya” iti śabdo bhaṇyate sma | taraṅgiṇīṣu salilapravā<choice><sic>ha</sic><corr>haḥ</corr></choice>tucchācchas sarati sma | atha ṣaṭsu padeṣu sahakāravarṇanam—phalabhāreṇonnamitaṃ śubhaṃ sahakāravanaṃ atisacchāyam adhikaṃ śobhate | anyacca—yatra kuñjaraśravaṇasadṛśeṣu gandhavahena prakampiteṣu āmnapatreṣu cūtotkaṇṭhitā saṃsargiṇī parivāritā preṅkholantī kīrapaṅktir varttate | tataḥ karuṇadhvaniḥ samutthitā | tāṃ śrutvā ahaṃ nirādhārā jātā | ta<choice><sic>nme</sic><corr>nmanye</corr></choice> he pathika! sarvarañjakena ahaṃ virañjitā || yugmam ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p>The cātaka birds say “piu,” waiting for the first clouds; the waters just trickle slightly in the riverbeds. The mango trees are bent down with the weight of their fruits, and offer pleasant shade, waving in the breeze like the ears of elephants, and a bunch of parrots come to rest in its bowers, keen to taste the mango fruit, and rest there huddled close. The mango shoots are waving, and a plaintive note comes out: I am helpless (nissāhāra), O traveller, in this mango-grove.</p>
+	  </note>
+	</lg>
+	<label rend="squarebrackets">yugmam</label>
+	<lg xml:id="SaRā.135" met="Ābhāṇaka">
+	  <l xml:id="SaRā.135ab"><app><lem>hariyaṃdaṇu</lem><rdg wit="#A">haricaṃdaṇu</rdg></app> <app><lem>sisiratthu</lem><rdg wit="#C">sasiratthuu</rdg><rdg wit="#C">sisaratthi</rdg></app> <app><lem>uvari jaṃ</lem><rdg wit="#C">uvarijja</rdg></app> leviyaü,<caesura/>
+            taṃ <app><lem>sihaṇaha pari</lem><rdg wit="#B">sihaṇappari</rdg><rdg wit="#C">sihaṇovari</rdg></app>tavaï ahiü <app><lem>ahi</lem><rdg wit="#C">aha</rdg></app>seviyaü |
+	  </l>
+	  <l xml:id="SaRā.135cd">
+            ṭhaviya viviha vilavaṃtiya aha <app><lem>taha</lem><rdg wit="#B">tahi</rdg></app> <app><lem>hāra</lem><rdg wit="#B">hāri</rdg></app>laya,<caesura/>
+            kusumamāla tivi <app><lem>muyaï</lem><rdg wit="#A">muiyaï</rdg></app> jhāla <app><lem>taü</lem><rdg wit="#A">haü</rdg><rdg wit="#B">ta</rdg></app> huī sabhaya || 135 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">135</label> haricandanaṃ yat śaityārthe urasi lepitaṃ tadapy ahisevitatvāt kucau tāpayati | tathā vividhaṃ vilapantyā hāralatā kusumamālā ca śaityārthe urasi nyaste, te ’pi jvālāṃ muñcataḥ | tataḥ maraṇaśaṅkinī sabhayā jātā || 135 || </p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">135</label> haricandanaṃ <choice><sic>yatsailā</sic><corr>yacchaityā</corr></choice>rthe urasi lepitaṃ tadapyahisevitatvāt kucau tāpayati | tathā vividhaṃ vilapantyā hāralatā kusumamālā ca śaityārthe urasi nyaste, te api jvālāṃ muñcataḥ | tataḥ maraṇaśaṅkinī sabhayā jātā ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p>The sandal paste that I spread on my breasts to cool them heated them even more, as if it were still full of snakes. Then, moaning so many things, I put necklaces of pearls and garlands of flowers there, but they too gave off heat. I was afraid.</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.136" met="Ābhāṇaka">
+	  <l xml:id="SaRā.136ab">
+            ṇisi <app><lem>sayaṇiha</lem></app> jaṃ khittu <app><lem>sarīraha</lem></app> suhajaṇaṇu,<caesura/>
+            <app><lem>viuṇaü</lem></app> karaï <app><lem>uveu</lem></app> kamaladalasattharaṇu |
+	  </l>
+	  <l xml:id="SaRā.136cd">
+            ima sijjaha uṭṭhaṃta paḍaṃta <app><lem>salajjirihiṃ</lem><rdg wit="#A #B">salajjarihiṃ</rdg></app>,<caesura/>
+            paḍhiu vatthu taha <app><lem>dohaü</lem><rdg wit="#C">dūhaḍa</rdg></app> pahiya <app><lem>saggaggirihiṃ</lem><rdg wit="#A">sagiggirahiṃ</rdg></app> || 136 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">136</label> ni<choice><sic>si</sic><corr>śi</corr></choice> śarīrasukhārthe kamaladalaprastaraṇaṃ kṛtam tadapi dviguṇam udvegaṃ karoti | evaṃ <choice><sic>sa</sic><corr>śa</corr></choice>yyātaḥ uttiṣṭantyā, nirbalatvāt tatraiva patantyā, vastuko dodhakaś ca salajjayā sagadgadgirā paṭhitaḥ || 136 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">136</label> ni<choice><sic>śā</sic><corr>śi</corr></choice> rātrai śayanīye śarīrasukhajjanakaṃ yas kamaladalasrastaraṇaṃ kṛtaṃ tad dviguṇam udvegaṃ karoti | evaṃ śa<choice><sic>hyā</sic><corr>yyā</corr></choice>yā uttiṣṭantyā salajjayā sagadgadaṃ yathā bhavati tathā vastuko dodhakaś ca mayā paṭhitaḥ ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p>The cover of lotus-petals which I laid out on my bed at night to comfort my body made me even more distressed, so I got up from my bed but fell back down again, and in a shameful stammer and I said this <foreign>vastu</foreign> and <foreign>dohā</foreign>, O traveller.</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.137" met="Vastuka">
+	  <l xml:id="SaRā.137ab">
+            viyasāviya <app><lem>raviyarahi</lem><rdg wit="#B">ravibhavahi</rdg><rdg wit="#C">raviyarihi</rdg></app> <app><lem>tavihiṃ</lem><rdg wit="#C">tavahi</rdg></app> <app><lem>araviya</lem><rdg wit="#C">raviya</rdg><rdg wit="#B">aravitāviya</rdg></app> tavaṇi,<caesura/>
+            <app><lem>amiyamayūhu ṇa suha jaṇaï</lem><rdg wit="#A">amiya amaü visu jaṇaï</rdg><rdg wit="#C">amiya mao vihu jaṇaï</rdg></app> dahaï visajammaguṇi |
+	  </l>
+	  <l xml:id="SaRā.137cd">
+            <app><lem>dasiü dasaṇihiṃ bhuaṃgi</lem><rdg wit="#B">ḍasaṇihiṃ daśaï bhuyaṃgu</rdg><rdg wit="#C">ḍasaü dasahu bhu</rdg></app> aṃgu <app><lem>caṃdaṇu</lem><rdg wit="#B">caṃdaṇi</rdg></app> <app><lem>khayahi</lem><rdg wit="#A">khavaï</rdg><rdg wit="#C">dahaï</rdg></app>,<caesura/>
+            khivaï hāru khārubbhavu kusama<app><lem>saracchayahi</lem><rdg wit="#B">saratthaïhiṃ</rdg><rdg wit="#C">saricchayaï</rdg></app> |
+	  </l>
+	  <l xml:id="SaRā.137ef">
+	    rāīva caṃdu caṃdaṇu rayaṇa sisira bhaṇivi <app><lem>jagi</lem><rdg wit="#C">jaggi</rdg></app> <app><lem>saṃsiyahiṃ</lem><rdg wit="#B">saṃsaïhiṃ</rdg></app> |</l>
+	  <l xml:id="SaRā.137gh">
+	    ulhavaï ṇa keṇaï <app><lem>virahajjhala</lem><rdg wit="#B">virahutaha</rdg><rdg wit="#C">virahahava</rdg></app> puṇa vi <app><lem>aṃga</lem><rdg wit="#A">aṃgi</rdg><rdg wit="#B">aṃgu</rdg></app> parī<app><lem>hiṃsiyahiṃ</lem><rdg wit="#A">hiṃsīahiṃ</rdg></app> || 137 ||</l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">137</label> <ref target="SaRā.137">araviya</ref>—aravindāni ravikaraiḥ vikasāpitāni, tapanaguṇatvāt, tapanti, ity api | amṛtamayū<choice><sic>ṣo</sic><corr>kho</corr></choice> viṣeṇa saha janmatvāt asukhaṃ janayati | caśabdād dāhayati ca | candanaṃ bhujaṅgadaśanaiḥ daṣṭam, ato ’ṅgaṃ <choice><sic>kṣi</sic><corr>kṣa</corr></choice>payati | hāraḥ kṣārodbhavaḥ, ato ’ṅgaṃ <choice><sic>kṣi</sic><corr>kṣa</corr></choice>pati | keṣāṃ kusuma<choice><sic>sa</sic><corr>śa</corr></choice>rakṣatānām | rājīva-candra-candana-ratnāni śiśirāṇi ucyante, paraṃ virahāgnijvālā kenāpi na vidhyāti, ataḥ punar aṅgāni parihiṃsyante || 137 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">137</label> aravindāni ravikarait vikasāpitāni, tapanaguṇatvāt, tapanti ity api | amṛtamayūkho viṣeṇa saha janmatvāt asukhaṃ janayati dāhayati ca | candanaṃ bhujaṅgadaśanair daṣṭam ataḥ aṅgaṃ kṣapayati | hāraḥ kṣārodbhavaḥ, ato ’ṅgaṃ kṣipati, keṣāṃ kusumaśarakṣatānām | rājīva-candra-candana-ratnāni śiśirāṇy ucyante, paraṃ virahāgnijvālā kenāpi na vidhyāti | ato aṅgāni parihiṃsyante ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p>Flowers are made to blossom by the rays of the sun: they burn with its heat. The rays of the moon can't produce pleasure: they burn with the poison it was born with. Sandal burns the body, bitten with poisonous snakes. Pearls, produced from salt, only pour it into the entry-wounds of love's flower-arrows. Flowers, the moon, sandal, gems are praised for being cool on earth, but they can't put out the fire of separation. No, they only afflict the body more.</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.138" met="Dohā">
+	  <l xml:id="SaRā.138ab">taṇu ghaṇa<app><lem>sāriṇa</lem><rdg wit="#A">sariṇ</rdg></app> caṃdaṇiṇa aliu ji jivi <app><lem>caccaṃti</lem><rdg wit="#B">cavvaṃti</rdg></app> | </l>
+	  <l xml:id="SaRā.138cd">puṇa vi pieṇa va ulhavaï piya<app><lem>virahaggi</lem><rdg wit="#A">virahiggi</rdg></app> nibhaṃti || 138 ||</l>
+<note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">138</label> ye kecana janāḥ tanuḥ ghanasārena = karpūreṇa candanena carcayanti, tad alīkam | yataḥ priyaviyogāgniḥ pri<choice><sic>e</sic><corr>ye</corr></choice>ṇaiva vidhyāti | dhruvaM pathika atra bhramo na || 138 || grīṣmavarṇanā ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">138</label> etad alīkaṃ yad virahārttā tanuḥ = śarīraṃ ghanasāreṇa = karpūreṇa candanen carcayantī — limpayantī | punar viarahāgniḥ priyeṇaiva nirbhṛtaṃ vidhyāti || iti grīṣmavarṇanā samāptā ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p>People smear their bodies with camphor and sandal in vain. No, only the beloved can put out the fire of separation, there can be no doubt.</p>
+	  </note>
+	</lg>
+
+
+	<label type="initial" rend="squarebrackets" xml:lang="san-Latn">atha varṣāvarṇanam</label>
+
+	<lg xml:id="SaRā.139" met="Ābhāṇaka">
+	  <l xml:id="SaRā.139ab">
+	    ima <app><lem>taviyaü</lem><rdg wit="#C">taviu</rdg></app> bahu giṃbhu <app><lem>kaha vi</lem><rdg wit="#A">kahava</rdg><rdg wit="#B">kaha kari</rdg></app> <app><lem>maï</lem><rdg wit="#B"/><rdg wit="#C">mui</rdg></app> voliyaü,<caesura/>
+	    pahiya patta <app><lem>puṇa</lem><rdg wit="#C">puṇu</rdg></app> <app><lem>pāusa</lem><rdg wit="#C">pāvasuṃ</rdg></app> dhiṭṭhu ṇa pattu piu |
+	  </l>
+	  <l xml:id="SaRā.139cd">
+	    <app><lem>caüdisi</lem><rdg wit="#A">caüdisu</rdg><rdg wit="#C">cahudisi</rdg></app> dhoraṃdhāru pavannaü garuyabharu,<caesura/>
+	    gayaṇi guhiru <app><lem>ghurahuraï</lem><rdg wit="#C">ghurahuraï</rdg></app> sarosaü <app><lem>aṃbuharu</lem><rdg wit="#A #B">aṃbaharu</rdg></app> || 139 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">139</label> atha varṣāvarṇanām āha—evaṃ grīṣmo bahutaptaḥ—atyuṣṇaḥ kaṣṭaṃ kṛtvā mayā nirgamitaḥ | tadanu varṣākālaḥ prāptaḥ, paraṃ dhṛṣṭo na priyaḥ | caturdikṣu ghorāndhakāro gurubha<choice><sic>ra</sic><corr>raṃ</corr></choice> prapanno ’mbudharo gagane saro<choice><sic>saṃ</sic><corr>ṣaṃ</corr></choice> yathā garjati || 139 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">139</label> atha varṣāvarṇanām āha—evaṃ grīṣmo bahutaptaḥ—atyuṣṇaḥ kaṣṭaṃ kṛtvā mayā nirgamitaḥ | tadanu varṣākālaḥ prāptaḥ, <supplied>paraṃ</supplied> dhṛṣṭo na priyaḥ | caturdikṣu ghorāndhakāro gurubharaṃ prapanno ’mbudharo gagane saroṣaṃ yathā garjati || ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.140" met="Ābhāṇaka">
+	  <l xml:id="SaRā.140ab">
+	    <app><lem>paüdaṃḍaü</lem><rdg>paüḍaṃḍaü</rdg></app> <app><lem>pesijjaï</lem><rdg wit="#C">pesiya</rdg></app> jhāla <app><lem>jhalakaṃ</lem><rdg wit="#A">kalakaṃ</rdg></app>tiyaï,<caesura/>
+	    bhayabhesiya aïrāvaï gayaṇi khivaṃtiyaï |
+	  </l>
+	  <l xml:id="SaRā.140cd">
+	    rasahi sarasa <app><lem>vavvīhiya</lem><rdg wit="#A">vabbīhiya</rdg><rdg wit="#C">vāvīhiya</rdg><rdg wit="#C">vavvīhayaṃ</rdg></app> ṇiru <app><lem>tippaṃti</lem><rdg wit="#B">tivvaṃti</rdg></app> jali,<caesura/>
+	    <app><lem>bagaha</lem><rdg wit="#A #B">bayaha</rdg></app> reha ṇahi rehaï  <app><lem>ṇavaghaṇa jaṃti</lem><rdg wit="#C">ṇavagha jaṃta</rdg></app> tali || 140 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">140</label> bhayabhīṣaṇayā airāvatyā gagane dyotantyā jvālāvad dedīpyamānayā pagadaṇḍagaś caraṇamārgo dṛśyate | baṣpīhakkāḥ sarasaṃ rasanti, nitarāṃ jalena <supplied>tṛ</supplied>pyanti | anyacca—nabhasi navaghanatale gacchantī bakānāṃ śreṇiḥ śobhate || 140 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">140</label> bhayabhīṣaṇayā airāvatyā vidyutā gaganaṃ dyotantyā jvālāvad dedīpyamānayā pagadaṇḍagaś caraṇamārgo dṛśyate | babbīhakkāḥ sarasaṃ rasanti, nitarāṃ jalena <supplied>tṛ</supplied>pyanti | anyacca—nabhasi navaghanatale gacchantī bakānāṃ śreṇiḥ śobhate ||</p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	      <label>vavvīhiya</label>
+	      <item>?</item>
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.141" met="Ābhāṇaka">
+	  <l xml:id="SaRā.141ab">
+	    <app><lem>giṃbha</lem><rdg wit="#B">gimha</rdg></app> <app><lem>taviṇa</lem><rdg wit="#C">taviṇu</rdg><rdg wit="#B">tavaṇi</rdg></app> khara tāviya <app><lem>bahu</lem><rdg wit="#B"/></app> <app><lem>kiraṇukkarihiṃ</lem><rdg wit="#B">kiraṇukkarakirihi</rdg></app>,<caesura/>
+	    paü paḍaṃtu <app><lem>pukkharahu</lem><rdg wit="#B">puṣkarahu</rdg></app> ṇa māvaï <app><lem>pukkharihiṃ</lem><rdg wit="#B">puṣkarihi</rdg><rdg wit="#C">pukharahi</rdg></app> |
+	  </l>
+	  <l xml:id="SaRā.141cd">
+	    payahatthi kiya pahiya <app><lem>payahi</lem><rdg wit="#B">païhi</rdg><rdg wit="#A">pahihi</rdg></app> <app><lem>pavahaṃtayaha</lem><rdg wit="#A">pavahaṃtayahi</rdg><rdg wit="#B">pavahaṃtiyaha</rdg></app>,<caesura/>
+	    <app><lem>paï paï</lem><rdg wit="#C">paya paya</rdg></app> <app><lem>pesaï</lem><rdg wit="#C">pesaü</rdg></app> karalaü <app><lem>gayaṇi</lem><rdg wit="#C">gayaṇa</rdg></app> <app><lem>khivaṃtayaha</lem><rdg wit="#A">khivaṃitiyahi</rdg><rdg wit="#B">khivaṃtiyaha</rdg></app> || 141 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">141</label> grīṣmatapanakharataptakiraṇotkarṣasambandhi payaḥ puṣkarāt patat puṣkaraṇīṣu na māti | yataḥ—<quote rend="single">sahasraguṇamu<choice><sic>cchaṣṭu</sic><corr>tsraṣṭu</corr></choice>m āda<choice><sic>taṃ</sic><corr>tte</corr></choice> hi rasaṃ raviḥ</quote> | tathā ca pathi pravasantaḥ pathikāḥ payobhiḥ padatrāṇahastāh kṛtāḥ | gagane vidyutā karalaḥ pagadaṇḍako dṛśyate, nānyathā || 141 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">141</label> grīṣmatapanakharataptakiraṇotkarṣasambandhi payaḥ puṣkarāvartavat patat puṣkaraṇīṣu—nadīṣu na māti | yataḥ—<quote rend="single">sahasraguṇamutsraṣṭum ādatte hi rasaṃ raviḥ</quote> | tathā ca pathi pravasantaḥ pathikāḥ payobhiḥ padatrāṇahastāh kṛtāḥ | gagane vidyutā karalaḥ pagadaṇḍako dṛśyate, nānyathā  ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.142" met="Ābhāṇaka">
+	  <l xml:id="SaRā.142ab">
+	    ṇivaḍalahari ghanaaṃtari <app><lem>saṃgihi</lem><rdg wit="#C">saṃgiṇa</rdg></app> <app><lem>duttarihiṃ</lem><rdg wit="#B #C">duttarahiṃ</rdg></app>,<caesura/>
+	    kari <app><lem>karayalu</lem><rdg wit="#B">kalayalau</rdg><rdg wit="#C">karayaru</rdg></app> kallolihi gajjiü <app><lem>varasarihiṃ</lem><rdg wit="#C">varasarahi</rdg><rdg wit="#A">suravarihiṃ</rdg></app> |
+	  </l>
+	  <l xml:id="SaRā.142cd">
+	    disi <app><lem>pāvasuya</lem><rdg wit="#B">pavāsuiya</rdg></app> thakkiya ṇiyakajjāgamihiṃ,<caesura/>
+	    <app><lem>gamiyaï</lem><rdg wit="#C">gamiyaï</rdg></app> <app><lem>ṇāvihiṃ</lem><rdg wit="#B">nāviha</rdg></app> maggu pahiya ṇa turaṃgamihiṃ || 142 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">142</label> kallolair nibiḍalaharīghanāntarasaṃsargeṇa dustarair varasaritāsu garjjitam | diśaḥ pravāsataḥ <supplied>sthitāḥ</supplied> | atha cet kāryāgame pravāsaḥ, tadā naubhirgamyate na turaṅgamaiḥ || 142 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">142</label> kallolair nibiḍalaharīghanāntarasaṃsargeṇa dustarair varasaritāsu garjitam, diśaḥ pravā<choice><sic>śa</sic><corr>sa</corr></choice>taḥ sthitāḥ | atha cet kāryāgame pravāsas tadā naubhirgamyate na turaṅgamaiḥ ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.143" met="Ābhāṇaka">
+	  <l xml:id="SaRā.143ab">
+	    <app><lem>kaddamalula</lem><rdg wit="#A">kaīyasalila</rdg><rdg wit="#C">kaddamalalu</rdg></app> dhavalaṃga vihāviha <app><lem>sajjharihi</lem><rdg wit="#A #B">sajjharahi</rdg></app>,<caesura/>
+	    <app><lem>taḍinae vi</lem><rdg wit="#B">taḍinaehi</rdg><rdg wit="#A">taḍavaeï</rdg></app> payabhariṇa alakkha <app><lem>salajjarihi</lem><rdg wit="#B">salajjarahiṃ</rdg><rdg wit="#C">salijjirihi</rdg></app> |
+	  </l>
+	  <l xml:id="SaRā.143cd">
+	    <app><lem>huu</lem><rdg wit="#B">huva</rdg><rdg wit="#C">huya</rdg></app> tārāyaṇu alakhu viyaṃbhiu tamapasaru,<caesura/>
+	    <app><lem>channaü iṃdoehi</lem><rdg wit="#B">channaüiudoihi</rdg><rdg wit="#C">channaüidaüehi</rdg></app> <app><lem>niraṃtaru</lem><rdg wit="#B"/></app> <app><lem>ghara siharu</lem><rdg wit="#C">gharasihari</rdg><rdg wit="#A">siharagharu</rdg></app> || 143 || <label rend="squarebrackets">kṣepakaḥ?</label>
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">143</label> kṣepakam—gharā strī meghabha<choice><sic>rttā</sic><corr>rtrā</corr></choice>game, yathā strībhartṛsaṅgame śrīkhaṇḍavilepanaṃ karoti | pārśvāvācchāyati salajjatvāt | tārā—āyatane—netre alakṣe karoti—ācchādayanti | tamaḥprasaram īpsati | kausumbhaṃ vastraṃ paridadhāti | dharā strī, meghabhartṛsaṅgama iti viceṣṭitam atra bhāvaḥ || 143 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">143</label> kṣepakam—gharā strī meghabhartrāgame, yathā strībhartṛsaṅgame śrīkhaṇḍavilepanaṃ karoti | pārśvāvācchāyati, salajjatvāt, tārā—āyatane ’lakṣe karoti—ācchādayanti | tamaḥ prasaram īpsati, kausumbhaṃ vastraṃ paridadhāti | dharā strī, meghabhartṛsaṅgama iti viceṣṭitam atra bhāvaḥ ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.144" met="Ābhāṇaka">
+	  <l xml:id="SaRā.144ab">
+	    <app><lem>bagu</lem><rdg wit="#A">baü</rdg></app> <app><lem>milhavi</lem><rdg wit="#A">milhivi</rdg></app> saliladdahu tarusiharihi caḍiu,<caesura/>
+	    <app><lem>taṃḍavu</lem><rdg wit="#A">taṃḍaü</rdg><rdg wit="#C">taṃdabu</rdg></app> karivi <app><lem>sihaṃḍihi</lem><rdg wit="#C">sihammihi</rdg></app> <app><lem>varasiharihi</lem><rdg wit="#C">varusiharihi</rdg></app> <app><lem>raḍiu</lem><rdg wit="#C">raḍyaü</rdg></app> | 
+	  </l>
+	  <l xml:id="SaRā.144ab">
+	    <app><lem>salilihi</lem><rdg wit="#A">salalihi</rdg><rdg wit="#C">salilahi</rdg></app> <app><lem>vara</lem><rdg wit="#C">vari</rdg></app> sālūrihi <app><lem>pharisiu</lem><rdg wit="#A">pharasaü</rdg><rdg wit="#C">pharisiu</rdg></app> rasiu <app><lem>sari</lem><rdg wit="#A #B">saru</rdg></app>,<caesura/>
+	    kalayalu kiyaü kalayaṃṭhihi caḍi <app><lem>cūyaha</lem><rdg wit="#B">cūyahaṃ</rdg><rdg wit="#C">būyaha</rdg></app> sihari || 144 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">144</label> saliladrahaṃ tyaktvā taru<choice><sic>siṣa</sic><corr>śikha</corr></choice>re bakair ārūḍham | tāṇḍavaṃ nṛtyaṃ kṛtvā vara<choice><sic>siṣa</sic><corr>śikha</corr></choice>riṣu—parvateṣu śikhaṇḍibhiḥ raṭitam | <choice><sic>śa</sic><corr>sa</corr></choice>lileṣu śālūraiḥ <choice><sic>pura</sic><corr>paru</corr></choice>ṣakhareṇa <choice><sic>sa</sic><corr>śa</corr></choice>bditam | kalakaṇṭhībhiś cūtaśikharam āruhya kalakalaśabdaḥ kṛtaḥ || 144 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">144</label> saliladrahaṃ tyaktvā taruśikhare bakair ārūḍham | tāṇḍavaṃ nṛtaṃ kṛtvā varaśikhariṣu—parvateṣu śikhaṇḍibhī raṭitam | salileṣu sālūraiḥ <choice><sic>pu</sic><corr>pa</corr></choice>ruṣasvareṇa śabditam | kalakaṇṭhībhiḥ—kokilābhiś cūtaśikharam āruhya kalakalśa<choice><sic>bdaṃ</sic><corr>bdaḥ</corr></choice> kṛtaḥ ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.145" met="Ābhāṇakā">
+	  <l xml:id="SaRā.145ab">
+	    ṇāya ṇivaḍa paha ruddha <app><lem>phaṇiṃdihiṃ</lem><rdg wit="#C"><supplied>pha</supplied>ṇiṃdahiṃ</rdg></app> <app><lem>daha</lem><rdg wit="#C">dasa</rdg></app> disihiṃ,<caesura/>
+	    <app><lem>huiya</lem><rdg wit="#B">huīya</rdg></app> asaṃcara magga mahaṃta <app><lem>mahāvisihiṃ</lem><rdg wit="#B #C">mahavvisahiṃ</rdg></app>
+	  </l>
+	  <l xml:id="SaRā.145cd">
+	    pāḍaladalaparikhaṃḍaṇu nīrataraṃgabhari,<caesura/>
+	    urunnaü girisiharihi haṃsihi karuṇasari || 145 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">145</label> naigaḥ—sarppaiḥ phaṇīndraiḥ—phaṇayuktaiḥ mahāviṣaiḥ nibiḍaṃ yathā daśa<supplied>su</supplied> dikṣu panthā ruddhaḥ | mārgaḥ asaṃcaro jātaḥ | nīrataraṅgabhareṇa <choice><sic>paḍalā</sic><corr>pāḍala</corr></choice>dalakhaṇḍanaṃ <choice><sic>yā</sic><corr>jā</corr></choice>tam | anyacca, haṃsaiḥ giri<choice><sic>siṣa</sic><corr>śikh</corr></choice>are karuṇasvareṇa yathā ruditam || 145 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">145</label> naigaḥ phaṇīndraiś ca daśasu dikṣu nibiḍaṃ yathā panthā ruddhaḥ | mahāviṣaiḥ pānīyair mārgo ’saṃcaro jātaḥ | nīrataraṅgabhareṇa pāḍaladalaparikhaṇḍanaṃ jātam | haṃsair giriśikhare karuṇasvareṇa ‘u’ ity adhikaṃ ruditam ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.146" met="Ābhāṇaka">
+	  <l xml:id="SaRā.146ab">
+	    macchara<app><lem>bhaya</lem><rdg wit="#B">bhaï</rdg></app> <app><lem>saṃcaḍiu</lem><rdg wit="#B">saṃcariu</rdg></app> <app><lem>ranni</lem><rdg wit="#B">raṃgi</rdg></app> goyaṃgaṇihi,<caesura/>
+	    <app><lem>maṇahara</lem><rdg wit="#B">maṇaharu</rdg></app> <app><lem>ramiyaï</lem><rdg wit="#A">ramīyaï</rdg></app> nāhu <app><lem>raṃgi</lem><rdg wit="#B">raṃgicaṃgi</rdg></app> goyaṃgaṇihi |
+	  </l>
+	  <l xml:id="SaRā.146cd">
+	    <app><lem>hariyāulu</lem><rdg wit="#C">hariyālaü</rdg></app> dharavalaü <app><lem>kayaṃbiṇi</lem><rdg wit="#C">kayaṃviṇi</rdg></app> mahamahiu,<caesura/>
+	    kiyaü bhaṃgu aṃgaṃgi <app><lem>aṇaṃgiṇa</lem><rdg wit="#B">aṇaṃgihi</rdg></app> maha <app><lem>ahiu</lem><rdg wit="#A">hiyaü</rdg></app> || 146 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">146</label>macchara<supplied>bha</supplied>yād gavāṃ vra<choice><sic>jai</sic><corr>jaiḥ</corr></choice> sthale ārūḍham | gopāṅganābhir madhuraṃ gītaṃ gīyate | haritākulaṃ dharāvalayaṃ kadambena sugandhitam | anaṅgena samadhi<choice><sic>ka</sic><corr>kaḥ</corr></choice>  aṅgabhaṅgaḥ kṛtaḥ || 146 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">146</label>maccharabhayād gavāṃ vrajaiḥ sthale ārūḍham | gopāṅganābhir madhuraṃ gītaṃ gīyate | haritākulaṃ dharāvalayaṃ kadambena sugandhitam | anaṅgena samadhikam aṅgabha<choice><sic>ṅga</sic><corr>ṅgaḥ</corr></choice> kṛtaḥ ||</p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list>
+	      <item>Note the rhyme (<hi>yamaka</hi>) in each half-verse.</item>
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.147" met="Ābhāṇaka">
+	  <l xml:id="SaRā.147ab">
+	    visamasijja<app><lem>vilulaṃtiya</lem><rdg wit="#C">vilalaṃtaya</rdg></app> aï<app><lem>dukkhinniyaï</lem><rdg wit="#C">dukkhinnaï</rdg></app>,<caesura/>
+	    aliulamāla viṇaggaya sara paḍi<app><lem>bhinniyaï</lem><rdg wit="#C">bhinnayaï</rdg></app> |
+	  </l>
+	  <l xml:id="SaRā.147cd">
+	    aṇimisa<app><lem>nayaṇuvvinniya</lem><rdg wit="#A #B">nayaṇovinniya</rdg></app> ṇisi jāgaṃtiyaï,<caesura/>
+	    <app><lem>vatthu</lem><rdg wit="#A">vattha</rdg><rdg wit="#B">vatthū</rdg></app> gāha <app><lem>kiu</lem><rdg wit="#C">kīha</rdg></app> dohaü <app><lem>ṇidda</lem><rdg wit="#B">niṃda</rdg></app> alahaṃtiyaï || 147 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">147</label> rātrau viṣama<choice><sic>sijjhā</sic><corr>śayyā</corr></choice>yāṃ mayā lulantyā ekākinyā nidrā gamitā | sarovare kamalānāṃ alikulamālā saṅkucitā jātā | mayā animiṣaṃ rātrāu jāgaraṇaḥ kṛtaḥ | vastuka-gāthā-dodhakair nidrām alabhantyā rātrir nigamitā || 147 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">147</label> viṣama<choice><sic>sahyā</sic><corr>śayyāyāṃ</corr></choice> vilulantyā atiduḥkhākīrṇayā alikulamālāvinirgatasvarapratibhinnayā animiṣanayanodvignayā niśi jā<choice><sic>garta</sic><corr>gṛta</corr></choice>yā nidrām alabhantyā vastuko gāthā dodhakaś ca kṛtaḥ ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.148" met="Vastuka">
+	  <l xml:id="SaRā.148ab">
+	    <app><lem>jhaṃpavi</lem><rdg wit="#A">jhaṃpivi</rdg></app> tama vaddaliṇa <app><lem>dasaha</lem><rdg wit="#A">dahahi</rdg></app> disi chāyaü aṃbaru,<caesura/>
+	    <app><lem>unnaviyaü</lem><rdg wit="#A">unnamiyaü</rdg></app> <app><lem>ghurahuraï</lem><rdg wit="#C">ghuraharaï</rdg></app> ghoru ghaṇu kisaṇāḍaṃbaru |
+	  </l>
+	  <l xml:id="SaRā.148cd">
+	    <app><lem>ṇahahabhaggi</lem><rdg wit="#A">ṇahamaggihi</rdg><rdg wit="#C">ṇahamaggiṇa</rdg></app> ṇaha<app><lem>valliya</lem><rdg wit="#A">valli</rdg></app> <app><lem>tarala</lem><rdg wit="#B">tarayala</rdg></app> <app><lem>taḍayaḍivi</lem><rdg wit="#C">tayaḍa vi</rdg></app> taḍakkaï,<caesura/>
+	    dudduraraḍaṇu raüddu saddu <app><lem>kuvi</lem><rdg wit="#A">kui</rdg><rdg wit="#B">ki vi</rdg></app> sahavi ṇa sakkaï |
+	  </l>
+	  <l xml:id="SaRā.148ef">
+	    <app><lem>nivaḍa</lem><rdg wit="#B">niviḍa</rdg></app> <app><lem>niraṃtara</lem><rdg wit="#C">niraṃtaru</rdg></app> <app><lem>nīrahara</lem><rdg wit="#C">nīru bharu</rdg></app> duddhara dharadhārohabharu |
+	  </l>
+	  <l xml:id="SaRā.148gh">
+	    kima <app><lem>sahaü</lem><rdg wit="#B">sahiu</rdg></app> pahiya <app><lem>siharaṭṭhiyaï</lem><rdg wit="#C">sihayaraṭṭhiyaï</rdg></app> <app><lem>dusahaü</lem><rdg wit="#C">dusahaü</rdg></app> koila rasaï saru || 148 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">148</label> bho pathika! śyāmabahalaiḥ daśadiśiṃ vyāpya ākāśa ācchāditaḥ | gagane unna<choice><sic>vi</sic><corr>mi</corr></choice>to ghurahurati ghano meghaḥ kṛṣṇāḍambaraḥ | ākāśamārgge nabhovallīvidyut taḍataḍeti śabdaṃ karoti | dardurāṇāṃ raṭanaṃ—pūtkāraṃ śrutvā <choice><sic>sahya</sic><corr>soḍhuṃ</corr></choice> na śakyate | bho pathika! nibiḍaṃ ca śa<choice><sic>bdā</sic><corr>bdād</corr></choice> durddharaṃ nīradharaṃ meghaṃ <choice><sic>siṣa</sic><corr>śikhara</corr></choice>sthitena tena kathaṃ sahitam || 148 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">148</label> varrdalena tamo atyarthaṃ jhampitvā—ākramya, da<choice><sic>sa</sic><corr>śa</corr></choice>su dikṣu ambaram ākāśam ācchāditam | puna unnamito ghoraṃ yathā kṛṣṇāḍambaraṃ ghuruharati—garjati | nabhovallī—vidyut nabhomārge taralaṃ yathā taḍatkāraṃ kṛtvā—taḍatkaroti | dardurāṇāṃ raṭanaṃ raudraṃ śabdaṃ ko ’pi soḍhuṃ na śaknoti | nibiḍaṃ nirantaraṃ nīradharaṃ meghaṃ durdharadhāraughabharaṃ he pathika! kathaṃ sahāmi? | anyacca, śikharasthitā āmroparisthā kokilā duḥsahaṃ svaraṃ rasati  ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.149" met="Dohā">
+	  <l xml:id="SaRā.149ab">
+	    ulhaviyaṃ gimhahavī dhārānivaheṇa <app><lem>pāuse</lem><rdg wit="#C">pāvaso</rdg></app> <app><lem>patte</lem><rdg wit="#A #C">paüsopatto</rdg></app> |
+	  </l>
+	  <l xml:id="SaRā.149cd">
+	    accariyaṃ <app><lem>maha</lem><rdg wit="#C">miha</rdg></app> <app><lem>hiyae</lem><rdg wit="#A">citte hiyae</rdg></app> virahaggī tavaï <app><lem>ahiya<supplied>ya</supplied>ro</lem><rdg wit="#C">ahiyayaraṃ</rdg></app> || 149 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">149</label> mayā grī<choice><sic>ṣmā</sic><corr>ṣmo</corr></choice> ṛtuḥ nirgami<choice><sic>tā</sic><corr>tāḥ</corr></choice> | meghasamūhe varṣākāle prāpte <choice><sic>śa</sic><corr>sa</corr></choice>ti maha—mama <choice><sic>hri</sic><corr>hṛ</corr></choice>daye etad āścaryaṃ tathāpi adhikata<choice><sic>rā</sic><corr>ro</corr></choice> virahāgnis tapati || 149 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">149</label> he pathika! grīṣmahaviḥ pāuse—varṣākāle prāpte sati dhārānivahena meghadhārāsamūhena vyāpitam | paraṃ mama hṛdaya etad āścaryaṃ virahāgnir adhikataras tapati ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.150" met="Dohā">
+	  <l xml:id="SaRā.150ab">
+	    guṇaṇihi jalabiṃdu<app><lem>bbhavahi</lem><rdg wit="#A">bbhavihi</rdg><rdg wit="#B">bbhavaṇu</rdg></app>, ṇa galatthiya lajjaṃti | 
+	  </l>
+	  <l xml:id="SaRā.150cd">
+	    <app><lem>pahiya jaṃ</lem><rdg wit="#A">paṃiya jaṃ</rdg><rdg wit="#B">pāiya jaṃ</rdg></app> thora<app><lem>suihi</lem><rdg wit="#C">suyahi</rdg></app>, <app><lem>thaṇa thaḍḍḥā</lem><rdg wit="#C">thaṇa ghaṭṭhā</rdg></app> <app><lem>ujjhaṃti</lem><rdg wit="#B">jjhaṃti</rdg></app> || 150 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">150</label> guṇayukyā jalabindūdbhavā muktāhārāḥ kiṃ na lajja<choice><sic>nti</sic><corr>nte</corr></choice> | yat pathika! stanau sthūlāśrubhir dahyete, paraṃ na lajjataḥ | ya<choice><sic>ta</sic><corr>taḥ</corr></choice> stabdhau | stabdhānāṃ kaṣṭe ’pi sajjanānāṃ duḥkhaṃ lajjā ca na bhavati || 150 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">150</label> guṇayukyā jalabindūdbhavā muktāhā<choice><sic>rā</sic><corr>rāḥ</corr></choice> kiṃ na lajjante? | yat pathika! stanau sthūlāśrubhir dahyete, paraṃ na lajjataḥ | yataḥ stabdhau | stabdhānāṃ kaṣṭe ’pi sajjanānāṃ duḥkhaṃ lajjā ca na bhavati ||</p>
+	  </note>
+	</lg>
+	<lg xml:id="SaRā.151" met="Ābhāṇaka">
+	  <l xml:id="SaRā.151ab">
+	    dohaü eu paḍheviṇu <app><lem>virahakheālasīi</lem><rdg wit="#B">virahikhiā</rdg></app>,<caesura/>
+	    u <app><lem>aggaï</lem><rdg wit="#C">āgaï</rdg></app> aï<app><lem>khinnī</lem><rdg wit="#B">khinniya</rdg></app> mohaparā<app><lem>vasīi</lem><rdg wit="#B #C">vasī</rdg></app> | 
+	  </l>
+	  <l xml:id="SaRā.151cd">
+	    suviṇaṃtari <app><lem>ciru</lem><rdg wit="#C">cira</rdg></app> <app><lem>pavasiu</lem><rdg wit="#C">pavasiyaü</rdg></app> <app><lem>jaṃ</lem><rdg wit="#C">ja</rdg><rdg wit="#B"/></app> <app><lem>joiaü</lem><rdg wit="#C">joiu</rdg></app> piu,<caesura/>
+	    <app><lem>saṃjāṇivi</lem><rdg wit="#A">siṃjāṇavi</rdg><rdg wit="#B">sijjāṇivi</rdg></app> kara <app><lem>gahivi</lem><rdg wit="#A #B">gahavi</rdg></app> <app><lem>maï</lem><rdg wit="#A">tāma maï</rdg></app> <app><lem>bhaṇiu</lem><rdg wit="#C">bhaṇiyaü</rdg></app> <app><lem>ihu</lem><rdg wit="#B">iu</rdg></app> || 151 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">151</label> etad dodhakaṃ paṭhitvā, virahākulā jātā | evam—amunā prakāreṇa, mohaparavaśā satī ciraṃ prasthito bharttā mayā svapne dṛṣṭaḥ | iti vacanaṃ ka<choice><sic>thi</sic><corr>thayi</corr></choice>tvā karagrahaṇapūrvvakaṃ evaṃ pathiko bhaṇitaḥ—evaṃ jñātvā kare gṛhītaḥ | satītvam iti sūcitam || 151 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">151</label> etad dodhakaṃ paṭhitvā virahakhedālasayātikhinnayā mohaparavaśayā svapnāntare cirapra<choice><sic>visa</sic><corr>vasi</corr></choice>taḥ priyo dṛṣṭaḥ | upalakṣya, kare gṛhītvā, mayā evaṃ bhaṇitaḥ ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.152" met="Gāthā">
+	  <l xml:id="SaRā.152ab">
+	    kiṃ <app><lem>juttaṃ</lem><rdg wit="#B #C">yuttaṃ</rdg></app> <app><lem>sukulagga</lem><rdg wit="#C">sukalagga</rdg><rdg wit="#B">kulagga</rdg></app>yāṇa muttūṇa jaṃ <app><lem>ca</lem><rdg wit="#B">ci</rdg></app> iha samae |
+	  </l>
+	  <l xml:id="SaRā.152cd">
+	    taḍataḍaṇativvaghaṇaghaḍaṇsaṃkule <app><lem>daiya</lem><rdg wit="#B #C">dayīya</rdg></app> vaccaṃti || 152 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">152</label> he dayita! kiṃ sukulodgatānāṃ idaṃ yuktam, yat taḍataḍaṇatīvrāyāṃ vidyuti ghanaghaṭanameghaśabdasaṃkule ī<supplied>dṛ</supplied>śe <supplied>sa</supplied>maye dayitāṃ muktvā vrajanti || 152 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">152</label> he dayite! kiṃ kulodbhavānām idaṃ yuktam, yat taḍataḍaṇatīvrāyāṃ vidyuti, ghanaghaṭanameghaśabdasaṃkule īdṛśe sama<choice><sic>e</sic><corr>ye</corr></choice> dayitāṃ muktvā vrajanti | tan na yutkam ||</p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list>
+	      <item>Note that this verse is in Prakrit.</item>
+	      <item>The first verse also has a metrical defect that suggests the reading <hi>sukuloggaaāṇāṃ</hi>.</item>
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.153" met="Gāthā">
+	  <l xml:id="SaRā.153ab">
+	    ṇavamehamālāmāliya ṇahammi <app><lem>suracāva</lem><rdg wit="#A">suracāya</rdg><rdg wit="#B">suracāi</rdg></app> <app><lem>rattadisi</lem><rdg wit="#A">disa</rdg></app> pasaro |
+	  </l>
+	  <l xml:id="SaRā.153cd">
+	    ghanachanna<app><lem>chamma iṃdoiehi</lem><rdg wit="#C">cchammaidevaehi</rdg></app> <app><lem>piya pāvasaṃ</lem><rdg wit="#A">piu pāusaṃ</rdg></app> dusahaṃ || 153 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">153</label> he priya! prāvṛḍ—varṣākālo dussahaḥ | kaiḥ? meghamālā—suracāpendragopakaiḥ, āraktadaśadigprasāraiḥ — ity ādi meghālaṅkāraiḥ || 153 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">153</label> he priya! prāvṛḍ duḥsahaḥ | kair navameghamālā-suracāpendragopakaiḥ | kiṃviśiṣṭais taiḥ? — diśi prasṛtaiḥ  | punaḥ kaiḥ? — ghanacchanncchadmendubhiḥ ||</p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list>
+	      <item>Note that this verse is in Prakrit.</item>
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.154" met="Ābhāṇaka">
+	  <l xml:id="SaRā.154ab">
+           <app><lem>rāya</lem><rdg wit="#B">rajja</rdg></app><app><lem>ruddha</lem><rdg wit="#A">ruddhu</rdg></app>kaṃṭhaggi <app><lem>viuddhī</lem><rdg wit="#C">vibuddhī</rdg></app> jaṃ <app><lem>sivaṇi</lem><rdg wit="#A">savaṇi</rdg><rdg wit="#C">siviṇi</rdg></app>,<caesura/>
+            kaha haüṃ kaha <app><lem>piu</lem><rdg wit="#C">piya</rdg></app> <app><lem>pattharaṃgi</lem><rdg wit="#C">pattharaggi</rdg></app> jaṃ na <app><lem>muiya</lem><rdg wit="#C">muī</rdg></app> khaṇi |</l>
+	  <l xml:id="SaRā.154cd">
+            <app><lem>jaï</lem><rdg wit="#C">jaṃ</rdg></app> <app><lem>ṇahu</lem><rdg wit="#A">ṇaṃ</rdg></app> ṇiggaü <app><lem>jīu</lem><rdg wit="#C">jīvu</rdg></app> pāvabaṃdhihi jaḍiu,<caesura/>
+            hiyaü na <app><lem>kiṇa</lem><rdg wit="#A">kiṇi</rdg></app> <app><lem>kiri</lem><rdg wit="#A">kira</rdg><rdg wit="#C">kari</rdg></app> phuṭṭaü ṇaṃ vajjihi ghaḍiu || 154</l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">154</label> rāgaruddhakaṇṭhāgrā svapne prabuddhya yadā paśyāmi, kva aham, kva priya? tajjñātvā yan na mṛtā tanmanye prastarāṅgī | yajjīvo na nirgatas tanmanye pāpajaṭitaḥ | yacca <choice><sic>hi</sic><corr>hṛ</corr></choice>dayaṃ <supplied>na</supplied> sphuṭitaṃ tanmanye vajraghaṭitam || 154 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">154</label> rāgaruddhakaṇṭhāgrā svapne prabuddhya yadā paśyāmi, kva aham, kva priya? <choice><sic>taṃ</sic><corr>tad</corr></choice> jñātvā yan na mṛtā tanmanye prastarāṅgī | yajjīvo na nirgatas tanmanye pāpajaṭitaḥ | yacca hṛdayaṃ na sphuṭitaṃ tanmanye vajraghaṭitam ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p>When I awoke from the dream, my throat choked with emotion, I wondered where I was and where my lover was. I must be made of stone, that I did not die at that moment. If my life did not leave, it is because it was transfixed by the bonds of sin. If my heart did not break, it is only because it is made of diamond.</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.155" met="Dohā">
+	  <l xml:id="SaRā.155ab">
+	    īsarasari <app><lem>sālūriva</lem><rdg wit="#A #B">sālūra</rdg></app> kuṇaṃtī karuṇasari |
+	  </l>
+	  <l xml:id="SaRā.155ab">
+	    ihu dohaü maï <app><lem>paḍhiyaü</lem><rdg wit="#A">patthiu</rdg><rdg wit="#B">paḍhiu</rdg></app> <app><lem>nisaha</lem><rdg wit="#C">ṇisi</rdg></app> pacchimapahari || 155 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">155</label> īṣat svareṇa śālūravat karuṇaṃ svaraṃ kurva<choice><sic>tī</sic><corr>ntyā</corr></choice> eṣa dodhako mayā paṭhitaḥ, rātrau śeṣavibhāge || 155 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">155</label> īṣat svareṇa śālūravat—maṇḍūkavat karuṇaṃ svaraṃ kurvantyā niśaḥ paścimaprahare eṣa dodhako mayā paṭhitaḥ ||</p>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.156" met="Dohā">
+	  <l xml:id="SaRā.156ab">
+	    jāmiṇi jaṃ <app><lem>vayaṇijja</lem><rdg wit="#C">vayaṇajja</rdg><rdg wit="#B">vayaṇajju</rdg></app> tua, taṃ tihuyaṇi ṇahu <app><lem>ṃāi</lem><rdg wit="#B">māiṃ</rdg></app> | 
+	  </l>
+	  <l xml:id="SaRā.156ab">
+	    dukkhihi hoi caüggaṇī, <app><lem>jhijjaï</lem><rdg wit="#C">jhijjaü</rdg></app> suha<app><lem>saṃgāi</lem><rdg wit="#B #C">saṃgāiṃ</rdg></app> || 156 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">156</label> he yāmini! yat tava vacanīyaṃ tat tribhuvane ’pi na māti | eṣā rajanī <choice><sic>durika</sic><corr>duḥkhitā</corr></choice>nāṃ caturguṇī bhavati | sukhasaṅgame tat kṣaṇā<supplied>d</supplied> vrajati || 156 || varṣāvarṇanaṃ samāptam ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">156</label> he yāmini! yat tava vacanīyaṃ tat tribhuvane ’pi na māti | duḥkhe caturguṇā bhavasi | sukhe <supplied>kṣaṇāt</supplied> tvaṃ kṣīyase | varṣāvarṇanaṃ samāptam ||</p>
+	  </note>
+	</lg>
+	
+	<!--
+	<lg xml:id="SaRā.222" type="raḍḍa">
+	  <l xml:id="SaRā.222ab">
+            jaï aṇakkharu kahiu maï pahiya!<caesura/>
+            ghaṇadukkhāunniyaha mayaṇaaggi <app><lem>virahiṇi</lem><rdg wit="#A">virahaṇi</rdg><rdg wit="#B">virahiṇa</rdg></app> <app><lem>palittihi</lem><rdg wit="#A #B">palittihi</rdg></app>,<caesura/>
+	  </l>
+	  <l xml:id="SaRā.222c">
+            taṃ pharasaü <app><lem>milhi tuhu</lem><rdg wit="#B">milhevi tuha</rdg></app> viṇayamaggi pabhaṇijja jhattihi |
+	  </l>
+	  <l xml:id="SaRā.222de">
+            <app><lem>timi</lem><rdg wit="#A">tiva</rdg></app> jaṃpiya <app><lem>jima</lem><rdg wit="#A">jiva</rdg></app> kuvaï ṇahu taṃ <app><lem>pabhaṇiya</lem><rdg wit="#A">pi bhaṇiya</rdg></app> jaṃ juttu,<caesura/>
+            āsīsivi varakāmiṇihi vaṭṭāū paḍiuttu || 222
+	  </l>
+	  <note type="translation">“Traveller, if I have spoken impolitely, a virahiṇī full of agony and inflamed by love’s fire, then leave out what is harsh, and speak straightaway within the confines of propriety. Speak so that he doesn’t get angry. Speak what’s proper.” With a blessing, that lovely woman sent him on his way.</note>
+	</lg>
+	!-->
+      </div>
+    </body>
+  </text>
+</TEI>
