@@ -23,7 +23,7 @@
       <div class="modal-dialog modal-lg" role="document">
 	<div class="modal-content">
 	  <div class="modal-header">
-	    <button type="button" class="close modal-close"  aria-label="Close"><span aria-hidden="true"><xsl:text disable-output-escaping="yes"><![CDATA[&times;]]></xsl:text></span></button>
+	    <button type="button" class="close modal-close"  aria-label="Close"><span aria-hidden="true"><xsl:text>×</xsl:text></span></button>
 	    <h3 id="modal-{@xml:id}-label"><em>Manuscript</em><xsl:text> </xsl:text><xsl:value-of select="@xml:id"/></h3>
 	  </div>
 	  <div class="modal-body">
@@ -50,7 +50,7 @@
       <div class="modal-dialog modal-lg" role="document">
 	<div class="modal-content">
 	  <div class="modal-header">
-	    <button type="button" class="close modal-close"  aria-label="Close"><span aria-hidden="true"><xsl:text disable-output-escaping="yes"><![CDATA[&times;]]></xsl:text></span></button>
+	    <button type="button" class="close modal-close"  aria-label="Close"><span aria-hidden="true"><xsl:text>×</xsl:text></span></button>
 	    <h3 id="modal-{@xml:id}-label"><xsl:text>The </xsl:text><xsl:value-of select="@xml:id"/><xsl:text> meter</xsl:text></h3>
 	  </div>
 	  <div class="modal-body">
@@ -96,7 +96,7 @@
 	<div class="modal-dialog modal-lg" role="document">
 	  <div class="modal-content">
 	    <div class="modal-header">
-	      <button type="button" class="close modal-close"  aria-label="Close"><span aria-hidden="true"><xsl:text disable-output-escaping="yes"><![CDATA[&times;]]></xsl:text></span></button>
+	      <button type="button" class="close modal-close"  aria-label="Close"><span aria-hidden="true"><xsl:text>×</xsl:text></span></button>
 	      <h3 id="modal-{$newId}-label"><em>Sandeśarāsaka</em><xsl:text> </xsl:text><xsl:value-of select="$reference"/></h3>
 	    </div>
 	    <div class="modal-body">
