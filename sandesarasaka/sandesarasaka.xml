@@ -2015,21 +2015,20 @@
 	  <note type="translation" xml:lang="eng">
 	    <p>When my husband left at the beginning of the summer, all my happiness said “goodbye” and took off. I got up, then fell, my body burned my separation's fire. I turned back and got home, destroyed and distressed in my mind.</p></note>
 	  <note type="notes" xml:lang="eng">
-	    <list>
-	      <item>testing</item>
-	      <item>testing again</item>
-	    </list>
 	    <list type="gloss">
 	      <label>karaṃjuli</label>
-	      <item>&lt; <hi>karāñjaliḥ</hi></item>
+	      <item>&lt; <hi>karāñjaliḥ</hi> (maybe some interference from <hi>aṅgulī</hi>?)</item>
 	      <label>karavi</label>
 	      <item><hi>Ktvā</hi> of <hi>kṛ-</hi> ‘do’</item>
 	      <label>aṇuaṃci</label>
-	      <item><hi>Ktvā</hi> of <hi>anu-añc-</hi> (?) ‘turn’</item>
+	      <item><hi>Ktvā</hi> of <hi>anu-añc-</hi> (?) ‘turn after’</item>
 	      <label>paluṭṭi</label>
-	      <item><hi>Ktvā</hi> of <hi>paluṭṭ-</hi> ‘return’</item>
+	      <item><hi>Ktvā</hi> of <hi>paluṭṭ-</hi> (deśī) ‘return’</item>
 	      <label>valivi</label>
 	      <item><hi>Ktvā</hi> from <hi>val-</hi> ‘turn’</item>
+	    </list>
+	    <list>
+	      <item>Possibly take <hi>vihalamaṇu</hi> as an <hi>avyayībhāva</hi> compound.</item>
 	    </list>
           </note>
 	</lg>
@@ -2040,7 +2039,7 @@
 	  </l>
 	  <l xml:id="SaRā.131cd">
             visamajhāla jhalakaṃta jalaṃtiya tivvayara,<caesura/>
-            <app><lem>mahiyali</lem><rdg wit="#B">mahiyala</rdg></app> vaṇatiṇadahaṇa tavaṃti ya <app><lem>taraṇikara</lem><rdg wit="#B">tivvakara</rdg></app> || 131 ||
+            <app><lem>mahiyali</lem><rdg wit="#B">mahiyala</rdg></app> vaṇatiṇadahaṇa tavaṃtiya <app><lem>taraṇikara</lem><rdg wit="#B">tivvakara</rdg></app> || 131 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
 	    <p><label rend="squarebrackets">131</label> tathā aratiṃ raṇaraṇakaṃ asu<choice><sic>kkhaṃ</sic><corr>khaṃ</corr></choice> ca sahantyā mama madanārttāyā malayasamīraṇo duḥsaho babhūva | tathā taraṇikarā viṣamajvālayā jvalantamahītalavanatṛṇadāhakās tapante || 131 ||</p>
@@ -2048,8 +2047,22 @@
 	  <note type="commentary" subtype="avacūrikā">
 	    <p><label rend="squarebrackets">131</label> tathā—aratiṃ raṇaraṇakaṃ asukhaṃ ca sahantyā mama madanārttāyā malayasamīraṇo duḥsaho babhūva | tathā taraṇikarā viṣamajvālayā jvalantamahītalavanatṛṇadāhakās tapante ||</p>
 	  </note>
-	  <note type="translation">
+	  <note type="translation" xml:lang="eng">
 	    <p>I was so utterly exposed to longing and unhappiness that I couldn't even bear the southern breezes, overcome by love. The harsh wind blows, I feel even sharper pain, there are grass-fires on the ground, and the sun's rays burn.</p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	      <label>aṇaraï</label>
+	      <item>probably from <hi>an-avarati</hi>, with the loss of a medial syllable; alternatively, formed directly from <hi>rati</hi> with the negative prefix <hi>aṇa</hi>.</item>
+	      <label>asahaṃtiyahaṃ</label>
+	      <item>negated participle of <hi>sah-</hi> ‘endure’ with <hi>svārthe ka</hi> suffix: <hi>a-sahantī</hi> &gt; <hi>a-sahantikā</hi>.</item>
+	      <label>jhāla, jhalakaṃta</label>
+	      <item>possibly from *<hi>gžāra</hi> (Skt. <hi>kṣāra</hi>) ‘burn caustically’ (the <hi>k</hi> in <hi>jhalakaṃta</hi> is from the degemination of <hi>jhalakka-</hi>).</item>
+	    </list>
+	    <list>
+	      <item>Note the double participle construction <hi>jhalakaṃta</hi> ... <hi>jalaṃtiya</hi>, which probaly corresponds to Hindi <hi>jhalaktā</hi> ... <hi>jaltī</hi> in its counterfactual meaning.</item>
+	      <item><hi>tavaṃti ya</hi> is obviously meant to echo <hi>jalaṃtiya</hi>, but it is a finite verb (using the now-archaic connective <hi>ya</hi> &lt; <hi>ca</hi> as a verse-filler) rather than a participle.</item>
+	    </list>
 	  </note>
 	</lg>
 	<lg xml:id="SaRā.132" met="Ābhāṇaka">
@@ -2068,8 +2081,16 @@
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
+	      <label>ṇaṃ</label>
+	      <item>‘like’ (possibly a continuation of the Vedic <hi>ná</hi>? but generally derived from <hi>nūnaṃ</hi>), here with the gen., like <hi>ke jaise</hi> (and Kannada <hi>pol</hi>).</item>
+	      <label>lahalahaï</label>
+	      <item>quiver, shimmer</item>
+	      <label>taḍataḍaï</label>
+	      <item>crackle</item>
+	      <label>tiḍaï</label>
+	      <item>&lt; <hi>tṛḍ-</hi> ‘split open’</item>
 	      <label>jhaṃkharu</label> 
-	      <item><hi>Śabdasāgara</hi> and <hi>PSM</hi> say it is a <foreign>śuṣk vṛkṣ</foreign>, according to <hi>Deśīnāmamālā</hi> 3.54, but commentaries say that it's a wind otherwise called <foreign>Ḍuṃḍalāyaka</foreign>.</item>
+	      <item><hi>Śabdasāgara</hi> and <hi>PSM</hi> say it is a <foreign>śuṣk vṛkṣ</foreign>, according to <hi>Deśīnāmamālā</hi> 3.54, but commentaries say that it's a wind otherwise called <foreign>Ḍuṃḍalāyaka</foreign> (which seems to be syntactically necessary, if it is the subject of <hi>ḍahaï</hi>).</item>
 	    </list>
           </note>
 	</lg>
@@ -2081,6 +2102,14 @@
 	  <note type="notes" xml:lang="eng">
 	    <list>
 	      <item>This verse forms a <hi>yugma</hi> with verse 134; see the following for the translation and commentaries.</item>
+	    </list>
+	    <list type="gloss">
+	      <label>tucchacchaü</label>
+	      <item>‘small and clear’ (put together for the rhyme)</item>
+	      <label>aïsacchayaï</label>
+	      <item>a <hi>nāmadhātu</hi> from <hi>atisacchāya-</hi> ‘very beautiful’</item>
+	      <label>pahallira</label>
+	      <item>Cf. Hindi <hi>hālnā</hi>, from *<hi>hall-</hi> ‘shake, tremble’; this formation in <hi>-ira</hi> is participial (‘shaking, trembling’)</item>
 	    </list>
 	  </note>
 	</lg>
@@ -2097,6 +2126,19 @@
 	  </note>
 	  <note type="translation" xml:lang="eng">
 	    <p>The cātaka birds say “piu,” waiting for the first clouds; the waters just trickle slightly in the riverbeds. The mango trees are bent down with the weight of their fruits, and offer pleasant shade, waving in the breeze like the ears of elephants, and a bunch of parrots come to rest in its bowers, keen to taste the mango fruit, and rest there huddled close. The mango shoots are waving, and a plaintive note comes out: I am helpless (nissāhāra), O traveller, in this mango-grove.</p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	      <label>laï</label>
+	      <item><hi>Ktvā</hi> of <hi>la</hi> (&lt; <hi>labh</hi> ‘take’)</item>
+	      <label>jhullaṃti</label>
+	      <item>&lt; <hi>jhull-</hi> (deśī), CDIAL 5406 *<hi>jhulyati</hi> ‘dangle, swing’</item>
+	      <label>haü</label>
+	      <item>‘I’, &lt; *<hi>ahakam</hi></item>
+	    </list>
+	    <list>
+	      <item>Note the <hi>śleṣa</hi>  (only possible in Prakrit and Apabhramsha) on <hi>ṇissāhāra</hi> (&lt; <hi>niḥ-sa-ādhāra-</hi>) and <hi>sāhāra-</hi>.</item>
+	    </list>
 	  </note>
 	</lg>
 	<label rend="squarebrackets">yugmam</label>
@@ -2117,6 +2159,17 @@
 	  <note type="translation" xml:lang="eng">
 	    <p>The sandal paste that I spread on my breasts to cool them heated them even more, as if it were still full of snakes. Then, moaning so many things, I put necklaces of pearls and garlands of flowers there, but they too gave off heat. I was afraid.</p>
 	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	      <label>sihaṇaü</label>
+	      <item>breasts (deśī, or maybe eventually from <hi>stana</hi>)</item>
+	      <label>tivi</label>
+	      <item>fem. pl. of <hi>sa</hi> (from <hi>tāvi</hi> &lt; <hi>tā api</hi>?)</item>
+	    </list>
+	    <list>
+	      <item>Note singular <hi>muyaï</hi> with plural subject.</item>
+	    </list>
+	  </note>
 	</lg>
 	<lg xml:id="SaRā.136" met="Ābhāṇaka">
 	  <l xml:id="SaRā.136ab">
@@ -2136,6 +2189,17 @@
 	  <note type="translation" xml:lang="eng">
 	    <p>The cover of lotus-petals which I laid out on my bed at night to comfort my body made me even more distressed, so I got up from my bed but fell back down again, and in a shameful stammer and I said this <foreign>vastu</foreign> and <foreign>dohā</foreign>, O traveller.</p>
 	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	      <label>sayaṇiha</label>
+	      <item>gen. of <hi>sayaṇi</hi> (usually fem. in Prakrit and Apabhramsha, but neut. <hi>śayaṇam</hi> in Sanskrit)</item>
+	      <label>ima</label>
+	      <item>&lt; <hi>evam</hi></item>
+	    </list>
+	    <list>
+	      <item>Note the lack of gender, number and case marking on the participles <hi>uṭṭaṃta</hi> and <hi>paḍaṃta</hi>, which logically agree with the agent in feminine instrumental (<hi>salajjirihiṃ</hi>).</item>
+	    </list>
+	  </note>
 	</lg>
 	<lg xml:id="SaRā.137" met="Vastuka">
 	  <l xml:id="SaRā.137ab">
@@ -2144,7 +2208,7 @@
 	  </l>
 	  <l xml:id="SaRā.137cd">
             <app><lem>dasiu dasaṇihiṃ bhuaṃgi</lem><rdg wit="#B">ḍasaṇihiṃ daśaï bhuyaṃgu</rdg><rdg wit="#C">ḍasaü dasahu bhu</rdg></app> aṃgu <app><lem>caṃdaṇu</lem><rdg wit="#B">caṃdaṇi</rdg></app> <app><lem>khayahi</lem><rdg wit="#A">khavaï</rdg><rdg wit="#C">dahaï</rdg></app>,<caesura/>
-            khivaï hāru khārubbhavu kusama<app><lem>saracchayahi</lem><rdg wit="#B">saratthaïhiṃ</rdg><rdg wit="#C">saricchayaï</rdg></app> |
+            khivaï hāru khārubbhavu kusuma<app><lem>saracchayahi</lem><rdg wit="#B">saratthaïhiṃ</rdg><rdg wit="#C">saricchayaï</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.137ef">
 	    rāīva caṃdu caṃdaṇu rayaṇa sisira bhaṇivi <app><lem>jagi</lem><rdg wit="#C">jaggi</rdg></app> <app><lem>saṃsiyahiṃ</lem><rdg wit="#B">saṃsaïhiṃ</rdg></app> |</l>
@@ -2159,18 +2223,47 @@
 	  <note type="translation" xml:lang="eng">
 	    <p>Flowers are made to blossom by the rays of the sun: they burn with its heat. The rays of the moon can't produce pleasure: they burn with the poison it was born with. Sandal burns the body, bitten with poisonous snakes. Pearls, produced from salt, only pour it into the entry-wounds of love's flower-arrows. Flowers, the moon, sandal, gems are praised for being cool on earth, but they can't put out the fire of separation. No, they only afflict the body more.</p>
 	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	      <label>tavihiṃ</label>
+	      <item>3pl. &lt; <hi>tap-</hi> ‘heat.’</item>
+	      <label>khayahi</label>
+	      <item>3sg. &lt; <hi>kṣi-</hi> ‘destroy.’</item>
+	      <label>ulhavaï</label>
+	      <item>&lt; <hi>ulha-</hi> (deśī?) ‘be extinguished’</item>
+	      <label>parīhiṃsiyahiṃ</label>
+	      <item>3pl. &lt; <hi>pari-hiṃs-</hi> ‘totally harm.’</item>
+	    </list>
+	    <list>
+	      <item><hi>tavaṇi</hi> in the first <hi>pāda</hi> goes with both <hi>viyasāviya</hi> and <hi>tavihiṃ</hi>.</item>
+	      <item>The commentaries seem to have read <hi>asuha</hi> instead of <hi>ṇa suha</hi> in the second <hi>pāda</hi>.</item>
+	      <item>Are verbal forms in <hi>-ihiṃ</hi> and <hi>-ahi</hi> characteristic of <hi>vastuka</hi>s?</item>
+	    </list>
+	  </note>
 	</lg>
 	<lg xml:id="SaRā.138" met="Dohā">
 	  <l xml:id="SaRā.138ab">taṇu ghaṇa<app><lem>sāriṇa</lem><rdg wit="#A">sariṇ</rdg></app> caṃdaṇiṇa aliu ji jivi <app><lem>caccaṃti</lem><rdg wit="#B">cavvaṃti</rdg></app> | </l>
 	  <l xml:id="SaRā.138cd">puṇa vi pieṇa va ulhavaï piya<app><lem>virahaggi</lem><rdg wit="#A">virahiggi</rdg></app> nibhaṃti || 138 ||</l>
 <note type="commentary" subtype="ṭippanaka">
-	    <p><label rend="squarebrackets">138</label> ye kecana janāḥ tanuḥ ghanasārena = karpūreṇa candanena carcayanti, tad alīkam | yataḥ priyaviyogāgniḥ pri<choice><sic>e</sic><corr>ye</corr></choice>ṇaiva vidhyāti | dhruvaM pathika atra bhramo na || 138 || grīṣmavarṇanā ||</p>
+	    <p><label rend="squarebrackets">138</label> ye kecana janāḥ tanuḥ ghanasārena = karpūreṇa candanena carcayanti, tad alīkam | yataḥ priyaviyogāgniḥ pri<choice><sic>e</sic><corr>ye</corr></choice>ṇaiva vidhyāti | dhruvaṃ pathika atra bhramo na || 138 || grīṣmavarṇanā ||</p>
 	  </note>
 	  <note type="commentary" subtype="avacūrikā">
 	    <p><label rend="squarebrackets">138</label> etad alīkaṃ yad virahārttā tanuḥ = śarīraṃ ghanasāreṇa = karpūreṇa candanen carcayantī — limpayantī | punar viarahāgniḥ priyeṇaiva nirbhṛtaṃ vidhyāti || iti grīṣmavarṇanā samāptā ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
 	    <p>People smear their bodies with camphor and sandal in vain. No, only the beloved can put out the fire of separation, there can be no doubt.</p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	      <label>ghaṇasāriṇa, caṃdaṇiṇa</label>
+	      <item>both with the instr. ending -<hi>iṇa</hi> (from Sanskrit -<hi>ena</hi>).</item>
+	      <label>aliu ji</label>
+	      <item><hi>ji</hi> is a particle of emphasis, although originally found only in certain syntactic positions (e.g., after infinitives)</item>
+	      <label>jivi</label>
+	      <item>&lt; <hi>je vi</hi> ~ <hi>je ke vi</hi> (Sanskrit <hi>ye ke ’pi</hi>)</item>
+	      <label>nibhaṃti</label>
+	      <item>&lt; <hi>nir-bhrānti</hi></item>
+	    </list>
 	  </note>
 	</lg>
 

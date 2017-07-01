@@ -277,6 +277,25 @@
   <xsl:template match="tei:em">
     <em><xsl:apply-templates/></em>
   </xsl:template>
+  <xsl:template match="tei:list[not(@type='gloss')]">
+    <ul>
+      <xsl:apply-templates/>
+    </ul>
+  </xsl:template>
+  <xsl:template match="tei:item[parent::tei:list[not(@type='gloss')]]">
+    <li><xsl:apply-templates/></li>
+  </xsl:template>
+  <xsl:template match="tei:list[@type='gloss']">
+    <dl class="dl-horizontal">
+      <xsl:apply-templates/>
+    </dl>
+  </xsl:template>
+  <xsl:template match="tei:label[parent::tei:list[@type='gloss']]">
+    <dt class="san"><xsl:apply-templates/></dt>
+  </xsl:template>
+  <xsl:template match="tei:item[parent::tei:list[@type='gloss']]">
+    <dd><xsl:apply-templates/></dd>
+  </xsl:template>
   <xsl:template match="tei:app">
     <xsl:variable name="apparatus">
       <span class="app-reading san"><xsl:value-of select="tei:lem"/></span>
