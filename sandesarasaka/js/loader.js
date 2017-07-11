@@ -135,6 +135,7 @@ function preprocess(x) {
     .replace(/([kcṭtpśsṣ]) ([kcṭtpśsṣ])/g,"$1$2")
     .replace(/([vy]) ([aāiīuūeo])/g,"$1$2")
     .replace(/ḷ([aāiīuūṛṝ])/g,"ḻ$1")
+    .replace(/ṁ/g,"ँ")
 }
 
 function transformSanskrit(node,xsl) {
