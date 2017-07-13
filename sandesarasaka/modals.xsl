@@ -269,7 +269,7 @@
     <span class="caesura"/>
   </xsl:template>
   <xsl:template match="tei:supplied">
-    <span class="supplied"><xsl:apply-templates/></span>
+    <span class="san supplied"><xsl:apply-templates/></span>
   </xsl:template>
   <xsl:template match="tei:hi[@rend='bold']">
     <b><xsl:apply-templates/></b>
