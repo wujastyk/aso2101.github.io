@@ -69,9 +69,11 @@
 	  </lg>
 	</quote>
 	</p>
+	<p xml:id="Bhramarāvali">The <hi rend="bold">bhramarāvali</hi> is a Prakrit meter that is composed, like the Nandini, of four lines that simply repeat the metrical unit <hi rend="bold">sa</hi> (LLG), in this case five times, for a total of fifteen syllables per line (LLG LLG LLG LLG LLG), or 60 syllables in total.</p>
 	<p xml:id="Dohā">The <hi rend="bold">dohā</hi> meter is composed of four short quarters. The odd and even quarters in a line contain 13 and 11 <hi>mātrā</hi>s, respectively. The even quarters of a <hi>dohā</hi> must end in a group of three <hi>mātrā</hi>s, usually a heavy syllable followed by a light syllable. Moreover, this three-<hi>mātrā</hi> unit rhymes between the second quarter and the fourth (i.e., between the first and second line).</p>
 	<p xml:id="Gāthā">The <hi rend="bold">gāthā</hi> is the most common meter of Prakrit poetry. It consists of two lines which are each composed of seven and a half alternating groups (<hi>gaṇa</hi>s) of syllables. Each of these group (<hi>gaṇa</hi>) must add up to four moras (or <hi>mātrā</hi>s). The odd groups (i.e., <hi>gaṇa</hi>s 1, 3, 5, and 7) must not contain a ‘syncopated’ rhythm, that is, LGL or L|LLL (the latter stands for four light syllables with a word break between the first and the second, which causes the <hi>gaṇa</hi> to be parsed as syncopated rather than unsyncopated). Additionally, the sixth group of the first line <hi>must</hi> be syncopated. The line ends in a ‘half’ group, which is always a single syllable (with the weight of two moras). The second line is identical to the first, except that the sixth group is made up a single light syllable rather than a group of syllables adding up to four moras.</p>
 	<p xml:id="Vastuka">The <hi rend="bold">vastuka</hi> meter: more on this soon...</p>
+	<p xml:id="Nandinī">The <hi rend="bold">nandinī</hi> is a syllable-counting meter that is made up of four lines with twelve syllables per line (hence 48 syllables in total) by repeating the <hi rend="bold">sa</hi> pattern four times, hence: LLG LLG LLG LLG. The Bhramarāvalī is a closely-related meter that repeats the unit <hi rend="bold">sa</hi> one more time.</p>
       </metDecl>
     </encodingDesc>
     <revisionDesc>
@@ -3092,15 +3094,21 @@
 	  <note type="commentary" subtype="avacūrikā">
 	    <p><label rend="squarebrackets">163</label> dhavalitaśaṃkhasaṃkāśaiḥ sadṛkśaiḥ satkāśaiḥ sarasāṃ taṭāḥ śobhante | nirmalanīrasarasāṃ taṭā vihaṅgamapaṅktibhiḥ praviśadbhiḥ śobhante ||</p>
 	  </note>
-<!--
 	  <note type="translation" xml:lang="eng">
-	    <p></p>
+	    <p>The shores of the pond look beautiful with the <hi>kāśa</hi>-grass that looks as if it were whitened with white shells.
+	        The banks of the rivers with pure water look beautiful because of the flocks of birds that are flying past it.</p>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
+	      <label>saṃkāsihiṃ</label>
+	      <item>in the first line it means ‘similar to’ (Skt. <hi>saṃkāśa-</hi>); in the second, it means <hi>kāśa</hi>-grass (‘good <hi>kāśa</hi>?)</item>
+	      <label>sohahi</label>
+	      <item>3pl. &lt; <hi>śubh-</hi></item>
+	    </list>
+	    <list>
+	      <item>Note that <hi>-hiṁ</hi> is instrumental in <hi>pavahaṃtihiṁ</hi> and <hi>vihaṃgamapaṃtihiṁ</hi> but genitive in <hi>ṇimmalaṇīrasarihiṃ</hi>.</item>
 	    </list>
 	  </note>
-!-->
 	</lg>
 
 	<lg xml:id="SaRā.164" met="Ābhāṇaka">
@@ -3118,15 +3126,22 @@
 	  <note type="commentary" subtype="avacūrikā">
 	    <p><label rend="squarebrackets">164</label> salilair vimalaiḥ pratibimbaṃ dṛśyate | kardamabhāraś ca muktaḥ | krauñcaśabdaṃ na sahāmi | marālīgame ’game ca marāmi ||</p>
 	  </note>
-<!--
 	  <note type="translation" xml:lang="eng">
-	    <p>I will die as soon as the <hi>marāla</hi> comes. I can’t go on.</p>
+	    <p>Now that the mass of mud has disappeared,
+	       reflections can be seen in the clear waters.
+	       I can’t stand the sound of the Krauñca birds at the onset of autumn:
+	       I will die as soon as the <hi>marāla</hi> comes. I can’t go on.</p>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
+	      <label>darasijjaï</label>
+	      <item>&lt; <hi>dṛśyate</hi></item>
+	      <label>kuṃja</label>
+	      <item>&lt; <hi>krauñca-</hi> (note voicing after nasal)</item>
+	      <label>taggami</label>
+	      <item>&lt; <hi>tagg-</hi> (deśī) ‘continue living’</item>
 	    </list>
 	  </note>
-!-->
 	</lg>
 
 	<lg xml:id="SaRā.165" met="Ābhāṇaka">
@@ -3136,7 +3151,7 @@
 	  </l>
 	  <l xml:id="SaRā.165cd">
 	    <app><lem>sārasa sarasu</lem><rdg wit="#C">sārasarasu</rdg><rdg wit="#B">sārasu pharasu</rdg></app> rasahiṁ kiṃ sārasi,<caesura/>
-	    <app><lem>maha</lem><rdg wit="#A">maï</rdg><rdg wit="#B">mama</rdg></app> ciru <app><lem>jiṇṇadukkhu</lem><rdg wit="#C">jiṇṇadukkha</rdg><rdg wit="#B">dukkhuṃ jinna</rdg></app> || 165 ||
+	    <app><lem>maha</lem><rdg wit="#A">maï</rdg><rdg wit="#B">mama</rdg></app> ciru <app><lem>jiṇṇadukkhu</lem><rdg wit="#C">jiṇṇadukkha</rdg><rdg wit="#B">dukkhuṃ jinna</rdg></app> kiṃ sārasi || 165 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
 	    <p><label rend="squarebrackets">165</label> sārasāḥ sarasaṃ rasanti | tadā mayotktam—he sārasi! mama cirajīrṇaduḥkhaṃ kiṃ smārayasi? keṣu satsu, jaleṣu kṣayatsu khadyoteṣu dyotatsu || 165 ||</p>
@@ -3144,15 +3159,26 @@
 	  <note type="commentary" subtype="avacūrikā">
 	    <p><label rend="squarebrackets">165</label> sārasāḥ sarasaṃ rasanti | tadā mayoktaṃ—he sārasi! mama jīrṇaduḥkhaṃ kiṃ smārayasi? keṣu satsu?—jaleṣu kṣayatsu satsu, khadyoteṣu dyotatsu ||</p>
 	  </note>
-<!--
 	  <note type="translation" xml:lang="eng">
-	    <p></p>
+	    <p>As the waters recede, I too receded, traveller;
+	       As the fireflies flickered out, I become depressed.
+	       The Sārasa birds are honking passionately.
+	       Oh Sārasi! Why are you making me remember
+	       my pain, which after so long had started to subside?
+	    </p>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
+	      <label>jhijjhaü</label>
+	      <item>&lt; <hi>kṣi</hi> ‘diminish, waste away’ (alternative 1st person form, contrast <hi>marami</hi>, <hi>sahami</hi> in the previous verse)</item>
+	      <label>khijjaü</label>
+	      <item>&lt; <hi>khid-</hi></item>
+	      <label>khajjaṃtihi</label>
+              <item>&lt; <hi>khajj-</hi> (deśī) ‘to become exhausted, worn-out, or old’</item>
+	      <label>sārasi</label>
+	      <item>&lt; <hi>smārayasi</hi> ‘cause to remember’ and the vocative of <hi>sārasī</hi></item>
 	    </list>
 	  </note>
-!-->
 	</lg>
 
 	<lg xml:id="SaRā.166" met="Ābhāṇaka">
@@ -3164,23 +3190,33 @@
 	    ima <app><lem>ikkikkaha</lem><rdg wit="#B">ikkakkaha</rdg><rdg wit="#C">ikkaṃkkaha</rdg></app> karuṇa bhaṇaṃtaha,<caesura/>
 	    pahiya <app><lem>ṇa</lem><rdg wit="#A">ṇu</rdg></app> kui dhīravaï <app><lem>khaṇaṃtaha</lem><rdg wit="#B">kuṇaṃtahaṃ</rdg></app> || 166 ||
 	  </l>
-<!--
 	  <note type="commentary" subtype="ṭippanaka">
-	    <p><label rend="squarebrackets">166</label>  || 166 ||</p>
+	    <p><label rend="squarebrackets">166</label> he sārasi! niṣṭhuraṃ karuṇaśabdaṃ manomadhye lava | virahārttā strī tava śabdena gatamaho<choice><sic>la</sic><corr>tsa</corr></choice>vā bhava<choice><sic>nti</sic><corr>ti</corr></choice> | evaṃ ekaṃ ekaṃ prati karuṇaśabdaṃ bhaṇantyā, tathāpi ko ’pi na dhīrayati || 166 ||</p>
 	  </note>
 	  <note type="commentary" subtype="avacūrikā">
-	    <p><label rend="squarebrackets">166</label>  ||</p>
+	    <p><label rend="squarebrackets">166</label> he sārasi! niṣṭhuraṃ karuṇaśabdaṃ manomadhye lava | virahārttā strī tava śabdena gatamahotsavā bhavati | evam ekam ekaṃ prati karuṇaśabdaṃ bhaṇantyā, tathāpi ko na dhīrayati ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
-	    <p></p>
+	    <p>Keep your harsh and mournful song to yourself.
+	       A woman who is burned by it has nothing to rejoice about.
+	       I was saying this to each one of them, sorrowfully,
+	       but none of them made me feel better, 
+	       traveller, for even a moment.
+            </p>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
+	      <label>lava</label>
+	      <item>&lt; <hi>labh-</hi></item>
+	      <label>maṇamahi</label>
+              <item>&lt; <hi>mano-madhye</hi> (cf. the postpositions <hi>meṃ</hi> and <hi>māṃ</hi>, Old Gujarati <hi>māhi</hi>)</item>
+	      <label>dhīravaï</label>
+	      <item>denom. of <hi>dhīra-</hi> (&lt; <hi>dhṛ</hi>) with causative ending (<hi>-avaï</hi> &lt; <hi>-āpayati</hi>).</item>
+	      <label>khaṇaṃtaha</label>
+	      <item>&lt; <hi>kṣaṇānta-</hi>, with gen. of time?</item>
 	    </list>
 	  </note>
-!-->
 	</lg>
-
 
 	<lg xml:id="SaRā.167" met="Ābhāṇaka">
 	  <l xml:id="SaRā.167ab">
@@ -3191,21 +3227,33 @@
 	    <app><lem>karivi</lem><rdg wit="#A">karavi</rdg></app> siṃgāru viviha <app><lem>āharaṇihiṃ</lem><rdg wit="#A">āharaṇahi</rdg></app>,<caesura/>
 	    cittavicittaï taṇu<app><lem>paṃguraṇihi</lem><rdg wit="#A">paṃguraṇahi</rdg><rdg wit="#B">paṃguraṇaï</rdg></app> || 167 ||
 	  </l>
-<!--
 	  <note type="commentary" subtype="ṭippanaka">
-	    <p><label rend="squarebrackets">167</label>  || 167 ||</p>
+	    <p><label rend="squarebrackets">167</label> yāsāṃ strīṇāṃ saṃnidhau gṛhe kāntāḥ santi, rathyāsu rāsaṃ ramantyas tāḥ ramanti | vividhanānāprakāraiḥ <choice><sic>si</sic><corr>śṛ</corr></choice>ṅgāraṃ kṛtvā ramanti | kaiḥ citravicitraśarīraprāvaraṇaiḥ || 167 ||</p>
 	  </note>
 	  <note type="commentary" subtype="avacūrikā">
-	    <p><label rend="squarebrackets">167</label>  ||</p>
+	    <p><label rend="squarebrackets">167</label> yāsāṃ strīṇāṃ saṃnidhau gṛhe kāntāḥ santi, tā rathyāsu rāsaṃ ramantyas bhramanti | vividhābharaṇaiḥ śṛṅgāraṃ kṛtvā, citravicitrais tanupaṅguraṇair vastraiś ca ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
-	    <p></p>
+	    <p>Those women whose husbands are near them at home
+	       delight in the <hi>rāsa</hi> dance in the roads, delighting
+	       in dressing themselves well, with all kinds of adornments,
+	       and with fine garments that dazzled the mind.
+	    </p>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
+	      <label>acchihi</label>
+	      <item>&lt; <hi>acch-</hi> ‘stay, abide’ (probably <hi>as-</hi> or <hi>ās-</hi> with the inchoative suffix found in <hi>gacchati</hi>), 3pl.</item>
+	      <label>jiha</label>
+	      <item>&lt; <hi>yāsāṃ</hi> (gen. of rel. pronoun fem. pl.)</item>
+	      <label>sanniha</label>
+	      <item>probably contracted from <hi>saṃnihitāḥ</hi></item>
+	      <label>racchihi</label>
+	      <item>&lt; <hi>rathyā-</hi> ‘crossroads’</item>
+	      <label>taṇu-paṃguraṇihiṃ</label>
+	      <item>fine (<hi>tanu-</hi>) clothing (<hi>paṅguraṇa</hi> &lt; <hi>paṅgur</hi> ‘cover’)</item>
 	    </list>
 	  </note>
-!-->
 	</lg>
 
 	<lg xml:id="SaRā.168" met="Ābhāṇaka">
@@ -3217,13 +3265,224 @@
 	    <app><lem>soraṃḍahiṃ</lem><rdg wit="#A">soraṃḍihi</rdg><rdg wit="#C">soraṃḍaha</rdg></app> <app><lem>kari</lem><rdg wit="#C">kiri</rdg></app> liyahi <app><lem>phiraṃtihi</lem><rdg wit="#B">phiraṃtahi</rdg></app>,<caesura/>
 	    divvamaṇoharu geu <app><lem>giraṃtihi</lem><rdg wit="#B">giraṃtahi</rdg></app> || 168 ||
 	  </l>
-<!--
+	  <note type="notes" xml:lang="eng">
+	    <list>
+	      <item>For the commentaries, translations and notes on this verse, which forms a <hi>yugma</hi> with the following verse, see the following verse.</item>
+            </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.169" met="Ābhāṇaka">
+	  <l xml:id="SaRā.169ab">
+	    dhūva diṃti <app><lem>guru</lem><rdg wit="#C">gura</rdg></app>bhatti saïttihi,<caesura/>
+	    goāsaṇihiṃ turaṃga<app><lem>calatthi</lem><rdg wit="#C">valacchihiṃ</rdg></app> | 
+	  </l>
+	  <l xml:id="SaRā.169cd">
+	    taṃ joivi <app><lem>haüṃ</lem><rdg wit="#A #B">haü</rdg></app> <app><lem>ṇiyaya</lem><rdg wit="#B">niyara</rdg><rdg wit="#C">niya</rdg></app> <app><lem>uvvinniya</lem><rdg wit="#C">uvvinnī</rdg></app>,<caesura/>
+	    <app><lem>ṇeya</lem><rdg wit="#C">ṇiya</rdg></app> sahiya <app><lem>maha</lem><rdg wit="#A">haü</rdg></app> icchā <app><lem>punniya</lem><rdg wit="#A">unniya</rdg></app> || 169 ||
+	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
-	    <p><label rend="squarebrackets">168</label>  || 168 ||</p>
+	    <p><label rend="squarebrackets">168–169</label> gavāsane turaṅgama<choice><sic>sā</sic><corr>śā</corr></choice>lāsu nāryo bhālasthale tilakaṃ tīkṣṇaṃ kṛtvā, kuṅkumacananābhyāṃ tanum arcayitvā, soraṇḍakaṃ = krīḍābhājanaṃ kare kṛtvā, divyaṃ gītaṃ gāyantyo gu<choice><sic>ra</sic><corr>ru</corr></choice>bhaktisahitā dhūpaṃ dadanti | taṃ soraṇḍakaṃ dṛṣṭvā udvignā jātā | yato necchā pūṛṇā || 168–169 ||</p>
 	  </note>
 	  <note type="commentary" subtype="avacūrikā">
-	    <p><label rend="squarebrackets">168</label>  ||</p>
+	    <p><label rend="squarebrackets">168–169</label> gavāsane turaṅgamaśālāsu nāryo bhālasthale tilakaṃ tīkṣṇaṃ kṛtvā, kuṅkumacananābhyāṃ tanum arcayitvā, soraṇḍakaṃ = krīḍābhājanaṃ <supplied reason="missing">kare</supplied> kṛtvā, divyaṃ gītaṃ gāyantyo gurubhaktisahitā dhūpaṃ dadanti | taṃ soraṇḍakaṃ dṛṣṭvāham udvignā jātā | yato necchā pūṛṇā jātā ||</p>
 	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p>With fragrant resin they gave themselves <hi>tilaka</hi>s on their foreheads;
+	       they annointed their bodies with kuṅkum and sandal;
+	       they walked around, taking purses (?) in their hands;
+	       they sang divine and captivating songs;
+	       they provided incense with great devotion to their elders
+               in the cow-stalls and horse-stables.
+	       When I saw that, I sunk into grief:
+	       My desires were not fulfilled, friend.
+	    </p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	      <label>turukki</label>
+	      <item>&lt; <hi>turuṣka</hi> ‘frankincense’ (?)</item>
+	      <label>caccaṃkivi</label>
+	      <item>&lt; <hi>caccaṃka-</hi> ‘annoint’ (from <hi>cacca-</hi> ‘annoint,’ cf. Skt. <hi>carcā</hi>, with a stem-forming suffix)</item>
+	      <label>soraṃḍahiṃ</label>
+	      <item>??</item>
+	      <label>phiraṃtihi</label>
+              <item>&lt; <hi>phir-</hi> (deśī) ‘walk around’</item>
+	      <label>saïttihi</label>
+	      <item>Mayrhofer gives it as <hi>sacitra-</hi>, although it seems to mean something like ‘with’</item>
+	      <label>goāsaṇihiṃ</label>
+	      <item>&lt; <hi>gavāsana</hi> ‘cow-stall’</item>
+              <label>turaṃgacalatthi</label>
+              <item>given as <hi>turaṅga-śālā</hi> by the commentaries</item>
+	      <label>sahiya</label>
+              <item>&lt; <hi>sakhi</hi> (here addressed to the traveller)</item>
+	    </list>
+	  </note>
+	</lg>
+	<label rend="squarebrackets">yugmam</label>
+
+	<lg xml:id="SaRā.170" met="Ābhāṇaka">
+	  <l xml:id="SaRā.170ab">
+	    taü <app><lem>pikkhiya</lem><rdg wit="#C">piyara</rdg></app> disi ahiya <app><lem>vicittiya</lem><rdg wit="#C">vicittaya</rdg></app>,<caesura/>
+	    ṇāya <app><lem>huāsaṇi</lem><rdg wit="#B">hutāsaṇi</rdg></app> jaṇu <app><lem>pakkhittiya</lem><rdg wit="#B">pakhittaya</rdg></app> | 
+	  </l>
+	  <l xml:id="SaRā.170cd">
+	    <app><lem>maṇi</lem><rdg wit="#B">maṇa</rdg></app> pajjaliya viraha jhālāvali,<caesura/>
+	    <app><lem>naṃdaṇi</lem><rdg wit="#A #C">naṃdaṇa</rdg></app> <app><lem>gāha</lem><rdg wit="#A">gāhā</rdg></app> bhamarāvali || 170 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">170</label> bhramarāvalyā eṣā nandiṇi gāthā bhaṇitā | tadā adhikavicitrāṃ diśaṃ pre<choice><sic>ṣya</sic><corr>kṣya</corr></choice> jāne ahaṃ hutāśane prakṣiptā | kābhiḥ pravjvālitamanovirahajvālābhiḥ || 170 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">170</label> tato diśo ’dhikavicitrā dṛṣṭā, aham evaṃ jāne hutāśane prakṣiptā | manasi virahajvālāvaliḥ prajvalitā | tā nandinī gāthā bhramarāvaliś ca bhaṇitā || <quote rend="double"><lg><l>bhagaṇā iha naṃdiṇi chaṃda dhuyaṃ, caüsaṭṭhi vi mattaya saṃṭhaviyaṃ |</l><l>guru solasa tīsa duī lahuyaṃ, aṭhatālisa akkhara baṃdhaviyaṃ ||</l></lg></quote> ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p>Then, I looked and saw that the sky was even more wonderous:
+	       it was as if I had been hurled into the fire.
+	       In my heart the dull glow of separation burst into flames:
+	       here is a Nandinī, Gāthā, and Bhramarāvalī.
+	    </p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	      <label>disi</label>
+	      <item>a f. noun in the direct case (not loc. as in Skt.)</item>
+	      <label>pikkhiya</label>
+	      <item>&lt; <hi>prekṣitā</hi></item>
+	      <label>pakkhittiya</label>
+	      <item>&lt; <hi>prakṣiptā</hi> (*<hi>prakṣiptikā</hi>)</item>
+	    </list>
+	    <list>
+	      <item><hi>ṇāya ... jaṇu</hi> seem to mean (redundantly) ‘as if...’)</item>
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.171" met="Nandinī">
+	  <l xml:id="SaRā.171ab">
+	    sakasāya <app><lem>ṇavabbhisa</lem><rdg wit="#C">ṇasavvisa</rdg></app> suddhagale,<caesura/>
+	    dhayaraṭṭha-rahaṃga rasaṃti jale |
+	  </l>
+	  <l xml:id="SaRā.171cd">
+	    <app><lem>gayadaṃti</lem><rdg wit="#C">gayadiṃti</rdg></app> camakkariṇaṃ pavaraṃ,<caesura/>
+	    sarayāsari ṇevara jhīṇasaraṃ || 171 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">171</label> sakaṣāya sadviśāsvādaśuddhagalā dhṛtarāṣṭrā rathāṅgāś ca jale rasanti | gatiṃ camatkārakāriṇīṃ kurvanti | <choice><sic>sa</sic><corr>śa</corr></choice>ratśriyo manye nūpuraṃ kṣīnasvaraṃ yathā varttate || 171 ||</p>
+	    <p>naṃdaṇicchandaḥ | lakṣaṇaṃ yatḥā—
+	       <quote>
+		 <lg>
+		   <l>sagaṇā iha naṃdiṇi chaṃda dhuvaṃ, caüsaṭṭha vi matta gha saṃthaviyaṃ |</l>
+		   <l>guru solasa tīsa duī lahuyaṃ, aṭhatālisa akkhara baṃdhaviyaṃ ||</l>
+		 </lg>
+	       </quote>
+	    </p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">171</label> sakaṣāya navabhisyasvādaśuddhagalā dhṛtarāṣṭrāś ca rathāṅgāś ca jale rasanti | gatiṃ camatkārakāriṇīṃ kurvanti | śaracchriyo manye nūpuraṃ kṣīṇasvaraṃ yathā vartate ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p>The geese and the ducks are quacking in the waters,
+	       with throats that have been purified by new lotus-fibers,
+	       rich in astringent. 
+	       They (<hi>gayadaṃti</hi>) in a way that is astounding and excellent.
+	       Against the beauty of autumn, anklets seem as if they can hardly make a noise.
+	    </p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	      <label>gayadaṃti</label>
+	      <item>unclear; Bhayani translates as ‘move,’ and Mayrhofer as ‘cry’ (the latter is contextually more appropriate).</item>
+	      <label>sarayāsari</label>
+	      <item>translated by the commentaries as <hi>śaracchrī</hi>, although perhaps it is from <hi>śarat-svare</hi></item>
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.172" met="Gāthā">
+	  <l xml:id="SaRā.172ab">
+	    āsoe <app><lem>saraya</lem><rdg wit="#A #C">saraï</rdg></app> mahā<app><lem>sarīe</lem><rdg wit="#A">sarīi</rdg><rdg wit="#C">sirīe</rdg></app> paya<app><lem>khalira</lem><rdg wit="#C">khālira</rdg></app>veya<app><lem>viyaḍāe</lem><rdg wit="#C">viyāḍāe</rdg></app> |
+	  </l>
+	  <l xml:id="SaRā.172cd">
+	    sārasi rasiūṇa saraṃ puṇarutta <app><lem>ruyāviyā</lem><rdg wit="#B">ruyāviya</rdg><rdg wit="#C">ruyāviyā</rdg></app> dukkhaṃ || 172 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">172</label> a<choice><sic>sva</sic><corr>śvi</corr></choice>ni māse padaskhalitavegavikaṭāsu mahānadīṣu sārasena svaraṃ kṛtvā <choice><sic>dukha</sic><corr>duḥkhaṃ</corr></choice> yathā punaruktaṃ roditā || 172 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">172</label> <choice><sic>asvini</sic><corr>āśvine</corr></choice> māse padaskhalitave<choice><sic>na</sic><corr>ga</corr></choice>vikaṭāsu mahānadīṣu sārasena svaraṃ kṛtvā duḥkhaṃ yathā punaruktaṃ roditā ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p>In the autumn month of Aśvin, in a great river, which was intimidating because of the stream that could cause one to tumble down, there was a <hi>sārasa</hi> bird which let out such a sound that I lamented my suffering all the more.</p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	      <label>āsōe</label>
+	      <item>&lt; <hi>aśvayuk-</hi></item>
+	      <label>-khalira-</label>
+	      <item>‘causing to stumble’ (<hi>-ira-</hi> with the root <hi>skhal-</hi>).</item>
+	      <label>ruyāviyā</label>
+	      <item>‘double’ causative of <hi>rud-</hi> ‘cry’</item>
+	    </list>
+	    <list>
+	      <item>The language here is Prakrit, although a few words seem ‘Apabhraṃśa-ized’ (<hi>sārasi</hi> for <hi>sārasī</hi>, <hi>puṇarutta</hi> instead of <hi>puṇaruttaṃ</hi>).</item>
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.173" met="Bhramarāvali">
+	  <l xml:id="SaRā.173ab">
+            sasijunha-nisāsu <app><lem>susohiyayaṃ</lem><rdg wit="#A">sohiyayaṃ</rdg><rdg wit="#C">susohiyaṃ</rdg></app> dhavalaṃ,<caesura/>
+            varatuṃgapayāra-maṇoharayaṃ amalaṃ | 
+	  </l>
+	  <l xml:id="SaRā.173cd">
+            piyavajjiya-sijja-lulaṃta <app><lem>pamukkarae</lem><rdg wit="#C">pamukkharae</rdg></app>,<caesura/>
+            <app><lem>jama</lem><rdg wit="#B">yama</rdg></app>kuṭṭa-sariccha <app><lem>vahāragae</lem><rdg wit="#B">vihāṇie</rdg></app> <app><lem>sarae</lem><rdg>surae</rdg></app> || 173 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">173</label> śaratkāle śaśijyotsnayā ni<choice><sic>sā</sic><corr>śā</corr></choice>su dhavalagṛhāṇi varatuṅgaprākārāṇi ca manoharāṇi jātāni | tathaiva priyavarjitāyāṃ mayi śayyāyāṃ lulantyāṃ yamakuṭṭasadṛkṣaṃ—antakaprahārasadṛśaṃ yathā vihitam || 173 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">173</label> śaratkāle śaśijyotsnayā niśāsu dhavalagṛhāṇi varatuṅgaprākārāṇi ca manoharāṇi kṛtāni | tathaiva priyavarjitāyāṃ mayi śayyāyāṃ lulitaṃ yamakuṭṭasadṛkṣaṃ—antakaprahārasadṛśaṃ yathā vihitam ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p>In moonlit nights, the mansions are dazzling beautiful,
+	       white and charming with their lofty ramparts, in the autumn
+	       which is free of dust, and which is deadly as Yama’s axe,
+	       if you are tossing and turning in a bed without your lover.
+	    </p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	      <label>vahāragae</label>
+	      <item>? Mayrhofer gives ‘capable of killing’ (as if from <hi>vadh-</hi>).</item>
+	      <label>lulaṃta</label>
+	      <item>Unclear how this participle (from <hi>lul</hi> ‘toss and turn’) fits into the sentence.</item>
+	      <label>kuṭṭa</label>
+	      <item>‘axe’ or ‘mace’ (cf. Sanskrit <hi>kuṭṭa-</hi> ‘breaking,’ only used at the end of a compound)</item>
+	    </list>
+	    <list>
+	      <item>Note that this, too, is in Prakrit.</item>
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.174" met="Ābhāṇaka">
+	  <l xml:id="SaRā.174ab">
+	    <app><lem>acchihi</lem><rdg wit="#B">atthihi</rdg><rdg wit="#C">acchaï</rdg></app> <app><lem>jiha</lem><rdg wit="#A #B">jaha</rdg></app> nārihiṃ nara <app><lem>ramiraï</lem><rdg wit="#C">ramiyaï</rdg></app>,<caesura/>
+	    sohaï saraha <app><lem>tīri</lem><rdg wit="#B">tīra</rdg></app> <app><lem>tiha</lem><rdg wit="C">tihi</rdg></app> bhamiraï |
+	  </l>
+	  <l xml:id="SaRā.174cd">
+	    <app><lem>bālaya</lem><rdg wit="#C">bālaï</rdg></app> vara juvāṇa khillaṃtaya,<caesura/>
+	    <app><lem>dīsaï</lem><rdg wit="#A">dīsahi</rdg></app> ghari ghari paḍaha vajjaṃtaya || 174 ||
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">174</label> atha kārtikavarṇanam—yāsāṃ strīṇāṃ narā rama<choice><sic>to</sic><corr>nto</corr></choice> vartante, tābhiḥ bhramantībhiḥ sarasāṃ taṭāḥ śobhante | kiṃ kurvantyaḥ—navayauvanābhiḥ varabālābhiḥ krīḍantyaḥ | pratigṛhaṃ pratigṛhaṃ paṭahā vādyamānā dṛśyante || 174 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">174</label> atha kārtika<supplied reason="missing">varṇanam</supplied>—yāsāṃ strīṇāṃ narā ramanto vartante, tābhir bhramantībhiḥ sarasāṃ taṭāḥ śobhante | bālakā <choice><sic>javana</sic><corr>juvaka</corr></choice>varāḥ krīḍanto dṛśyante | gṛhe gṛhe paṭahā vādyamānā dṛśyante ||</p>
+	  </note>
+<!--
 	  <note type="translation" xml:lang="eng">
 	    <p></p>
 	  </note>
@@ -3235,16 +3494,16 @@
 	</lg>
 
 <!--
-	<lg xml:id="SaRā.169" met="Ābhāṇaka">
-	  <l xml:id="SaRā.169ab">
+	<lg xml:id="SaRā.175" met="Ābhāṇaka">
+	  <l xml:id="SaRā.175ab">
 	  </l>
-	  <l xml:id="SaRā.169cd">
+	  <l xml:id="SaRā.175cd">
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
-	    <p><label rend="squarebrackets">169</label>  || 169 ||</p>
+	    <p><label rend="squarebrackets">175</label>  || 175 ||</p>
 	  </note>
 	  <note type="commentary" subtype="avacūrikā">
-	    <p><label rend="squarebrackets">169</label>  ||</p>
+	    <p><label rend="squarebrackets">175</label>  ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
 	    <p></p>
@@ -3255,16 +3514,16 @@
 	  </note>
 	</lg>
 
-	<lg xml:id="SaRā.170" met="Ābhāṇaka">
-	  <l xml:id="SaRā.170ab">
+	<lg xml:id="SaRā.176" met="Ābhāṇaka">
+	  <l xml:id="SaRā.176ab">
 	  </l>
-	  <l xml:id="SaRā.170cd">
+	  <l xml:id="SaRā.176cd">
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
-	    <p><label rend="squarebrackets">170</label>  || 170 ||</p>
+	    <p><label rend="squarebrackets">176</label>  || 176 ||</p>
 	  </note>
 	  <note type="commentary" subtype="avacūrikā">
-	    <p><label rend="squarebrackets">170</label>  ||</p>
+	    <p><label rend="squarebrackets">176</label>  ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
 	    <p></p>
@@ -3274,6 +3533,148 @@
 	    </list>
 	  </note>
 	</lg>
+
+	<lg xml:id="SaRā.177" met="Ābhāṇaka">
+	  <l xml:id="SaRā.177ab">
+	  </l>
+	  <l xml:id="SaRā.177cd">
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">177</label>  || 177 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">177</label>  ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p></p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.178" met="Ābhāṇaka">
+	  <l xml:id="SaRā.178ab">
+	  </l>
+	  <l xml:id="SaRā.178cd">
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">178</label>  || 178 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">178</label>  ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p></p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.179" met="Ābhāṇaka">
+	  <l xml:id="SaRā.179ab">
+	  </l>
+	  <l xml:id="SaRā.179cd">
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">179</label>  || 179 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">179</label>  ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p></p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.180" met="Ābhāṇaka">
+	  <l xml:id="SaRā.180ab">
+	  </l>
+	  <l xml:id="SaRā.180cd">
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">180</label>  || 180 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">180</label>  ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p></p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.181" met="Ābhāṇaka">
+	  <l xml:id="SaRā.181ab">
+	  </l>
+	  <l xml:id="SaRā.181cd">
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">181</label>  || 181 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">181</label>  ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p></p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.182" met="Ābhāṇaka">
+	  <l xml:id="SaRā.182ab">
+	  </l>
+	  <l xml:id="SaRā.182cd">
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">182</label>  || 182 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">182</label>  ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p></p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	    </list>
+	  </note>
+	</lg>
+
+	<lg xml:id="SaRā.183" met="Ābhāṇaka">
+	  <l xml:id="SaRā.183ab">
+	  </l>
+	  <l xml:id="SaRā.183cd">
+	  </l>
+	  <note type="commentary" subtype="ṭippanaka">
+	    <p><label rend="squarebrackets">183</label>  || 183 ||</p>
+	  </note>
+	  <note type="commentary" subtype="avacūrikā">
+	    <p><label rend="squarebrackets">183</label>  ||</p>
+	  </note>
+	  <note type="translation" xml:lang="eng">
+	    <p></p>
+	  </note>
+	  <note type="notes" xml:lang="eng">
+	    <list type="gloss">
+	    </list>
+	  </note>
+	</lg>
+
+
 !-->
 
 	
@@ -3307,5 +3708,5 @@
   ‘unextended’ participle stems in -iya- (from -ita-), masc. -iü, fem. -iya
   ‘extended’ participle stems in -iyaa- (masc. nom. iyaü, fem. nom. -iya)
 
-  vowel harmony: oblique plural forms -ihi of stems in -a
+  vowel harmony: oblique plural forms -ihi of stems in -a (this is easily from -ehiṃ)
 !-->

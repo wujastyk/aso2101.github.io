@@ -43,6 +43,12 @@ body {
   content: "\A\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0" !important;
   white-space:pre;
 }
+.supplied:before {
+  content:"[";
+}
+.supplied:after {
+  content:"]";
+}
 .verse_offset {
   content: "\00a0";
   width:180px;
