@@ -2031,6 +2031,7 @@
 	    </list>
 	    <list>
 	      <item>Possibly take <hi>vihalamaṇu</hi> as an <hi>avyayībhāva</hi> compound.</item>
+	      <item>Otherwise, read <hi>-taṇi</hi> and <hi>-maṇi</hi> (instrumentals) with Dvivedi.</item>
 	    </list>
           </note>
 	</lg>
@@ -2055,14 +2056,15 @@
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
 	      <label>aṇaraï</label>
-	      <item>probably from <hi>an-avarati</hi>, with the loss of a medial syllable; alternatively, formed directly from <hi>rati</hi> with the negative prefix <hi>aṇa</hi>.</item>
+	      <item>either <hi>ana-rati</hi> (with the form of the negative prefix that usually precedes vowels), meaning ‘lack of pleasure,’ or alternatively from <hi>an-avarati</hi>, with the loss of a medial syllable</item>
 	      <label>asahaṃtiyahaṃ</label>
 	      <item>negated participle of <hi>sah-</hi> ‘endure’ with <hi>svārthe ka</hi> suffix: <hi>a-sahantī</hi> &gt; <hi>a-sahantikā</hi>.</item>
-	      <label>jhāla, jhalakaṃta</label>
-	      <item>possibly from *<hi>gžāra</hi> (Skt. <hi>kṣāra</hi>) ‘burn caustically’ (the <hi>k</hi> in <hi>jhalakaṃta</hi> is from the degemination of <hi>jhalakka-</hi>).</item>
+	      <label>jhāla</label>
+	      <item>possibly from *<hi>gžāra</hi> (Skt. <hi>kṣāra</hi>) ‘burn caustically’ (the word is used in modern languages for the heat of chillies, and it is generally feminine).</item>
+	      <label>jhalakaṃta</label>
+	      <item>&lt; <hi>jhal</hi> (deśī) ‘flash’), with the <hi>-kk-</hi> (here degeminated to <hi>-k-</hi> as a stem forming suffix (cf. Hindi <hi>jhalaknā</hi> ‘sparkle’).</item>
 	    </list>
 	    <list>
-	      <item>Note the double participle construction <hi>jhalakaṃta</hi> ... <hi>jalaṃtiya</hi>, which probaly corresponds to Hindi <hi>jhalaktā</hi> ... <hi>jaltī</hi> in its counterfactual meaning.</item>
 	      <item><hi>tavaṃti ya</hi> is obviously meant to echo <hi>jalaṃtiya</hi>, but it is a finite verb (using the now-archaic connective <hi>ya</hi> &lt; <hi>ca</hi> as a verse-filler) rather than a participle.</item>
 	    </list>
 	  </note>
@@ -2127,10 +2129,21 @@
 	    <p><label rend="squarebrackets">133–134</label> navaghanotkaṇṭhitaiś cātakaiḥ “priya priya” iti śabdo bhaṇyate sma | taraṅgiṇīṣu salilapravā<choice><sic>ha</sic><corr>haḥ</corr></choice>tucchācchas sarati sma | atha ṣaṭsu padeṣu sahakāravarṇanam—phalabhāreṇonnamitaṃ śubhaṃ sahakāravanaṃ atisacchāyam adhikaṃ śobhate | anyacca—yatra kuñjaraśravaṇasadṛśeṣu gandhavahena prakampiteṣu āmnapatreṣu cūtotkaṇṭhitā saṃsargiṇī parivāritā preṅkholantī kīrapaṅktir varttate | tataḥ karuṇadhvaniḥ samutthitā | tāṃ śrutvā ahaṃ nirādhārā jātā | ta<choice><sic>nme</sic><corr>nmanye</corr></choice> he pathika! sarvarañjakena ahaṃ virañjitā || yugmam ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
-	    <p>The cātaka birds say “piu,” waiting for the first clouds; the waters just trickle slightly in the riverbeds. The mango trees are bent down with the weight of their fruits, and offer pleasant shade, waving in the breeze like the ears of elephants, and a bunch of parrots come to rest in its bowers, keen to taste the mango fruit, and rest there huddled close. The mango shoots are waving, and a plaintive note comes out: I am helpless (nissāhāra), O traveller, in this mango-grove.</p>
+	    <p>The cātaka birds say “piu,” waiting for the first clouds; 
+	       the waters just trickle slightly in the riverbeds. 
+	       The mango trees are bent down with the weight of their fruits,
+	       and offer pleasant shade, waving in the breeze like the ears of elephants;
+	       among its leaves have come together a flock of parrots,
+	       and rest there huddled close.
+	       The mango shoots are waving, and a plaintive note comes out: 
+	       I am helpless (nissāhāra), O traveller, in this mango-grove.</p>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
+	      <label>pattihiṃ</label>
+	      <item>&lt; <hi>patra</hi> (loc.pl.)</item>
+	      <label>saṃsaggihi</label>
+	      <item>taken adverbially (~ <hi>saṃsargeṇa</hi>) by Bhayani</item>
 	      <label>laï</label>
 	      <item><hi>Ktvā</hi> of <hi>la</hi> (&lt; <hi>labh</hi> ‘take’)</item>
 	      <label>jhullaṃti</label>
@@ -2159,12 +2172,14 @@
 	    <p><label rend="squarebrackets">135</label> haricandanaṃ <choice><sic>yatsailā</sic><corr>yacchaityā</corr></choice>rthe urasi lepitaṃ tadapyahisevitatvāt kucau tāpayati | tathā vividhaṃ vilapantyā hāralatā kusumamālā ca śaityārthe urasi nyaste, te api jvālāṃ muñcataḥ | tataḥ maraṇaśaṅkinī sabhayā jātā ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
-	    <p>The sandal paste that I spread on my breasts to cool them heated them even more, as if it were still full of snakes. Then, moaning so many things, I put necklaces of pearls and garlands of flowers there, but they too gave off heat. I was afraid.</p>
+	    <p>The sandal paste that I spread on my breasts to cool them heated them even more, as if it were still full of snakes. Then, moaning so many things, I put necklaces of pearls and garlands of flowers there, but they too gave off heat. Then I became afraid.</p>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
 	      <label>sihaṇaü</label>
 	      <item>breasts (deśī, or maybe eventually from <hi>stana</hi>)</item>
+	      <label>vilavaṃtiya</label>
+	      <item>‘unmarked instrumental’ (agent of <hi>ṭhaviya</hi>)</item>
 	      <label>tivi</label>
 	      <item>fem. pl. of <hi>sa</hi> (from <hi>tāvi</hi> &lt; <hi>tā api</hi>?)</item>
 	    </list>
@@ -2194,7 +2209,7 @@
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
 	      <label>sayaṇiha</label>
-	      <item>gen. of <hi>sayaṇi</hi> (usually fem. in Prakrit and Apabhramsha, but neut. <hi>śayaṇam</hi> in Sanskrit)</item>
+	      <item>loc. of <hi>sayaṇi</hi> (usually fem. in Prakrit and Apabhramsha, but neut. <hi>śayaṇam</hi> in Sanskrit)</item>
 	      <label>ima</label>
 	      <item>&lt; <hi>evam</hi></item>
 	    </list>
@@ -2240,6 +2255,16 @@
 	      <item><hi>tavaṇi</hi> in the first <hi>pāda</hi> goes with both <hi>viyasāviya</hi> and <hi>tavihiṃ</hi>.</item>
 	      <item>The commentaries seem to have read <hi>asuha</hi> instead of <hi>ṇa suha</hi> in the second <hi>pāda</hi>.</item>
 	      <item>Are verbal forms in <hi>-ihiṃ</hi> and <hi>-ahi</hi> characteristic of <hi>vastuka</hi>s?</item>
+	      <item>Bhayani compares this verse to the following lines of Puṣpadanta’s <hi>Mahāpurāṇa</hi>: 
+	        <quote>
+		  <lg xml:lang="san-Latn">
+		    <l>sīyalu visu visu ṣa ṇa saṃti jaṇaï</l>
+		    <l>hariyaṃdaṇu sihikulu aṃgu chaṇaï</l>
+		    <l>ṇaliṇu vi sūrahu sayaṇattu vahaï</l>
+		    <l>sayaṇīyali ghittaü dehu ḍahaï</l>
+		  </lg>
+		</quote>
+	      </item>
 	    </list>
 	  </note>
 	</lg>
