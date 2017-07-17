@@ -159,14 +159,22 @@ function translit() {
 
 // Preprocess strings from IAST to Devanāgarī. 
 function preprocess(x) {
-  return x.replace(" ’","'")
+  var script = localStorage.getItem("script");
+  var trans = x.replace(" ’","'")
     .replace(/aï/g,"a####i")
     .replace(/aü/g,"a####u")
     .replace(/([rnmd]) ([gṅjñḍṇdnbmhyvrlaāiīuūeo])/g,"$1$2")
     .replace(/([kcṭtpśsṣ]) ([kcṭtpśsṣ])/g,"$1$2")
     .replace(/([vy]) ([aāiīuūeo])/g,"$1$2")
-    .replace(/ḷ([aāiīuūṛṝ])/g,"ḻ$1")
-    .replace(/ṁ/g,"ँ")
+    .replace(/ḷ([aāiīuūṛṝ])/g,"ḻ$1");
+  if (script == "Deva") {
+    trans = trans.replace(/ṁ/g,"ँ");
+  } else if (script == "Guru") {
+    trans = trans.replace(/ṁ/g,"ਁ");
+  } else if (script == "Gujr") {
+    trans = trans.replace(/ṁ/g,"ઁ");
+  }
+  return trans;
 }
 
 function transformSanskrit(node,xsl) {
