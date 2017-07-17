@@ -72,7 +72,9 @@
 	<p xml:id="Bhramarāvali">The <hi rend="bold">bhramarāvali</hi> is a Prakrit meter that is composed, like the Nandini, of four lines that simply repeat the metrical unit <hi rend="bold">sa</hi> (LLG), in this case five times, for a total of fifteen syllables per line (LLG LLG LLG LLG LLG), or 60 syllables in total.</p>
 	<p xml:id="Dohā">The <hi rend="bold">dohā</hi> meter is composed of four short quarters. The odd and even quarters in a line contain 13 and 11 <hi>mātrā</hi>s, respectively. The even quarters of a <hi>dohā</hi> must end in a group of three <hi>mātrā</hi>s, usually a heavy syllable followed by a light syllable. Moreover, this three-<hi>mātrā</hi> unit rhymes between the second quarter and the fourth (i.e., between the first and second line).</p>
 	<p xml:id="Gāthā">The <hi rend="bold">gāthā</hi> is the most common meter of Prakrit poetry. It consists of two lines which are each composed of seven and a half alternating groups (<hi>gaṇa</hi>s) of syllables. Each of these group (<hi>gaṇa</hi>) must add up to four moras (or <hi>mātrā</hi>s). The odd groups (i.e., <hi>gaṇa</hi>s 1, 3, 5, and 7) must not contain a ‘syncopated’ rhythm, that is, LGL or L|LLL (the latter stands for four light syllables with a word break between the first and the second, which causes the <hi>gaṇa</hi> to be parsed as syncopated rather than unsyncopated). Additionally, the sixth group of the first line <hi>must</hi> be syncopated. The line ends in a ‘half’ group, which is always a single syllable (with the weight of two moras). The second line is identical to the first, except that the sixth group is made up a single light syllable rather than a group of syllables adding up to four moras.</p>
-	<p xml:id="Vastuka">The <hi rend="bold">vastuka</hi> meter: more on this soon...</p>
+	<p xml:id="Vastuka">The <hi rend="bold">vastuka</hi> meter most commonly occurs in a strophic verse as the first ‘fragment’ (<hi>khañjaka</hi>). It is a mora-counting verse, consisting of four lines of twenty-four moras each. Like most mora-counting verses, it contains rhythmic units (<hi>gaṇa</hi>s) which alternate between unsyncopated and syncopated forms. Here is the general schema:
+	<graphic url="images/vastuka.jpg"/>
+	There is usually a word-break after the eleventh and fourteenth moras, i.e., in the middle of, or after, the third (syncopated) <hi>gaṇa</hi>.</p>
 	<p xml:id="Nandinī">The <hi rend="bold">nandinī</hi> is a syllable-counting meter that is made up of four lines with twelve syllables per line (hence 48 syllables in total) by repeating the <hi rend="bold">sa</hi> pattern four times, hence: LLG LLG LLG LLG. The Bhramarāvalī is a closely-related meter that repeats the unit <hi rend="bold">sa</hi> one more time.</p>
       </metDecl>
     </encodingDesc>
@@ -2214,7 +2216,7 @@
 	      <item>&lt; <hi>evam</hi></item>
 	    </list>
 	    <list>
-	      <item>Note the lack of case marking on the participles <hi>uṭṭaṃta</hi> and <hi>paḍaṃta</hi>, which logically agree with the agent in feminine instrumental (<hi>salajjirihiṃ</hi>).</item>
+	      <item>Note the lack of case marking on the participles <hi>uṭṭaṃta</hi> and <hi>paḍaṃta</hi>, which logically agree with the agent in feminine instrumental (<hi>salajjirihiṃ</hi>): maybe an instance of ‘group flexion’?</item>
 	    </list>
 	  </note>
 	</lg>
