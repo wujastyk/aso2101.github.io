@@ -74,7 +74,8 @@
 	<p xml:id="Gāthā">The <hi rend="bold">gāthā</hi> is the most common meter of Prakrit poetry. It consists of two lines which are each composed of seven and a half alternating groups (<hi>gaṇa</hi>s) of syllables. Each of these group (<hi>gaṇa</hi>) must add up to four moras (or <hi>mātrā</hi>s). The odd groups (i.e., <hi>gaṇa</hi>s 1, 3, 5, and 7) must not contain a ‘syncopated’ rhythm, that is, LGL or L|LLL (the latter stands for four light syllables with a word break between the first and the second, which causes the <hi>gaṇa</hi> to be parsed as syncopated rather than unsyncopated). Additionally, the sixth group of the first line <hi>must</hi> be syncopated. The line ends in a ‘half’ group, which is always a single syllable (with the weight of two moras). The second line is identical to the first, except that the sixth group is made up a single light syllable rather than a group of syllables adding up to four moras.</p>
 	<p xml:id="Vastuka">The <hi rend="bold">vastuka</hi> meter most commonly occurs in a strophic verse as the first ‘fragment’ (<hi>khañjaka</hi>). It is a mora-counting verse, consisting of four lines of twenty-four moras each. Like most mora-counting verses, it contains rhythmic units (<hi>gaṇa</hi>s) which alternate between unsyncopated and syncopated forms. Here is the general schema:
 	<graphic url="images/vastuka.jpg"/>
-	There is usually a word-break after the eleventh and fourteenth moras, i.e., in the middle of, or after, the third (syncopated) <hi>gaṇa</hi>.</p>
+	There is usually a word-break after the eleventh and fourteenth moras, i.e., in the middle of, or after, the third (syncopated) <hi>gaṇa</hi>. Usually following the <hi>vastuka</hi> is an <hi>ullāla</hi>, which consists of two lines of twenty-eight moras each, in the following pattern:
+	<graphic url="images/ullala.jpg"/></p>
 	<p xml:id="Nandinī">The <hi rend="bold">nandinī</hi> is a syllable-counting meter that is made up of four lines with twelve syllables per line (hence 48 syllables in total) by repeating the <hi rend="bold">sa</hi> pattern four times, hence: LLG LLG LLG LLG. The Bhramarāvalī is a closely-related meter that repeats the unit <hi rend="bold">sa</hi> one more time.</p>
       </metDecl>
     </encodingDesc>
@@ -2240,12 +2241,18 @@
 	    <p><label rend="squarebrackets">137</label> aravindāni ravikarait vikasāpitāni, tapanaguṇatvāt, tapanti ity api | amṛtamayūkho viṣeṇa saha janmatvāt asukhaṃ janayati dāhayati ca | candanaṃ bhujaṅgadaśanair daṣṭam ataḥ aṅgaṃ kṣapayati | hāraḥ kṣārodbhavaḥ, ato ’ṅgaṃ kṣipati, keṣāṃ kusumaśarakṣatānām | rājīva-candra-candana-ratnāni śiśirāṇy ucyante, paraṃ virahāgnijvālā kenāpi na vidhyāti | ato aṅgāni parihiṃsyante ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
-	    <p>Flowers are made to blossom by the rays of the sun: they burn with its heat. The rays of the moon can't produce pleasure: they burn with the poison it was born with. Sandal burns the body, bitten with poisonous snakes. Pearls, produced from salt, only pour it into the entry-wounds of love's flower-arrows. Flowers, the moon, sandal, gems are praised for being cool on earth, but they can't put out the fire of separation. No, they only afflict the body more.</p>
+	    <p>Flowers are made to blossom by the rays of the sun: they burn with its heat. 
+	       The rays of the moon can't produce pleasure: they burn with the poison it was born with. 
+	       Sandal burns the body, bitten by the bites of a snake. 
+	       Pearls, produced from salt, only pour it into the entry-wounds of love's flower-arrows. 
+	       Flowers, the moon, sandal, gems are praised for being cool on earth, but they can't put out the fire of separation. No, they only afflict the body more.</p>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
 	      <label>tavihiṃ</label>
 	      <item>3pl. &lt; <hi>tap-</hi> ‘heat.’</item>
+	      <label>tavaṇi</label>
+	      <item>instr. &lt; <hi>tapana-</hi></item>
 	      <label>khayahi</label>
 	      <item>3sg. &lt; <hi>kṣi-</hi> ‘destroy.’</item>
 	      <label>ulhavaï</label>
