@@ -13,8 +13,13 @@ function setScript() {
   if (val == "Deva") {
     $("input[name='script'][value='Deva']").prop("checked",true);
     $("input[name='script'][value='Deva']").parent().addClass("active");
-  }
-  else {
+  } else if (val == "Guru") {
+    $("input[name='script'][value='Guru']").prop("checked",true);
+    $("input[name='script'][value='Guru']").parent().addClass("active");
+  } else if (val == "Gujr") {
+    $("input[name='script'][value='Gujr']").prop("checked",true);
+    $("input[name='script'][value='Gujr']").parent().addClass("active");
+  } else {
     $("input[name='script'][value='Latn']").prop("checked",true);
     $("input[name='script'][value='Latn']").parent().addClass("active");
   }
@@ -98,6 +103,32 @@ function translit() {
 	r = preprocess(q);
 	console.log(r);
         y = Sanscript.t(r,'iast','devanagari').replace(/\s+([।॥])/g,'\u00a0$1');
+        z = $('<span class="transliterated Deva"></span>').append(y)
+        $(this).replaceWith(z);
+      });
+    });
+  } else if (script == "Guru") {
+    $("#root, #modals").find(".san").each(function() {
+      $(this).contents().filter(function() {
+        return this.nodeType == 3;
+      }).each(function() {
+        q = $(this).text();
+	r = preprocess(q);
+	console.log(r);
+        y = Sanscript.t(r,'iast','gurmukhi').replace(/\s+([।॥])/g,'\u00a0$1');
+        z = $('<span class="transliterated Deva"></span>').append(y)
+        $(this).replaceWith(z);
+      });
+    });
+  } else if (script == "Gujr") {
+    $("#root, #modals").find(".san").each(function() {
+      $(this).contents().filter(function() {
+        return this.nodeType == 3;
+      }).each(function() {
+        q = $(this).text();
+	r = preprocess(q);
+	console.log(r);
+        y = Sanscript.t(r,'iast','gujarati').replace(/\s+([।॥])/g,'\u00a0$1');
         z = $('<span class="transliterated Deva"></span>').append(y)
         $(this).replaceWith(z);
       });
