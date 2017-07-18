@@ -2434,7 +2434,7 @@
 	      <label>giṃbhu</label>
 	      <item>&lt; <hi>grīṣma-</hi></item>
 	      <label>voliyaü</label>
-	      <item>&lt; <hi>vol</hi> (deśī) ‘go by, pass by’ (here causative, with the agent expressed by <hi>maï</hi>)</item>
+	      <item>&lt; <hi>vol</hi> (deśī) ‘go by, pass by’ (probably from <hi>vy-apa-cal-</hi> &gt; <hi>v-o-l</hi>, according to Turner; here causative, with the agent expressed by <hi>maï</hi>)</item>
 	      <label>dhiṭṭu</label>
 	      <item>&lt; <hi>dhṛṣṭa-</hi> ‘faithless, careless’</item>
 	      <label>garuya-</label>
@@ -2472,7 +2472,7 @@
 	      courses in the sky, cracking with a flash.<lb/>
 	      The <hi>pipīhā</hi> birds call out sweetly.<lb/>
 	      They are finally satisfied by the waters.<lb/>
-	      A line of herons appears in the sky,<br/>
+	      A line of herons appears in the sky,<lb/>
 	      flying along the surface of a monsoon cloud.
 	    </ab>
 	  </note>
@@ -2587,12 +2587,12 @@
 
 	<lg xml:id="SaRā.143" met="Ābhāṇaka">
 	  <l xml:id="SaRā.143ab">
-	    <app><lem>kaddamalula</lem><rdg wit="#A">kaīyasalila</rdg><rdg wit="#C">kaddamalalu</rdg></app> dhavalaṃga vihāviha <app><lem>sajjharihi</lem><rdg wit="#A #B">sajjharahi</rdg><rdg wit="#R">sassirihiṃ</rdg></app>,<caesura/>
-	    <app><lem>taḍinae vi</lem><rdg wit="#B">taḍinaehi</rdg><rdg wit="#A">taḍavaeï</rdg></app> payabhariṇa alakkha <app><lem>salajjarihi</lem><rdg wit="#B">salajjarahiṃ</rdg><rdg wit="#C">salijjirihi</rdg></app> |
+	    <app><lem>kaddamalula</lem><rdg wit="#A">kaīyasalila</rdg><rdg wit="#C">kaddamalalu</rdg></app> dhavalaṃga vihāviha <app><lem source="#Bhayani1945">sajjharihi</lem><rdg wit="#A #B">sajjharahi</rdg><rdg wit="#R" source="#Bhayani1999">sassirihiṃ</rdg></app>,<caesura/>
+	    <app><lem source="#Bhayani1945">taḍinae vi</lem><rdg wit="#B">taḍinaehi</rdg><rdg wit="#A">taḍavaeï</rdg><rdg source="#Bhayani1999">taḍa ṇaï he</rdg></app> payabhariṇa alakkha <app><lem>salajjarihi</lem><rdg wit="#B">salajjarahiṃ</rdg><rdg wit="#C">salijjirihi</rdg><rdg source="#Bhayani1999">salajjirihiṃ</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.143cd">
 	    <app><lem>huu</lem><rdg wit="#B">huva</rdg><rdg wit="#C">huya</rdg></app> tārāyaṇu alakhu viyaṃbhiu tamapasaru,<caesura/>
-	    <app><lem>channaü iṃdoehi</lem><rdg wit="#B">channaüiudoihi</rdg><rdg wit="#C">channaüidaüehi</rdg></app> <app><lem>niraṃtaru</lem><rdg wit="#B"/></app> <app><lem>dhara siharu</lem><rdg wit="#C">dharasihari</rdg><rdg wit="#A">siharagharu</rdg></app> || 143 || <label rend="squarebrackets">kṣepakaḥ?</label>
+	    <app><lem>channaü iṃdoehi</lem><rdg wit="#B">channaüiudoihi</rdg><rdg wit="#C">channaüidaüehi</rdg></app> <app><lem source="#Bhayaṇi1945">niraṃtaru</lem><rdg wit="#B"/><rdg source="#Bhayani1999">ṇiraṃtaru</rdg></app> <app><lem source="#Bhayani1945">dhara siharu</lem><rdg wit="#C" source="#Dvivedi">dharasihari</rdg><rdg wit="#A">siharagharu</rdg><rdg source="#Bhayani1999">dhara valaü</rdg></app> || 143 || <label rend="squarebrackets">kṣepakaḥ?</label>
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
 	    <p><label rend="squarebrackets">143</label> kṣepakam—gharā strī meghabha<choice><sic>rttā</sic><corr>rtrā</corr></choice>game, yathā strībhartṛsaṅgame śrīkhaṇḍavilepanaṃ karoti | pārśvāvācchāyati salajjatvāt | tārā—āyatane—netre alakṣe karoti—ācchādayanti | tamaḥprasaram īpsati | kausumbhaṃ vastraṃ paridadhāti | dharā strī, meghabhartṛsaṅgama iti viceṣṭitam atra bhāvaḥ || 143 ||</p>
@@ -2601,17 +2601,29 @@
 	    <p><label rend="squarebrackets">143</label> kṣepakam—gharā strī meghabhartrāgame, yathā strībhartṛsaṅgame śrīkhaṇḍavilepanaṃ karoti | pārśvāvācchāyati, salajjatvāt, tārā—āyatane ’lakṣe karoti—ācchādayanti | tamaḥ prasaram īpsati, kausumbhaṃ vastraṃ paridadhāti | dharā strī, meghabhartṛsaṅgama iti viceṣṭitam atra bhāvaḥ ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
-	    <p>The shining bright bodies, covered in mud [so as to hide themselves], were revealed by the flowing [rains].
-	       But they felt shame and made them invisible [once again] 
-	       with a crash of lightning amid the downfall of rain.
-	       Their pupils (the constellations) [also] became indiscernible [as] the darkness spread [and] the peaks of the mountains were completely covered with fireflies.</p>
+	    <ab>
+	      Her shining bright body, covered in mud, was revealed by downpours of water.<lb/>
+	      [The women, as they are putting on their makeup, make their light bodies beautiful by smearing them with paste.]<lb/>
+	      When lightning struck, she became embarrassed and [made her body] invisible with masses of rain.<lb/>
+	      [When lightning struck, they became embarrassed and covered themselves up again.]<lb/>
+	      The stars in the sky could not be seen [as] the darkness spread.<lb/>
+	      [Even the pupils of their eyes could not be seen as the darkness spread.]<lb/>
+	      The mountain peak was completely covered with fireflies.<lb/>
+	    </ab>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
+	      <label>kaddamalula</label>
+	      <item>&lt; <hi>kardama-</hi> plus what probably corresponds to <hi>lulita-</hi> ‘touched’</item>
 	      <label>vihāviha</label>
 	      <item>&lt; <hi>vibhāvita-</hi> (why the -<hi>h</hi>-?)</item>
-	      <label>sajjhirihiṃ</label>
-	      <item>&lt; <hi>sa-*gžara-</hi> ‘with streams’ (cf. Skt. <hi>kṣara-</hi>).</item>
+	      <label>sajjharihiṃ</label>
+	      <item>&lt; <hi>sa-*gžara-</hi> ‘[with] streams or waterfalls’ (cf. Skt. <hi>kṣara-</hi>), probably a noun with a ‘pleonastic’ <hi>sa-</hi> rather than an adjective; Dvivedi and Tripathi take it in a secondary sense as coming from <hi>sādhyā-</hi> ‘to be made-up [with makeup etc.]’ (referring to a <hi>nāyikā</hi>); Bhayani reads <hi>sassirihiṃ</hi> &lt; <hi>sa-śrī-</hi> ‘beautiful’.</item>
+	      <label>siharu</label>
+	      <item>&lt; <hi>śikhara-</hi> ‘peak,’ Bhayani reads <hi>valaü</hi> ‘the circumference of the earth,’ probably because it is difficult to connect <hi>dhara</hi> with <hi>siharu</hi>.</item>
+	    </list>
+	    <list>
+	      <item>Marked as an insertion (<hi>kṣepaka</hi>) by the commentaries.</item>
 	    </list>
 	  </note>
 	</lg>
