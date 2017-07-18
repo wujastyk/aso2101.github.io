@@ -2697,7 +2697,7 @@
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
 	      <label>ṇāya</label>
-	      <item>maybe Bhayani is right to correct to <hi>jāya</hi> (&lt; <hi>jātāḥ</hi>), otherwise we have here two instances of the word for ‘snake’ (<hi>ṇāya-ṇivaḍa-</hi> ‘crowded with serpents [<hi>nāga-</hi>]’).</item>
+	      <item>maybe Bhayani is right to correct to <hi>jāya</hi> (&lt; <hi>jātāḥ</hi>), otherwise we have here two instances of the word for ‘snake’ (<hi>ṇāya-ṇivaḍa-</hi> ‘crowded with serpents [<hi>nāga-</hi>]’), which Tripathi and Dvivedi interpret to mean two different kinds of snakes.</item>
 	      <label>daha</label>
 	      <item>&lt; <hi>daśa</hi> (Prakrit <hi>dasa</hi>, but cf. <hi>teraha</hi> for <hi>trayodaśa</hi>)</item>
 	      <label>huiya</label>
@@ -2712,24 +2712,26 @@
 
 	<lg xml:id="SaRā.146" met="Ābhāṇaka">
 	  <l xml:id="SaRā.146ab">
-	    macchara<app><lem>bhaya</lem><rdg wit="#B">bhaï</rdg></app> <app><lem>saṃcaḍiu</lem><rdg wit="#B">saṃcariu</rdg></app> <app><lem>ranni</lem><rdg wit="#B">raṃgi</rdg></app> goyaṃgaṇihi,<caesura/>
-	    <app><lem>maṇahara</lem><rdg wit="#B">maṇaharu</rdg></app> <app><lem wit="#R">ramiyaï</lem><rdg wit="#A">ramīyaï</rdg></app> nāhu <app><lem>raṃgi</lem><rdg wit="#B">raṃgicaṃgi</rdg></app> <app><lem>goyaṃ</lem><rdg wit="#N3">rāgaṃ</rdg></app>gaṇihi |
+	    macchara<app><lem source="#Bhayani1945">bhaya</lem><rdg wit="#B" source="#Bhayani1999">bhaï</rdg></app> <app><lem>saṃcaḍiu</lem><rdg wit="#B">saṃcariu</rdg></app> <app><lem>ranni</lem><rdg wit="#B">raṃgi</rdg></app> goyaṃgaṇihi,<caesura/>
+	    <app><lem wit="#B" source="#Bhayani1999">maṇaharu</lem><rdg source="#Bhayani1945">maṇahara</rdg></app> <app><lem wit="#R">ramiyaï</lem><rdg wit="#A">ramīyaï</rdg></app> nāhu <app><lem>raṃgi</lem><rdg wit="#B">raṃgicaṃgi</rdg></app> <app><lem>goyaṃ</lem><rdg wit="#N3">rāgaṃ</rdg></app>gaṇihi |
 	  </l>
 	  <l xml:id="SaRā.146cd">
 	    <app><lem>hariyāulu</lem><rdg wit="#C">hariyālaü</rdg></app> dharavalaü <app><lem>kayaṃbiṇi</lem><rdg wit="#C">kayaṃviṇi</rdg></app> mahamahiu,<caesura/>
-	    kiyaü bhaṃgu aṃgaṃgi <app><lem>aṇaṃgiṇa</lem><rdg wit="#B">aṇaṃgihi</rdg></app> maha <app><lem>ahiu</lem><rdg wit="#A">hiyaü</rdg></app> || 146 ||
+	    kiyaü bhaṃgu aṃgaṃgi <app><lem>aṇaṃgiṇa</lem><rdg wit="#B">aṇaṃgihi</rdg></app> <app><lem source="#Bhayani1945">maha</lem><rdg source="#Bhayani1999">mahu</rdg></app> <app><lem>ahiu</lem><rdg wit="#A">hiyaü</rdg></app> || 146 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
-	    <p><label rend="squarebrackets">146</label>macchara<supplied>bha</supplied>yād gavāṃ vra<choice><sic>jai</sic><corr>jaiḥ</corr></choice> sthale ārūḍham | gopāṅganābhir madhuraṃ gītaṃ gīyate | haritākulaṃ dharāvalayaṃ kadambena sugandhitam | anaṅgena samadhi<choice><sic>ka</sic><corr>kaḥ</corr></choice>  aṅgabhaṅgaḥ kṛtaḥ || 146 ||</p>
+	    <p><label rend="squarebrackets">146</label> macchara<supplied>bha</supplied>yād gavāṃ vra<choice><sic>jai</sic><corr>jaiḥ</corr></choice> sthale ārūḍham | gopāṅganābhir madhuraṃ gītaṃ gīyate | haritākulaṃ dharāvalayaṃ kadambena sugandhitam | anaṅgena samadhi<choice><sic>ka</sic><corr>kaḥ</corr></choice>  aṅgabhaṅgaḥ kṛtaḥ || 146 ||</p>
 	  </note>
 	  <note type="commentary" subtype="avacūrikā">
 	    <p><label rend="squarebrackets">146</label>maccharabhayād gavāṃ vrajaiḥ sthale ārūḍham | gopāṅganābhir madhuraṃ gītaṃ gīyate | haritākulaṃ dharāvalayaṃ kadambena sugandhitam | anaṅgena samadhikam aṅgabha<choice><sic>ṅga</sic><corr>ṅgaḥ</corr></choice> kṛtaḥ ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
-	    <p>Herds of cows ascended further into the forest to avoid the flies;
-	    the groups of <hi>gopī</hi>s enjoyed their lord’s love, to their delight. 
-	    The whole realm of the earth, flushed green, was made fragrant by the <hi>kadamba</hi>;
-	    every part of my body was racked all the more by the Bodiless God.</p>
+	    <ab>
+	      Herds of cows ascended further into the forest to avoid the flies;<lb/>
+	      the groups of <hi>gopī</hi>s enjoyed their lord’s love, to their delight.<lb/>
+	      The whole realm of the earth, flushed green, was made fragrant by the <hi>kadamba</hi>;<lb/>
+	      every part of my body was racked all the more by the Bodiless God.
+	    </ab>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
@@ -2738,21 +2740,26 @@
 	      <label>ranni</label>
 	      <item>&lt; <hi>araṇya-</hi>, but sensibly interpreted by the commentaries as <hi>sthala-</hi> ‘dry land’</item>
 	      <label>kayaṃbiṇi</label>
-	      <item>instr. of <hi>kayaṃba-</hi>, showing vowel harmony.</item>
+	      <item>instr. of <hi>kayaṃba-</hi> &lt; <hi>kadamba</hi>;</item>
 	      <label>mahamahiu</label>
 	      <item><hi>Kta</hi> of <hi>mahamaha</hi> (deśī) ‘give off a fragrant smell’</item>
+	      <label>aṃgaṃgi</label>
+	      <item>loc.</item>
+	    </list>
+	    <list>
+	      <item>I omit what I consider to be typos in Bhayani’s 1999 edition (<hi>maccharā</hi>, which is metrically inferior; <hi>gharavalaü</hi>).</item>
 	    </list>
 	  </note>
 	</lg>
 
 	<lg xml:id="SaRā.147" met="Ābhāṇaka">
 	  <l xml:id="SaRā.147ab">
-	    visamasijja<app><lem>vilulaṃtiya</lem><rdg wit="#C">vilalaṃtaya</rdg><rdg wit="#R #N3">vilaṃvaṃtiya</rdg></app> aï<app><lem>dukkhinniyaï</lem><rdg wit="#C">dukkhinnaï</rdg></app>,<caesura/>
-	    aliulamāla <app><lem>viṇaggaya</lem><rdg wit="#R #N3">vilaggaï</rdg></app> sara paḍi<app><lem>bhinniyaï</lem><rdg wit="#C">bhinnayaï</rdg></app> |
+	    visamasijja<app><lem source="#Bhayani1945">vilulaṃtiya</lem><rdg wit="#C">vilalaṃtaya</rdg><rdg wit="#R #N3">vilaṃvaṃtiya</rdg><rdg source="#Bhayani1999">vilulaṃtiye</rdg></app> aï<app><lem source="#Bhayani1945">dukkhinniyaï</lem><rdg wit="#C">dukkhinnaï</rdg><rdg source="#Bhayani1999">dukkhinniyae</rdg></app>,<caesura/>
+	    aliulamāla <app><lem source="#Bhayani1945">viṇaggaya</lem><rdg wit="#R #N3">vilaggaï</rdg><rdg source="#Bhayani1999">viṇiggaya</rdg></app> sara paḍi<app><lem source="#Bhayani1945">bhinniyaï</lem><rdg wit="#C">bhinnayaï</rdg><rdg source="#Bhayani1999">bhinniyae</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.147cd">
-	    aṇimisa<app><lem>nayaṇuvvinniya</lem><rdg wit="#A #B">nayaṇovinniya</rdg></app> ṇisi jāgaṃtiyaï,<caesura/>
-	    <app><lem>vatthu</lem><rdg wit="#A">vattha</rdg><rdg wit="#B">vatthū</rdg></app> gāha <app><lem>kiu</lem><rdg wit="#C">kīha</rdg></app> dohaü <app><lem>ṇidda</lem><rdg wit="#B">niṃda</rdg></app> alahaṃtiyaï || 147 ||
+	    aṇimisa<app><lem source="#Bhayani1945">nayaṇuvvinniya</lem><rdg wit="#A #B">nayaṇovinniya</rdg><rdg source="#Bhayani1999">ṇayaṇuvvinniya</rdg></app> ṇisi <app><lem source="#Bhayani1945">jāgaṃtiyaï</lem><rdg source="#Bhayani1999">jaggaṃtiyae</rdg></app>,<caesura/>
+	    <app><lem>vatthu</lem><rdg wit="#A">vattha</rdg><rdg wit="#B">vatthū</rdg></app> gāha <app><lem>kiu</lem><rdg wit="#C">kīha</rdg></app> dohaü <app><lem source="#Bhayani1945">ṇidda</lem><rdg wit="#B">niṃda</rdg><rdg source="#Bhayani1999">ṇidda</rdg></app> <app><lem source="#Bhayani1945">alahaṃtiyaï</lem><rdg source="#Bhayani1999">alahaṃtiyae</rdg></app> || 147 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
 	    <p><label rend="squarebrackets">147</label> rātrau viṣama<choice><sic>sijjhā</sic><corr>śayyā</corr></choice>yāṃ mayā lulantyā ekākinyā nidrā gamitā | sarovare kamalānāṃ alikulamālā saṅkucitā jātā | mayā animiṣaṃ rātrau jāgaraṇaḥ kṛtaḥ | vastuka-gāthā-dodhakair nidrām alabhantyā rātrir nigamitā || 147 ||</p>
@@ -2761,11 +2768,12 @@
 	    <p><label rend="squarebrackets">147</label> viṣama<choice><sic>sahyā</sic><corr>śayyāyāṃ</corr></choice> vilulantyā atiduḥkhākīrṇayā alikulamālāvinirgatasvarapratibhinnayā animiṣanayanodvignayā niśi jā<choice><sic>garta</sic><corr>gṛta</corr></choice>yā nidrām alabhantyā vastuko gāthā dodhakaś ca kṛtaḥ ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
-	    <p>As I rolled around on my uncomfortable bed I felt inordinate pain;
-	       I was pierced by the sounds that were coming from the swarms of bees;
-	       I was kept awake the whole night, anxious, with eyes that never shut;
-	       and not able to sleep, I wrote this <hi>vastuka</hi>, <hi>gāthā</hi>, and <hi>dohā</hi>.
-	       </p>
+	    <ab>
+	      As I rolled around on my uncomfortable bed I felt inordinate pain;<lb/>
+	      I was pierced by the sounds that were coming from the swarms of bees;<lb/>
+	      I was kept awake the whole night, anxious, with eyes that never shut;<lb/>
+	      and not able to sleep, I made this <hi>vastuka</hi>, <hi>gāthā</hi>, and <hi>dohā</hi>.
+	    </ab>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
@@ -2774,16 +2782,17 @@
 	      <label>aïdukkhinniyaï</label>
 	      <item>&lt; <hi>ati-duḥkhin-ī-</hi> plus <hi>-aï</hi></item>
 	      <label>sara</label>
-	      <item>either &lt; <hi>svara-</hi> or &lt; <hi>saraḥ-</hi></item>
+	      <item>&lt; <hi>svara-</hi>, the agent of <hi>paḍibhinniyaï</hi>, but here without an instrumental/ergative suffix</item>
 	      <label>paḍibhinniyaï</label>
 	      <item>&lt; <hi>prati-bhinnā-</hi> (using <hi>ṄīP</hi> instead of <hi>ṬāP</hi>) plus <hi>-aï</hi></item>
 	      <label>uvvinniya</label>
 	      <item>&lt; <hi>udvigna-</hi> (again with <hi>ṄīP</hi> instead of <hi>ṬāP</hi>) plus <hi>-a</hi></item>
 	      <label>jāgaṃtiyaï</label>
-	      <item>&lt; <hi>jāgratī-</hi> plus <hi>-aï</hi></item>
+	      <item>&lt; <hi>jāgratī-</hi> plus <hi>-aï</hi>; depending on the reading one chooses, this shows compensatory lengthening, or not</item>
 	    </list>
 	    <list>
 	      <item>This verse uses a number of feminine adjectival formations that show the lengthening typical of Apabhramsha, where <hi>-aï</hi> (or <hi>-yaï</hi>) is added onto a stem that is ‘already’ feminine (often made even more expressly feminine by the use of the ending <hi>ī</hi> rather than <hi>ā</hi>).</item>
+	      <item>There are also a number of possible cases of ‘group flexion,’ where ergative/instrumental marking occurs only on the last nominal form in a phrase (e.g., not on <hi>aṇimisaṇayaṇuvvinniya</hi>, but on <hi>jaggaṃtiyaï</hi>).</item>
 	    </list>
 	  </note>
 	</lg>
