@@ -2673,12 +2673,12 @@
 
 	<lg xml:id="SaRā.145" met="Ābhāṇakā">
 	  <l xml:id="SaRā.145ab">
-	    ṇāya ṇivaḍa paha ruddha <app><lem>phaṇiṃdihiṃ</lem><rdg wit="#C"><supplied>pha</supplied>ṇiṃdahiṃ</rdg></app> <app><lem>daha</lem><rdg wit="#C">dasa</rdg></app> disihiṃ,<caesura/>
-	    <app><lem>huiya</lem><rdg wit="#B">huīya</rdg></app> asaṃcara magga mahaṃta <app><lem>mahāvisihiṃ</lem><rdg wit="#B #C">mahavvisahiṃ</rdg></app>
+	    <app><lem source="#Bhayani1945">ṇāya</lem><rdg source="#Bhayani1999">jāya</rdg></app> <app><lem source="#Bhayani1945">ṇivaḍa</lem><rdg source="#Bhayani1999">ṇiviḍa</rdg></app> paha ruddha <app><lem>phaṇiṃdihiṃ</lem><rdg wit="#C"><supplied>pha</supplied>ṇiṃdahiṃ</rdg></app> <app><lem>daha</lem><rdg wit="#C">dasa</rdg></app> disihiṃ,<caesura/>
+	    <app><lem>huiya</lem><rdg wit="#B">huīya</rdg></app> asaṃcara magga mahaṃta <app><lem>mahāvisihiṃ</lem><rdg wit="#B #C">mahavvisahiṃ</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.145cd">
 	    pāḍaladalaparikhaṃḍaṇu nīrataraṃgabhari,<caesura/>
-	    urunnaü girisiharihi haṃsihi karuṇasari || 145 ||
+	    <app><lem source="#Bhayani1945">urunnaü</lem><rdg source="#Bhayani1999">orannaü</rdg></app> giri<app><lem source="#Bhayani1945">siharihi</lem><rdg source="#Bhayani1999">sihariṃ</rdg></app> <app><lem source="#Bhayani1945">haṃsihi</lem><rdg source="#Bhayani1999">haṃsihiṃ</rdg></app> karuṇasari || 145 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
 	    <p><label rend="squarebrackets">145</label> nāgaiḥ—sarppaiḥ phaṇīndraiḥ—phaṇayuktaiḥ mahāviṣaiḥ nibiḍaṃ yathā daśa<supplied>su</supplied> dikṣu panthā ruddhaḥ | mārgaḥ asaṃcaro jātaḥ | nīrataraṅgabhareṇa <choice><sic>paḍalā</sic><corr>pāḍala</corr></choice>dalakhaṇḍanaṃ <choice><sic>yā</sic><corr>jā</corr></choice>tam | anyacca, haṃsaiḥ giri<choice><sic>siṣa</sic><corr>śikh</corr></choice>are karuṇasvareṇa yathā ruditam || 145 ||</p>
@@ -2687,15 +2687,23 @@
 	    <p><label rend="squarebrackets">145</label> nāgaiḥ phaṇīndraiś ca daśasu dikṣu nibiḍaṃ yathā panthā ruddhaḥ | mahāviṣaiḥ pānīyair mārgo ’saṃcaro jātaḥ | nīrataraṅgabhareṇa pāḍaladalaparikhaṇḍanaṃ jātam | haṃsair giriśikhare karuṇasvareṇa ‘u’ ity adhikaṃ ruditam ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
-	    <p>In all directions, the path was thickly crowded with snakes;
-	       the road couldn’t be travelled because of those great poisonous serpents.
-	       The torrents of water broke off the petals of the Pāṭala tree;
-	       the geese in the mountains made a plaintive ‘oo’ sound.</p>
+	    <ab>
+	      In all directions, the path was thickly crowded with snakes;<lb/>
+	      the roads couldn’t be travelled because of those great poisonous serpents.<lb/>
+	      The torrents of water broke off the petals of the Pāṭala tree;<lb/>
+	      the geese in the mountains made a plaintive ‘oo’ sound.
+	    </ab>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
 	      <label>daha</label>
 	      <item>&lt; <hi>daśa</hi> (Prakrit <hi>dasa</hi>, but cf. <hi>teraha</hi> for <hi>trayodaśa</hi>)</item>
+	      <label>huiya</label>
+	      <item>note <hi>-iya-</hi> suffix even for masculine (here masc. pl.) nouns, probably extended from <hi>-iya-</hi> &lt; <hi>-ita-</hi></item>
+	      <label>nīrataraṃgabhari</label>
+	      <item>instr. agent of an implied <hi>kiyaü</hi>; <hi>bhara-</hi> seems to mean here just ‘masses, many, a lot’</item>
+	      <label>urunnaü</label>
+	      <item>maybe read <hi>orunnaü</hi> with Bhayani 1999 &lt; <hi>ava-rud-na-</hi> (of which <hi>urunnaü</hi> might be a shortened form; alternatively it is from <hi>ud-rud-na-</hi> with a degemination)</item>
 	    </list>
 	  </note>
 	</lg>
