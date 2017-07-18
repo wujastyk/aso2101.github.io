@@ -2509,8 +2509,8 @@
 	    paü paḍaṃtu <app><lem source="#Bhayani1945">pukkharahu</lem><rdg wit="#B">puṣkarahu</rdg><rdg source="#Bhayani1999">pukkharahuṃ</rdg></app> <app><lem source="#Bhayani1945">ṇa</lem><rdg source="#Bhayani1999">na</rdg></app> māvaï <app><lem>pukkharihiṃ</lem><rdg wit="#B">puṣkarihi</rdg><rdg wit="#C">pukharahi</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.141cd">
-	    payahatthiṇa kiya pahiya <app><lem source="#Bhayani1945">payahi</lem><rdg wit="#B">païhi</rdg><rdg wit="#A">pahihi</rdg><rdg source="#Bhayani1999">pahahiṃ</rdg></app> <app><lem source="#Bhayani1945">pavahaṃtayaha</lem><rdg wit="#A">pavahaṃtayahi</rdg><rdg wit="#B">pavahaṃtiyaha</rdg><rdg source="#Bhayani1999">pavahaṃtayahiṃ</rdg></app>,<caesura/>
-	    <app><lem>paï paï</lem><rdg wit="#C">paya paya</rdg></app> <app><lem>pesaï</lem><rdg wit="#C">pesaü</rdg></app> karalaü <app><lem>gayaṇi</lem><rdg wit="#C">gayaṇa</rdg></app> <app><lem source="#Bhayani1945">khivaṃtayaha</lem><rdg wit="#A">khivaṃtiyahi</rdg><rdg source="#Bhayani1999">khivaṃtiyahiṃ</rdg><rdg wit="#B">khivaṃtiyaha</rdg></app> || 141 ||
+	    payahatthiṇa kiya pahiya <app><lem source="#Bhayani1945">payahi</lem><rdg wit="#B">païhi</rdg><rdg wit="#A">pahihi</rdg><rdg source="#Bhayani1999">pahahiṃ</rdg></app> <app><lem source="#Bhayani1999">pavahaṃtayahiṃ</lem><rdg source="#Bhayani1945">pavahaṃtayaha</rdg><rdg wit="#A">pavahaṃtayahi</rdg><rdg wit="#B" source="#Dvivedi">pavahaṃtiyaha</rdg></app>,<caesura/>
+	    <app><lem>paï paï</lem><rdg wit="#C">paya paya</rdg></app> <app><lem>pesaï</lem><rdg wit="#C">pesaü</rdg></app> karalaü <app><lem>gayaṇi</lem><rdg wit="#C">gayaṇa</rdg></app> <app><lem source="#Bhayani1999">khivaṃtiyahiṃ</lem><rdg source="#Bhayani1945">khivaṃtayaha</rdg><rdg wit="#A">khivaṃtiyahi</rdg><rdg wit="#B">khivaṃtiyaha</rdg></app> || 141 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
 	    <p><label rend="squarebrackets">141</label> grīṣmatapanakharataptakiraṇotkarṣasambandhi payaḥ puṣkarāt patat puṣkaraṇīṣu na māti | yataḥ—<quote rend="single">sahasraguṇamu<choice><sic>cchaṣṭu</sic><corr>tsraṣṭu</corr></choice>m āda<choice><sic>taṃ</sic><corr>tte</corr></choice> hi rasaṃ raviḥ</quote> | tathā ca pathi pravasantaḥ pathikāḥ payobhiḥ padatrāṇahastāḥ kṛtāḥ | gagane vidyutā karalaḥ pagadaṇḍako dṛśyate, nānyathā || 141 ||</p>
@@ -2536,7 +2536,7 @@
 	      <item>glossed as <hi>pagadaṇḍaka</hi> ‘pathway,’ but maybe a syncopated form of <hi>karayalaü</hi> &lt; <hi>karatalam</hi> ‘the palm of the hand’?</item>
 	    </list>
 	    <list>
-	      <item><hi>pavahaṃtayaha</hi> may be a genitive absolute (‘if people really do have to go on the road’)</item>
+	      <item><hi>pavahaṃtiyaha</hi> may be a genitive absolute (‘if people really do have to go on the road’)</item>
 	      <item><hi>khivaṃtayaha</hi> has no agent, but from the previous verse we should expect <hi>vidyut</hi> or something similar.</item>
 	    </list>
 	  </note>
