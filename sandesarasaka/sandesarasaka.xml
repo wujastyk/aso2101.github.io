@@ -2799,18 +2799,18 @@
 
 	<lg xml:id="SaRā.148" met="Vastuka">
 	  <l xml:id="SaRā.148ab">
-	    <app><lem>jhaṃpavi</lem><rdg wit="#A">jhaṃpivi</rdg></app> tama vaddaliṇa <app><lem>dasaha</lem><rdg wit="#A">dahahi</rdg></app> disi chāyaü aṃbaru,<caesura/>
-	    <app><lem>unnaviyaü</lem><rdg wit="#A">unnamiyaü</rdg></app> <app><lem>ghurahuraï</lem><rdg wit="#C">ghuraharaï</rdg></app> ghoru ghaṇu <app><lem>kisaṇā</lem><rdg wit="#N3">kihaṇā</rdg></app>ḍaṃbaru |
+	    <app><lem wit="#A" source="#Bhayani1999">jhaṃpivi</lem><rdg source="#Bhayani1945">jhaṃpavi</rdg></app> tama vaddaliṇa <app><lem source="#Bhayani1999">dahahiṃ</lem><rdg source="#Bhayani1945">dasaha</rdg><rdg wit="#A">dahahi</rdg></app> disi <app><lem source="#Bhayani1999">chāiu</lem><rdg source="#Bhayani1945">chāyaü</rdg></app> aṃbaru,<caesura/>
+	    <app><lem source="#Bhayani1945">unnaviyaü</lem><rdg wit="#A" source="#Bhayani1999">unnamiyaü</rdg></app> <app><lem>ghurahuraï</lem><rdg wit="#C">ghuraharaï</rdg></app> ghoru ghaṇu <app><lem source="#Bhayani1945">kisaṇā</lem><rdg wit="#N3" source="#Bhayani1999">kihaṇā</rdg></app>ḍaṃbaru |
 	  </l>
 	  <l xml:id="SaRā.148cd">
-	    <app><lem>ṇahahamaggi</lem><rdg wit="#A">ṇahamaggihi</rdg><rdg wit="#C">ṇahamaggiṇa</rdg></app> ṇaha<app><lem>valliya</lem><rdg wit="#A">valli</rdg></app> <app><lem>tarala</lem><rdg wit="#B">tarayala</rdg></app> <app><lem>taḍayaḍivi</lem><rdg wit="#C">tayaḍa vi</rdg></app> taḍakkaï,<caesura/>
-	    dudduraraḍaṇu raüddu saddu <app><lem>kuvi</lem><rdg wit="#A">kui</rdg><rdg wit="#B">ki vi</rdg></app> sahavi ṇa sakkaï |
+	    <app><lem source="#Bhayani1945">ṇahahamaggi</lem><rdg wit="#A">ṇahamaggihi</rdg><rdg wit="#C">ṇahamaggiṇa</rdg><rdg source="#Bhayani1999">ṇahamaggihiṃ</rdg></app> ṇaha<app><lem wit="#A" source="#Bhayani1999">valli</lem><rdg source="#Bhayani1945">valliya</rdg></app> <app><lem>tarala</lem><rdg wit="#B">tarayala</rdg></app> <app><lem source="#Bhayani1945">taḍayaḍivi</lem><rdg source="#Bhayani1999">taḍataḍivi</rdg><rdg wit="#C">tayaḍa vi</rdg></app> taḍakkaï,<caesura/>
+	    duddura<app><lem source="#Bhayani1945">raḍaṇu</lem><rdg source="#Bhayani1999">raḍaü</rdg></app> raüddu saddu <app><lem>kuvi</lem><rdg wit="#A">kui</rdg><rdg wit="#B">ki vi</rdg></app> sahavi ṇa sakkaï |
 	  </l>
 	  <l xml:id="SaRā.148ef">
-	    <app><lem>nivaḍa</lem><rdg wit="#B">niviḍa</rdg><rdg wit="#R #N3">nivaḍaṃta</rdg></app> <app><lem>niraṃtara</lem><rdg wit="#C">niraṃtaru</rdg></app> <app><lem>nīrahara</lem><rdg wit="#C">nīru bharu</rdg></app> duddhara dharadhārohabharu |
+	    <app><lem source="#Bhayani1945">nivaḍa</lem><rdg wit="#B">niviḍa</rdg><rdg source="#Bhayani1999">ṇiviḍa</rdg><rdg wit="#R #N3">nivaḍaṃta</rdg></app> <app><lem>niraṃtara</lem><rdg wit="#C">niraṃtaru</rdg></app> <app><lem source="#Bhayani1945">nīrahara</lem><rdg wit="#C">nīru bharu</rdg><rdg source="#Bhayani1999">ṇīra bharu</rdg></app> duddhara dharadhārohabharu |
 	  </l>
 	  <l xml:id="SaRā.148gh">
-	    kima <app><lem>sahaü</lem><rdg wit="#B">sahiu</rdg></app> pahiya <app><lem>siharaṭṭhiyaï</lem><rdg wit="#C">sihayaraṭṭhiyaï</rdg></app> <app><lem>dusahaü</lem><rdg wit="#C">dusahaü</rdg></app> koila rasaï saru || 148 ||
+	    <app><lem source="#Bhayani1945">kima</lem><rdg source="#Bhayani1999">kivaṃ</rdg></app> <app><lem>sahaü</lem><rdg wit="#B">sahiu</rdg></app> pahiya <app><lem source="#Bhayani1999">siharaṭṭhiyaya</lem><rdg source="#Bhayani1945">siharaṭṭhiyaï</rdg><rdg wit="#C">sihayaraṭṭhiyaï</rdg></app> <app><lem>dusahaü</lem><rdg wit="#C">dusahaü</rdg></app> koila <app><lem source="#Bhayani1999">rasahiṃ</lem><rdg source="#Bhayani1945">rasaï</rdg></app> saru || 148 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
 	    <p><label rend="squarebrackets">148</label> bho pathika! śyāmabahalaiḥ daśadiśiṃ vyāpya ākāśa ācchāditaḥ | gagane unna<choice><sic>vi</sic><corr>mi</corr></choice>to ghurahurati ghano meghaḥ kṛṣṇāḍambaraḥ | ākāśamārgge nabhovallīvidyut taḍataḍeti śabdaṃ karoti | dardurāṇāṃ raṭanaṃ—pūtkāraṃ śrutvā <choice><sic>sahya</sic><corr>soḍhuṃ</corr></choice> na śakyate | bho pathika! nibiḍaṃ ca śa<choice><sic>bdā</sic><corr>bdād</corr></choice> durddharaṃ nīradharaṃ meghaṃ <choice><sic>siṣa</sic><corr>śikhara</corr></choice>sthitena tena kathaṃ sahitam || 148 ||</p>
@@ -2819,22 +2819,25 @@
 	    <p><label rend="squarebrackets">148</label> varrdalena tamo atyarthaṃ jhampitvā—ākramya, da<choice><sic>sa</sic><corr>śa</corr></choice>su dikṣu ambaram ākāśam ācchāditam | puna unnamito ghoraṃ yathā kṛṣṇāḍambaraṃ ghuruharati—garjati | nabhovallī—vidyut nabhomārge taralaṃ yathā taḍatkāraṃ kṛtvā—taḍatkaroti | dardurāṇāṃ raṭanaṃ raudraṃ śabdaṃ ko ’pi soḍhuṃ na śaknoti | nibiḍaṃ nirantaraṃ nīradharaṃ meghaṃ durdharadhāraughabharaṃ he pathika! kathaṃ sahāmi? | anyacca, śikharasthitā āmroparisthā kokilā duḥsahaṃ svaraṃ rasati  ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
-	    <p>The dark storm clouds cover the sky and block it as far as the eye can see;
-	       a frightful thick black mass rumbles high up.
-	       Streaks of lightning cracked suddenly and lit up the expanse of the sky.
-	       Nobody can bear the terrifying sound of the croaking frogs.
-	       The clouds—thick, without a break between them, with torrents of water that are impossible to withstand—how could I stand a chance against them, travller?
-	       The cuckoos keep making an insufferable din in the boughs of the trees.
-	    </p>
+	    <ab>
+	      The dark storm clouds covered the sky and blocked it as far as the eye can see;<lb/>
+	      a frightful thick black mass rumbles up on high.<lb/>
+	      Streaks of lightning cracked suddenly and lit up the expanse of the sky.<lb/>
+	      Nobody can bear the terrifying sound of the croaking frogs.<lb/>
+	      The clouds—thick, without a break between them,<lb/>
+	      with torrents of water that are impossible to withstand—<lb/>
+	      how could I stand a chance against them, traveller?<lb/>
+	      The cuckoos kept making an insufferable din in the boughs of the trees.
+	    </ab>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
-	      <label>jhaṃpavi</label>
+	      <label>jhaṃpivi</label>
 	      <item><hi>Ktvā</hi> of <hi>jhaṃp-</hi> (deśī) ‘cover’</item>
 	      <label>vaddaliṇa</label>
 	      <item>&lt; <hi>vārdala</hi> ‘storm-cloud’</item>
 	      <label>ghurahuraï</label>
-	      <item>onomatopoetic</item>
+	      <item>onomatopoetic, with <hi>ghoru ghaṇu</hi> in a kind of ‘internal accusative’ construction</item>
 	      <label>duddura-</label>
 	      <item>&lt; <hi>dardura-</hi> ‘frog’</item>
 	      <label>kima</label>
