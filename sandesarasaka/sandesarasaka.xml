@@ -2631,12 +2631,12 @@
 
 	<lg xml:id="SaRā.144" met="Ābhāṇaka">
 	  <l xml:id="SaRā.144ab">
-	    <app><lem>bagu</lem><rdg wit="#A">baü</rdg></app> <app><lem>milhavi</lem><rdg wit="#A">milhivi</rdg></app> saliladdahu tarusiharihi caḍiu,<caesura/>
-	    <app><lem>taṃḍavu</lem><rdg wit="#A">taṃḍaü</rdg><rdg wit="#C">taṃdabu</rdg></app> karivi <app><lem>sihaṃḍihi</lem><rdg wit="#C">sihammihi</rdg></app> <app><lem>varasiharihi</lem><rdg wit="#C">varusiharihi</rdg></app> <app><lem>raḍiu</lem><rdg wit="#C">raḍyaü</rdg></app> | 
+	    <app><lem>bagu</lem><rdg wit="#A">baü</rdg></app> <app><lem source="#Bhayani1945">milhavi</lem><rdg wit="#A" source="#Bhayani1999">milhivi</rdg></app> saliladdahu tarusiharihi caḍiu,<caesura/>
+	    <app><lem>taṃḍavu</lem><rdg wit="#A">taṃḍaü</rdg><rdg wit="#C">taṃdabu</rdg></app> karivi <app><lem source="#Bhayani1945">sihaṃḍihi</lem><rdg wit="#C">sihammihi</rdg><rdg source="#Bhayani1999">sihaṃḍihiṃ</rdg></app> <app><lem source="#Bhayani1999">gharasiharihiṃ</lem><rdg source="#Bhayani1945">varasiharihi</rdg><rdg wit="#C">varusiharihi</rdg></app> <app><lem>raḍiu</lem><rdg wit="#C">raḍyaü</rdg></app> | 
 	  </l>
 	  <l xml:id="SaRā.144ab">
-	    <app><lem>salilihi</lem><rdg wit="#A">salalihi</rdg><rdg wit="#C">salilahi</rdg></app> <app><lem>vara</lem><rdg wit="#C">vari</rdg></app> sālūrihi <app><lem>pharisiu</lem><rdg wit="#A">pharasaü</rdg><rdg wit="#C">pharisiu</rdg></app> rasiu <app><lem>sari</lem><rdg wit="#A #B">saru</rdg></app>,<caesura/>
-	    kalayalu kiyaü kalayaṃṭhihi caḍi <app><lem>cūyaha</lem><rdg wit="#B">cūyahaṃ</rdg><rdg wit="#C">būyaha</rdg></app> sihari || 144 ||
+	    <app><lem>salilihi</lem><rdg wit="#A">salalihi</rdg><rdg wit="#C">salilahi</rdg></app> <app><lem source="#Bhayani1999">bahu</lem><rdg source="#Bhayani1945">vara</rdg><rdg wit="#C">vari</rdg></app> sālūrihi <app><lem source="#Bhayani1945">pharisiu</lem><rdg wit="#A">pharasaü</rdg><rdg source="#Bhayani1999">pharusaü</rdg><rdg wit="#C">pharisiu</rdg></app> rasiu <app><lem>sari</lem><rdg wit="#A #B">saru</rdg></app>,<caesura/>
+	    kalayalu <app><lem source="#Bhayani1999">kiu</lem><rdg source="#Bhayani1945">kiyaü</rdg></app> kalayaṃṭhihi caḍi <app><lem>cūyaha</lem><rdg wit="#B">cūyahaṃ</rdg><rdg wit="#C">būyaha</rdg></app> sihari || 144 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
 	    <p><label rend="squarebrackets">144</label> saliladrahaṃ tyaktvā taru<choice><sic>siṣa</sic><corr>śikha</corr></choice>re bakair ārūḍham | tāṇḍavaṃ nṛtyaṃ kṛtvā vara<choice><sic>siṣa</sic><corr>śikha</corr></choice>riṣu—parvateṣu śikhaṇḍibhiḥ raṭitam | <choice><sic>śa</sic><corr>sa</corr></choice>lileṣu śālūraiḥ <choice><sic>pura</sic><corr>paru</corr></choice>ṣakhareṇa <choice><sic>sa</sic><corr>śa</corr></choice>bditam | kalakaṇṭhībhiś cūtaśikharam āruhya kalakalaśabdaḥ kṛtaḥ || 144 ||</p>
@@ -2645,12 +2645,19 @@
 	    <p><label rend="squarebrackets">144</label> saliladrahaṃ tyaktvā taruśikhare bakair ārūḍham | tāṇḍavaṃ nṛtaṃ kṛtvā varaśikhariṣu—parvateṣu śikhaṇḍibhī raṭitam | salileṣu sālūraiḥ <choice><sic>pu</sic><corr>pa</corr></choice>ruṣasvareṇa śabditam | kalakaṇṭhībhiḥ—kokilābhiś cūtaśikharam āruhya kalakalaśa<choice><sic>bdaṃ</sic><corr>bdaḥ</corr></choice> kṛtaḥ ||</p>
 	  </note>
 	  <note type="translation" xml:lang="eng">
-	    <p>The heron leaves the pond and ascends to the peaks of the trees; the peacocks do the <hi>tāṇḍava</hi> dance and cry out on the hilltops; the frogs make their rough sounds in the waters; the cuckoos warble after ascending into the boughs of the mango tree.</p>
+	    <ab>
+	      The heron leaves the pond and ascends to the peaks of the trees;<lb/>
+	      the peacocks do the <hi>tāṇḍava</hi> dance and cry out on the play-mountain;<lb/>
+	      the many frogs make their rough sounds in the waters;<lb/>
+	      the cuckoos warble after ascending into the boughs of the mango tree.
+	    </ab>
 	  </note>
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
 	      <label>milhavi</label>
 	      <item><hi>Ktvā</hi> form of <hi>milh-</hi> (deśī) ‘leave’</item>
+	      <label>saliladdahu</label>
+	      <item>&lt; <hi>salila-draha-</hi></item>
 	      <label>caḍiu</label>
 	      <item><hi>Kta</hi> of <hi>caḍ-</hi> (deśī) ‘ascend, mount’ (cf. Hindi <hi>caḍhnā</hi></item>
 	      <label>pharisiu</label>
