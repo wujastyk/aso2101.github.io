@@ -2,6 +2,10 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" version="1.0" exclude-result-prefixes="tei xi fn">
   <xsl:output method="html" indent="no" encoding="UTF-8" version="4.0" doctype-system="http://www.w3.org/TR/html4/strict.dtd" doctype-public="-//W3C//DTD HTML 4.01//EN"/>
 
+  <xsl:strip-space elements="tei:name tei:surname tei:forename"/>
+
+  <xsl:key name="id" match="tei:witness | tei:biblStruct" use="@xml:id"/>
+
   <xsl:template match="tei:text">
     <div class="panel-group">
       <xsl:apply-templates/>
@@ -113,6 +117,9 @@
   <xsl:template match="tei:p">
     <p class="san"><xsl:apply-templates/></p>
   </xsl:template>
+  <xsl:template match="tei:ab">
+    <p class="san"><xsl:apply-templates/></p>
+  </xsl:template>
   <xsl:template match="tei:s">
     <xsl:variable name="class"><xsl:text>san</xsl:text><xsl:if test=".//tei:choice[@type='chaya']"> prakrit</xsl:if></xsl:variable>
     <span class="{$class}">
@@ -193,16 +200,15 @@
   <xsl:template match="tei:app">
     <xsl:variable name="apparatus">
       <span class="app-reading san"><xsl:value-of select="tei:lem"/></span>
-      <xsl:if test="tei:lem/@wit">
-        <xsl:text> </xsl:text>
+      <xsl:for-each select="tei:lem/@wit | tei:lem/@source">
+	<xsl:text> </xsl:text>
 	<xsl:call-template name="app-witness">
-	  <xsl:with-param name="app-witness">
-	    <xsl:value-of select="string(tei:lem/@wit)"/>
-	  </xsl:with-param>
+	  <xsl:with-param name="type" select="name(.)"/>
+	  <xsl:with-param name="value" select="."/>
 	</xsl:call-template>
-      </xsl:if>
+      </xsl:for-each>
       <xsl:text>] </xsl:text>
-      <xsl:for-each select=".//tei:rdg">
+      <xsl:for-each select="tei:rdg">
         <xsl:if test="@type='gloss'">
           <xsl:text> = </xsl:text>
         </xsl:if>
@@ -217,12 +223,13 @@
         <xsl:if test="tei:note">
           <span class="appnote"><xsl:value-of select="./note"/></span>
         </xsl:if>
-        <xsl:if test="@wit">
-          <xsl:text> </xsl:text>
+	<xsl:for-each select="@wit | @source">
+	  <xsl:text> </xsl:text>
 	  <xsl:call-template name="app-witness">
-	    <xsl:with-param name="app-witness" select="translate(@wit,'#','')"/>
+	    <xsl:with-param name="type" select="name(.)"/>
+	    <xsl:with-param name="value" select="."/>
 	  </xsl:call-template>
-        </xsl:if>
+	</xsl:for-each>
         <xsl:if test="@type='conj'">
           <xsl:text> conj. </xsl:text><xsl:value-of select="translate(translate(@resp,' ',''),'#','')"/>
         </xsl:if>
@@ -237,9 +244,10 @@
     <span class="popover-content hide" id="{generate-id()}"><xsl:copy-of select="$apparatus"/></span>
   </xsl:template>
   <xsl:template name="app-witness">
-    <xsl:param name="app-witness"/>
+    <xsl:param name="type"/>
+    <xsl:param name="value"/>
     <xsl:call-template name="tokenize-witness-list">
-      <xsl:with-param name="string" select="$app-witness"/>
+      <xsl:with-param name="string" select="$value"/>
     </xsl:call-template>
   </xsl:template>
   <xsl:template match="tei:choice[not(@type='chaya')]">
@@ -271,10 +279,9 @@
   </xsl:template>
   <xsl:template match="tei:rdg/tei:note"/>
   <xsl:template match="tei:ptr">
-    <xsl:variable name="target" select="translate(@target,'#','')"/>
-    <a href="#modal-{$target}" class="app-wit" data-toggle="modal" data-target="#modal-{$target}">
-      <xsl:value-of select="$target"/> 
-    </a>
+    <xsl:call-template name="make-bibl-link">
+      <xsl:with-param name="target" select="translate(@target,'#','')"/>
+    </xsl:call-template>
   </xsl:template>
   <xsl:template match="tei:graphic">
     <img class="center-block" src="{@url}"/>
@@ -314,11 +321,11 @@
     <xsl:param name="string"/>
     <xsl:choose>
       <xsl:when test="contains($string,' ')"> 
-	<xsl:variable name="first-item" select="normalize-space(substring-before($string,' '))"/> 
+	<xsl:variable name="first-item" select="translate(normalize-space(substring-before($string,' ')),'#','')"/> 
 	<xsl:if test="$first-item">
-	  <a href="#modal-{$first-item}" class="app-wit" data-toggle="modal" data-target="#modal-{$first-item}">
-	    <xsl:value-of select="$first-item"/> 
-	  </a>
+	  <xsl:call-template name="make-bibl-link">
+	    <xsl:with-param name="target" select="$first-item"/>
+	  </xsl:call-template>
 	  <xsl:call-template name="tokenize-witness-list"> 
 	    <xsl:with-param name="string" select="substring-after($string,' ')"/> 
 	  </xsl:call-template>    
@@ -330,13 +337,127 @@
 	    <xsl:text/>
 	  </xsl:when>
 	  <xsl:otherwise>
-	    <a href="#modal-{$string}" class="app-wit" data-toggle="modal" data-target="#modal-{$string}">
-	      <xsl:value-of select="$string"/> 
-	    </a>
+	    <xsl:call-template name="make-bibl-link">
+	      <xsl:with-param name="target" select="translate($string,'#','')"/>
+	    </xsl:call-template>
 	  </xsl:otherwise>
 	</xsl:choose>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+  <xsl:template name="make-bibl-link">
+    <xsl:param name="target"/>
+    <xsl:variable name="description">
+      <xsl:call-template name="bibl-short-title">
+	<xsl:with-param name="id" select="$target"/>
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:variable name="text">
+      <xsl:call-template name="bibl-super-short-title">
+	<xsl:with-param name="id" select="$target"/>
+      </xsl:call-template>
+    </xsl:variable>
+    <a href="#modal-{$target}" class="app-wit" data-toggle="modal" data-target="#modal-{$target}" title="{$description}"><xsl:value-of  select="$text"/></a>
+  </xsl:template>
+
+  <xsl:template name="bibl-short-title">
+    <xsl:param name="id"/>
+    <xsl:for-each select="key('id',$id)">
+      <xsl:choose>
+	<!-- when it is a biblStruct element !-->
+	<xsl:when test="name(.) = 'biblStruct'">
+	  <xsl:value-of select=".//tei:title[@type='short'][1]"/>
+	</xsl:when>
+	<!-- when it is a witness element !-->
+	<xsl:otherwise>
+	  <xsl:value-of select=".//tei:label"/>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
+  </xsl:template>
+  <xsl:template name="bibl-super-short-title">
+    <xsl:param name="id"/>
+    <xsl:for-each select="key('id',$id)">
+      <xsl:choose>
+	<!-- when it is a biblStruct element !-->
+	<xsl:when test="name(.) = 'biblStruct'">
+	  <xsl:value-of select=".//tei:title[@type='siglum'][1]"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:value-of select="@xml:id"/>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
+  </xsl:template>
+  <xsl:template name="bibl-full-entry">
+    <xsl:param name="id"/>
+    <xsl:for-each select="key('id',$id)">
+      <xsl:variable name="author-block">
+	<xsl:variable name="editors" select="count(.//tei:editor)"/>
+	<xsl:for-each select=".//tei:editor">
+	  <xsl:choose>
+	    <xsl:when test="position()=1">
+	      <xsl:apply-templates select="." mode="author-string">
+		<xsl:with-param name="style" select="'sf'"/>
+	      </xsl:apply-templates>
+	    </xsl:when>	
+	    <xsl:otherwise>
+	      <xsl:apply-templates select="." mode="author-string">
+		<xsl:with-param name="style" select="'fs'"/>
+	      </xsl:apply-templates>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	  <xsl:choose>
+	    <xsl:when test="position() = $editors - 1">
+	      <xsl:text> and </xsl:text>
+	    </xsl:when>
+	    <xsl:when test="position() &lt; $editors - 1">
+	      <xsl:text>, </xsl:text>
+	    </xsl:when>
+	    <xsl:otherwise></xsl:otherwise>
+	  </xsl:choose>
+	</xsl:for-each>
+      </xsl:variable>
+      <span><xsl:value-of select="normalize-space($author-block)"/><xsl:text>. </xsl:text></span>
+      <em><xsl:value-of select=".//tei:title[@level='m']"/></em>
+      <xsl:text>. </xsl:text>
+      <xsl:value-of select=".//tei:pubPlace"/>
+      <xsl:text>: </xsl:text>
+      <xsl:value-of select=".//tei:publisher"/>
+      <xsl:text>, </xsl:text>
+      <xsl:value-of select=".//tei:date"/>
+      <xsl:text>. </xsl:text>
+    </xsl:for-each>
+    
+  </xsl:template>
+  <xsl:template match="tei:name" mode="author-string">
+    <xsl:param name="style"/>
+    <xsl:variable name="author-string">
+      <xsl:choose>
+	<!-- if there is a surname and a forename !-->
+	<xsl:when test=".//tei:surname">
+	  <xsl:choose>
+	    <!-- if the style is surname-forename !-->
+	    <xsl:when test="$style = 'sf'">
+	      <xsl:value-of select=".//tei:surname"/>
+	      <xsl:text>, </xsl:text>
+	      <xsl:value-of select=".//tei:forename"/>
+	    </xsl:when>
+	    <!-- if the style is forename-surname !-->
+	    <xsl:otherwise>
+	      <xsl:value-of select="normalize-space(.//tei:forename)"/>
+	      <xsl:text> </xsl:text>
+	      <xsl:value-of select="normalize-space(.//tei:surname)"/>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:when>
+	<!-- if there is just one name, like jinavijaya muni !-->
+	<xsl:otherwise>
+	  <xsl:value-of select="."/>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:value-of select="normalize-space($author-string)"/>
   </xsl:template>
 
 </xsl:stylesheet>

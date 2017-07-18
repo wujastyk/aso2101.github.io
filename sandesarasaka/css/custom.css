@@ -183,3 +183,18 @@ h3.glossary {
 .btn-default {
   font-weight:bold;
 }
+ul.note-list {
+  list-style:none;
+}
+.note-list li {
+  display:block;
+}
+.note-list li:before {
+  content:"e";
+  font-family:'Printers Ornaments';
+  font-size:9px;
+  float:left;
+  margin-top:8px;
+  margin-left:-17px;
+  color:#66666;
+}
