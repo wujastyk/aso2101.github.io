@@ -2587,8 +2587,8 @@
 
 	<lg xml:id="SaRā.143" met="Ābhāṇaka">
 	  <l xml:id="SaRā.143ab">
-	    <app><lem>kaddamalula</lem><rdg wit="#A">kaīyasalila</rdg><rdg wit="#C">kaddamalalu</rdg></app> dhavalaṃga vihāviha <app><lem source="#Bhayani1945">sajjharihi</lem><rdg wit="#A #B">sajjharahi</rdg><rdg wit="#R" source="#Bhayani1999">sassirihiṃ</rdg></app>,<caesura/>
-	    <app><lem source="#Bhayani1945">taḍinae vi</lem><rdg wit="#B">taḍinaehi</rdg><rdg wit="#A">taḍavaeï</rdg><rdg source="#Bhayani1999">taḍa ṇaï he</rdg></app> payabhariṇa alakkha <app><lem>salajjarihi</lem><rdg wit="#B">salajjarahiṃ</rdg><rdg wit="#C">salijjirihi</rdg><rdg source="#Bhayani1999">salajjirihiṃ</rdg></app> |
+	    <app><lem>kaddamalula</lem><rdg wit="#A">kaīyasalila</rdg><rdg wit="#C">kaddamalalu</rdg></app> dhavalaṃga <app><lem source="#Bhayani1945">vihāviha</lem><rdg source="#Bhayani1999">vibhāviya</rdg></app> <app><lem resp="#AO" type="conj">sajjhirihi</lem><rdg source="#Bhayani1945">sajjharihi</rdg><rdg wit="#A #B">sajjharahi</rdg><rdg wit="#R" source="#Bhayani1999">sassirihiṃ</rdg></app>,<caesura/>
+	    <app><lem source="#Bhayani1945">taḍinae vi</lem><rdg wit="#B">taḍinaehi</rdg><rdg wit="#A">taḍavaeï</rdg><rdg source="#Bhayani1999">taḍa ṇaï he</rdg></app> payabhariṇa alakkha <app><lem resp="#AO" type="conj">salajjirihi</lem><rdg wit="#C">salijjirihi</rdg><rdg source="#Bhayani1945">salajjarihi</rdg><rdg wit="#B">salajjarahiṃ</rdg><rdg source="#Bhayani1999">salajjirihiṃ</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.143cd">
 	    <app><lem>huu</lem><rdg wit="#B">huva</rdg><rdg wit="#C">huya</rdg></app> tārāyaṇu alakhu viyaṃbhiu tamapasaru,<caesura/>
@@ -2609,6 +2609,8 @@
 	      The stars in the sky could not be seen [as] the darkness spread.<lb/>
 	      [Even the pupils of their eyes could not be seen as the darkness spread.]<lb/>
 	      The mountain peak was completely covered with fireflies.<lb/>
+	      [She covered
+	      <lb/>
 	    </ab>
 	  </note>
 	  <note type="notes" xml:lang="eng">
@@ -2616,7 +2618,7 @@
 	      <label>kaddamalula</label>
 	      <item>&lt; <hi>kardama-</hi> plus what probably corresponds to <hi>lulita-</hi> ‘touched’</item>
 	      <label>vihāviha</label>
-	      <item>&lt; <hi>vibhāvita-</hi> (why the -<hi>h</hi>-?)</item>
+	      <item>&lt; <hi>vibhāvita-</hi> (why the -<hi>h</hi>-? Bhayani 1999 reads <hi>vihāviya</hi>)</item>
 	      <label>sajjharihiṃ</label>
 	      <item>&lt; <hi>sa-*gžara-</hi> ‘[with] streams or waterfalls’ (cf. Skt. <hi>kṣara-</hi>), probably a noun with a ‘pleonastic’ <hi>sa-</hi> rather than an adjective; Dvivedi and Tripathi take it in a secondary sense as coming from <hi>sādhyā-</hi> ‘to be made-up [with makeup etc.]’ (referring to a <hi>nāyikā</hi>); Bhayani reads <hi>sassirihiṃ</hi> &lt; <hi>sa-śrī-</hi> ‘beautiful’.</item>
 	      <label>siharu</label>
@@ -2648,7 +2650,7 @@
 	    <ab>
 	      The heron leaves the pond and ascends to the peaks of the trees;<lb/>
 	      the peacocks do the <hi>tāṇḍava</hi> dance and cry out on the play-mountain;<lb/>
-	      the many frogs make their rough sounds in the waters;<lb/>
+	      the many frogs make their rough sounds in the pond;<lb/>
 	      the cuckoos warble after ascending into the boughs of the mango tree.
 	    </ab>
 	  </note>
@@ -2671,14 +2673,14 @@
 	  </note>
 	</lg>
 
-	<lg xml:id="SaRā.145" met="Ābhāṇakā">
+	<lg xml:id="SaRā.145" met="Ābhāṇaka">
 	  <l xml:id="SaRā.145ab">
 	    <app><lem source="#Bhayani1945">ṇāya</lem><rdg source="#Bhayani1999">jāya</rdg></app> <app><lem source="#Bhayani1945">ṇivaḍa</lem><rdg source="#Bhayani1999">ṇiviḍa</rdg></app> paha ruddha <app><lem>phaṇiṃdihiṃ</lem><rdg wit="#C"><supplied>pha</supplied>ṇiṃdahiṃ</rdg></app> <app><lem>daha</lem><rdg wit="#C">dasa</rdg></app> disihiṃ,<caesura/>
 	    <app><lem>huiya</lem><rdg wit="#B">huīya</rdg></app> asaṃcara magga mahaṃta <app><lem>mahāvisihiṃ</lem><rdg wit="#B #C">mahavvisahiṃ</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.145cd">
 	    pāḍaladalaparikhaṃḍaṇu nīrataraṃgabhari,<caesura/>
-	    <app><lem source="#Bhayani1945">urunnaü</lem><rdg source="#Bhayani1999">orannaü</rdg></app> giri<app><lem source="#Bhayani1945">siharihi</lem><rdg source="#Bhayani1999">sihariṃ</rdg></app> <app><lem source="#Bhayani1945">haṃsihi</lem><rdg source="#Bhayani1999">haṃsihiṃ</rdg></app> karuṇasari || 145 ||
+	    <app><lem source="#Bhayani1999">orannaü</lem><rdg source="#Bhayani1945">urunnaü</rdg></app> giri<app><lem source="#Bhayani1945">siharihi</lem><rdg source="#Bhayani1999">sihariṃ</rdg></app> <app><lem source="#Bhayani1945">haṃsihi</lem><rdg source="#Bhayani1999">haṃsihiṃ</rdg></app> karuṇasari || 145 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
 	    <p><label rend="squarebrackets">145</label> nāgaiḥ—sarppaiḥ phaṇīndraiḥ—phaṇayuktaiḥ mahāviṣaiḥ nibiḍaṃ yathā daśa<supplied>su</supplied> dikṣu panthā ruddhaḥ | mārgaḥ asaṃcaro jātaḥ | nīrataraṅgabhareṇa <choice><sic>paḍalā</sic><corr>pāḍala</corr></choice>dalakhaṇḍanaṃ <choice><sic>yā</sic><corr>jā</corr></choice>tam | anyacca, haṃsaiḥ giri<choice><sic>siṣa</sic><corr>śikh</corr></choice>are karuṇasvareṇa yathā ruditam || 145 ||</p>
@@ -2697,15 +2699,15 @@
 	  <note type="notes" xml:lang="eng">
 	    <list type="gloss">
 	      <label>ṇāya</label>
-	      <item>maybe Bhayani is right to correct to <hi>jāya</hi> (&lt; <hi>jātāḥ</hi>), otherwise we have here two instances of the word for ‘snake’ (<hi>ṇāya-ṇivaḍa-</hi> ‘crowded with serpents [<hi>nāga-</hi>]’), which Tripathi and Dvivedi interpret to mean two different kinds of snakes.</item>
+	      <item>maybe Bhayani is right to correct to <hi>jāya</hi> (&lt; <hi>jātāḥ</hi>), otherwise we have here two instances of the word for ‘snake’ (<hi>ṇāya-ṇivaḍa-</hi> ‘crowded with serpents [<hi>nāga-</hi>]’), which Tripathi and Dvivedi interpret to mean two different kinds of snakes; Ryutaro suggests <hi>ṇāya</hi> &lt; <hi>jñātāḥ</hi> ‘they were known ~ they were seen’</item>
 	      <label>daha</label>
 	      <item>&lt; <hi>daśa</hi> (Prakrit <hi>dasa</hi>, but cf. <hi>teraha</hi> for <hi>trayodaśa</hi>)</item>
 	      <label>huiya</label>
 	      <item>note <hi>-iya-</hi> suffix even for masculine (here masc. pl.) nouns, probably extended from <hi>-iya-</hi> &lt; <hi>-ita-</hi></item>
 	      <label>nīrataraṃgabhari</label>
 	      <item>instr. agent of an implied <hi>kiyaü</hi>; <hi>bhara-</hi> seems to mean here just ‘masses, many, a lot’</item>
-	      <label>urunnaü</label>
-	      <item>maybe read <hi>orunnaü</hi> with Bhayani 1999 &lt; <hi>ava-rud-na-</hi> (of which <hi>urunnaü</hi> might be a shortened form; alternatively it is from <hi>ud-rud-na-</hi> with a degemination)</item>
+	      <label>orunnaü</label>
+	      <item>read <hi>orunnaü</hi> with Bhayani 1999 &lt; <hi>ava-rud-na-</hi>, which is metrically necessary</item>
 	    </list>
 	  </note>
 	</lg>
@@ -2716,7 +2718,7 @@
 	    <app><lem wit="#B" source="#Bhayani1999">maṇaharu</lem><rdg source="#Bhayani1945">maṇahara</rdg></app> <app><lem wit="#R">ramiyaï</lem><rdg wit="#A">ramīyaï</rdg></app> nāhu <app><lem>raṃgi</lem><rdg wit="#B">raṃgicaṃgi</rdg></app> <app><lem>goyaṃ</lem><rdg wit="#N3">rāgaṃ</rdg></app>gaṇihi |
 	  </l>
 	  <l xml:id="SaRā.146cd">
-	    <app><lem>hariyāulu</lem><rdg wit="#C">hariyālaü</rdg></app> dharavalaü <app><lem>kayaṃbiṇi</lem><rdg wit="#C">kayaṃviṇi</rdg></app> mahamahiu,<caesura/>
+	    <app><lem>hariyāulu</lem><rdg wit="#C">hariyālaü</rdg></app> dharavalaü <app><lem source="#Bhayani1999">kayaṃbiṇa</lem><rdg source="#Bhayani1945">kayaṃbiṇi</rdg><rdg wit="#C">kayaṃviṇi</rdg></app> mahamahiu,<caesura/>
 	    kiyaü bhaṃgu aṃgaṃgi <app><lem>aṇaṃgiṇa</lem><rdg wit="#B">aṇaṃgihi</rdg></app> <app><lem source="#Bhayani1945">maha</lem><rdg source="#Bhayani1999">mahu</rdg></app> <app><lem>ahiu</lem><rdg wit="#A">hiyaü</rdg></app> || 146 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
@@ -2748,6 +2750,7 @@
 	    </list>
 	    <list>
 	      <item>I omit what I consider to be typos in Bhayani’s 1999 edition (<hi>maccharā</hi>, which is metrically inferior; <hi>gharavalaü</hi>).</item>
+	      <item>The commentators seem to have a different reading for <hi>pāda</hi> b, which is suggested again by Bhayani’s N3 (in his 1999 edition).</item>
 	    </list>
 	  </note>
 	</lg>

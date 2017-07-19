@@ -243,6 +243,9 @@
   <xsl:template match="tei:p">
     <p class="san"><xsl:apply-templates/></p>
   </xsl:template>
+  <xsl:template match="tei:*[@xml:lang='eng']/tei:ab">
+    <p><xsl:apply-templates/></p>
+  </xsl:template>
   <xsl:template match="tei:ab">
     <p class="san"><xsl:apply-templates/></p>
   </xsl:template>
